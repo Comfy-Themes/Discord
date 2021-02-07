@@ -1,0 +1,74 @@
+:root { 
+
+/* Better Spotify seek bar */
+.powercord-spotify .spotify-seek-bar { position: absolute; bottom: 0px;width: 280px;height: 55px;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.powercord-spotify.hover { height: 55px; }.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
+
+/* -- Others settings -- */
+
+/* No scrollbars --> Delete all until "Mention color" if you don't want it */
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}.sidebar-CFHs9e { padding-right : 0; margin: 0 40px 0 20px;}
+
+/* Avatar roundess */
+--avatar-radius: 10%;
+
+/* Server roundess */
+--server-radius: 7px;
+
+/* Colored emoji picker */
+--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
+
+/* Mention color */
+--mention-color-bar: #C66262;
+--mention-color-background: #c662621f;
+--mention-color-hover: #c6626226;
+
+/* Spotify seek bar color */
+--spotify-color: #096dc0 !important;
+
+/* User settings color (Mute, Deafen and settings) */
+--user-buttons-color: #096dc0;
+
+/* Chat buttons color */
+--chat-buttons: #6E85D3;
+
+/* Circles next to role names */
+--role-circle: 7px; /* Set it to "0px" if you don't want circles */
+
+/* Tooltips */
+--tooltips: block; /* Set it to "none" if you don't want it */
+
+/* Discord logo */
+--discord-logo: none; /* Set it to "block" if you want it */
+}
+
+.theme-dark {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+    --toast-background: #1e2233 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
+}
+
+.theme-light {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}

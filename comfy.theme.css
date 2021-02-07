@@ -1,0 +1,85 @@
+/**
+* @name Comfy
+* @author Nyria#0001
+* @description A simple customisable Discord theme
+* @version 2.0
+*/
+
+@import "https://nyri4.github.io/Comfy/main.css";
+
+/* No scrollbars --> Delete all until "Mention color" if you don't want it */
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}.sidebar-CFHs9e { padding-right : 0; margin: 0 40px 0 20px;}
+
+/* Comfy Spotify version -> Delete until Spotify if you don't want it */
+.container-6sXIoE{position: fixed;transition: left 0.5s;bottom: 62px;left: -196px;z-index: 3;width: 265px;background: var(--background-secondary-alt);border-radius: 0 5px 5px 0;border-bottom: none !important;}.barText-lmqc5O { display: none !important;}.container-6sXIoE > .inner-WRV6k5 { flex-direction: row-reverse;}.inner-WRV6k5 > .flex-1xMQg5 > .button-14-BFJ { margin: 0;}.container-6sXIoE:hover { left: 0px;}
+
+/* Better Spotify seek bar */
+.bar-g2ZMIm {position: absolute !important;left: -2px !important;bottom: -4px !important;width: 267px !important;height: 58px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.maximized-vv2Wr0 > .timeline-UWmgAx > .bar-g2ZMIm { height: 84px !important; }.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.grabber-7sd5f5 { display: none !important;}.button-14-BFJ:hover { background: none !important;}.container-6sXIoE:not(.maximized-vv2Wr0) > .inner-WRV6k5 > .coverWrapper-YAplwJ { margin-right: 1px !important; margin-left:25px !important;width: 40px !important;height: 40px !important;}
+
+:root {
+
+/* Avatar roundess */
+--avatar-radius: 10%;
+
+/* Server roundess */
+--server-radius: 8px;
+
+/* Colored emoji picker */
+--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
+
+/* -- Others settings -- */
+
+/* Mention color */
+--mention-color-bar: #C66262;
+--mention-color-background: #c662621f;
+--mention-color-hover: #c6626226;
+
+/* Spotify seek bar color */
+--spotify-color: #096dc0 !important;
+
+/* User settings color (Mute, Deafen and settings) */
+--user-buttons-color: #096dc0;
+
+/* Chat buttons color */
+--chat-buttons: #6E85D3;
+
+/* Circles next to role names */
+--role-circle: 7px; /* Set it to "0px" if you don't want circles */
+
+/* Tooltips */
+--tooltips: block; /* Set it to "none" if you don't want it */
+
+/* Discord logo */
+--discord-logo: none; /* Set it to "block" if you want it */
+
+}
+ 
+.theme-dark {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --spotify-color: #096dc0;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+}
+ 
+.theme-light { /* I don't support light theme it's just for the "Create a server" popup */
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}

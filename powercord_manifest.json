@@ -1,0 +1,9 @@
+{
+    "name": "Comfy",
+    "description": "A simple customisable Discord theme",
+    "version": "2.0",
+    "author": "Nyria#0001",
+    "theme": "powercord.scss",
+    "consent": "false",
+    "license": "MIT"
+}
