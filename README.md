@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/HDmy565/Comfy.png">
+<img src="https://i.ibb.co/XsJ8wq2/Preview.png">
 
 ## 📥 Installation
 
