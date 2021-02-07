@@ -15,7 +15,7 @@ Need help ?
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.net/ghdl?id=3430)
+1. Go [here](https://betterdiscord.net/ghdl?id=3484)
 2. Save the file into your theme folder
 
 Need help ?
