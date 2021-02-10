@@ -240,8 +240,9 @@
     background-image:url("https://i.ibb.co/hVKW6Xs/e.png");
 }
 .navList-2UtuhC > * > .navButton-2gQCx- { width: 40px; padding: 8px 8px;}
-
 .contentWrapper-SvZHNd { grid-row-gap: 20px; padding-top: 8px;}
+
+.header-19cWci > .arrow-gKvcEx { display: none;}
 
 /* i'm blue dabedi dabeda */
 .attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
@@ -479,9 +480,6 @@
 
 /* Croix */
 .theme-dark .default-3oAQTF, .theme-dark .default-3oAQTF:hover { background-color: var(--background-tertiary);}
-
-/* Flèche emoji picker */
-.arrow-gKvcEx { display: none;}
 
 /* -- >:( fuck borders -- */
 .messageGroupWrapper-o-Zw7G, .inputDefault-_djjkz, .container-1nZlH6, .cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw, .codeRedemptionRedirect-1wVR4b,
