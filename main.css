@@ -505,6 +505,21 @@
 .theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw { background: var(--background-secondary);}
 .reactionSelected-1pqISm, .reactionDefault-GBA58K:hover { margin-right: 6px;}
 
+/* Session Spotify */
+.theme-dark .invite-18yqGF { background-color: var(--background-secondary); border-color: transparent;}
+
+/* Gift Discord */
+.theme-dark .tile-2OwFgW { background-color: var(--background-secondary);}
+.theme-dark .invalidPoop-pnUbq7 { background-color: rgba(0, 0, 0, 0.103);}
+
+/* Spoiler */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover { background-color: var(--background-secondary-alt); }
+
+/* Audio player */
+.theme-dark .wrapperAudio-1jDe0Q { padding: 10px 0 0 0; border-color: transparent;}
+.theme-dark .audioMetadata-3zOuGv { padding: 5px 10px;}
+.theme-dark .audioControls-2HsaU6 { border-radius: 0;}
+
 /* -- USRBG Small Popout -- */
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
