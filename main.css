@@ -155,6 +155,7 @@
 }
 .panels-j1Uci_ > .container-3baos1 { height: 62px; }
 .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
+#GameActivityToggleBtn .st0 { fill: var(--user-buttons-color);}
 
 /* Supprime le fond du panel utilisateur */
 .panels-j1Uci_ > .container-3baos1 > .nameTag-3uD-yy { display: none;}
