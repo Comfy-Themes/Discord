@@ -521,6 +521,38 @@
 .theme-dark .audioMetadata-3zOuGv { padding: 5px 10px;}
 .theme-dark .audioControls-2HsaU6 { border-radius: 0;}
 
+/* Pastille non lue salons */
+.unread-2lAfLh { 
+    top: 54%; left: 5px; 
+    border-radius: 10px; 
+    width: 6px; height: 6px; 
+    background-color: #7289da; 
+    box-shadow: 0 0 12px 0 #7289da;
+}
+
+/* Pastille non lue serveurs */
+.unread > .pill-31IEus, [vz-unread] > .pill-31IEus,
+.unread > .listItem-2P_4kh > .pill-31IEus, [vz-unread] > .listItem-2P_4kh > .pill-31IEus
+{ left: 54px; top: 35px; width: 18px; height: 18px; z-index: 100;}
+
+.unread > .pill-31IEus > .item-2hkk8m,
+[vz-unread] > .pill-31IEus > .item-2hkk8m,
+.unread > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m,
+[vz-unread] > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m { 
+    top: 25%; left: 25%; 
+    border-radius: 10px; 
+    width: 12px; height: 12px !important; 
+    background-color: #7289da;
+}
+
+/* Vizality support */
+.channel-2QD9_O { max-width: unset;}
+[href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
+.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px;}
+.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px;}
+.vz-c-settings-item { background: var(--background-secondary);}
+.vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
+
 /* -- USRBG Small Popout -- */
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
