@@ -533,7 +533,7 @@
 /* Pastille non lue serveurs */
 .unread > .pill-31IEus, [vz-unread] > .pill-31IEus,
 .unread > .listItem-2P_4kh > .pill-31IEus, [vz-unread] > .listItem-2P_4kh > .pill-31IEus
-{ left: 54px; top: 35px; width: 18px; height: 18px; z-index: 100;}
+{ left: 47px; top: 27px; width: 21px; height: 21px; z-index: 100; z-index: 1;}
 
 .unread > .pill-31IEus > .item-2hkk8m,
 [vz-unread] > .pill-31IEus > .item-2hkk8m,
@@ -541,9 +541,10 @@
 [vz-unread] > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m { 
     top: 25%; left: 25%; 
     border-radius: 10px; 
-    width: 12px; height: 12px !important; 
+    width: 16px; height: 16px !important; 
     background-color: #7289da;
 }
+.lowerBadge-29hYVK { z-index: 2;}
 
 /* Vizality support */
 .channel-2QD9_O { max-width: unset;}
