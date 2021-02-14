@@ -326,7 +326,7 @@
 .topSectionStreaming-1Tpf5X > .header-QKLPzZ > .button-38aScr { background: #5936954b !important; backdrop-filter: blur(10px);}
 .topSectionSpotify-1lI0-P > .header-QKLPzZ > .actionButton-3W1xZa { background: #1db9544b !important; backdrop-filter: blur(10px);}
 .topSectionXbox-3fWLjS > .header-QKLPzZ > .actionButton-3W1xZa { background: #3a9d6f50 !important; backdrop-filter: blur(10px);}
-.tabBarContainer-1s1u-z { border-top: none; padding-left: 0;}
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) { border-top: none; padding-left: 0;}
 
 /* Menu (infos/serveur/amis en commun)*/
 .tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > .tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
