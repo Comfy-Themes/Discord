@@ -329,13 +329,13 @@
 .tabBarContainer-1s1u-z { border-top: none; padding-left: 0;}
 
 /* Menu (infos/serveur/amis en commun)*/
-.tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
-.tabBar-2MuP6- { justify-content: center;}
-.tabBar-2MuP6- > * {
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > .tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- { justify-content: center;}
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > * {
     text-indent: 100%;
     overflow: hidden;
 }
-.tabBar-2MuP6- > *:after { 
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > *:after { 
     position: absolute;
     content: "";
     width: 30px;
