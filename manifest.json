@@ -4,7 +4,7 @@
     "description": "A simple customisable Discord theme",
     "version": "1.0.0",
     "author": "Nyria#4198",
-    "theme": "comfy.theme.css",
+    "theme": "powercord.scss",
     "consent": "false",
     "license": "MIT"
 }
