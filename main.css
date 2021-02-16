@@ -304,7 +304,7 @@
 .header-QKLPzZ { 
     flex-direction: column;
     width: 200px;
-    background: var(--background-secondary-alt);
+    background: var(--background-secondary);
     margin: 10px 10px 0px 10px; 
     border-radius: 5px 5px 0 0;
 }
@@ -323,15 +323,17 @@
     justify-content: flex-end;
     width: 440px;
 }
-/* .topSectionNormal-2-vo2m > div > .tabBarContainer-1s1u-z:after {
+.topSectionNormal-2-vo2m > div > div:first-of-type:not(.activity-1ythUs) .tabBar-2MuP6-::after  {
     content: "";
     position: absolute;
     top: 10px;
     width: 430px;
     height: 270px;
-    background: var(--background-secondary);
+    background: url('https://nyri4.github.io/Comfy/assets/bonfire.gif') center/cover no-repeat;
     border-radius: 5px;
-} */
+}
+.activity-1ythUs { margin-bottom: auto; }
+.headerFill-adLl4x > .activity-1ythUs:not(.activityProfile-2bJRaP) { margin-bottom: 0 !important;}
 .activityProfile-2bJRaP.activity-1ythUs { margin-bottom: auto; }
 .topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP.activity-1ythUs > .bodyNormal-2D39hT > div > button > div > div { text-indent: -1000px;}
 .topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP.activity-1ythUs > .bodyNormal-2D39hT > .actionsProfile-jEtjVX { width: 32px;}
