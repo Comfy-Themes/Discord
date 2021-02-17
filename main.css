@@ -334,6 +334,7 @@
 }
 .activity-1ythUs { margin-bottom: auto; }
 .headerFill-adLl4x > .activity-1ythUs:not(.activityProfile-2bJRaP) { margin-bottom: 0 !important;}
+div:not(.headerFill-adLl4x) > .activity-1ythUs { text-align: center;}
 .activityProfile-2bJRaP.activity-1ythUs { margin-bottom: auto; }
 .topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP.activity-1ythUs > .bodyNormal-2D39hT > div > button > div > div { text-indent: -1000px;}
 .topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP.activity-1ythUs > .bodyNormal-2D39hT > .actionsProfile-jEtjVX { width: 32px;}
@@ -369,13 +370,18 @@
 .tabBarContainer-1s1u-z:not(.flex-1xMQg5) { border-top: none; padding-left: 0; padding-top: 10px;}
 
 /* Menu (infos/serveur/amis en commun)*/
-.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > .tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
 .tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- { justify-content: center;}
-.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > * {
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="USER_INFO-tab"],
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="MUTUAL_GUILDS-tab"],
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="MUTUAL_FRIENDS-tab"] {
     text-indent: 100%;
     overflow: hidden;
+    margin: 0 30px; 
+    width: 30px;
 }
-.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > *:after { 
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="USER_INFO-tab"]:after,
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="MUTUAL_GUILDS-tab"]:after,
+.tabBarContainer-1s1u-z:not(.flex-1xMQg5) > .tabBar-2MuP6- > [aria-controls="MUTUAL_FRIENDS-tab"]:after { 
     position: absolute;
     content: "";
     width: 30px;
@@ -585,7 +591,6 @@
     background-color: #7289da; 
     box-shadow: 0 0 12px 0 #7289da;
 }
-.lowerBadge-29hYVK { z-index: 2;}
 
 /* Vizality support */
 .channel-2QD9_O { max-width: unset;}
