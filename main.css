@@ -35,43 +35,69 @@
 .wrapper-21YSNc > ul { height: auto !important;}
 .expandedFolderBackground-2sPsd- { width: 52px; margin-left: 2px;}
 
-/* Status */
+/* Status picker */
 #status-picker {
-    position: absolute;
-    bottom: -69px !important; 
-    left: 62px !important;
-    width: 240px;
-    border-radius: 0;
+    position: fixed;
+    bottom: -180px !important; 
+    left: -5px !important;
+    width: 230px;
+    border-radius: 5px;
     background: var(--background-tertiary);
 }
-#status-picker > .scroller-3BxosC { border-radius: 0;}
-.separator-2I32lJ, .status-1fhblQ, .description-2L932D { display: none;}
+
+.avatarWrapper-2yR4wp[aria-expanded="true"] {
+    left: 90px !important;
+    bottom: 153px !important;
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+}
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2.wrapper-3t9DeA { padding: 10px;}
+
+.avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy { 
+    display: block !important;
+    position: absolute;
+    bottom: 116px;
+    left: 86px;
+}
+.container-3baos1 > .nameTag-3uD-yy > .usernameContainer-1fp4nu > .title-eS5yk3 { font-size: 18px;}
+
+#status-picker > .scroller-3BxosC { border-radius: 0; margin: 55px 4px 52px 4px;}
+#status-picker > .scroller-3BxosC > .item-1tOPte { border-radius: 5px; margin: 0 3px;}
+.panels-j1Uci_ > .container-3baos1 > * { z-index: 10005;}
+
+.container-3baos1 > .nameTag-3uD-yy > .subtext-3CDbHg, .separator-2I32lJ, .status-1fhblQ, .description-2L932D { display: none;}
 .mask-1qbNWk.icon-1IxfJ2 { height: 18px; width: 18px; margin: auto;}
 
 .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 >
 .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
     display: grid;
     align-items: center;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     visibility: visible;
 }
-#status-picker-game-activity, #status-picker-custom-status { grid-column: 1/5;}
+#status-picker-game-activity { grid-column: 1/5;}
 [aria-label="Hide Game Activity"], .item-1tOPte > .statusItem-33LqPf { grid-template-columns: 100% 1fr;}
-#status-picker-game-activity > [aria-label="Hide Game Activity"] > svg, .item-1tOPte > .statusItem-33LqPf > div { padding: auto; margin: auto;}
+#status-picker-game-activity > [aria-label="Hide Game Activity"] > svg, .item-1tOPte > .statusItem-33LqPf > div { margin: auto;}
 .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 { transition: opacity 0.15s linear 0s; }
 .customText-tY5LJn { font-size: 15px; }
 .customEmojiPlaceholder-37iZ_j { background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");}
+.customEmoji-2_2FwB { width: 20px; height: 20px;}
 
 #status-picker-online { transition: 0.2s; }
-#status-picker-online.focused-3afm-j { background-color: #43b5829f; transition: 0.2s;}
+#status-picker-online.colorDefault-2K3EoJ.focused-3afm-j { color: #43B581;}
+#status-picker-online.focused-3afm-j { background-color: #43b58244; transition: 0.2s;}
 #status-picker-idle { transition: 0.2s; }
-#status-picker-idle.focused-3afm-j { background-color: #faa81a96; transition: 0.2s;}
+#status-picker-idle.colorDefault-2K3EoJ.focused-3afm-j { color: #FAA61A;}
+#status-picker-idle.focused-3afm-j { background-color: #faa81a42; transition: 0.2s;}
 #status-picker-dnd { transition: 0.2s; }
-#status-picker-dnd.focused-3afm-j { background-color: #b83a3ca6; transition: 0.2s;}
+#status-picker-dnd.colorDefault-2K3EoJ.focused-3afm-j { color: #F04747;}
+#status-picker-dnd.focused-3afm-j { background-color: #b83a3c3d; transition: 0.2s;}
 #status-picker-invisible { transition: 0.2s; }
-#status-picker-invisible.focused-3afm-j { background-color: #747f8da4; transition: 0.2s;}
+#status-picker-invisible.colorDefault-2K3EoJ.focused-3afm-j { color: #747F8D;}
+#status-picker-invisible.focused-3afm-j { background-color: #747f8d3d; transition: 0.2s;}
 #status-picker-custom-status { transition: 0.2s; }
-#status-picker-custom-status.focused-3afm-j { background-color: #ffcd4d69; transition: 0.2s;}
+#status-picker-custom-status.focused-3afm-j { background-color: #ffcd4d3d; transition: 0.2s;}
 
 /* Status personnalisé */
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
@@ -399,7 +425,8 @@
     top: 10px;
     width: 430px;
     height: 270px;
-    background: url('https://nyri4.github.io/Comfy/assets/bonfire.gif') center/cover no-repeat;
+    background: url('https://nyri4.github.io/Comfy/assets/bonfire.gif') center no-repeat;
+    background-size: 25%;
     border-radius: 5px;
 }
 .activity-1ythUs { margin-bottom: auto; }
