@@ -777,10 +777,11 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /* Vizality support */
 .channel-2QD9_O { max-width: unset;}
 [href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
-.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px;}
-.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px;}
+.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px !important;}
+.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px !important;}
 .vz-c-settings-item { background: var(--background-secondary);}
 .vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
+.vz-toast-buttons > .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: fff; border: none;}
 
 /* HLJS Support */
 .hljs.scrollbar-3dvm_9 { background-color: var(--background-secondary) !important;}
