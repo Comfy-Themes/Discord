@@ -122,7 +122,7 @@
 .avatarWrapper-2yR4wp > .avatar-SmRMf2:hover { opacity: 1;}
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 .avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
-.avatar-SmRMf2 > svg > rect { display: none;}
+.avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > rect  { display: none;}
 
 /* Spotify */
 .powercord-spotify {
@@ -371,7 +371,7 @@
     width: 20px; height: 20px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image:url("https://nyri4.github.io/Comfy/assets/stickers.svg");
+    background-image:url("https://nyri4.github.io/Comfy/assets/stickers.png");
 }
 
 .navList-2UtuhC > #emoji-picker-tab  > .navButton-2gQCx-:after { 
