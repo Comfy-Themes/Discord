@@ -54,6 +54,8 @@
     background: var(--background-tertiary);
 }
 
+.fade-18lLrh.didRender-33z1u8 { transform: scale(1) !important;} /* Fix BD problem */
+
 .avatarWrapper-2yR4wp[aria-expanded="true"] {
     left: 90px !important;
     bottom: 153px !important;
