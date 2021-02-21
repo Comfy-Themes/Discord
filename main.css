@@ -317,11 +317,13 @@
 /* Pastille ping salon */
 .mentionsBadge-3tC7Mi { 
     position: absolute;
-    left: 0; z-index: 2; 
+    top: 40%;
+    left: 0; z-index: 100;
     box-shadow: 0 0 7px 0 #f04747;
     width: 7px; height: 7px;
 }
-.content-1x5b-n:active.unread-2lAfLh { display: none;}
+
+.content-1x5b-n:active { transform: none;}
 
 /* --- 💬 PARTIE TCHAT --- */
 
@@ -384,7 +386,7 @@
     background-image:url("https://nyri4.github.io/Comfy/assets/emoji.png");
 }
 .navList-2UtuhC > * > .navButton-2gQCx- { width: 40px; padding: 8px 8px;}
-.navList-2UtuhC > * > .navButton-2gQCx-.navButtonActive-1MkytQ { background-color: #6e85d321;}
+.navList-2UtuhC > * > .navButton-2gQCx-.navButtonActive-1MkytQ, .emojiItem-14v6tW.emojiItemSelected-1aLkfV { background-color: #6e85d321;}
 .contentWrapper-SvZHNd { grid-row-gap: 20px; padding-top: 8px;}
 
 .header-19cWci > .arrow-gKvcEx { display: none;}
