@@ -359,10 +359,9 @@
 
 /* Selecteur d'emotes */
 .sprite-2iCowe { filter: var(--colored-emoji) !important;}
-.emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
 
-.navList-2UtuhC > #emoji-picker-tab  > .navButton-2gQCx- > .contents-18-Yxp, 
-.navList-2UtuhC > #sticker-picker-tab  > .navButton-2gQCx- > .contents-18-Yxp 
+#emoji-picker-tab  > .navButton-2gQCx- > .contents-18-Yxp, 
+#sticker-picker-tab  > .navButton-2gQCx- > .contents-18-Yxp 
 { text-indent: 100%; overflow: hidden;}
 
 .navList-2UtuhC > #sticker-picker-tab  > .navButton-2gQCx-:after { 
@@ -383,6 +382,7 @@
     background-image:url("https://nyri4.github.io/Comfy/assets/emoji.png");
 }
 .navList-2UtuhC > * > .navButton-2gQCx- { width: 40px; padding: 8px 8px;}
+.navList-2UtuhC > * > .navButton-2gQCx-.navButtonActive-1MkytQ { background-color: #6e85d321;}
 .contentWrapper-SvZHNd { grid-row-gap: 20px; padding-top: 8px;}
 
 .header-19cWci > .arrow-gKvcEx { display: none;}
@@ -827,7 +827,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 }
 
 /* -- USRBG Small Popout -- */
-.reduce-motion .userPopout-3XzG_A {
+.header-2BwW8b {
 	transform:translateZ(0);
 }
 
@@ -860,7 +860,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 
 /* -- USRBG Big Popout -- */
 :root {
-    --usrbg-modal-x-offset:-34px; /*Distance from the avatar container to the edge of the modal (x)*/
+    --usrbg-modal-x-offset:-180px; /*Distance from the avatar container to the edge of the modal (x)*/
     --usrbg-modal-y-offset:-65px; /*Distance from the avatar container to the edge of the modal (y)*/
     --usrbg-modal-width:700px; /*Maximum width of modal*/
     --usrbg-modal-height:600px; /*Maximum height of modal*/
