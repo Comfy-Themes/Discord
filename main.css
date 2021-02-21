@@ -79,7 +79,7 @@
 .container-3baos1 > .nameTag-3uD-yy > .subtext-3CDbHg, .separator-2I32lJ, .status-1fhblQ, .description-2L932D { display: none;}
 .mask-1qbNWk.icon-1IxfJ2 { height: 18px; width: 18px; margin: auto;}
 
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 >
+.animatorTop-2Y7x2r.didRender-33z1u8 >
 .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
     display: grid;
     align-items: center;
@@ -89,7 +89,7 @@
 #status-picker-game-activity { grid-column: 1/5;}
 [aria-label="Hide Game Activity"], .item-1tOPte > .statusItem-33LqPf { grid-template-columns: 100% 1fr;}
 #status-picker-game-activity > [aria-label="Hide Game Activity"] > svg, .item-1tOPte > .statusItem-33LqPf > div { margin: auto;}
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 { transition: opacity 0.15s linear 0s; }
+.animatorTop-2Y7x2r.didRender-33z1u8 { transition: opacity 0.15s linear 0s; }
 .customText-tY5LJn { font-size: 15px; }
 .customEmojiPlaceholder-37iZ_j { background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");}
 .customEmoji-2_2FwB { width: 20px; height: 20px;}
@@ -595,7 +595,7 @@ div:not(.headerFill-adLl4x) > .activity-1ythUs > .size16-1P40sf > .customStatus-
 .contentRegion-3nDuYy { flex: 1 1 100%; }
 .contentColumn-2hrIYH, .customColumn-Rb6toI, .sidebarScrollable-1qPI87+.content-1rPSz4, .customScroller-26gWhv>div { max-width: 95%;}
 .sidebar-CFHs9e { padding: 20px 0 0 50px; width: 260px;}
-.sidebar-CFHs9e > div > .item-PXvHYJ { padding: 8px 0 8px 10px; margin-bottom: 0; border-radius: 5px 0 0 5px;}
+.sidebar-CFHs9e > div > .item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item { padding: 8px 0 8px 10px; margin-bottom: 0; border-radius: 5px 0 0 5px;}
 
 /* Connexion */
 .connectionIcon-2ElzVe { border-radius: 5px; padding: 4px;}
