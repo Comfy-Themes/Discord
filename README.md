@@ -3,7 +3,7 @@
 ---
 
 # Comfy
-![Preview](https://i.ibb.co/M22JsNk/Preview.png)
+![Preview](https://i.ibb.co/p1JGyC6/image.png)
 
 ## 📥 Installation
 
