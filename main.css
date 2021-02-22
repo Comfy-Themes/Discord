@@ -899,14 +899,51 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
     z-index: 1;
 }
 
-/* .headerPlaying-j0WQBV:after {
+/*
+.header-2BwW8b { padding-bottom: 20px;}
+
+.header-2BwW8b:after {
     position: absolute;
     content: "";
-    top: -20px;
-    z-index: 1008;
+    bottom: -8px;
     left: 0;
-    width: 100%;
+    width: 250px;
     height: 30px;
-    background: url('https://nyri4.github.io/Comfy/assets/assets/wave.png');
-    background-size: 100%;
-} */
+    background: url('https://nyri4.github.io/Comfy/assets/wave.png');
+    background-size: 250px 30px;
+    z-index: -1;
+    animation: animate 5s linear infinite;
+    animation-delay: 0s;
+}
+
+.header-2BwW8b:before {
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    left: 0;
+    width: 250px;
+    height: 30px;
+    background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png');
+    background-size: 250px 30px;
+    z-index: -1;
+    animation: animate2 5s linear infinite;
+    animation-delay: 0s;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 250px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 250px;
+    }
+    100% {
+        background-position-x: 250px;
+    }
+}
