@@ -898,36 +898,37 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc{
     z-index: 1;
 }
-
 /*
 .header-2BwW8b { padding-bottom: 20px;}
 
 .header-2BwW8b:after {
     position: absolute;
     content: "";
-    bottom: -8px;
+    bottom: 0px;
     left: 0;
     width: 250px;
-    height: 30px;
+    height: 18px;
     background: url('https://nyri4.github.io/Comfy/assets/wave.png');
-    background-size: 250px 30px;
+    background-size: 250px 18px;
     z-index: -1;
-    animation: animate 5s linear infinite;
+    animation: animate 6s linear infinite;
     animation-delay: 0s;
 }
 
-.header-2BwW8b:before {
+.headerPlaying-j0WQBV:before {
     position: absolute;
     content: "";
-    bottom: -8px;
+    bottom: 0;
     left: 0;
     width: 250px;
-    height: 30px;
+    height: 18px;
     background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png');
-    background-size: 250px 30px;
+    background-position: right;
+    background-size: 300px 18px;
     z-index: -1;
-    animation: animate2 5s linear infinite;
+    animation: animate2 6s linear infinite;
     animation-delay: 0s;
+    opacity: 1;
 }
 
 @keyframes animate {
@@ -941,9 +942,9 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 
 @keyframes animate2 {
     0% {
-        background-position-x: 250px;
+        background-position-x: 300px;
     }
     100% {
-        background-position-x: 250px;
+        background-position-x: 0px;
     }
 }
