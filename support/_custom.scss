@@ -4,24 +4,24 @@
 .powercord-spotify .spotify-seek-bar { position: absolute; bottom: 0px;width: 280px;height: 55px;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.powercord-spotify.hover { height: 55px; }.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
 
 /* User popout animation - Delete until "Others settings" if you don't want it */
-.header-2BwW8b { padding-bottom: 30px;}
-.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 18px; animation: animate 6s linear infinite !important; opacity: 1 !important;}
+.headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px;}
+.headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important;}
 .header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { 
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 250px;
-    height: 18px;
+    height: 20px;
     z-index: -1;
     animation: animate2 6s linear infinite;
     animation-delay: 0s;
     opacity: 0.5;
 }
-.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 18px;}
-.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 18px;}
-.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 18px;}
-.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 18px;}
+.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 20px;}
+.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 20px;}
+.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 20px;}
+.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 20px;}
 @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}
 @keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
 
