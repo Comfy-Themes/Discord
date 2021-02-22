@@ -790,6 +790,10 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /* HLJS Support */
 .hljs.scrollbar-3dvm_9 { background-color: var(--background-secondary) !important;}
 
+/*  Connexion SCTR */
+.container-2x5lvQ .header-2C89wJ { background-color: var(--background-secondary-alt); }
+.container-2x5lvQ section { background-color: var(--background-secondary); }
+
 /* Comfy camp server */
 [src="https://cdn.discordapp.com/icons/811203761619337259/0564a75bda132490421a8d4cccb0ea1c.webp?size=128"] {
     content: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
@@ -835,7 +839,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 	transform:translateZ(0);
 }
 
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"]::after {
 	content: '';
 	position: fixed;
 	top: 0;
@@ -850,7 +854,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
-    -webkit-mask-image: linear-gradient(#0009, #0000);
+    -webkit-mask-image: linear-gradient(#000000, #0000004f);
     mask-image: linear-gradient(0.25turn, #0009, #0000);
 }
 .footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz { border: none; background: #151B27;}
@@ -868,27 +872,28 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
     --usrbg-modal-y-offset:-65px; /*Distance from the avatar container to the edge of the modal (y)*/
     --usrbg-modal-width:700px; /*Maximum width of modal*/
     --usrbg-modal-height:600px; /*Maximum height of modal*/
-  }
-  .header-QKLPzZ .wrapper-3t9DeA::after {
+}
+#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"] {margin-right: 0 !important}
+#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"]::after {
     content:'';
     position:absolute;
-    top:var(--usrbg-modal-x-offset);
-    left:var(--usrbg-modal-y-offset);
+    top:var(--usrbg-modal-x-offset) !important;
+    left:var(--usrbg-modal-y-offset) !important;
     width:var(--usrbg-modal-width);
     height: var(--usrbg-modal-height);
-    opacity:.5;
+    opacity:.7;
     pointer-events:none;
     background: var(--user-background) center/cover no-repeat;
-    -webkit-mask: linear-gradient(black, transparent 90%);
+    -webkit-mask: linear-gradient(#000000, #0000004f);
     mask: linear-gradient(#000, transparent);
-  }
+}
   
   .headerInfo-30uryT,
   .tabBarItem-1b8RUP,
   .activity-1ythUs {
     z-index:1;
     position:relative;
-  }
+}
 
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc{
     z-index: 1;
