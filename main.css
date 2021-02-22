@@ -124,7 +124,7 @@
 .avatarWrapper-2yR4wp > .avatar-SmRMf2:hover { opacity: 1;}
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 .avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
-.avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > rect  { display: none;}
+.avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > svg > rect { display: none;}
 
 /* Spotify */
 .powercord-spotify {
@@ -898,3 +898,15 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc{
     z-index: 1;
 }
+
+/* .headerPlaying-j0WQBV:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    z-index: 1008;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url('https://nyri4.github.io/Comfy/assets/assets/wave.png');
+    background-size: 100%;
+} */
