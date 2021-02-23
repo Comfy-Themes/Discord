@@ -340,7 +340,7 @@
 .search-36MZv- { order: 1;}
 .search-36MZv- > div > div { width: 30px; transition: 0.25s;}
 .search-2oPWTC.focused-31_ccS { transition: 0.25s;}
-.focused-31_ccS .searchBar-3dMhjb, .searchBar-3dMhjb:hover { width: 215px;}
+.focused-31_ccS .searchBar-3dMhjb, .searchBar-3dMhjb:hover { width: 240px;}
 [href="https://support.discord.com"] { display: none;}
 
 /* Barre "Echec de chargement des messages */
@@ -773,8 +773,15 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /* Session Spotify */
 .theme-dark .invite-18yqGF { background-color: var(--background-secondary); border-color: transparent;}
 
+/* Fichier */
+.attachment-33OFj0 { border: none;}
+
+/* Playlists Spotify */
+.embedSpotify-tvxDCr { border-radius: 5px;}
+
 /* Gift Discord */
 .theme-dark .tile-2OwFgW { background-color: var(--background-secondary);}
+.theme-dark .tileHorizontal-3eee4N.tile-2OwFgW:hover { background-color: var(--background-secondary-alt);}
 .theme-dark .invalidPoop-pnUbq7 { background-color: rgba(0, 0, 0, 0.103);}
 
 /* Spoiler */
@@ -800,6 +807,9 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /*  Connexion SCTR */
 .container-2x5lvQ .header-2C89wJ { background-color: var(--background-secondary-alt); }
 .container-2x5lvQ section { background-color: var(--background-secondary); }
+
+/* Member Count support */
+.theme-dark #MemberCount { background-color: var(--background-secondary);}
 
 /* Comfy camp server */
 [src="https://cdn.discordapp.com/icons/811203761619337259/0564a75bda132490421a8d4cccb0ea1c.webp?size=128"] {
