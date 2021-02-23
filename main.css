@@ -146,8 +146,8 @@
     background: var(--background-secondary-alt);
     border-radius: 0 5px 5px 0;
 }
-.avatar-SmRMf2.spotify-cover { width: 40px !important; height: 40px !important; }
-.avatarWrapper-2yR4wp { margin-right: 0;}
+.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2.spotify-cover { width: 40px !important; height: 40px !important; }
+.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp { margin-right: 0;}
 .powercord-spotify:hover { left: 0px; z-index: 6;}
 .powercord-spotify > .container-3baos1 { flex-direction: row-reverse;}
 .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy { margin-right: 20px;}
