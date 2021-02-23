@@ -72,7 +72,7 @@
 .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2.wrapper-3t9DeA { padding: 10px;}
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] ~ div { z-index: 10005;}
 .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > foreignObject { mask: url(#svg-mask-avatar-status-round-32); border-radius: var(--avatar-radius);}
-.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > svg > rect { opacity: 1;}
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > rect, .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > svg > rect { opacity: 1;}
 
 /* Pseudo statut picker ouvert */
 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy { 
