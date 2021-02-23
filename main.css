@@ -809,7 +809,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 .container-2x5lvQ section { background-color: var(--background-secondary); }
 
 /* Member Count support */
-.theme-dark #MemberCount { background-color: var(--background-secondary);}
+.theme-dark #MemberCount { background-color: var(--background-secondary) !important;}
 
 /* Comfy camp server */
 [src="https://cdn.discordapp.com/icons/811203761619337259/0564a75bda132490421a8d4cccb0ea1c.webp?size=128"] {
