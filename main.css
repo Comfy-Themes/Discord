@@ -685,7 +685,7 @@ div:not(.headerFill-adLl4x) > .activity-1ythUs > .size16-1P40sf > .customStatus-
 
 /* Chaque label */
 .scroller-3BxosC > div > .labelContainer-1BLJti, .scroller-3BxosC > div > .submenuContainer-2gbm7M > .labelContainer-1BLJti, .scroller-3BxosC > .labelContainer-1BLJti  { 
-    margin: 0; 
+    margin: 0 !important; 
     padding: 10px 15px; 
     border-radius: 0; 
     transition: 0.2s; 
