@@ -833,6 +833,9 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /* Member Count support */
 .theme-dark #MemberCount { background-color: var(--background-secondary) !important;}
 
+/* Vizality connections plugin support */
+.ud-connections > div > img { border-radius: 5px; padding: 3px; margin: 3px;}
+
 /* Comfy camp server */
 [src="https://cdn.discordapp.com/icons/811203761619337259/0564a75bda132490421a8d4cccb0ea1c.webp?size=128"] {
     content: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
