@@ -21,7 +21,8 @@
 
 /* Liste serveur */
 .base-3dtUhz { left: 80px; }
-.wrapper-1Rf91z { width: 80px;}
+.wrapper-1Rf91z { width: 80px; margin-bottom: 63px;}
+.scroller-2TZvBN { padding-bottom: 53px;}
 
 /* Serveurs */
 .listItem-2P_4kh { padding: 0 0 10px; margin: 0px;}
@@ -363,6 +364,7 @@
 .jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { margin-bottom: 13px; border-radius: 50px; padding: 0;}
 
 /* Menu # ou @ */
+.autocompleteRow-2OthDa:first-of-type { background-color: var(--background-secondary-alt) !important;;}
 .autocomplete-1vrmpx { background: var(--background-secondary-alt) !important;}
 .selected-1Tbx07 { background: var(--background-secondary) !important;}
 
