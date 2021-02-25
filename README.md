@@ -19,6 +19,7 @@ git clone https://github.com/NYRI4/Comfy
 2. Save the file into your theme folder
 
 ## 🖌️ Customization
+Go into your your theme folder > Comfy > support
 - For BetterDiscord : `comfy.theme.css`
 - For Powercord/Vizality : `_custom.css`
 
