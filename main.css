@@ -134,8 +134,6 @@
 }
 .avatarWrapper-2yR4wp > .avatar-SmRMf2:hover { opacity: 1;}
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
-.avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
-.avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > svg > rect { opacity: 0; pointer-events: none;}
 
 /* Vizality - Spotify */
 .spotify-in-discord-player {

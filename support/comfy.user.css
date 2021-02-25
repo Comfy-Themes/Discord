@@ -28,12 +28,15 @@
 /* Better Spotify seek bar */
 .bar-g2ZMIm {position: absolute !important;left: -2px !important;bottom: -4px !important;width: 267px !important;height: 58px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.maximized-vv2Wr0 > .timeline-UWmgAx > .bar-g2ZMIm { height: 84px !important; }.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.grabber-7sd5f5 { display: none !important;}.button-14-BFJ:hover { background: none !important;}.container-6sXIoE:not(.maximized-vv2Wr0) > .inner-WRV6k5 > .coverWrapper-YAplwJ { margin-right: 1px !important; margin-left:25px !important;width: 40px !important;height: 40px !important;}
 
+/* Avatar mask - Delete it if you want to see your status */
+.avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
+.avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > svg > rect { opacity: 0; pointer-events: none;}
+
 :root {
 
-/* Avatar roundess */
---avatar-radius: 10%;
+--avatar-radius: 10%; /* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar mask */
 
-/* Avatar wdith in modals */
+/* Avatar width in modals */
 --avatar-width: 130px;
 
 /* Server roundess */
