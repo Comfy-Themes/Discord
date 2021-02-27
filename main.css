@@ -36,16 +36,6 @@
 .wrapper-21YSNc > ul { height: auto !important;}
 .expandedFolderBackground-2sPsd- { width: 52px; margin-left: 2px;}
 
-/* Dégradé pour avatar */
-.guilds-1SWlCJ::before {
-    content: "";
-    position: absolute;
-    bottom: 0; left: 0;
-    width: 80px; height: 80px;
-    background: linear-gradient(360deg, var(--background-tertiary), #0000);
-    z-index: 1;
-}
-
 /* Status picker */
 .full-motion .animatorTop-2Y7x2r.didRender-33z1u8 { 
     transform: unset !important;
@@ -485,9 +475,8 @@
 .modal-3c3bKg > .inner-1ilYF7 > .root-SR8cQa { width: 700px;}
 .header-QKLPzZ { 
     flex-direction: column;
-    width: 200px;
-    background: var(--background-secondary);
-    margin: 10px 10px 0px 10px; 
+    width: 300px;
+    margin: 10px 10px auto; 
     border-radius: 5px 5px 0 0;
 }
 .header-QKLPzZ > .avatar-3EQepX { margin-right: 0;}
@@ -909,7 +898,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 /* -- USRBG Big Popout -- */
 :root {
     --usrbg-modal-x-offset:-180px; /*Distance from the avatar container to the edge of the modal (x)*/
-    --usrbg-modal-y-offset:-65px; /*Distance from the avatar container to the edge of the modal (y)*/
+    --usrbg-modal-y-offset:-95px; /*Distance from the avatar container to the edge of the modal (y)*/
     --usrbg-modal-width:700px; /*Maximum width of modal*/
     --usrbg-modal-height:600px; /*Maximum height of modal*/
 }
@@ -938,3 +927,5 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc{
     z-index: 1;
 }
+
+.headerFill-adLl4x { background-color: rgba(0,0,0,0);}
