@@ -55,7 +55,7 @@
 /* Avatar statut picker ouvert */
 .avatarWrapper-2yR4wp[aria-expanded="true"] {
     left: 90px !important;
-    bottom: 153px !important;
+    bottom: 195px !important;
     pointer-events: none;
     width: 20px;
     height: 20px;
@@ -72,13 +72,13 @@
     display: flex !important;
     justify-content: center;
     width: 145px;
-    bottom: 117px;
+    bottom: 160px;
     left: 78px;
 }
 .container-3baos1 > .nameTag-3uD-yy > .usernameContainer-1fp4nu > .title-eS5yk3 { font-size: 18px;}
 
 /* Statuts */
-#status-picker > .scroller-3BxosC > .item-1tOPte { border-radius: 5px; margin: 0 3px; transition: 0.2s;}
+#status-picker > .scroller-3BxosC > .item-1tOPte { border-radius: 5px; margin: 3px; transition: 0.2s;}
 #status-picker > .scroller-3BxosC > .item-1tOPte.focused-3afm-j { transition: 0.2s;}
 .mask-1qbNWk.icon-1IxfJ2 { height: 18px; width: 18px; margin: auto;}
 .customEmoji-2_2FwB { width: 20px; height: 20px;}
@@ -100,10 +100,13 @@
 #status-picker-custom-status.focused-3afm-j { background-color: #ffcd4d3d;}
 .customEmojiPlaceholder-37iZ_j { background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");}
 
+#status-picker-custom-status { grid-column: 1/5;}
+#status-picker-custom-status .status-1fhblQ { display: block;}
+
 /* Support plugin Game Activity Toggle */
 #status-picker-game-activity { grid-column: 1/5;}
-[aria-label="Hide Game Activity"], .item-1tOPte > .statusItem-33LqPf { grid-template-columns: 100% 1fr;}
-#status-picker-game-activity > [aria-label="Hide Game Activity"] > svg, .item-1tOPte > .statusItem-33LqPf > div { margin: auto;}
+[aria-label="Hide Game Activity"], .item-1tOPte:not(#status-picker-custom-status) > .statusItem-33LqPf { grid-template-columns: 100% 1fr;}
+#status-picker-game-activity > [aria-label="Hide Game Activity"] > svg { margin: auto;}
 
 /* Support plugin CustomStatusPresets */
 #status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M  > .item-1tOPte { border-radius: 5px; margin: 0 3px; width: 40px;}
@@ -432,9 +435,11 @@
 
 /* Spotify */
 .headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK { justify-content: space-evenly;}
-.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > button > div > .flex-1xMQg5 { text-indent: -1000px;}
-.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > .lookOutlined-3sRXeN.colorWhite-rEQuAQ { border: none; padding: 0; width: 32px; margin-bottom: 5px;}
-
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > button > div > .flex-1xMQg5,
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > span > button > div > .flex-1xMQg5 { text-indent: -1000px;}
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > span > .lookOutlined-3sRXeN.colorWhite-rEQuAQ { border: none; padding: 0; width: 32px; margin-bottom: 5px;}
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 > .buttonsWrapper-2spIeK > span { width: 32px;}
 /* Playing */
 .headerPlaying-j0WQBV > div > div > .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
     box-shadow: 0px 3px 0px #46599c;
