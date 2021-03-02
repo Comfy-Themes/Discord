@@ -490,7 +490,8 @@
     flex-direction: column;
     width: 200px;
     background: var(--background-secondary);
-    margin: 10px 10px 0px 10px; 
+    margin: 10px 10px 0px 10px;
+    padding-top: 15px;
     border-radius: 5px 5px 0 0;
 }
 .header-QKLPzZ > .avatar-3EQepX { margin-right: 0;}
