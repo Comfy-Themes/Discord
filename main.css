@@ -663,7 +663,8 @@ div:not(.headerFill-adLl4x) > .activity-1ythUs > .size16-1P40sf > .customStatus-
 .container-2VW0UT { background: var(--background-tertiary) !important; }
 
 /* Selecteur de pays */
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-secondary-alt); border: none;}
+.regionSelectModal-12e-57 { background: var(--background-secondary-alt) !important;}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-primary) !important; border: none;}
 
 /* Rôles */
 .colorPickerCustom-2CWBn2 { background: var(--background-secondary) !important; border-radius: 5px;}
