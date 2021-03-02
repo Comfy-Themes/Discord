@@ -222,11 +222,20 @@
 
 /* Pastille ping serveur */
 .lowerBadge-29hYVK { 
-    top: 44%; left: -12px; 
-    box-shadow: 0 0 12px 0 #f04747;
+    top: 62%; left: -12px;
     width: 6px !important; height: 6px;
+    background-color: rgb(240, 71, 71);
+    box-shadow: 0 0 12px 0 #f04747;
+    border-radius: 100%;
 }
-.numberBadge-2s8kKX { text-indent: -1000px; min-width: 7px; min-height: 7px; width: 7px !important; height: 7px;}
+.numberBadge-2s8kKX { 
+    position: absolute; 
+    top: -15px; 
+    min-width: 7px; min-height: 7px; 
+    width: 7px !important; height: 7px;
+    color: #f04747; font-weight: bolder;
+    background-color: transparent !important;
+}
 .pill-1m5BUr { display: none;}
 
 /* --- ✏️ PARTIE SALONS --- */
@@ -833,7 +842,7 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: #747F8D;}
 .vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px !important;}
 .vz-c-settings-item { background: var(--background-secondary);}
 .vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
-.vz-toast-buttons > .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: fff; border: none;}
+.vz-toast-buttons .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;}
 
 /* HLJS Support */
 .hljs.scrollbar-3dvm_9 { background-color: var(--background-secondary) !important;}
