@@ -204,31 +204,6 @@
 
 .unreadMentionsBar-1VrBNe > .text-2e2ZyG { display: none; }
 
-/* Unread pill for server list */
-.unread > .pill-31IEus, [vz-unread] > .pill-31IEus,.unread > .listItem-2P_4kh > .pill-31IEus, [vz-unread] > .listItem-2P_4kh > .pill-31IEus { width: 15px; }
-.unread > .pill-31IEus > .item-2hkk8m,[vz-unread] > .pill-31IEus > .item-2hkk8m,.unread > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m,[vz-unread] > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m { 
-    top: 45%; left: 8px;
-    width: 6px; height: 6px !important;
-    background-color: #7289da; box-shadow: 0 0 12px 0 #7289da;
-    border-radius: 10px; 
-}
-
-/* Ping pill for server list */
-.lowerBadge-29hYVK { 
-    top: 62%; left: -12px; 
-    width: 6px !important; height: 6px;  
-    background-color: rgb(240, 71, 71); 
-    border-radius: 100%;
-}
-.lowerBadge-29hYVK .numberBadge-2s8kKX { 
-    position: absolute;  top: -15px; 
-    min-width: 7px; min-height: 7px; 
-    width: 7px !important; height: 7px;
-    color: #f04747; font-weight: bolder;
-    background-color: transparent !important;
-}
-.listItem-2P_4kh.unread.mentioned .pill-31IEus, .listItem-2P_4kh[vz-unread][vz-mentioned] .pill-31IEus { display: none; }
-
 /* --- ✏️ PARTIE SALONS --- */
 
 /* Menu serveur */

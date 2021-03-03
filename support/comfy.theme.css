@@ -33,6 +33,12 @@
 @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}
 @keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
 
+/* Unread pill for channel list */
+.unread-2lAfLh { top: 54%; left: 5px; border-radius: 10px;width: 6px; height: 6px; background-color: #7289da; box-shadow: 0 0 12px 0 #7289da;}
+
+/* Ping pill for channel list */
+.mentionsBadge-3tC7Mi {position: absolute; top: 26%;right: 0px;} .mentionsBadge-3tC7Mi .numberBadge-2s8kKX { color: #f04747; font-weight: bolder;background-color: transparent !important;}.modeUnread-1qO3K1:hover .iconItem-F7GRxr { display: none;}.content-1x5b-n:active { transform: none;}
+
 /* No scrollbars */
 ::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
 
