@@ -63,8 +63,16 @@
 }
 .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2.wrapper-3t9DeA { padding: 10px;}
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] ~ div { z-index: 10005;}
-.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > foreignObject { mask: url(#svg-mask-avatar-status-round-32); border-radius: var(--avatar-radius);}
-.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > rect, .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > svg > rect { opacity: 1 !important;}
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 rect {
+    border-radius: 0;
+    x: 0; y: 35;
+    width: 32px;
+    height: 2px;
+    mask: none;
+    opacity: 1 !important;
+} 
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 svg { overflow: unset;}
 
 /* Pseudo statut picker ouvert */
 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy { 
@@ -127,6 +135,8 @@
 }
 .avatarWrapper-2yR4wp > .avatar-SmRMf2:hover { opacity: 1;}
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
+.avatar-SmRMf2 foreignObject { mask: var(--avatar-mask); border-radius: var(--avatar-radius);}
+.avatar-SmRMf2 rect { opacity: var(--avatar-status); pointer-events: none;}
 
 /* Vizality - Spotify */
 .spotify-in-discord-player {
