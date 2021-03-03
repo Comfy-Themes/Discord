@@ -204,6 +204,10 @@
 
 .unreadMentionsBar-1VrBNe > .text-2e2ZyG { display: none; }
 
+/* Pill for server list */
+.pill-1m5BUr:not(.unread), .pill-1m5BUr:not([vz-unread]), 
+.pill-31IEus:not(.unread), .pill-31IEus:not([vz-unread]) { display: none;}
+
 /* --- ✏️ PARTIE SALONS --- */
 
 /* Menu serveur */
