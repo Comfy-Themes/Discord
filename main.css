@@ -117,7 +117,8 @@
 #status-picker-game-activity > [aria-label="Hide Game Activity"] > svg { margin: auto;}
 
 /* Support plugin CustomStatusPresets */
-#status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M  > .item-1tOPte { border-radius: 5px; margin: 0 3px; grid-column: 1/5;}
+#status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M  > .item-1tOPte { border-radius: 5px; margin: 0 3px;}
+#status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M { grid-column: 1/5; }
 
 /* Suppresion de trucs inutiles */
 .container-3baos1 > .nameTag-3uD-yy > .subtext-3CDbHg, .separator-2I32lJ, .status-1fhblQ, .description-2L932D { display: none;}
