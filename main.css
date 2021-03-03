@@ -94,7 +94,7 @@
 .animatorTop-2Y7x2r.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
     display: grid;
     align-items: center;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     visibility: visible;
 }
 #status-picker-online.colorDefault-2K3EoJ, #status-picker-online.colorDefault-2K3EoJ.focused-3afm-j { color: #43B581;}
@@ -117,7 +117,7 @@
 #status-picker-game-activity > [aria-label="Hide Game Activity"] > svg { margin: auto;}
 
 /* Support plugin CustomStatusPresets */
-#status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M  > .item-1tOPte { border-radius: 5px; margin: 0 3px; width: 40px;}
+#status-picker > .scroller-3BxosC > .submenuContainer-2gbm7M  > .item-1tOPte { border-radius: 5px; margin: 0 3px; width: 40px; grid-column: 1/5;}
 #status-picker-custom-status + .layer-v9HyYc { margin: 0 -15px; }
 
 /* Suppresion de trucs inutiles */
