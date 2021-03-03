@@ -8,7 +8,10 @@
 
 @import "https://nyri4.github.io/Comfy/main.css";
 
-/* User popout animation - Delete until "Others settings" if you don't want it */
+/* If you don't like one of those variables until "Other settings" you can delete them or you can also
+    try to change those if you have some css knowledge */
+
+/* User popout animation */
 .headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px;}
 .headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important;}
 .header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { 
@@ -30,22 +33,22 @@
 @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}
 @keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
 
-/* No scrollbars --> Delete all until "Mention color" if you don't want it */
+/* No scrollbars */
 ::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
 
-/* Comfy Spotify version -> Delete until Spotify if you don't want it */
+/* Comfy Spotify version */
 .container-6sXIoE{position: fixed;transition: left 0.5s;bottom: 62px;left: -196px;z-index: 3;width: 265px;background: var(--background-secondary-alt);border-radius: 0 5px 5px 0;border-bottom: none !important;}.barText-lmqc5O { display: none !important;}.container-6sXIoE > .inner-WRV6k5 { flex-direction: row-reverse;}.inner-WRV6k5 > .flex-1xMQg5 > .button-14-BFJ { margin: 0;}.container-6sXIoE:hover { left: 0px;}
 
 /* Better Spotify seek bar */
 .bar-g2ZMIm {position: absolute !important;left: -2px !important;bottom: -4px !important;width: 267px !important;height: 58px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.maximized-vv2Wr0 > .timeline-UWmgAx > .bar-g2ZMIm { height: 84px !important; }.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.grabber-7sd5f5 { display: none !important;}.button-14-BFJ:hover { background: none !important;}.container-6sXIoE:not(.maximized-vv2Wr0) > .inner-WRV6k5 > .coverWrapper-YAplwJ { margin-right: 1px !important; margin-left:25px !important;width: 40px !important;height: 40px !important;}
 
-/* Avatar mask - Delete it if you want to see your status */
+/* Avatar without status */
 .avatar-SmRMf2 > svg > foreignObject { mask: none; border-radius: var(--avatar-radius);}
 .avatar-SmRMf2 > svg > rect, .avatar-SmRMf2 > svg > svg > rect { opacity: 0; pointer-events: none;}
 
 :root {
 
---avatar-radius: 10%; /* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar mask */
+--avatar-radius: 10%; /* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar without status */
 
 /* Avatar width in modals */
 --avatar-width: 130px;
