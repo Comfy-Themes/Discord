@@ -278,7 +278,7 @@
 .theme-dark .elevationBorderHigh-2WYJ09 { box-shadow: none;}
 .resultsGroup-r_nuzN .header-2N-gMV { text-align: center;}
 .option-96V44q { margin: 0; border-radius: 0;}
-.theme-dark .container-3ayLPN { background-color: var(--background-secondary-alt);}
+.theme-dark .container-3ayLPN, .theme-dark .focused-2bY0OD { background-color: var(--background-secondary-alt);}
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 { background-color: var(--background-primary);}
 .theme-dark .option-96V44q:after { background: linear-gradient(90deg,rgba(54,57,63,0),var(--background-secondary-alt) 80%);}
 .theme-dark .option-96V44q.selected-rZcOL-:after { background: linear-gradient(90deg,rgba(54,57,63,0),var(--background-secondary) 80%);}
