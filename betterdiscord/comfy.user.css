@@ -1,0 +1,98 @@
+/* ==UserStyle==
+@name         Comfy
+@description  A simple customisable Discord theme
+@author       Nyria#3863
+@namespace    github.com/NYRI4/Comfy
+@version      1.0.0
+==/UserStyle== */
+
+@import "https://nyri4.github.io/Comfy/main.css";
+
+@-moz-document domain("discord.com") {
+    
+/* If you don't like one of those variables until "Other settings" you can delete them or you can also
+    try to change those if you have some css knowledge */
+
+/* No scrollbars */
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
+
+:root {
+--avatar-radius: 5px; /* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar without status */
+
+/* Avatar width in modals */
+--avatar-width: 130px;
+
+/* Server roundess */
+--server-radius: 8px;
+
+/* Colored emoji picker */
+--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
+
+/* -- Others settings -- */
+
+/* Mention color */
+--mention-color: #f04747;
+--unread-color: #7289da;
+
+/* Mention color in chat */
+--mention-color-bar: #C66262;
+--mention-color-background: #c662621f;
+--mention-color-hover: #c6626226;
+
+/* User settings color (Mute, Deafen and settings) */
+--user-buttons-color: #096dc0;
+
+/* Chat buttons color */
+--chat-buttons: #6E85D3;
+
+/* Circles next to role names */
+--role-circle: 5px; /* Set it to "0px" if you don't want circles */
+
+/* Tooltips */
+--tooltips: block; /* Set it to "none" if you don't want it */
+
+/* Discord logo */
+--discord-logo: none; /* Set it to "block" if you want it */
+
+}
+ 
+.theme-dark {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-mobile-primary: #23283d;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+}
+ 
+.theme-light { /* I don't support light theme it's just for the "Create a server" popup */
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-accent: #6E85D3;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}
+
+.customEmojiPlaceholder-37iZ_j { background-image: url("https://discord.com/assets/66f6c781fe86c346fbaf3390618668fc.svg");}
+.navList-2UtuhC > #sticker-picker-tab  > .navButton-2gQCx-:after { background-image:url("https://images-ext-2.discordapp.net/external/HbBmA4gs0tavZMLCDG6n55xeLkI2HTlpg7Qt3_YzTKs/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/stickers.png");}
+.navList-2UtuhC > #emoji-picker-tab  > .navButton-2gQCx-:after { background-image:url("https://discord.com/assets/66f6c781fe86c346fbaf3390618668fc.svg");}
+.topSectionNormal-2-vo2m > div > div:first-of-type:not(.activity-1ythUs) .tabBar-2MuP6-::after  { background: url('https://images-ext-2.discordapp.net/external/9nZmISmmd-jVLo44Qv6wCohHYnSDJz_dq0RV2pZrXfQ/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/bonfire.gif') center no-repeat; background-size: 25%;}
+[aria-controls="USER_INFO-tab"]:after { background-image:url("https://images-ext-1.discordapp.net/external/PsJ_-CCyxZnv1Tdsr6C8juWDkb7RCc6dREpwijtXu6E/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/user.png");}
+[aria-controls="MUTUAL_GUILDS-tab"]:after { background-image: url("https://images-ext-1.discordapp.net/external/YdgRbc6Hs3ee9ehv5jSyri7Ce6nB2IX5P5U1hSQ7pas/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/guild.png");}
+[aria-controls="MUTUAL_FRIENDS-tab"]:after { background-image:url("https://images-ext-1.discordapp.net/external/q2GDnIwCktkquekMt4m7tgo5kw-EsIcMesdfN41oCCI/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/friend.png");}
+[src="https://cdn.discordapp.com/icons/811203761619337259/0564a75bda132490421a8d4cccb0ea1c.webp?size=128"] { content: url('https://images-ext-2.discordapp.net/external/9nZmISmmd-jVLo44Qv6wCohHYnSDJz_dq0RV2pZrXfQ/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/bonfire.gif');}
+}

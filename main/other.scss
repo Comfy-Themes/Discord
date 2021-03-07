@@ -1,0 +1,50 @@
+/* Vizality - Spotify */
+.spotify-in-discord-player {
+    position: fixed;
+    transition: left 0.5s;
+    bottom: 63px;
+    left: -212px;
+    z-index: 2;
+    width: 280px;
+    background: var(--background-secondary-alt);
+    border-radius: 0 5px 5px 0;
+}
+.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp {  margin: 0 0 0 9px; }
+.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp > .avatar-SmRMf2.spotify-in-discord-player-album-cover { width: 40px !important; height: 40px !important; }
+.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner { flex-direction: row-reverse; margin-bottom: 0;}
+.spotify-in-discord-player:hover { left: 0px; z-index: 6;}
+
+/* Powercord - Spotify */
+.powercord-spotify {
+    position: fixed;
+    transition: left 0.5s;
+    bottom: 63px;
+    left: -212px;
+    z-index: 2;
+    width: 280px;
+    background: var(--background-secondary-alt);
+    border-radius: 0 5px 5px 0;
+}
+.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2.spotify-cover { width: 40px !important; height: 40px !important; }
+.powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp { margin-right: 0;}
+.powercord-spotify:hover { left: 0px; z-index: 6;}
+.powercord-spotify > .container-3baos1 { flex-direction: row-reverse;}
+.powercord-spotify > .container-3baos1 > .nameTag-3uD-yy { margin-right: 20px;}
+.spotify-buttons { margin-right: 10px;}
+.powercord-spotify.hover .spotify-seek-elements { display: none; }
+
+/* Powercord update toast */
+.powercord-toast { border: none;}
+.powercord-toast > .buttons > .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;}
+
+/* Vizality connections plugin support */
+.ud-connections > div > img { border-radius: 5px; padding: 3px; margin: 3px;}
+
+/* Vizality support */
+.channel-2QD9_O { max-width: unset;}
+[href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
+.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px !important;}
+.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px !important;}
+.vz-c-settings-item { background: var(--background-secondary);}
+.vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
+.vz-toast-buttons .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;}

@@ -1,9 +1,0 @@
-{
-    "name": "Comfy",
-    "description": "A simple customisable Discord theme",
-    "version": "2.0",
-    "author": "Nyria#3863",
-    "theme": "support/update.scss",
-    "consent": "false",
-    "license": "MIT"
-}
