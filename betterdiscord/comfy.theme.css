@@ -1,9 +1,9 @@
 /**
 * @name Comfy
 * @author Nyria#3863
-* @description A simple customisable Discord theme
+* @description Stay comfy while talking to your friends
 * @invite rtBQX5D3bD
-* @version 2.0
+* @version 1.0
 */
 
 @import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
@@ -17,21 +17,32 @@
 /* No scrollbars */
 ::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
 
+/* Better Spotify plugin seek bar */
+.container-6sXIoE { border-bottom: none;}.container-6sXIoE .bar-g2ZMIm {position: absolute;bottom: 0; left: 0;width: 240px; height: 54px;margin-bottom: 0;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002);mask-image: linear-gradient(0.25turn, #0008, #0002);border-radius: 0;}.bar-g2ZMIm .barFill-Dhkah7 { border-radius: 0;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 87px;}.container-6sXIoE .button-14-BFJ:hover { background-color: transparent;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color);}.inner-WRV6k5 { z-index: 1;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}
+
 :root {
---avatar-mask: none; /* Set it to url(#svg-mask-avatar-status-round-32) if you want it */
+/* -- Others settings -- */
 
---avatar-radius: 5px; /* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar without status */
+/* User button spacing */
+--user-buttons-spacing: 8px;
 
-/* Avatar width in modals */
---avatar-width: 130px;
+/* Avatar roundess */
+--avatar-radius: 5px;  
+
+/* Status roundness */
+--status-radius: 3px; 
 
 /* Server roundess */
 --server-radius: 8px;
 
+/* Avatar width in modals */
+--avatar-width: 130px;
+
+/* Change bonfire in modals */
+--bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
+
 /* Colored emoji picker */
 --colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
-
-/* -- Others settings -- */
 
 /* Mention color */
 --mention-color: #f04747;
@@ -48,8 +59,17 @@
 /* Chat buttons color */
 --chat-buttons: #6E85D3;
 
+/* Spotify plugin seek bar */
+--spotify-color: #1EDC62;
+
+/* Status color */
+--online: #43B581;
+--iddle: #FAA61A;
+--dnd: #F04747;
+--offline: #747F8D;
+
 /* Circles next to role names */
---role-circle: 5px; /* Set it to "0px" if you don't want circles */
+--role-circle: 5px;
 
 /* Tooltips */
 --tooltips: block; /* Set it to "none" if you don't want it */
