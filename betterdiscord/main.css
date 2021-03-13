@@ -24,8 +24,7 @@
 /* --------------------------- 📜 SERVER LIST PART --------------------------- */
 
 /* Server list */
-.guilds-1SWlCJ .scroller-2TZvBN { contain: none !important;}
-.wrapper-1Rf91z { margin-bottom: calc((var(--user-buttons-spacing) * 3) + 112px);}
+.guilds-1SWlCJ .scroller-2TZvBN { contain: none !important; padding-bottom: 170px;}
 
 /* Discover */
 .pageWrapper-1PgVDX .scroller-1d5FgU { padding-left: 0;}
@@ -42,22 +41,15 @@
 /* User buttons */  
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
     position: fixed;
-    bottom: 12px; left: 20px;
-    z-index: 1;
+    bottom: 0px; left: 0px;
+    width: 72px; z-index: 1;
+    padding: 20px 0 10px 0;
     flex-direction: column;
+    background: linear-gradient(transparent, var(--background-tertiary) 15%);
 }
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > * { margin-top: var(--user-buttons-spacing);}
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color); margin: var(--user-buttons-spacing) auto 0 auto;}
 
 /* GameActivity support */
-#GameActivityToggleBtn {
-    position: absolute; opacity: 0;
-    left: -120px; bottom: -12px;
-    width: 40px; height: 135px;
-    transition: opacity 0.15s linear 0s;
-    border-radius: 0 5px 5px 0;
-}
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5:hover #GameActivityToggleBtn { opacity: 1; left: 32px; background-color: var(--background-tertiary);}
 #GameActivityToggleBtn .st0 { fill: var(--user-buttons-color);}
 
 /* Hiding old emplacement */
