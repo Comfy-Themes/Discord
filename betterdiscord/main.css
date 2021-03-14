@@ -848,3 +848,22 @@ rect[mask="url(#svg-mask-status-offline)"] { fill: var(--offline);}
 .wrapper-25eVIn:hover foreignObject { border-radius: calc(var(--server-radius) - 3px); transition: 0.2s;}
 
 .dots-3Bkt3k { display: none;}
+
+/* Powercord update toast */
+.powercord-toast { border: none;}
+.powercord-toast > .buttons > .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;}
+
+/* Vizality connections plugin support */
+.ud-connections > div > img { border-radius: 5px; padding: 3px; margin: 3px;}
+
+/* Vizality support */
+.channel-2QD9_O { max-width: unset;}
+[href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
+.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px !important;}
+.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px !important;}
+.vz-c-settings-item { background: var(--background-secondary);}
+.vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
+.vz-toast-buttons .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;} 
+
+/* Vizality Connections plugin */
+.ud-connections > div { border-radius: 5px; margin-right: 3px;}
