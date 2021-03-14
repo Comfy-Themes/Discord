@@ -98,7 +98,8 @@
 .lowerBadge-29hYVK .numberBadge-2s8kKX { animation: 2s server-mention infinite;}
 
 /* Unread pill */
-.listItem-2P_4kh[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .listItem-2P_4kh.unread .wrapper-25eVIn::before {
+.listItem-2P_4kh[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .listItem-2P_4kh.unread .wrapper-25eVIn::before,
+.wrapper-21YSNc[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .wrapper-21YSNc.unread .wrapper-25eVIn::before {
     content: "";
     position: absolute; display: block;
     top: 0px; left: 0px;
