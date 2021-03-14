@@ -1,3 +1,24 @@
+/* --------------------------- 🚥 WINDOWS BUTTONS PART --------------------------- */
+
+.winButton-iRh8-Z:not(:last-child) > svg { display: none;}
+.winButton-iRh8-Z:hover { background-color: var(--background-teritary);}
+.winButton-iRh8-Z:not(:last-child)::after {
+   content: "";
+   border-radius: 50px;
+   pointer-events: fill;
+}
+.winButtonClose-1HsbF- { margin-right: 5px;}
+.winButtonClose-1HsbF-:after { padding: 6px;}
+.winButtonClose-1HsbF-::after { background-image: url('https://nyri4.github.io/Comfy/assets/close.png'); background-size: 100%;}
+.winButtonClose-1HsbF-:hover::after { background-image: url('https://nyri4.github.io/Comfy/assets/close_hover.png'); background-size: 100%;}
+
+.winButtonMinMax-PBQ2gm:nth-child(3):after { background-color: #FAA61A; padding: 5px;}
+.winButtonMinMax-PBQ2gm:nth-child(3):hover::after { background-color: #faa81ae5;}
+
+.winButtonMinMax-PBQ2gm:last-child { color: #43B581;}
+.winButtonMinMax-PBQ2gm:last-child:hover { color: #43b582e3;}
+.winButtonMinMax-PBQ2gm:last-child rect { height: 3px; rx: 2px;}
+
 /* --------------------------- 😀 PM PART --------------------------- */
 
 /* USRBG import */
@@ -58,6 +79,47 @@
 /* Notifications settings */
 .inner-1ilYF7 > .modal-yWgWj- > .header-1TKi98, .modal-yWgWj- { background: var(--background-secondary); }
 .inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih { background: var(--background-secondary); }
+
+/* Mention gradient */
+.unreadMentionsBar-1VrBNe .text-2e2ZyG { display: none; }
+
+/* Top */
+.unreadMentionsIndicatorTop-gA6RCh { width: 100%; height: 50px; padding: 0; top: -7px;}
+.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe { border-radius: 0; background: linear-gradient(var(--mention-color), #0000); transition: 0.3s;}
+.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe:active { background: linear-gradient(var(--mention-color), #0000);}
+
+/* Bottom */
+.unreadMentionsIndicatorBottom-BXS58x { width: 100%; height: 15px; padding: 0;}
+.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe { border-radius: 0; background: linear-gradient(#0000, var(--mention-color));}
+.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe:active { background: linear-gradient(#0000, var(--mention-color));}
+
+/* Mention pill */
+.lowerBadge-29hYVK { top: 0; left: 0px; }
+.lowerBadge-29hYVK .numberBadge-2s8kKX { animation: 2s server-mention infinite;}
+
+/* Unread pill */
+.listItem-2P_4kh[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .listItem-2P_4kh.unread .wrapper-25eVIn::before {
+    content: "";
+    position: absolute; display: block;
+    top: 0px; left: 0px;
+    width: 12px; height: 12px;
+    z-index: 1;
+    background: var(--unread-color);
+    border-radius: 50%;
+    animation: 2s server-unread infinite;
+}
+.listItem-2P_4kh[vz-guild-id][vz-unread] .pill-31IEus, .listItem-2P_4kh.unread .pill-31IEus,
+.listItem-2P_4kh.unread.mentioned .wrapper-25eVIn::before { display: none;}
+
+@keyframes server-unread {
+    0% { box-shadow: 0 0 0 0 var(--unread-color); }
+    70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}}
+
+@keyframes server-mention {
+    0% { box-shadow: 0 0 0 0 var(--mention-color); }
+    70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}}
 
 /* --------------------------- 🟢 STATUS PICKER --------------------------- */
 .full-motion .animatorTop-2Y7x2r.didRender-33z1u8 { transform: unset !important; transition: opacity 0.15s linear 0s;}
@@ -127,28 +189,6 @@
 
 /* Custom status modal */
 .theme-dark .footer-2gL1pp { background: var(--background-tertiary);}
-
-/* Mention gradient */
-.unreadMentionsBar-1VrBNe .text-2e2ZyG { display: none; }
-
-/* Top */
-.unreadMentionsIndicatorTop-gA6RCh { width: 100%; height: 50px; padding: 0; top: -7px;}
-.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe { border-radius: 0; background: linear-gradient(var(--mention-color), #0000); transition: 0.3s;}
-.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe:active { background: linear-gradient(var(--mention-color), #0000);}
-
-/* Bottom */
-.unreadMentionsIndicatorBottom-BXS58x { width: 100%; height: 15px; padding: 0;}
-.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe { border-radius: 0; background: linear-gradient(#0000, var(--mention-color));}
-.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe:active { background: linear-gradient(#0000, var(--mention-color));}
-
-/* Mention pill */
-.lowerBadge-29hYVK { top: 0; left: 0px; }
-.lowerBadge-29hYVK .numberBadge-2s8kKX { animation: 2s server-mention infinite;}
-
-@keyframes server-mention {
-    0% { box-shadow: 0 0 0 0 var(--mention-color); }
-    70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}}
 
 /* --------------------------- ✏️ CHANNEL PART --------------------------- */
 
