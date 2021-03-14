@@ -98,8 +98,8 @@
 .lowerBadge-29hYVK .numberBadge-2s8kKX { animation: 2s server-mention infinite;}
 
 /* Unread pill */
-.listItem-2P_4kh[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .listItem-2P_4kh.unread .wrapper-25eVIn::before,
-.wrapper-21YSNc[vz-guild-id][vz-unread] .wrapper-25eVIn::before, .wrapper-21YSNc.unread .wrapper-25eVIn::before {
+.listItem-2P_4kh[vz-unread] .wrapper-25eVIn::before, .listItem-2P_4kh.unread .wrapper-25eVIn::before,
+.wrapper-21YSNc[vz-unread] .wrapper-25eVIn::before, .wrapper-21YSNc.unread .wrapper-25eVIn::before {
     content: "";
     position: absolute; display: block;
     top: 0px; left: 0px;
@@ -109,10 +109,12 @@
     border-radius: 50%;
     animation: 2s server-unread infinite;
 }
-.listItem-2P_4kh[vz-guild-id][vz-unread] .pill-31IEus, .listItem-2P_4kh.unread .pill-31IEus,
-.wrapper-21YSNc[vz-guild-id][vz-unread] .pill-31IEus, .wrapper-21YSNc.unread .pill-31IEus,
+.listItem-2P_4kh[vz-unread] .pill-31IEus, .listItem-2P_4kh.unread .pill-31IEus,
+.wrapper-21YSNc[vz-unread] .pill-31IEus, .wrapper-21YSNc.unread .pill-31IEus,
 .listItem-2P_4kh.unread.mentioned .wrapper-25eVIn::before,
-.wrapper-21YSNc.unread.mentioned .wrapper-25eVIn::before { display: none;}
+.listItem-2P_4kh[vz-unread][vz-mentioned] .wrapper-25eVIn::before,
+.wrapper-21YSNc.unread.mentioned .wrapper-25eVIn::before,
+.wrapper-21YSNc[vz-unread][vz-mentioned] .wrapper-25eVIn::before { display: none;}
 
 @keyframes server-unread {
     0% { box-shadow: 0 0 0 0 var(--unread-color); }
