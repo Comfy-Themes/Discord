@@ -3,14 +3,14 @@
 ---
 
 # Comfy
-![Preview](https://i.ibb.co/p1JGyC6/image.png)
+![Preview](https://i.ibb.co/tMxx2yJ/BDPreview.png)
 
 ## 📥 Installation
 
 ### Powercord & Vizality
 
 ```sh
-git clone https://github.com/NYRI4/Comfy
+git clone https://github.com/NYRI4/Comfy-git-clone
 ```
 
 ### BetterDiscord
