@@ -757,10 +757,10 @@ div:not(.headerFill-adLl4x) > .activity-1ythUs .customStatusEmoji-3BvdMX:not(.cu
 .scroller-3BxosC > div:nth-last-of-type(3) > .labelContainer-1BLJti.focused-3afm-j:last-child, .scroller-3BxosC > .labelContainer-1BLJti.focused-3afm-j:last-child, .scroller-3BxosC > div:nth-last-of-type(3) > .labelContainer-1BLJti:active:not(.hideInteraction-1iHO1O):last-of-type { border-radius: 0 0 5px 5px;}
 
 /* Coloured status when playing */
-rect[mask="url(#svg-mask-status-online)"] { fill: var(--online);}
-rect[mask="url(#svg-mask-status-idle)"] { fill: var(--iddle);}
-rect[mask="url(#svg-mask-status-dnd)"] { fill: var(--dnd);}
-rect[mask="url(#svg-mask-status-offline)"] { fill: var(--offline);}
+rect[mask="url(#svg-mask-status-online)"], rect[mask="url(#svg-mask-status-online-mobile)"] { fill: var(--online);}
+rect[mask="url(#svg-mask-status-idle)"], rect[mask="url(#svg-mask-status-online-idle)"] { fill: var(--iddle);}
+rect[mask="url(#svg-mask-status-dnd)"], rect[mask="url(#svg-mask-status-online-dnd)"] { fill: var(--dnd);}
+rect[mask="url(#svg-mask-status-offline)"], rect[mask="url(#svg-mask-status-online-offline)"] { fill: var(--offline);}
 
 /* Joining message */
 .theme-dark .contentWrapper-3WC1ID { background: var(--background-secondary);}
