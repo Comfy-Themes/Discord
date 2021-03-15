@@ -22,6 +22,7 @@ git clone https://github.com/NYRI4/Comfy-git-clone
 Go into your theme folder > Comfy > support
 - For BetterDiscord : `comfy.theme.css`
 - For Powercord/Vizality : `_custom.css`
+Or download this plugin to add a settings panel https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ThemeSettings 
 
 ## Credits
 
