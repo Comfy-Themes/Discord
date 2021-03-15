@@ -58,6 +58,10 @@
 /* Create a server modal */
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV { background-color: var(--background-accent);}
 .theme-light .contents-18-Yxp { color: #FFF;}
+.content-1LAB8Z { padding: 0; border-radius: 0;}
+.container-UC8Ug1 { border-radius: 0; transition: 0.2s}
+.content-1LAB8Z .optionHeader-1-5lcp { text-align: center; margin: 12px 0;}
+.createGuild-23lWNm { padding: 10px !important;}
 
 /* User buttons */  
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
