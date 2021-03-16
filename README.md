@@ -23,7 +23,7 @@ Go into your theme folder > Comfy > support
 - For BetterDiscord : `comfy.theme.css`
 - For Powercord/Vizality : `_custom.css`
 
-BetterDiscord users could alternatively use this plugin: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ThemeSettings 
+BetterDiscord users could alternatively use [this plugin:] (https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ThemeSettings) 
 
 ## Credits
 
