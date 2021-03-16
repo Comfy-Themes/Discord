@@ -3,7 +3,7 @@
 ---
 
 # Comfy
-![Preview](https://i.ibb.co/7NYcchv/Preview.png)
+![Preview](https://nyri4.github.io/Comfy/assets/theme-preview.png)
 
 ## 📥 Installation
 
