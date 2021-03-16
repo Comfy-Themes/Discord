@@ -98,6 +98,7 @@
     --scrollbar-auto-thumb: #121722;
     --scrollbar-auto-track: #191f2e;
     --scrollbar-thin-thumb: #141925;
+    --activity-card-background: #101320;
 }
  
 .theme-light { /* I don't support light theme it's just for the "Create a server" popup */
