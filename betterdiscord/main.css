@@ -314,11 +314,6 @@
 /* Channel bar */
 .container-1r6BKw.themed-ANHk51 { background: var(--background-secondary); }
 .theme-dark .children-19S4PO:after { background: linear-gradient(90deg,rgba(54,57,63,0) 0,var(--background-secondary));}
-.children-19S4PO { display: grid; grid-template-columns: 40px auto;}
-.children-19S4PO .iconWrapper-2OrFZ1 { order: 1; grid-row: 1/3;}
-.children-19S4PO .divider-3FBTu8 { display: none;}
-.children-19S4PO .title-29uC1r { order: 3;}
-.children-19S4PO .topic-TCb_qw { order: 4; margin: 2px 0 0 0;}
 .search-36MZv- { order: 1;}
 .searchBar-3dMhjb { width: 27px; transition: 0.25s;}
 .search-2oPWTC.focused-31_ccS { transition: 0.25s;}
