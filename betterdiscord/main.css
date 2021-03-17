@@ -256,6 +256,9 @@
 /* Categories arrows */
 .mainContent-2h-GEV .arrow-gKvcEx { display: none;}
 
+/* Channel call */
+.voiceUserSummary-2X_2vp svg:not(.icon-1tDorc) { padding-right: 15px;}
+
 /* -- Notification -- */
 .container-1taM1r { background: var(--background-secondary) !important; z-index: 3;}
 .unreadTop-3rAB3r { width: 100%; padding: 0; z-index: 2; top: -9px;}
@@ -889,7 +892,7 @@ rect[mask="url(#svg-mask-status-offline)"], rect[mask="url(#svg-mask-status-onli
 .avatarHint-1qgaV3 { display: none;}
 
 /* Avatars radius */
-.wrapper-3t9DeA foreignObject, .avatar-1BDn8e, .profile-1eT9hT .avatarUploaderInner-3UNxY3, .callAvatarMask-1SLlRi foreignObject, .voiceAvatar-14IynY, .avatar-3tNQiO { border-radius: var(--avatar-radius); mask: none;}
+.wrapper-3t9DeA foreignObject, .avatar-1BDn8e, .profile-1eT9hT .avatarUploaderInner-3UNxY3, .callAvatarMask-1SLlRi foreignObject, .voiceAvatar-14IynY, .avatar-3tNQiO, .avatarContainer-3CQrif foreignObject, .border-Jn5IOt, .avatar-3bWpYy, .clickableAvatar-1wQpeh, .emptyUser-7txhlW { border-radius: var(--avatar-radius); mask: none;}
 
 /* Server radius */ 
 .wrapper-25eVIn foreignObject, .folderIconWrapper-226oVY, .expandedFolderBackground-2sPsd-, .icon-3o6xvg, .flexChild-faoVW3 .avatarUploaderInner-3UNxY3 { border-radius: var(--server-radius); mask: none;}
