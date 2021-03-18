@@ -200,6 +200,8 @@
 #status-picker .submenuContainer-2gbm7M { grid-column: 1/5; }
 
 /* Custom status modal */
+.select-2fjwPw, .popout-VcNcHB { border: none;}
+.select-2fjwPw.open-kZ53_U, .popout-VcNcHB { background-color: var(--background-secondary-alt); transition: 0.15s;}
 .theme-dark .footer-2gL1pp { background: var(--background-tertiary);}
 
 /* --------------------------- ✏️ CHANNEL PART --------------------------- */
@@ -422,7 +424,7 @@
 /* --------------------------- 👥 MEMBERS PART --------------------------- */
 
 /* -- Member popout -- */
-.userPopout-3XzG_A { box-shadow: none;}
+.userPopout-3XzG_A { box-shadow: 0 0 10px 0 #101320d2;}
 .userPopout-3XzG_A > :first-child { background: var(--background-tertiary);}
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background: var(--background-secondary); }
 .footer-1fjuF6 .inputDefault-_djjkz { border: none; background: var(--background-secondary-alt);}
