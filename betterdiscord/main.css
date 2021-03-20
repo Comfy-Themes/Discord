@@ -878,7 +878,7 @@ rect[mask="url(#svg-mask-status-offline)"], rect[mask="url(#svg-mask-status-onli
 .avatarHint-1qgaV3 { display: none;}
 .mask-1l8v16 { overflow: visible;}
 .userPopout-3XzG_A .pointerEvents-2zdfdO { x: 67; y: 67;}
-.members-1998pB .pointerEvents-2zdfdO, .panels-j1Uci_ .pointerEvents-2zdfdO { x: 24; y: 24;}
+.members-1998pB .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]), .panels-j1Uci_ .pointerEvents-2zdfdO { x: 24; y: 24;}
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect { rx: var(--status-radius);}
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect:nth-child(2) { display: none;}
 
