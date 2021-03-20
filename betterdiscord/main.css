@@ -883,11 +883,13 @@ rect[mask="url(#svg-mask-status-offline)"], rect[mask="url(#svg-mask-status-onli
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect { rx: var(--status-radius);}
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect:nth-child(2) { display: none;}
 
-/* Avatars radius */
+/* Avatars masks */
 .wrapper-3t9DeA foreignObject, .callAvatarMask-1SLlRi foreignObject, .avatarContainer-3CQrif foreignObject { mask: none;}
+
+/* Avatars radius */
 .wrapper-3t9DeA, .avatar-1BDn8e, .profile-1eT9hT .avatarUploaderInner-3UNxY3, .voiceAvatar-14IynY, .avatar-3tNQiO,  
 .border-Jn5IOt, .avatar-3bWpYy, .clickableAvatar-1wQpeh, .emptyUser-7txhlW, .avatar-VxgULZ,
-.wrapper-2QE8vf.ringingIncoming-38YcLn:after, .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after { border-radius: 5px;}
+.wrapper-2QE8vf.ringingIncoming-38YcLn:after, .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after { border-radius: var(--avatar-radius);}
 
 /* Server radius */ 
 .wrapper-25eVIn foreignObject, .folderIconWrapper-226oVY, .expandedFolderBackground-2sPsd-, 
