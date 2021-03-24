@@ -243,7 +243,7 @@
 #guild-header-popout-privacy:hover, #guild-header-popout-privacy:active:not(.hideInteraction-1iHO1O) { background-color: #4a83d434;}
 
 /* Nickname */
-#guild-header-popout-change-nicknam .icon-LYJorE, #guild-header-popout-change-nickname:active:not(.hideInteraction-1iHO1O) .icon-LYJorE { color: #43B581;}
+#guild-header-popout-change-nickname .icon-LYJorE, #guild-header-popout-change-nickname:active:not(.hideInteraction-1iHO1O) .icon-LYJorE { color: #43B581;}
 #guild-header-popout-change-nickname:hover, #guild-header-popout-change-nickname:active:not(.hideInteraction-1iHO1O) { background-color: #43b5823a;}
 
 /* Hide muted channels */
@@ -320,9 +320,10 @@
 .container-1r6BKw.themed-ANHk51 { background: var(--background-secondary); }
 .theme-dark .children-19S4PO:after { background: linear-gradient(90deg,rgba(54,57,63,0) 0,var(--background-secondary));}
 .search-36MZv- { order: 1;}
-.searchBar-3dMhjb { width: 27px; transition: 0.25s;}
-.search-2oPWTC.focused-31_ccS { transition: 0.25s;}
-.focused-31_ccS .searchBar-3dMhjb, .searchBar-3dMhjb:hover { width: 210px;}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
 [href="https://support.discord.com"] { display: none;}
 
 /* -- Search bar and modal -- */
