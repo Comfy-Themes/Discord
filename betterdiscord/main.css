@@ -874,12 +874,14 @@ rect[mask="url(#svg-mask-status-offline)"], rect[mask="url(#svg-mask-status-onli
 [href="/channels/811203761619337259/811644977637621760"] > div > svg > path { d: path("M14.25 14.25H3.75V3.75h7.5v-1.5h-7.5c-.8325 0-1.5.6675-1.5 1.5v10.5c0 .8284271.67157288 1.5 1.5 1.5h10.5c.8284271 0 1.5-.6715729 1.5-1.5v-6h-1.5v6zM6.6825 7.31L5.625 8.375 9 11.75l7.5-7.5-1.0575-1.065L9 9.6275 6.6825 7.31z"); transform: scale(1.4);}
 
 /* -- Avatar customization -- */ 
-.pointerEvents-2zdfdO { mask: none !important; rx: var(--status-radius);}
-[mask*="mobile)"], [mask="url(#svg-mask-status-typing)"]{ rx: var(--status-radius);}
+.pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) { mask: none !important; rx: var(--status-radius);}
+[mask="url(#svg-mask-status-typing)"]{ rx: var(--status-radius);}
 .avatarHint-1qgaV3 { display: none;}
 .mask-1l8v16 { overflow: visible;}
 .userPopout-3XzG_A .pointerEvents-2zdfdO { x: 67; y: 67;}
+.userPopout-3XzG_A .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] { x: 66; y: 60;}
 .members-1998pB .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]), .panels-j1Uci_ .pointerEvents-2zdfdO { x: 24; y: 24;}
+.members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] { x: 23; y: 22;}
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect { rx: var(--status-radius);}
 [id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect:nth-child(2) { display: none;}
 
