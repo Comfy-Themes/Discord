@@ -530,8 +530,8 @@
 .header-QKLPzZ .mask-1l8v16 foreignObject { mask: none; border-radius: var(--avatar-radius); }
 
 /* Badges */
-.profileBadges-2vWUYb { display: flex; justify-content: center; flex-wrap: wrap;}
-.profileBadgeWrapper-1rGSsp { margin: 0 5px 0 5px; padding-bottom: 7px;}
+.header-QKLPzZ .profileBadges-2vWUYb { display: flex; justify-content: center; flex-wrap: wrap;}
+.header-QKLPzZ .profileBadgeWrapper-1rGSsp { margin: 0 5px 0 5px; padding-bottom: 7px;}
 
 /* Username + tag */
 .headerInfo-30uryT .nameTag-2IFDfL { justify-content: center; margin: 0 0 10px 0;}
