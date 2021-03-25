@@ -792,6 +792,9 @@
   display: none;
 }
 
+/* Messages buttons */
+.buttons-cl5qTG { transition: 0.15s;}
+
 /* Avatar of the user */
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
   position: fixed;
