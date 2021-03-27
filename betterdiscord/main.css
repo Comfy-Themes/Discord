@@ -234,8 +234,8 @@
 /* Unread pill */
 .listItem-GuPuDH[vz-unread] .wrapper-25eVIn::before,
 .listItem-GuPuDH.unread .wrapper-25eVIn::before,
-.wrapper-21YSNc[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
-.wrapper-21YSNc.unread:not(.expanded) .wrapper-25eVIn::before {
+.wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
+.wrapper-3Njo_c.unread:not(.expanded) .wrapper-25eVIn::before {
   content: "";
   position: absolute;
   display: block;
@@ -250,12 +250,12 @@
 }
 .listItem-GuPuDH[vz-unread] .pill-1z4sAY,
 .listItem-GuPuDH.unread .pill-1z4sAY,
-.wrapper-21YSNc[vz-unread] .pill-1z4sAY,
-.wrapper-21YSNc.unread .pill-1z4sAY,
+.wrapper-3Njo_c[vz-unread] .pill-1z4sAY,
+.wrapper-3Njo_c.unread .pill-1z4sAY,
 .listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before,
 .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before,
-.wrapper-21YSNc.unread.mentioned .wrapper-25eVIn::before,
-.wrapper-21YSNc[vz-unread][vz-mentioned] .wrapper-25eVIn::before {
+.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before,
+.wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before {
   display: none;
 }
 
