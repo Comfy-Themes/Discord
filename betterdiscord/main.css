@@ -833,8 +833,6 @@
   left: -50px;
   width: 40px;
   height: 40px;
-  background: var(--bonfire) center no-repeat;
-  background-size: 90%;
   background-color: var(--background-secondary);
   border-radius: calc(var(--avatar-radius) + 2px);
 }
