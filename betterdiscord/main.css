@@ -300,22 +300,27 @@
 
 /* Avatar in status picker */
 .avatarWrapper-2yR4wp[aria-expanded="true"] {
-  left: 80px !important;
-  bottom: 114px !important;
-  z-index: 10005 !important;
+  position: absolute;
+  left: 20px;
+  bottom: 105px;
+  margin: 0;
+  z-index: 10005;
   pointer-events: none;
 }
-.avatarWrapper-2yR4wp[aria-expanded="true"] .avatar-SmRMf2.wrapper-3t9DeA {
-  padding: 10px;
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
+  width: 60px !important;
+  height: 60px !important;
+  opacity: 1;
 }
 
 /* Username in status picker */
 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
   position: absolute;
-  display: flex !important;
+  display: flex;
   bottom: 110px;
-  left: 78px;
+  left: 80px;
   width: 145px;
+  margin: 0;
   justify-content: center;
 }
 .panels-j1Uci_ > .container-3baos1 .title-eS5yk3 {
@@ -664,12 +669,6 @@
   border-bottom: none;
 }
 
-/* Hiding old user things emplacement */
-.panels-j1Uci_ > .container-3baos1 .nameTag-3uD-yy,
-.panels-j1Uci_ > .container-3baos1 .subtext-3CDbHg {
-  display: none;
-}
-
 /* Adding role permissions into channel settings */
 .theme-dark .autocompleteArrow-Zxoy9H,
 .theme-dark .header-2bNvm4 {
@@ -796,22 +795,25 @@
 .buttons-cl5qTG { transition: 0.15s;}
 
 /* Avatar of the user */
-.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] {
   position: fixed;
-  bottom: 26.5px;
-  left: 327.5px;
+  bottom: var(--avatar-bottom);
+  left: var(--avatar-left);
   z-index: 2;
   margin: 0;
 }
-.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2 {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2 {
   width: 40px !important;
   height: 40px !important;
 }
-.panels-j1Uci_
-  > .container-3baos1
-  > .avatarWrapper-2yR4wp
-  > .avatar-SmRMf2:hover {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2:hover {
   opacity: 1;
+}
+
+/* Hiding old user things emplacement */
+.avatarWrapper-2yR4wp[aria-expanded="false"] + .nameTag-3uD-yy,
+.avatarWrapper-2yR4wp + .nameTag-3uD-yy .subtext-3CDbHg {
+  display: none;
 }
 
 /* Hiding avatar */

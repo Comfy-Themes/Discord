@@ -27,6 +27,10 @@
 /* User button spacing */
 --user-buttons-spacing: 8px;
 
+/* Avatar position */
+--avatar-left: 327.5px;
+--avatar-bottom: 26.5px;
+
 /* Avatar roundess */
 --avatar-radius: 5px;  
 
