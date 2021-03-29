@@ -2034,15 +2034,20 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 }
 
 /* Server radius */
+.wrapper-25eVIn foreignObject { mask: none; }
+
 .wrapper-25eVIn foreignObject,
 .folderIconWrapper-226oVY,
 .folderIconWrapper-1_bOZe,
 .expandedFolderBackground-2sPsd-,
-.icon-3o6xvg, .iconInactive-98JN5i,
 .flexChild-faoVW3 .avatarUploaderInner-3UNxY3 {
   border-radius: var(--server-radius);
-  mask: none;
 }
+
+.iconInactive-98JN5i {
+  border-radius: calc(var(--server-radius) - 4px);
+}
+
 .wrapper-25eVIn foreignObject {
   transition: 0.2s;
 }
