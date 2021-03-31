@@ -304,9 +304,13 @@
   left: 20px;
   bottom: 105px;
   margin: 0;
-  z-index: 10005;
+  z-index: 1005;
   pointer-events: none;
 }
+
+/* Fixing z-index issue */
+.panels-j1Uci_ { z-index: unset;}
+
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
   width: 60px !important;
   height: 60px !important;
@@ -325,11 +329,6 @@
 }
 .panels-j1Uci_ > .container-3baos1 .title-eS5yk3 {
   font-size: 18px;
-}
-
-/* User buttons in status picker */
-.avatarWrapper-2yR4wp[aria-expanded="true"] ~ div {
-  z-index: 10005;
 }
 
 /* Status grid */
@@ -1631,6 +1630,9 @@ div:not(.headerFill-adLl4x)
   background: var(--background-secondary-alt);
   border: none;
 }
+
+/* Activate community modal */
+.css-dwar6a-menu { background-color: var(--background-secondary-alt);}
 
 /* Welcome screen */
 .descriptionInput-3b30C8 {
