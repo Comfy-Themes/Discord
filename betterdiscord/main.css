@@ -817,7 +817,7 @@
 }
 
 /* Hiding avatar */
-.content-98HsJk > :nth-child(2):not(.chat-3bRxxu) {
+.content-98HsJk > :nth-child(2):not(.chat-3bRxxu), .callContainer-3UuV6S {
   z-index: 2;
 }
 
