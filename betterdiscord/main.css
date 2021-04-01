@@ -298,11 +298,29 @@
   border-radius: 5px;
 }
 
+.avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  width: 210px;
+  height: 120px;
+  pointer-events: none;
+  background-color: var(--background-secondary-alt);
+  background-image: var(--user-background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+  -webkit-mask: linear-gradient(black, transparent 100%);
+  opacity: 0.8;
+}
+
 /* Avatar in status picker */
 .avatarWrapper-2yR4wp[aria-expanded="true"] {
   position: absolute;
-  left: 20px;
-  bottom: 105px;
+  left: 90px;
+  bottom: 145px;
   margin: 0;
   z-index: 1005;
   pointer-events: none;
@@ -321,8 +339,8 @@
 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
   position: absolute;
   display: flex;
-  bottom: 110px;
-  left: 80px;
+  bottom: 113px;
+  left: 50px;
   width: 145px;
   z-index: 10005;
   margin: 0;
@@ -336,7 +354,7 @@
 #status-picker .scroller-3BxosC {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin: 55px 4px 4px 4px;
+  margin: 135px 4px 4px 4px;
 }
 
 /* Status */
@@ -1947,22 +1965,24 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .mask-1l8v16 { overflow: visible;}
 
 /* All masks in DM, user and member part */
-.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .panels-j1Uci_ .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
-
-/* Adding stroke color */
-.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
-.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
-.avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { stroke: var(--background-tertiary);}
-
+.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
 /* All masks except mobile and typing masks in DM, user and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-.panels-j1Uci_ .pointerEvents-2zdfdO { width: 12px; x: 24;}
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { width: 12px; x: 24;}
 
 /* All mobile masks in DM and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
 .members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]
 { width: 12px; height: 16px; x: 24; y: 20;}
+
+/* Mask in the status picker */
+.avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { x: 24; y: 24;}
+
+
+/* Adding stroke color */
+.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
 
 /* Typing dots */
 .dots-3Bkt3k { overflow: visible;}
