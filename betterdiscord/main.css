@@ -1967,6 +1967,17 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .pointerEvents-2zdfdO[width="25"], [mask="url(#svg-mask-status-online-mobile)"] { rx: 5px;}
 .mask-1l8v16 { overflow: visible;}
 
+/* Fixing weird Discord behavior */
+.cursorDefault-dsQJ1n, .mask-1l8v16 > svg { overflow: visible;}
+:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y: 8; rx: var(--status-radius);}
+.mask-1l8v16 > svg > mask > rect[width="10"]:first-child { x: 8; width: 14px; height: 11px;}
+.avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect { height: 25px; mask: none; x: 10; y: 8; width: 10px; height: 10px; rx: var(--status-radius);}
+.mask-1l8v16 > svg > rect { height: 20px;}
+.mask-1l8v16 > svg > mask > rect:nth-child(2),
+.mask-1l8v16 > svg > mask > circle,
+.mask-1l8v16 > svg > mask > polygon
+{ display: none;}
+
 /* All masks in DM, user and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
 /* All masks except mobile and typing masks in DM, user and member part */
