@@ -1943,43 +1943,36 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
   transform: scale(1.4);}
 
 /* -- Status masks -- */
-
-/* All masks except mobile */
-.pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
-  mask: none !important;
-  rx: var(--status-radius);
-}
-
-/* iirc that's to counter Discord weird behavior of the intergalactic saussage */
-[id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect:nth-child(2) { display: none;}
-[id="5086f76c-5cbe-4ce5-aa54-3cd59707d1b6"] > rect { x: 23; y: 22; rx: var(--status-radius);}
-
-/* Typing masks */
-[mask="url(#svg-mask-status-typing)"] { rx: var(--status-radius);}
-
+.pointerEvents-2zdfdO { mask: none; rx: var(--status-radius);}
 .mask-1l8v16 { overflow: visible;}
+
+/* All masks in DM, user and member part */
+.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .panels-j1Uci_ .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
+
+/* Adding stroke color */
+.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
+.avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { stroke: var(--background-tertiary);}
+
+/* All masks except mobile and typing masks in DM, user and member part */
+.channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+.members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+.panels-j1Uci_ .pointerEvents-2zdfdO { width: 12px; x: 24;}
+
+/* All mobile masks in DM and member part */
+.channel-2QD9_O .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+.members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]
+{ width: 12px; height: 16px; x: 24; y: 20;}
+
+/* Typing dots */
+.dots-3Bkt3k { overflow: visible;}
+.dots-3Bkt3k circle { cy: 5.5;}
 
 /* Masks in user popouts */
 .userPopout-3XzG_A .pointerEvents-2zdfdO { x: 67; y: 67;}
 
 /* Mobile masks in user popouts */
 .userPopout-3XzG_A .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] { x: 66; y: 60;}
-
-/* Adding a border to masks */
-.channel-2QD9_O .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]),
-.members-1998pB .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]),
-.panels-j1Uci_ .pointerEvents-2zdfdO {
-  x: 18; y: 18;
-  stroke-width: 2.5px;
-  transform: scale(1.3);
-}
-.channel-2QD9_O .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]) { stroke: var(--background-secondary-alt);}
-.members-1998pB .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-typing)"]) { stroke: var(--background-secondary-alt);}
-.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
-.avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { stroke: var(--background-tertiary);}
-
-/* Typing masks */
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) { cy: -8 !important; cx: -8.5 !important;}
 
 /* Avatars masks */
 .wrapper-3t9DeA foreignObject,
