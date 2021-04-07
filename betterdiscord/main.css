@@ -248,14 +248,10 @@
   border-radius: 50%;
   animation: 2s server-unread infinite;
 }
-.listItem-GuPuDH[vz-unread] .pill-1z4sAY,
-.listItem-GuPuDH.unread .pill-1z4sAY,
-.wrapper-3Njo_c[vz-unread] .pill-1z4sAY,
-.wrapper-3Njo_c.unread .pill-1z4sAY,
-.listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before,
-.listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before,
-.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before,
-.wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before {
+.listItem-GuPuDH[vz-unread] .pill-1z4sAY, .listItem-GuPuDH.unread .pill-1z4sAY,
+.wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
+.listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before, .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before,
+.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before {
   display: none;
 }
 
