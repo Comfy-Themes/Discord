@@ -595,6 +595,8 @@
 .voiceUserSummary-2X_2vp svg:not(.icon-1tDorc) {
   padding-right: 15px;
 }
+.tile-2naSqK { background-color: var(--background-secondary-alt);}
+.tile-2naSqK .button-3HqqDX { background-color: var(--background-accent);}
 
 /* -- Notification -- */
 .container-1taM1r {
@@ -1202,7 +1204,8 @@
 
 /* -- Activities -- */
 .headerFill-adLl4x,
-.topSectionNormal-2-vo2m > div {
+.topSectionNormal-2-vo2m > div,
+.topSectionPlaying-1J5E4n > div  {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1243,7 +1246,7 @@
   margin-bottom: 0 !important;
   padding-bottom: 5px;
 }
-div:not(.headerFill-adLl4x) > .activity-1ythUs {
+.topSectionNormal-2-vo2m > div:not(.headerFill-adLl4x) > .activity-1ythUs {
   text-align: center;
   margin-top: auto;
 }
@@ -1288,17 +1291,6 @@ div:not(.headerFill-adLl4x)
   box-shadow: 0px 3px 0px #46599c;
   border: 1px solid #46599c;
   padding: 0 5px;
-}
-.topSectionPlaying-1J5E4n
-  .actionsProfile-jEtjVX
-  .button-2IFFQ4
-  .streamIcon-2zxjAa {
-  width: 24px;
-  height: 24px;
-  margin-left: 4px;
-}
-.topSectionPlaying-1J5E4n .bodyNormal-2D39hT .buttonsWrapper-2spIeK {
-  flex-direction: column;
 }
 
 /* Spotify */
@@ -2022,7 +2014,8 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .emptyUser-7txhlW,
 .avatar-VxgULZ,
 .wrapper-2QE8vf.ringingIncoming-38YcLn:after,
-.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after {
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
+.replyAvatar-1K9Wmr {
   border-radius: var(--avatar-radius);
 }
 
