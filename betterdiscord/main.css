@@ -1220,6 +1220,9 @@
   border-radius: 5px;
   margin: 13px;
 }
+.activity-1ythUs .ellipsis-1XUmPN {
+  word-wrap: break-word;
+}
 
 /* No activity */
 .topSectionNormal-2-vo2m
@@ -1956,10 +1959,11 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 
 /* Fixing weird Discord behavior */
 .cursorDefault-dsQJ1n, .mask-1l8v16 > svg { overflow: visible;}
+.userPopout-3XzG_A .mask-1l8v16 > svg > mask > rect:first-child { x: 18; y: 14; ry: var(--status-radius);}
 :not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y: 8; rx: var(--status-radius);}
 .mask-1l8v16 > svg > mask > rect[width="10"]:first-child { x: 8; width: 14px; height: 11px;}
 .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect { height: 25px; mask: none; x: 10; y: 8; width: 10px; height: 10px; rx: var(--status-radius);}
-.mask-1l8v16 > svg > rect { height: 20px;}
+.mask-1l8v16 > svg > rect { height: 40px;}
 .mask-1l8v16 > svg > mask > rect:nth-child(2),
 .mask-1l8v16 > svg > mask > circle,
 .mask-1l8v16 > svg > mask > polygon
