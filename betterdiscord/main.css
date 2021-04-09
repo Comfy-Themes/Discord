@@ -1951,7 +1951,8 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
   transform: scale(1.4);}
 
 /* -- Status masks -- */
-.pointerEvents-2zdfdO { mask: none;}
+.pointerEvents-2zdfdO { mask: none; pointer-events: none;}
+.pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) { rx: var(--status-radius);}
 .pointerEvents-2zdfdO[width="25"], [mask="url(#svg-mask-status-online-mobile)"] { rx: 5px;}
