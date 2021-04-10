@@ -2020,7 +2020,8 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .avatar-VxgULZ,
 .wrapper-2QE8vf.ringingIncoming-38YcLn:after,
 .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
-.replyAvatar-1K9Wmr {
+.replyAvatar-1K9Wmr,
+.avatarSpeaking-2c8-9i {
   border-radius: var(--avatar-radius);
 }
 
