@@ -304,12 +304,13 @@
   height: 120px;
   pointer-events: none;
   background-color: var(--background-secondary-alt);
-  background-image: var(--user-background);
+  background-image: var(--user-background, var(--status-background));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 3px;
   -webkit-mask: linear-gradient(black, transparent 100%);
+  mask: linear-gradient(black, transparent 100%);
   opacity: 0.8;
 }
 
@@ -1221,7 +1222,7 @@
   margin: 13px;
 }
 .activity-1ythUs .ellipsis-1XUmPN {
-  word-wrap: break-word;
+  white-space: normal;
 }
 
 /* No activity */

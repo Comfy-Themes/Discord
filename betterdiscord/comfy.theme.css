@@ -23,6 +23,9 @@
 :root {
 /* -- Others settings -- */
 
+/* Background image in status picker */
+--status-background: url('https://i.imgur.com/yHP6sgj.png');
+
 /* User button spacing */
 --user-buttons-spacing: 8px;
 
