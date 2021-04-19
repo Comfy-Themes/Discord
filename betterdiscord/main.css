@@ -304,7 +304,7 @@
   height: 120px;
   pointer-events: none;
   background-color: var(--background-secondary-alt);
-  background-image: var(--user-background, var(--status-background));
+  background-image: var(--status-background);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
