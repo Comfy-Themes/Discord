@@ -1099,6 +1099,7 @@
 
 /* Roles selector */
 .container-3XJ8ns {
+  z-index: 1003;
   border: none;
   padding: 0;
   background-color: #191f2e;
@@ -1112,6 +1113,27 @@
 }
 .container-3XJ8ns .item-2J2GlB {
   border-radius: 0;
+}
+.popoutRoleDot-1XPcoA { width: 0; border: none; margin: 0;}
+
+.item-2J2GlB {
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.popoutRoleDot-1XPcoA:before {
+  position: absolute;
+  border-radius: 5px;
+  content: "";
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 /* -- USRBG Small Popout -- */
@@ -1575,7 +1597,7 @@ div:not(.headerFill-adLl4x)
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   background: var(--background-secondary-alt);
 }
-.userSettingsVoice-iwdUCU .flexChild-faoVW3:not(.button-38aScr):last-child { flex: 1 !important;}
+.userSettingsVoice-iwdUCU .children-rWhLdy > :nth-child(9) .flexChild-faoVW3:last-child { flex: 1 !important;}
 
 /* Game Activity */
 .theme-dark .notDetected-33MY4s,
