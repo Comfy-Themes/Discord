@@ -1493,6 +1493,11 @@ div:not(.headerFill-adLl4x)
   background-color: #24292e62;
 }
 
+/* Mutuals */
+.root-SR8cQa .listRow-hutiT_ {
+  margin: 0; padding: 8px 12px;
+}
+
 /* -- USRBG Big Popout -- */
 :root {
   --usrbg-modal-x-offset: -180px; /*Distance from the avatar container to the edge of the modal (x)*/
@@ -1967,6 +1972,7 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .pointerEvents-2zdfdO { mask: none; pointer-events: none;}
 .pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+.pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) { rx: var(--status-radius);}
 .pointerEvents-2zdfdO[width="25"], [mask="url(#svg-mask-status-online-mobile)"] { rx: 5px;}
 .mask-1l8v16 { overflow: visible;}
@@ -1985,6 +1991,7 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 
 /* All masks in DM, user and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
+
 /* All masks except mobile and typing masks in DM, user and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
@@ -1998,9 +2005,11 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 /* Mask in the status picker */
 .avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { x: 24; y: 24;}
 
+/* Mask mutuals */
+.listAvatar-1NlAhb .pointerEvents-2zdfdO { x: 30; y: 30; stroke-width: 2.5px; }
 
 /* Adding stroke color */
-.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
+.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .listAvatar-1NlAhb .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
 .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
 
 /* Typing dots */
@@ -2121,3 +2130,11 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .slider-TkfMQL rect {
   rx: 5px;
 }
+
+/* Volume bar */
+.mini-dmm9yo { height: 25px;} .slider-1PF9SW:not(.mini-dmm9yo) { height: 50px;}
+.theme-dark .bar-2Qqk5Z { height: 15px; border-radius: 25px; background-color: var(--background-secondary);}
+.grabber-3mFHz2 { display: none;}
+
+/* Blurple the grey */
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover { background-color: var(--background-accent);}
