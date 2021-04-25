@@ -2134,16 +2134,12 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 /* Volume bar */
 .mini-dmm9yo { height: 25px;} 
 .slider-1PF9SW:not(.mini-dmm9yo) { height: 50px;}
-.theme-dark .bar-2Qqk5Z { height: 15px; border-radius: 25px; background-color: var(--background-secondary);}
-.grabber-3mFHz2 { 
-  width: 10px; height: 10px;
-  margin-top: -7.5px; margin-left: -9px; 
-  border: none; border-radius: 50%;
-  opacity: 0; 
-  transition: opacity 0.15s;
+.theme-dark .bar-2Qqk5Z { height: 15px; background-color: var(--background-secondary);}
+.slider-1PF9SW .grabber-3mFHz2 {
+  background-color: transparent;
+  box-shadow: none; border: none;
 }
-.slider-1PF9SW:hover .grabber-3mFHz2 { opacity: 1;}
-.barFill-23-gu- { border-radius: 0 25px 25px 0;}
+.barFill-23-gu- { border-radius: 0 3px 3px 0;}
 .markDash-3hAolZ { height: 22px;}
 
 /* Blurple the grey */
