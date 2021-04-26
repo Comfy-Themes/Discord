@@ -679,6 +679,9 @@
   }
 }
 
+/* Avatars in call */
+[mask="url(#svg-mask-voice-user-summary-item)"] { mask: none;}
+
 /* Game activity/call area */
 .activityPanel-28dQGo,
 .container-1giJp5 {
