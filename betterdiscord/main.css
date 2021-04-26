@@ -681,6 +681,7 @@
 
 /* Avatars in call */
 [mask="url(#svg-mask-voice-user-summary-item)"] { mask: none;}
+.voiceUserSummary-2X_2vp svg:not(.icon-1tDorc) { padding-right:0px;}
 
 /* Game activity/call area */
 .activityPanel-28dQGo,
