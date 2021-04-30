@@ -1718,10 +1718,8 @@ div:not(.headerFill-adLl4x)
 /* -- Better menus -- */
 
 /* Menu */
-.menu-3sdvDG:hover > .scroller-3BxosC,
-.menu-3sdvDG {
-  border-radius: 5px;
-}
+.menu-3sdvDG { border-radius: 5px; overflow: hidden;}
+
 .scroller-3BxosC {
   padding: 0;
 }
@@ -1748,40 +1746,6 @@ div:not(.headerFill-adLl4x)
   padding: 10px 15px;
   border-radius: 0;
   transition: 0.2s;
-}
-
-/* Label - Focus */
-.scroller-3BxosC > div > .labelContainer-1BLJti.focused-3afm-j,
-.scroller-3BxosC
-  > div
-  > .labelContainer-1BLJti:active:not(.hideInteraction-1iHO1O) {
-  border-radius: 0;
-}
-.scroller-3BxosC
-  > div:first-of-type
-  > .labelContainer-1BLJti.focused-3afm-j:first-child,
-.scroller-3BxosC > .labelContainer-1BLJti.focused-3afm-j:first-child,
-.scroller-3BxosC
-  > div:first-of-type
-  > .labelContainer-1BLJti:active:not(.hideInteraction-1iHO1O):first-of-type {
-  border-radius: 5px 5px 0 0;
-}
-.scroller-3BxosC:not(.ring-13rgEW)
-  > div:nth-last-of-type(2)
-  > .labelContainer-1BLJti.focused-3afm-j:last-child,
-.scroller-3BxosC:not(.ring-13rgEW)
-  > .labelContainer-1BLJti.focused-3afm-j:last-child,
-.scroller-3BxosC:not(.ring-13rgEW)
-  > div:nth-last-of-type(2)
-  > .labelContainer-1BLJti:active:not(.hideInteraction-1iHO1O):last-of-type,
-.scroller-3BxosC
-  > div:nth-last-of-type(3)
-  > .labelContainer-1BLJti.focused-3afm-j:last-child,
-.scroller-3BxosC > .labelContainer-1BLJti.focused-3afm-j:last-child,
-.scroller-3BxosC
-  > div:nth-last-of-type(3)
-  > .labelContainer-1BLJti:active:not(.hideInteraction-1iHO1O):last-of-type {
-  border-radius: 0 0 5px 5px;
 }
 
 /* Coloured status when playing */
