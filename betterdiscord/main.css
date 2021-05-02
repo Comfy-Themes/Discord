@@ -78,7 +78,7 @@
 }
 
 /* Friend activities */
-.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
   background: var(--background-tertiary);
 }
 .theme-dark .inset-3sAvek {
@@ -1944,7 +1944,7 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) { rx: var(--status-radius);}
 .pointerEvents-2zdfdO[width="25"], [mask="url(#svg-mask-status-online-mobile)"] { rx: 5px;}
-.mask-1l8v16 { overflow: visible;}
+.mask-1l8v16, .userInfo-2zN2z8 { overflow: visible;}
 
 /* Fixing weird Discord behavior */
 .cursorDefault-dsQJ1n, .mask-1l8v16 > svg { overflow: visible;}
@@ -1959,27 +1959,41 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 { display: none;}
 
 /* All masks in DM, user and member part */
-.channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { height: 12px; y: 24; stroke-width: 2.5px; }
+.channel-2QD9_O .pointerEvents-2zdfdO, 
+.members-1998pB .pointerEvents-2zdfdO, 
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO,
+.peopleListItem-2nzedh .pointerEvents-2zdfdO,
+.nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO
+{ height: 12px; y: 24; stroke-width: 2.5px; }
 
 /* All masks except mobile and typing masks in DM, user and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
 .members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { width: 12px; x: 24;}
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO,
+.peopleListItem-2nzedh .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+.nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]) { width: 12px; x: 24;}
 
 /* All mobile masks in DM and member part */
 .channel-2QD9_O .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
-.members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]
+.members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+.peopleListItem-2nzedh .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+.nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+.menu-3sdvDG .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]
 { width: 12px; height: 16px; x: 24; y: 20;}
 
 /* Mask in the status picker */
 .avatarWrapper-2yR4wp[aria-expanded="true"] .pointerEvents-2zdfdO { x: 24; y: 24;}
 
-/* Mask mutuals */
+/* Mutuals status */
 .listAvatar-1NlAhb .pointerEvents-2zdfdO { x: 30; y: 30; stroke-width: 2.5px; }
 
+/* Status in menu */
+.menu-3sdvDG .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) { width: 10px; height: 10px; stroke-width: 2.5px;}
+
 /* Adding stroke color */
+.nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO, .menu-3sdvDG .pointerEvents-2zdfdO { stroke: var(--background-tertiary);}
 .channel-2QD9_O .pointerEvents-2zdfdO, .members-1998pB .pointerEvents-2zdfdO, .listAvatar-1NlAhb .pointerEvents-2zdfdO { stroke: var(--background-secondary-alt);}
-.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO { stroke: var(--background-primary);}
+.avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO, .peopleListItem-2nzedh .pointerEvents-2zdfdO { stroke: var(--background-primary);}
 
 /* Typing dots */
 .dots-3Bkt3k { overflow: visible;}
