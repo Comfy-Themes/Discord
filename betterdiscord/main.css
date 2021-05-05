@@ -2132,6 +2132,9 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 /* Fix enable community issue */
 .sparkles-fvfHK0 { z-index: unset;}
 
+/* Fix background status not displaying with RadialStatus */
+#app-mount .wrapper-3t9DeA:before { content: '' !important;}
+
 /* -- Donators -- */
 
 /* PANIC#6666 */
