@@ -15,7 +15,7 @@ git clone https://github.com/NYRI4/Comfy-git-clone
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.net/ghdl?id=3550)
+1. Go [here](https://betterdiscord.app/Download?id=130)
 2. Save the file into your theme folder
 
 ## 🖌️ Customization
