@@ -2150,6 +2150,9 @@ rect[mask="url(#svg-mask-status-online-offline)"] {
 .premiumTabItem-1QTfBr .flex-1xMQg5 { flex-direction: row-reverse; justify-content: flex-end;}
 .premiumTabItem-1QTfBr .flex-1xMQg5 .icon-Zc-uZZ { margin-right: 5px;}
 
+/* Token thing */
+.theme-dark .contentWarningPopout-n5JsIs { background-color: var(--background-primary); box-shadow: none;}
+
 /* -- Donators -- */
 
 /* PANIC#6666 */
