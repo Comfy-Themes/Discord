@@ -78,8 +78,12 @@
 }
 
 /* Friend activities */
-.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-  background: var(--background-tertiary);
+.nowPlayingColumn-2sl4cE { background: var(--background-secondary-alt);}
+.nowPlayingColumn-2sl4cE .scroller-2ZPeAD { border-left: none;}
+.theme-dark .itemCard-v9viV7 { border: none;}
+
+.theme-dark .itemCard-v9viV7.active-1xchHY, .theme-dark .itemCard-v9viV7.interactive-3B9GmY:hover {
+  background: var(--background-secondary-alt);
 }
 .theme-dark .inset-3sAvek {
   background: var(--background-secondary-alt);
@@ -1808,21 +1812,14 @@ div:not(.headerFill-adLl4x)
 
 /* Coloured status when playing */
 rect[mask="url(#svg-mask-status-online)"],
-rect[mask="url(#svg-mask-status-online-mobile)"] {
-  fill: var(--online);
-}
-rect[mask="url(#svg-mask-status-idle)"],
-rect[mask="url(#svg-mask-status-online-idle)"] {
-  fill: var(--iddle);
-}
-rect[mask="url(#svg-mask-status-dnd)"],
-rect[mask="url(#svg-mask-status-online-dnd)"] {
-  fill: var(--dnd);
-}
-rect[mask="url(#svg-mask-status-offline)"],
-rect[mask="url(#svg-mask-status-online-offline)"] {
-  fill: var(--offline);
-}
+rect[mask="url(#svg-mask-status-online-mobile)"] { fill: var(--online);}
+rect[mask="url(#svg-mask-status-idle)"] { fill: var(--iddle);}
+rect[mask="url(#svg-mask-status-dnd)"] { fill: var(--dnd);}
+rect[mask="url(#svg-mask-status-offline)"] { fill: var(--offline);}
+rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
+
+/* Basic value */
+:root { --streaming: #593695;}
 
 /* Joining message */
 .theme-dark .contentWrapper-3WC1ID {
