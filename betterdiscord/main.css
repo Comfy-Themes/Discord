@@ -838,6 +838,10 @@
   opacity: 1;
 }
 
+/* Support for server folder */
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: 0.3s linear;}
+.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: 72px;}
+
 /* Hiding old user things emplacement */
 .avatarWrapper-2yR4wp[aria-expanded="false"] + .nameTag-3uD-yy,
 .avatarWrapper-2yR4wp + .nameTag-3uD-yy .subtext-3CDbHg {
