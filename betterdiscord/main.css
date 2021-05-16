@@ -1062,17 +1062,15 @@
   text-indent: -1000px;
   overflow: hidden;
 }
-.headerSpotify-zpWxgT
-  .buttonsWrapper-2spIeK
-  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+.headerSpotify-zpWxgT .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   border: none;
   background-color: #e1f1e6;
   box-shadow: 0 4px 15px #1e9148; 
   color: #1db954;
   transition: 0.15s;
 }
-.headerSpotify-zpWxgT .buttonsWrapper-2spIeK .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { background-color: #fff;}
-.headerSpotify-zpWxgT .buttonsWrapper-2spIeK .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active { transform: translateY(1px);}
+.headerSpotify-zpWxgT .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { background-color: #fff;}
+.headerSpotify-zpWxgT .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active { transform: translateY(1px);}
 
 .disabledButtonWrapper-3wH6-b {
   width: unset;
@@ -1096,8 +1094,7 @@
 }
 
 /* Streaming card */
-.headerStreaming-2FjmGz  .buttonsWrapper-2spIeK
-  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+.headerStreaming-2FjmGz .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   border: none;
   background-color: #eeebf3;
   box-shadow: 0 4px 15px #432479; 
@@ -1377,8 +1374,8 @@ div:not(.headerFill-adLl4x)
   color: #7289da;
   transition: 0.15s;
 }
-.topSectionPlaying-1J5E4n .headerFill-adLl4x .button-2IFFQ4:hover { background-color: #fff;}
-.topSectionPlaying-1J5E4n .headerFill-adLl4x .button-2IFFQ4:active { 
+.topSectionPlaying-1J5E4n .headerFill-adLl4x .button-38aScr:hover { background-color: #fff;}
+.topSectionPlaying-1J5E4n .headerFill-adLl4x .button-38aScr:active { 
   box-shadow: none;
   transform: translateY(1px);
 }
@@ -1396,7 +1393,7 @@ div:not(.headerFill-adLl4x)
   text-indent: -1000px;
   overflow: hidden;
 }
-.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-2IFFQ4 { 
+.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-38aScr { 
   border: none;
   background-color: #e1f1e6;
   box-shadow: 0 4px 15px #1f944a; 
@@ -1404,8 +1401,8 @@ div:not(.headerFill-adLl4x)
   transition: 0.15s;
   min-width: 50%;
 }
-.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-2IFFQ4:hover { background-color: #fff;}
-.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-2IFFQ4:active { 
+.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-38aScr:hover { background-color: #fff;}
+.topSectionSpotify-1lI0-P .headerFill-adLl4x .button-38aScr:active { 
   box-shadow: none;
   transform: translateY(1px);
 }
@@ -1419,15 +1416,15 @@ div:not(.headerFill-adLl4x)
   background: #593695;
   box-shadow: 0px 4px 0px #47287c;
 }
-.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-2IFFQ4 { 
+.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-38aScr { 
   border: none;
   background-color: #eeebf3;
   box-shadow: 0 4px 15px #432479; 
   color: #593695;
   transition: linear 0.15s;
 }
-.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-2IFFQ4:hover { background-color: #fff;}
-.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-2IFFQ4:active { 
+.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-38aScr:hover { background-color: #fff;}
+.topSectionStreaming-1Tpf5X .headerFill-adLl4x .button-38aScr:active { 
   box-shadow: none;
   transform: translateY(1px);
 }
