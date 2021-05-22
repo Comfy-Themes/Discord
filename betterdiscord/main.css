@@ -609,7 +609,7 @@
   padding-right: 15px;
 }
 .tile-2naSqK { background-color: var(--background-secondary-alt);}
-.tile-2naSqK .button-3HqqDX { background-color: var(--brand-experiment);}
+.tile-2naSqK .button-3HqqDX, .theme-dark .buttonColor-2Nx30V { background-color: var(--brand-experiment);}
 
 /* -- Notification -- */
 .container-1taM1r {
@@ -2182,6 +2182,17 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 .barFill-23-gu- { border-radius: 0 3px 3px 0;}
 .markDash-3hAolZ { height: 22px;}
 
+/* Bigger stream preview popout */
+.streamPreview-2-WUWT { width: 370px;}
+.streamPreview-2-WUWT .previewContainer-12UlHl { height: 100%; background-color: var(--background-secondary);}
+.streamPreview-2-WUWT .button-38aScr { 
+  border: none;
+  background-color: #e9edff;
+  color: var(--background-tertiary);
+  transition: 0.15s;
+}
+.streamPreview-2-WUWT .button-38aScr:hover { background-color: #fff;}
+
 /* Blurple the grey */
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover { background-color: var(--brand-experiment);}
 
@@ -2193,8 +2204,10 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 
 /* Revert font + fix nitro icon */
 :root { --font-display: var(--font-primary) !important;}
-.premiumTabItem-1QTfBr .flex-1xMQg5 { flex-direction: row-reverse; justify-content: flex-end;}
-.premiumTabItem-1QTfBr .flex-1xMQg5 .icon-Zc-uZZ { margin-right: 5px;}
+.premiumTabItem-1QTfBr .flex-1xMQg5,
+.serverBoostTabItem-2hFTIN .flex-1xMQg5 { flex-direction: row-reverse; justify-content: flex-end;}
+.premiumTabItem-1QTfBr .flex-1xMQg5 .icon-Zc-uZZ,
+.serverBoostTabItem-2hFTIN .flex-1xMQg5 .icon-3Povsy { margin-right: 5px;}
 
 /* Token thing */
 .theme-dark .contentWarningPopout-n5JsIs { background-color: var(--background-primary); box-shadow: none;}
