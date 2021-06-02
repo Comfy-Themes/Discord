@@ -2232,11 +2232,11 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 /* -- Donators -- */
 
 /* - Badge - */
-[aria-label^="Qvas"] .profileBadges-1dm1_q > :last-child,
-[aria-label^="PANIC"] .profileBadges-1dm1_q > :last-child { margin-right: 30px;}
+[aria-label^="Qvas"] .profileBadges-3cJaE1 > :last-child,
+[aria-label^="PANIC"] .profileBadges-3cJaE1 > :last-child { margin-right: 30px;}
 
-[aria-label^="Qvas"] .profileBadges-1dm1_q::before,
-[aria-label^="PANIC"] .profileBadges-1dm1_q::before { 
+[aria-label^="Qvas"] .profileBadges-3cJaE1::before,
+[aria-label^="PANIC"] .profileBadges-3cJaE1::before { 
   content: ""; position: absolute;
   width: 90px; height: 90px;
   right: 0; pointer-events: none;
@@ -2244,8 +2244,8 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
   background-size: 24%;
   background-position: right top;
 }
-[aria-label^="Qvas"] .profileBadges-1dm1_q:hover::before,
-[aria-label^="PANIC"] .profileBadges-1dm1_q:hover::before {
+[aria-label^="Qvas"] .profileBadges-3cJaE1:hover::before,
+[aria-label^="PANIC"] .profileBadges-3cJaE1:hover::before {
   content: "Donator";
   display: flex;
   justify-content: flex-end;
