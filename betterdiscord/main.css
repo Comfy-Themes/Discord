@@ -659,10 +659,9 @@
 
 /* Unread pill */
 .unread-2lAfLh {
-  top: 54%;
-  left: 5px;
-  width: 6px;
-  height: 6px;
+  top: 54%; left: 5px;
+  width: 6px; height: 6px;
+  z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
   animation: 2s channel-unread infinite;
