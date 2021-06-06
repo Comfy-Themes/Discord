@@ -1013,7 +1013,7 @@
 .userPopout-3XzG_A { box-shadow: 0 0 10px 0 #101320d2;}
 .userPopout-3XzG_A > * { background: var(--background-secondary);}
 
-.userPopout-3XzG_A .avatar-22FtUu { border: none;}
+.userPopout-3XzG_A .avatar-22FtUu { border: none; background: transparent;}
 .footer-1fjuF6 .inputDefault-_djjkz {
   border: none;
   background: var(--background-secondary-alt);
@@ -2216,7 +2216,7 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 .sparkles-fvfHK0 { z-index: unset;}
 
 /* Fix background status not displaying with RadialStatus */
-#app-mount .wrapper-3t9DeA:before { content: '' !important;}
+:root #app-mount .wrapper-3t9DeA:before { content: '' !important;}
 
 /* Revert font + fix nitro icon */
 :root { --font-display: var(--font-primary) !important;}
