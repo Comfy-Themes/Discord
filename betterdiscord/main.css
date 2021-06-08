@@ -309,7 +309,7 @@
 }
 
 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {
-  content: '';
+  content: '' !important;
   position: absolute;
   top: -8px;
   left: -75px;
@@ -1010,10 +1010,10 @@
 /* --------------------------- 👥 MEMBERS PART --------------------------- */
 
 /* -- Member popout -- */
-.userPopout-3XzG_A { box-shadow: 0 0 10px 0 #101320d2;}
-.userPopout-3XzG_A > * { background: var(--background-secondary);}
+.userPopout-xaxa6l { box-shadow: 0 0 10px 0 #101320d2;}
+.userPopout-xaxa6l > * { background: var(--background-secondary);}
 
-.userPopout-3XzG_A .avatar-22FtUu { border: none; background: transparent;}
+.userPopout-xaxa6l .avatar-37jOim { border: none; background: transparent;}
 .footer-1fjuF6 .inputDefault-_djjkz {
   border: none;
   background: var(--background-secondary-alt);
@@ -1036,7 +1036,7 @@
 .theme-dark .newPopoutActivityStyles .details-38sfDr, .theme-dark .newPopoutActivityStyles .name-29ETJS, 
 .theme-dark .newPopoutActivityStyles .nameNormal-2lqVQK, .theme-dark .newPopoutActivityStyles .nameWrap-3Z4G_9  { color: white;}
 
-.theme-dark .userPopout-3XzG_A .spotifyIcon-2J9kSv { display: none;}
+.theme-dark .userPopout-xaxa6l .spotifyIcon-2J9kSv { display: none;}
 .activityUserPopout-2yItg2 { z-index: 1;}
 
 .theme-dark .activityUserPopout-2yItg2 .button-38aScr {
@@ -1048,7 +1048,7 @@
 }
 
 /* Playing */
-.userPopout-3XzG_A .contentGameImageUserPopout-2KWIsz::after {
+.userPopout-xaxa6l .contentGameImageUserPopout-2KWIsz::after {
   content: ""; position: absolute;
   width: 400px; height: 300px; z-index: -1;
   margin-left: -120px; margin-top: -200px;
@@ -1061,36 +1061,36 @@
   background: #7289da;
 }
 
-.userPopout-3XzG_A .contentGameImageUserPopout-2KWIsz + div .button-38aScr {
+.userPopout-xaxa6l .contentGameImageUserPopout-2KWIsz + div .button-38aScr {
   border: none;
   background-color: #e9edff;
   box-shadow: 0px 4px 15px #6478c2;
   color: #7289da;
   transition: 0.15s;
 }
-.userPopout-3XzG_A .contentGameImageUserPopout-2KWIsz + div .button-38aScr:hover { background-color: #fff;}
-.userPopout-3XzG_A .contentGameImageUserPopout-2KWIsz + div .button-38aScr:active { 
+.userPopout-xaxa6l .contentGameImageUserPopout-2KWIsz + div .button-38aScr:hover { background-color: #fff;}
+.userPopout-xaxa6l .contentGameImageUserPopout-2KWIsz + div .button-38aScr:active { 
   box-shadow: none;
   transform: translateY(1px);
 }
 
 /* Spotify */
-.userPopout-3XzG_A .timeBarUserPopout-AWPFf2::after {
+.userPopout-xaxa6l .timeBarUserPopout-AWPFf2::after {
   content: ""; position: absolute;
   width: 320px; height: 300px; z-index: -1;
   margin-left: -35px; margin-top: -200px;
   background: #1db954;
 }
 
-.userPopout-3XzG_A .timeBarUserPopout-AWPFf2 + div .button-38aScr {
+.userPopout-xaxa6l .timeBarUserPopout-AWPFf2 + div .button-38aScr {
   border: none;
   background-color: #e1f1e6;
   box-shadow: 0 4px 15px #1e9148; 
   color: #1db954;
   transition: 0.15s;
 }
-.userPopout-3XzG_A .timeBarUserPopout-AWPFf2 + div .button-38aScr:hover { background-color: #fff;}
-.userPopout-3XzG_A .timeBarUserPopout-AWPFf2 + div .button-38aScr:active { 
+.userPopout-xaxa6l .timeBarUserPopout-AWPFf2 + div .button-38aScr:hover { background-color: #fff;}
+.userPopout-xaxa6l .timeBarUserPopout-AWPFf2 + div .button-38aScr:active { 
   box-shadow: none;
   transform: translateY(1px);
 }
@@ -1162,37 +1162,37 @@
 }
 
 /* -- USRBG for popouts -- */
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
 	overflow: hidden;
 	transform: translateZ(0) !important;
 	--USRBG-banner-height: 60px;
 }
 
-.userPopout-3XzG_A[style*="-user-"] {
+.userPopout-xaxa6l[style*="-user-"] {
 	--USRBG-banner-height: 120px;
 	--USRBG-avatar-offset: 76px;
 }
 
-.userPopout-3XzG_A[style*="-user-"] .profileBanner-33-uE1 {
+.userPopout-xaxa6l[style*="-user-"] .profileBanner-33-uE1 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position, center) center;
 	background-image: var(--user-background);
 }
 
-.userPopout-3XzG_A[style*="-user-"] .profileBanner-33-uE1 {
+.userPopout-xaxa6l[style*="-user-"] .profileBanner-33-uE1 {
 	height: var(--USRBG-banner-height, 120px);
 }
 
-.userPopout-3XzG_A[style*="-user-"] .avatarWrapperNormal-2tu8Ts {
+.userPopout-xaxa6l[style*="-user-"] .avatarWrapperNormal-26WQIb {
   	top: var(--USRBG-avatar-offset, 76px);
 }
 
-.userPopout-3XzG_A:not([style*="-user-"]) .avatar-22FtUu {
+.userPopout-xaxa6l:not([style*="-user-"]) .avatar-37jOim {
 	z-index: 1;
 }
 
-.userPopout-3XzG_A:not([style*="-user-"]) .avatar-22FtUu::after {
+.userPopout-xaxa6l:not([style*="-user-"]) .avatar-37jOim::after {
 	content: '';
 	position: fixed;
 	top: 0;
@@ -2009,7 +2009,7 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 
 /* Fixing weird Discord behavior */
 .cursorDefault-dsQJ1n, .mask-1l8v16 > svg { overflow: visible;}
-.userPopout-3XzG_A .mask-1l8v16 > svg > mask > rect:first-child { x: 18; y: 14 !important; ry: var(--status-radius);}
+.userPopout-xaxa6l .mask-1l8v16 > svg > mask > rect:first-child { x: 18; y: 14 !important; ry: var(--status-radius);}
 :not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y: 8; rx: var(--status-radius);}
 .mask-1l8v16 > svg > mask > rect[width="10"]:first-child { x: 8; width: 14px; height: 11px;}
 .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect { height: 25px; mask: none; x: 10; y: 8; width: 10px; height: 10px; rx: var(--status-radius);}
@@ -2061,14 +2061,14 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 .dots-3Bkt3k circle { cy: 5.5;}
 
 /* Masks in user popouts */
-.userPopout-3XzG_A .pointerEvents-2zdfdO { 
+.userPopout-xaxa6l .pointerEvents-2zdfdO { 
   x: 66; y: 66; width: 20px; height: 20px;
   rx: calc(var(--status-radius) + 1px) !important;
   stroke-width: 4px; stroke: var(--background-tertiary); 
 }
 
 /* Mobile masks in user popouts */
-.userPopout-3XzG_A .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] { 
+.userPopout-xaxa6l .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] { 
   x: 64; y: 56;
   height: 28px;
   rx: 8px !important;
@@ -2214,9 +2214,6 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 
 /* Fix enable community issue */
 .sparkles-fvfHK0 { z-index: unset;}
-
-/* Fix background status not displaying with RadialStatus */
-:root #app-mount .wrapper-3t9DeA:before { content: '' !important;}
 
 /* Revert font + fix nitro icon */
 :root { --font-display: var(--font-primary) !important;}
