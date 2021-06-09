@@ -2184,10 +2184,12 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 
 /* - Badge - */
 [aria-label^="Qvas"] .profileBadges-3cJaE1 > :last-child,
-[aria-label^="PANIC"] .profileBadges-3cJaE1 > :last-child { margin-right: 30px;}
+[aria-label^="PANIC"] .profileBadges-3cJaE1 > :last-child,
+[aria-label^="Noteless"] .profileBadges-3cJaE1 > :last-child { margin-right: 30px;}
 
 [aria-label^="Qvas"] .profileBadges-3cJaE1::before,
-[aria-label^="PANIC"] .profileBadges-3cJaE1::before { 
+[aria-label^="PANIC"] .profileBadges-3cJaE1::before,
+[aria-label^="Noteless"] .profileBadges-3cJaE1::before { 
   content: ""; position: absolute;
   width: 90px; height: 90px;
   right: 0; pointer-events: none;
@@ -2196,7 +2198,8 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
   background-position: right top;
 }
 [aria-label^="Qvas"] .profileBadges-3cJaE1:hover::before,
-[aria-label^="PANIC"] .profileBadges-3cJaE1:hover::before {
+[aria-label^="PANIC"] .profileBadges-3cJaE1:hover::before,
+[aria-label^="Noteless"] .profileBadges-3cJaE1:hover::before {
   content: "Donator";
   display: flex;
   justify-content: flex-end;
@@ -2206,7 +2209,9 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 .members-1998pB .wrapper-3t9DeA[data-user-id="596812194906374167"]::before,
 .members-1998pB .wrapper-3t9DeA[vz-user-id="596812194906374167"]::before,
 .members-1998pB .wrapper-3t9DeA[data-user-id="193188089756123136"]::before,
-.members-1998pB .wrapper-3t9DeA[vz-user-id="193188089756123136"]::before
+.members-1998pB .wrapper-3t9DeA[vz-user-id="193188089756123136"]::before,
+.members-1998pB .wrapper-3t9DeA[data-user-id="281376608038813696"]::before,
+.members-1998pB .wrapper-3t9DeA[vz-user-id="281376608038813696"]::before
 {
   content: ""; position: absolute;
   width: 18px; height: 14px;
@@ -2273,8 +2278,40 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
   -webkit-text-fill-color: transparent;
 }
 
+/* - Noteless#0666 - Animated gradient username */
+
+/* Messages */
+[data-author-id="281376608038813696"] .username-1A8OIy,
+[vz-user-id="281376608038813696"] .username-1A8OIy,
+[data-user-id="281376608038813696"] .username-1A8OIy,
+
+/* Modal */
+[data-user-id="281376608038813696"] + .headerInfo-1Y1Vge .username-2b1r56,
+[vz-user-id="281376608038813696"] .username-2b1r56,
+[data-user-id="281376608038813696"] .username-2b1r56,
+
+/* Popout */
+[aria-label="Noteless"] .username-2b1r56,
+
+/* Friend list */
+.privateChannels-1nO12o [vz-user-id="281376608038813696"] .overflow-WK9Ogt,
+.privateChannels-1nO12o [data-user-id="281376608038813696"] .overflow-WK9Ogt,
+.privateChannels-1nO12o [aria-label^="Noteless"] .overflow-WK9Ogt { 
+  animation: flow2 10s linear infinite;
+  background: linear-gradient(-60deg, #ffffff4f 0, transparent 50%, transparent 100%);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @keyframes flow {
   0% { background-position: 0 50%;}
   50% { background-position: 300% 50%;}
+  100% { background-position: 0 50%;}
+}
+
+@keyframes flow2 {
+  0% { background-position: 300% 50%;}
   100% { background-position: 0 50%;}
 }
