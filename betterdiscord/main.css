@@ -2224,25 +2224,35 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
   pointer-events: none;
 }
 
-/* - PANIC#6666 - Animated gradient blue username */
+/* - PANIC#6666 & Noteless#0666 - Animated gradient blue username */
 
 /* Messages */
 [data-author-id="193188089756123136"] .username-1A8OIy,
 [vz-user-id="193188089756123136"] .username-1A8OIy,
 [data-user-id="193188089756123136"] .username-1A8OIy,
+[data-author-id="281376608038813696"] .username-1A8OIy,
+[vz-user-id="281376608038813696"] .username-1A8OIy,
+[data-user-id="281376608038813696"] .username-1A8OIy,
 
 /* Modal */
 [data-user-id="193188089756123136"] + .headerInfo-1Y1Vge .username-2b1r56,
 [vz-user-id="193188089756123136"] .username-2b1r56,
 [data-user-id="193188089756123136"] .username-2b1r56,
+[data-user-id="281376608038813696"] + .headerInfo-1Y1Vge .username-2b1r56,
+[vz-user-id="281376608038813696"] .username-2b1r56,
+[data-user-id="281376608038813696"] .username-2b1r56,
 
 /* Popout */
 [aria-label="PANIC"] .username-2b1r56,
+[aria-label="Noteless"] .username-2b1r56,
 
 /* Friend list */
 .privateChannels-1nO12o [vz-user-id="193188089756123136"] .overflow-WK9Ogt,
 .privateChannels-1nO12o [data-user-id="193188089756123136"] .overflow-WK9Ogt,
-.privateChannels-1nO12o [aria-label^="PANIC"] .overflow-WK9Ogt { 
+.privateChannels-1nO12o [aria-label^="PANIC"] .overflow-WK9Ogt,
+.privateChannels-1nO12o [vz-user-id="281376608038813696"] .overflow-WK9Ogt,
+.privateChannels-1nO12o [data-user-id="281376608038813696"] .overflow-WK9Ogt,
+.privateChannels-1nO12o [aria-label^="Noteless"] .overflow-WK9Ogt { 
   animation: flow 10s ease-in-out infinite;
   background: linear-gradient(-60deg, #1a8ce9 40%, #03111b 80%, #1a8ce9 100%);
   background-size: 300%;
@@ -2278,40 +2288,8 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
   -webkit-text-fill-color: transparent;
 }
 
-/* - Noteless#0666 - Animated gradient username */
-
-/* Messages */
-[data-author-id="281376608038813696"] .username-1A8OIy,
-[vz-user-id="281376608038813696"] .username-1A8OIy,
-[data-user-id="281376608038813696"] .username-1A8OIy,
-
-/* Modal */
-[data-user-id="281376608038813696"] + .headerInfo-1Y1Vge .username-2b1r56,
-[vz-user-id="281376608038813696"] .username-2b1r56,
-[data-user-id="281376608038813696"] .username-2b1r56,
-
-/* Popout */
-[aria-label="Noteless"] .username-2b1r56,
-
-/* Friend list */
-.privateChannels-1nO12o [vz-user-id="281376608038813696"] .overflow-WK9Ogt,
-.privateChannels-1nO12o [data-user-id="281376608038813696"] .overflow-WK9Ogt,
-.privateChannels-1nO12o [aria-label^="Noteless"] .overflow-WK9Ogt { 
-  animation: flow2 10s linear infinite;
-  background: linear-gradient(-60deg, #ffffff4f 0, transparent 50%, transparent 100%);
-  background-size: 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @keyframes flow {
   0% { background-position: 0 50%;}
   50% { background-position: 300% 50%;}
-  100% { background-position: 0 50%;}
-}
-
-@keyframes flow2 {
-  0% { background-position: 300% 50%;}
   100% { background-position: 0 50%;}
 }
