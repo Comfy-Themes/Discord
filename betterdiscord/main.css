@@ -1165,10 +1165,6 @@
 	height: var(--USRBG-banner-height, 120px);
 }
 
-.userPopout-xaxa6l[style*="-user-"] .avatarWrapperNormal-26WQIb {
-  	top: var(--USRBG-avatar-offset, 76px);
-}
-
 .userPopout-xaxa6l:not([style*="-user-"]) .avatar-37jOim {
 	z-index: 1;
 }
