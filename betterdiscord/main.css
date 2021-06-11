@@ -1247,6 +1247,8 @@
   margin: calc(var(--avatar-width) + 20px) 0 10px 0;
   justify-content: center;
 }
+.topSection-y3p-_D .discriminator-1swucG { display: none;}
+
 .customStatusActivity-nmH3DF {
   grid-area: status; padding: 20px 0 0 0;
   text-align: center;
