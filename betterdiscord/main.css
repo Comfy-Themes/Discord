@@ -1468,7 +1468,7 @@
 }
 
 .root-3QyAh1[style*="-user-"] {
-	--USRBG-banner-height: calc(100% - 140px);
+	--USRBG-banner-height: 100%;
 	--USRBG-avatar-offset: 76px;
 }
 
