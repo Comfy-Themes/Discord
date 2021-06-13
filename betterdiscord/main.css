@@ -1270,6 +1270,7 @@
 .customStatus-1COQYu { 
   display: flex; flex-direction: column;
   align-items: center; gap: 15px;
+  color: white;
 }
 .customStatus-1COQYu .customStatusEmoji-1xY2Yn { width: 40px; height: 40px;}
 
