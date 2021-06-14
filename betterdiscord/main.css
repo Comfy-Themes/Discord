@@ -1212,7 +1212,7 @@
 .topSection-y3p-_D > header {
   display: flex; flex-direction: column-reverse;
   width: 200px;
-  background: var(--background-secondary);
+  background: var(--deprecated-card-bg);
   padding: 15px; margin: 20px 0 0 20px;
   border-radius: 5px 5px 0 0;
 }
