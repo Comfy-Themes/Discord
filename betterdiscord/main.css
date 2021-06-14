@@ -1146,7 +1146,6 @@
 /* -- USRBG for popouts -- */
 .userPopout-xaxa6l {
 	overflow: hidden;
-	transform: translateZ(0) !important;
 	--USRBG-banner-height: 60px;
 }
 
@@ -1468,7 +1467,6 @@
 /* -- USRBG for modals -- */
 .root-3QyAh1 {
 	overflow: hidden;
-	transform: translateZ(0) !important;
 	--USRBG-banner-height: 60px;
 }
 
