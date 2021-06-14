@@ -1316,6 +1316,10 @@
   background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");
 }
 
+.noTabBar-3ZjPNR {
+  border-top: none;
+}
+
 .body-r6_QPy { 
   z-index: 1;
   background-color: var(--background-secondary);
