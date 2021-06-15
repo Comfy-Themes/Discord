@@ -1,0 +1,68 @@
+:root {
+
+// GameActivity support
+#GameActivityToggleBtn .st0 {
+  fill: var(--user-buttons-color);
+}
+
+// Game Activity Toggle
+#status-picker [aria-label="Hide Game Activity"]::after,
+#status-picker [aria-label="Show Game Activity"]::after {
+  content: "Not supported in this area";
+}
+
+// CustomStatusPresets
+#status-picker .submenuContainer-2gbm7M { grid-column: 1/5;}
+
+// PermisssionViewer, thx _david_
+#permissions-modal-wrapper {
+
+  #permissions-modal {
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .header {
+    background: var(--background-tertiary) !important;
+    text-align: center !important;
+  }
+
+  .role-side, .perm-side { background: var(--background-secondary) !important;}
+}
+
+// Member Count
+#MemberCount { background-color: var(--background-secondary) !important;}
+
+// Server folder
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: margin 0.3s linear;}
+.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: 72px;}
+
+// Powercord update toast
+.powercord-toast {
+  border: none;
+
+  & > .buttons > .lookOutlined-3sRXeN.colorGrey-2DXtkV {
+    color: #fff;
+    border: none;
+  }
+}
+
+// Vizality
+.channel-2QD9_O { max-width: unset;}
+[href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
+.vz-dashboard-sidebar-subitem-inner.layout-2DM8Md { padding: 12px !important;}
+.vz-dashboard-sidebar-item-inner.layout-2DM8Md { padding: 5px 8px !important;}
+.vz-c-settings-item { background: var(--background-secondary);}
+.vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
+.vz-toast-buttons .lookOutlined-3sRXeN.colorGrey-2DXtkV { color: #fff; border: none;} 
+.content-98HsJk .vz-dashboard-sidebar[vz-collapsed] { --vz-dashboard-sidebar-width: 50px;}
+.vz-dashboard-sidebar[vz-collapsed] .nameTag-3uD-yy+div { display: flex;}
+
+// Vizality connections plugin
+.ud-connections > div > img {
+  border-radius: 5px;
+  padding: 3px;
+  margin: 3px;
+}
+
+}

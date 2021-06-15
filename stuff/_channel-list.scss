@@ -1,0 +1,216 @@
+:root {
+
+// -- Guild header popout --
+#guild-header-popout {
+
+  .item-1tOPte {
+    flex-direction: row-reverse;
+
+    .iconContainer-2-XQPY { margin: 0 8px 0 0;}
+  }
+
+  // Boost
+  &-premium-subscribe {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #ff73fa1c; border-radius: 5px 5px 0 0;}
+    .icon-LYJorE { color: #ff73fa;}
+  }
+
+  // Invite
+  &-invite-people {
+    color: #677bc4;
+
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #677bc41e;}
+    .icon-LYJorE { color: #677bc4;}
+  }
+  
+  // Settings
+  &-settings {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #546e7a1e;}
+    .icon-LYJorE { color: #546e7a;}
+  }
+  
+  // Insights
+  &-insights {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #1abc9c23;}
+    .icon-LYJorE { color: #1abc9c;}
+  }
+  
+  // Create channel
+  &-create-channel {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #e91e6221;}
+    .icon-LYJorE { color: #e91e63;}
+  }
+  
+  // Create category
+  &-create-category {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #eaa14e13;}
+    .icon-LYJorE { color: #eaa14e;}
+  }
+  
+  // Notifications
+  &-notifications {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #e9bb4815;}
+    .icon-LYJorE { color: #fcd462;}
+  }
+  
+  // Privacy
+  &-privacy {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #4a83d418;}
+    .icon-LYJorE { color: #4a84d4;}
+  }
+  
+  // Nickname
+  &-change-nickname {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #43b58218;}
+    .icon-LYJorE { color: #43b581;}
+  }
+  
+  // Hide muted channels
+  &-hide-muted-channels {
+    &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #5c6eb117;}
+    &:hover svg > path {
+      &:first-child { color: var(--control-brand-foreground);}
+      &:last-child { color: #fff;}
+    }
+  }
+}
+  
+// Categories arrows
+.mainContent-2h-GEV .arrow-gKvcEx { display: none;}
+
+// -- Notification --
+.container-1taM1r {
+  background: var(--background-secondary);
+  z-index: 3;
+}
+
+.unreadTop-3rAB3r {
+  top: -9px; z-index: 2;
+  width: 100%; padding: 0;
+
+  .unreadBar-3t3sYc {
+    &.mention-1f5kbO {
+      border-radius: 0;
+      background: linear-gradient(var(--mention-color), #0000);
+    }
+
+    &.unread-1xRYoj {
+      border-radius: 0;
+      background: linear-gradient(var(--unread-color), #0000);
+    }
+  }
+}
+
+.unreadBottom-1_LF_w {
+  width: 100%; height: 15px;
+  padding: 0;
+
+  .unreadBar-3t3sYc {
+    &.mention-1f5kbO {
+      border-radius: 0;
+      background: linear-gradient(#0000, var(--mention-color));
+    }
+
+    &.unread-1xRYoj {
+      border-radius: 0;
+      background: linear-gradient(#0000, var(--unread-color));
+    }
+  }
+}
+
+.unreadBar-3t3sYc > .text-2e2ZyG { display: none;}
+  
+// Mention pill
+.mentionsBadge-3tC7Mi .numberBadge-2s8kKX { 
+  animation: 2s channel-mention infinite;
+
+  @keyframes channel-mention {
+    0% { box-shadow: 0 0 0 0 var(--mention-color);}
+    70% { box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);}
+    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+  }
+}
+  
+// Unread pill
+.unread-2lAfLh {
+  top: 54%; left: 5px;
+  width: 6px; height: 6px;
+  z-index: 1;
+  background-color: var(--unread-color);
+  border-radius: 10px;
+  animation: 2s channel-unread infinite;
+
+  @keyframes channel-unread {
+    0% { box-shadow: 0 0 0 0 var(--unread-color);}
+    70% { box-shadow: 0 0 0 4px rgba(0, 0, 0, 0);}
+    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+  }
+}
+  
+// Game activity / call area
+.activityPanel-28dQGo, .container-1giJp5 { border-bottom: none;}
+
+// Channel call
+.voiceUserSummary-2X_2vp svg:not(.icon-1tDorc) { padding-right: 10px;}
+[mask="url(#svg-mask-voice-user-summary-item)"] { mask: none;}
+
+.tile-2naSqK { 
+  background-color: var(--background-secondary-alt);
+
+  .button-3HqqDX, .buttonColor-2Nx30V { background-color: var(--brand-experiment);}
+}
+
+// SCTR connection
+.container-2x5lvQ {
+  .header-2C89wJ { background-color: var(--background-tertiary);}
+  section { background-color: var(--background-secondary);}
+}
+
+// Channel settings
+.group-1WdBVp {
+  width: 110px; 
+  border: none;
+  gap: 5px;
+
+  .item-1yAxl1 {
+    border-radius: 8px;
+
+    &:hover, &.selected-2YhbGh {
+      &.deny-3nAuT6 { color: #ed4245; background-color: #ed42452f;}
+      &.passthrough-1c2ewQ { color: #dcddde; background-color: #6464643a;}
+      &.allow-1PzSY3 { color: #43b581; background-color: #43b5823b;}
+    }
+  }
+}
+
+// Adding roles
+.autocompleteShadow-iiGWFU {
+  box-shadow: 0 4px 15px #00000031;
+
+  & + .autocompleteArrow-Zxoy9H, & ~ .header-2bNvm4 { background: var(--background-secondary-alt);}
+  & ~ .sectionTag-pXyto9 { 
+    background: var(--background-secondary);
+
+    .row-rrHHJU { padding: 0;}
+  }
+  & ~ .header-2bNvm4 .headerText-3i6A8K { margin-left: 15px;}
+}
+
+  
+// Boost
+.perksModal-fSYqOq {
+  background: var(--background-primary);
+
+  .tierMarkerBackground-3q29am, .tierHeaderLocked-1s2JJz,
+  .barBackground-2EEiLw, .icon-TYbVk4 {
+    background: var(--background-secondary-alt);
+  }
+
+  .option-96V44q.selected-rZcOL-,
+  .tierBody-16Chc9, .perk-2WeBWW,
+  .tierMarkerInProgress-24LMzJ {
+    background: var(--background-secondary) !important;
+  }
+}
+
+}

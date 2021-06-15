@@ -1,0 +1,156 @@
+:root {
+    
+// Server list
+.guilds-1SWlCJ .scroller-2TZvBN,
+.guilds-1SWlCJ .scroller-1Bvpku {
+  contain: none !important;
+  padding-bottom: 170px;
+}
+
+// Discover
+.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {
+  margin-left: 0;
+
+  .itemInner-gPkiWb {
+    padding: 8px;
+  }
+}
+
+.pageWrapper-1PgVDX .scroller-1d5FgU { padding-left: 0;}
+
+.css-bcsufo-menu {
+  background: var(--background-secondary-alt);
+}
+.pageWrapper-1PgVDX,
+.css-1a1o7fb-control,
+.css-2dw5y-control,
+.css-p0ralp-control {
+  background: var(--background-secondary);
+}
+
+// Create a server modal
+.theme-light {
+  .root-1gCeng, .footer-2gL1pp { box-shadow: none;}
+  .lookFilled-1Gx00P.colorGrey-2DXtkV { background-color: var(--brand-experiment);}
+  .contents-18-Yxp { color: #fff;}
+
+  .templatesList-2E6rTe,
+  .optionsList-3UMAjx {
+    padding: 0 !important;
+    border-radius: 0;
+
+    .container-UC8Ug1 { border-radius: 0;}
+
+    .optionHeader-1-5lcp {
+      text-align: center;
+      margin: 12px 0;
+    }
+  }
+  .createGuild-23lWNm { padding: 10px !important;}
+}
+
+// User buttons
+.panels-j1Uci_ > .container-3baos1 {
+  height: 0;
+
+    & > .flex-1xMQg5 {
+    position: fixed;
+    bottom: 0; left: 0; z-index: 1;
+    width: 72px; padding: 20px 0 10px 0;
+    flex-direction: column;
+    background: linear-gradient(transparent, var(--background-tertiary) 15%);
+
+    & > .button-14-BFJ {
+      color: var(--user-buttons-color);
+      margin: var(--user-buttons-spacing) auto 0 auto;
+    }
+  }
+}
+
+// Notifications settings
+.inner-1ilYF7 > .modal-yWgWj- > .header-1TKi98,
+.modal-yWgWj-, .inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih {
+  background: var(--background-secondary);
+}
+
+// Mention gradient
+.unreadMentionsBar-1Bu1dC .text-2e2ZyG { display: none;}
+
+// Top
+.unreadMentionsIndicatorTop-2-tcdU {
+  width: 100%; height: 50px;
+  top: -7px; padding: 0;
+  
+  .unreadMentionsBar-1Bu1dC {
+    border-radius: 0;
+    background: linear-gradient(var(--mention-color), #0000);
+    transition: 300s;
+
+    &:active { background: linear-gradient(var(--mention-color), #0000);}
+  }
+}
+
+// Bottom
+.unreadMentionsIndicatorBottom-2mDYbI {
+  width: 100%;
+  height: 15px;
+  padding: 0;
+
+  .unreadMentionsBar-1Bu1dC {
+    border-radius: 0;
+    background: linear-gradient(#0000, var(--mention-color));
+
+    &:active { background: linear-gradient(#0000, var(--mention-color));}
+  }
+}
+
+// Mention pill
+.lowerBadge-29hYVK {
+  top: 0; left: 0;
+
+  .numberBadge-2s8kKX {
+    animation: 2s server-mention infinite;
+
+    @keyframes server-mention {
+      0% { box-shadow: 0 0 0 0 var(--mention-color);}
+      70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);}
+      100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+    }
+  }
+}
+
+// Unread pill
+.listItem-GuPuDH[vz-unread] .wrapper-25eVIn::before,
+.listItem-GuPuDH.unread .wrapper-25eVIn::before,
+.wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
+.wrapper-3Njo_c.unread:not(.expanded) .wrapper-25eVIn::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0; left: 0; z-index: 1;
+  width: 12px; height: 12px;
+  background: var(--unread-color);
+  border-radius: 50%;
+  animation: 2s server-unread infinite;
+
+  @keyframes server-unread {
+    0% { box-shadow: 0 0 0 0 var(--unread-color);}
+    70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);}
+    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+  }
+}
+.listItem-GuPuDH[vz-unread] .pill-1z4sAY, .listItem-GuPuDH.unread .pill-1z4sAY,
+.wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
+.listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before, .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before,
+.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before {
+  display: none;
+}
+
+.listItem-GuPuDH[vz-unread][vz-selected] .pill-1z4sAY, .listItem-GuPuDH.unread.selected .pill-1z4sAY,
+.wrapper-3Njo_c[vz-unread][vz-selected]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread.selected:not(.expanded) .pill-1z4sAY,
+.listItem-GuPuDH[vz-unread]:hover .pill-1z4sAY, .listItem-GuPuDH.unread:hover .pill-1z4sAY,
+.wrapper-3Njo_c[vz-unread]:hover:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:hover:not(.expanded) .pill-1z4sAY { 
+  display: flex;
+}
+
+}

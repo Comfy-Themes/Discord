@@ -1,0 +1,120 @@
+:root {
+
+// If you don't like one of those variables until "Other settings" you can delete them or you can also try to change those if you have some css knowledge
+
+// Vizality - Better Spotify seek bar
+.spotify-in-discord-player-seek-bar { position: absolute; bottom: 0;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;} .spotify-in-discord-player .container-3baos1 { margin-bottom: 0;}
+
+// Powercord - Better Spotify seek bar
+.powercord-spotify .spotify-seek-bar-progress { background-color: var(--spotify-color) !important;} .powercord-spotify .spotify-seek-bar {position: absolute;bottom: 0;width: 240px; height: 56px;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.powercord-spotify.hover .spotify-seek-bar { height: 64px; }.powercord-spotify .avatarWrapper-2yR4wp, .powercord-spotify .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; } .spotify-extra-controls { position: relative; z-index: 1; } .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar { height: 79px !important;} .powercord-spotify .spotify-buttons, .spotify-extra-controls .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}
+
+// No scrollbars
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
+
+// -- Others settings --
+
+// Background image in status picker, you can't change it if you already have an USRBG background
+--status-background: url('https://i.imgur.com/yHP6sgj.png');
+
+// User button spacing
+--user-buttons-spacing: 8px;
+
+// Avatar position
+--avatar-left: 327.5px;
+--avatar-bottom: 26.5px;
+
+// Avatar roundess
+--avatar-radius: 5px;
+
+// Status roundness
+--status-radius: 3px; 
+
+// Server roundess
+--server-radius: 8px;
+
+// Avatar width in modals
+--avatar-width: 130px;
+
+// Change bonfire in modals
+--bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
+
+// Colored emoji picker
+--colored-emoji: grayscale(0%); // Change the value to "100%" if you want the basic one
+
+// Mention color
+--mention-color: #f04747;
+--unread-color: #7289da;
+
+// Mention color in chat
+--mention-color-bar: #C66262;
+--mention-color-background: #c662621f;
+--mention-color-hover: #c6626226;
+
+// Vizality - Spotify seek bar color
+--spotify-in-discord__spotify-brand-color: #1ed760;
+
+// Powercord - Spotify seek bar color
+--spotify-color: #1ed760 !important;
+
+// User settings color (Mute, Deafen and settings)
+--user-buttons-color: #096dc0;
+
+// Chat buttons color
+--chat-buttons: #6E85D3;
+
+// Status color
+--online: #43B581;
+--iddle: #FAA61A;
+--dnd: #F04747;
+--offline: #747F8D;
+--streaming: #593695;
+
+// Circles next to role names
+--role-circle: 5px;
+
+// Tooltips
+--tooltips: block; // Set it to "none" if you don't want it
+
+// Discord logo
+--discord-logo: none; // Set it to "block" if you want it
+}
+
+// -- Discord variables --
+.theme-dark {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-mobile-primary: #23283d;
+    --background-mobile-secondary: #1e2233;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+    --toast-background: #1e2233 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
+    --activity-card-background: #101320;
+}
+
+.theme-light { // I don't support light theme it's just for the "Create a server" popup
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #262b41;
+    --background-modifier-active: #262b41;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}

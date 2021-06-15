@@ -1,0 +1,9 @@
+{
+    "name": "Comfy",
+    "description": "Stay comfy while talking to your friends",
+    "version": "2.0",
+    "author": "Nyria#3863",
+    "theme": "app.scss",
+    "consent": "false",
+    "license": "GNU GPL"
+}

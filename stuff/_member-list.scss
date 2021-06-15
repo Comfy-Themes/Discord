@@ -1,0 +1,414 @@
+:root { 
+
+// -- Member popout --
+.userPopout-xaxa6l { 
+  box-shadow: 0 0 10px 0 #101320d2;
+
+  & > * { background: var(--background-secondary);}
+
+  // Avatar
+  .avatar-37jOim { border: none; background: transparent;}
+  .avatarHint-2A3RNb { display: none;}
+
+  // -- Activities --
+  .activityUserPopout-2yItg2 { 
+    padding: 16px; margin: 8px; 
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .note-3HfJZ5 .textarea-2r0oV8:focus { -color: var(--background-tertiary);}
+
+  .footer-1fjuF6 .inputDefault-_djjkz {
+    border: none;
+    background: var(--background-secondary-alt);
+  }
+
+  // -- Activities --
+  .activityUserPopout-2yItg2 { 
+    padding: 16px; margin: 8px; 
+    border-radius: 5px; z-index: 1;
+    overflow: hidden;
+
+    .headerText-1HLrL7, .activityName-1IaRLn, 
+    .content-3JfFJh, .details-38sfDr, .name-29ETJS, 
+    .nameNormal-2lqVQK, .nameWrap-3Z4G_9 { color: white;}
+
+    .button-38aScr {
+      border: none;
+      background-color: #ffffff21;
+      box-shadow: 0 4px 15px #00000021;
+      color: #fff;
+    }
+
+    // Playing
+    .contentGameImageUserPopout-2KWIsz::after,
+    .contentImagesUserPopout-1vLdRA::after {
+      content: ""; position: absolute;
+      width: 100%; height: 100%; z-index: -1;
+      left: 0; top: 0;
+      background: #7289da;
+    }
+
+    // Spotify
+    .timeBarUserPopout-AWPFf2::after {
+      content: ""; position: absolute;
+      width: 100%; height: 100%; z-index: -1;
+      left: 0; top: 0;
+      background: #1db954;
+    }
+    .spotifyIcon-2J9kSv { display: none;}
+  }
+  
+  // Roles
+  .role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: solid;
+    border-width: 0 0 0 3px;
+    border-radius: 1px 3px 3px 1px;
+
+    .roleCircle-3xAZ1j {
+      width: var(--role-circle) !important;
+      height: var(--role-circle) !important;
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: inherit;
+        opacity: 0.3;
+        z-index: -1;
+      }
+    }
+  }
+
+  // -- USRBG for popouts --
+  overflow: hidden;
+	--USRBG-banner-height: 60px;
+
+  &[style*="-user-"] {
+    --USRBG-banner-height: 120px;
+    --USRBG-avatar-offset: 76px;
+
+    .banner-2QYc2d {
+      height: var(--USRBG-banner-height, 120px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: var(--user-popout-position, center) center;
+      background-image: var(--user-background);
+    }
+
+    .avatarWrapperNormal-26WQIb { top: var(--USRBG-avatar-offset, 76px);}
+  }
+}
+
+// Roles selector
+.container-3XJ8ns {
+  z-index: 1003;
+  border: none;
+  padding: 0;
+  background-color: #191f2e;
+
+  .container-cMG81i { border-radius: 5px 5px 0 0;}
+
+  .list-1xE9GQ { 
+    margin: 0; padding: 0; 
+
+    .item-2J2GlB {
+      margin: 5px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      border-radius: 0;
+
+      .popoutRoleDot-1XPcoA { 
+        width: 0; border: none; margin: 0;
+
+        &::before {
+          position: absolute;
+          border-radius: 5px;
+          content: "";
+          top: 0; left: 0;
+          width: 100%; height: 100%;
+          background: inherit;
+          opacity: 0.2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+// -- User modal --
+.root-3QyAh1 { 
+  width: 700px;
+
+  .topSection-y3p-_D { 
+    display: flex; z-index: 1;
+    align-items: flex-end;
+    background-color: var(--background-secondary);
+    box-sizing: border-box;
+
+    // Banner
+    .banner-2QYc2d { 
+      position: absolute;
+      top: 0; left: 0; z-index: -1;
+      width: 100%; height: 100%;
+      opacity: 0.7;
+    }
+
+    // User info
+    & > header {
+      display: flex; flex-direction: column-reverse;
+      width: 200px;
+      background: var(--deprecated-card-bg);
+      padding: 15px; margin: 20px 0 0 20px;
+      border-radius: 5px 5px 0 0;
+
+      // Avatar
+      .avatar-AvHqJA {
+        position: absolute;
+        top: -180px; left: 50%;
+        margin-left: calc((var(--avatar-width) / 2) - var(--avatar-width)); border: none;
+        background: none;
+        width: var(--avatar-width) !important;
+        height: var(--avatar-width) !important;
+      }
+
+      .header-4zuFdR {
+        .mask-1l8v16 .pointerEvents-2zdfdO { display: none;}
+        .mask-1l8v16 foreignObject {
+          mask: none;
+          border-radius: var(--avatar-radius);
+        }
+
+        .headerTop-547GTz { 
+          padding: 0;
+          flex-direction: column;
+
+          .badgeList-1R1WgZ { 
+            justify-content: center;
+            padding-right: 0;
+
+            & > div { margin: 6px;}
+          }
+
+          .relationshipButtons-pUQVkf {
+            flex-direction: column;
+            margin-top: 15px;
+
+            .additionalActionsIcon-365LnQ { 
+              transform: rotate(90deg);
+              margin: 8px 0 0 0;
+            }
+          }
+        }
+      }
+
+      .nameTag-ECvD8P {
+        margin: calc(var(--avatar-width) + 20px) 0 10px 0;
+        justify-content: center;
+      }
+
+      .customStatusActivity-nmH3DF {
+        position: fixed; display: flex;
+        align-items: center; justify-content: center;
+        top: 20px; left: 280px; bottom: calc(100% - 240px);
+        width: calc(100% - 300px);
+        padding: 0;
+
+        .customStatusText-2opeSw { 
+          font-size: 22px;
+
+          .customStatus-1COQYu { 
+            display: flex; flex-direction: column;
+            align-items: center; gap: 15px;
+            color: white; text-align: center;
+
+            .customStatusEmoji-1xY2Yn { width: 40px; height: 40px;}
+            .customStatusSoloEmoji-1RMV7U { width: 80px; height: 80px;}
+          }
+        }
+      }
+    }
+  }
+
+  // Infos / Server / Friends
+  .tabBarContainer-37hZsr:not(.flex-1xMQg5) {
+    flex: 1; border-bottom: none;
+    padding-left: 0;
+
+    .tabBar-3nvOPa {
+      justify-content: center;
+
+      .tabBarItem-3dfX8P[aria-controls="USER_INFO-tab"],
+      .tabBarItem-3dfX8P[aria-controls="MUTUAL_GUILDS-tab"],
+      .tabBarItem-3dfX8P[aria-controls="MUTUAL_FRIENDS-tab"],
+      .tabBarItem-3dfX8P[aria-controls="ACTIVITY-tab"] {
+        text-indent: 100%;
+        overflow: hidden;
+        margin: 0 30px;
+        width: 30px;
+
+        &::after {
+          position: absolute;
+          content: "";
+          width: 30px; height: 30px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .tabBarItem-3dfX8P[aria-controls="USER_INFO-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/user.png");}
+      .tabBarItem-3dfX8P[aria-controls="MUTUAL_GUILDS-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");}
+      .tabBarItem-3dfX8P[aria-controls="MUTUAL_FRIENDS-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");}
+      .tabBarItem-3dfX8P[aria-controls="ACTIVITY-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");}
+    }
+  }
+  .noTabBar-3ZjPNR { border-top: none;}
+
+  // Body
+  .body-r6_QPy { 
+    z-index: 1;
+    background-color: var(--background-secondary);
+  }
+
+  .pc-connections .connectedAccounts-QlRa4m:empty::before { background-color: transparent;}
+
+  // -- Activities --
+  .activityProfile-2bJRaP { 
+    padding: 16px; margin: 12px;
+    border-radius: 5px;
+    overflow: hidden; z-index: 1;
+
+    .headerText-1HLrL7, .activityName-1IaRLn, .content-3JfFJh, 
+    .details-38sfDr, .name-29ETJS, .nameNormal-2lqVQK, .nameWrap-3Z4G_9  { color: white;}
+
+    .button-38aScr {
+      border: none;
+      background-color: #ffffff21;
+      box-shadow: 0 4px 15px #00000021;
+      color: #fff;
+    }
+
+    // Playing
+    .contentImagesProfile-1Mz07W::after,
+    .contentGameImageProfile-WTVbI0::after {
+      content: ""; position: absolute;
+      width: 100%; height: 100%; z-index: -2;
+      left: 0; top: 0;
+      background: #7289da;
+    }
+
+    // Spotify
+    .timeBarProfile-10b-fm::after {
+      content: ""; position: absolute;
+      width: 100%; height: 100%; z-index: -1;
+      left: 0; top: 0;
+      background: #1db954;
+    }
+    .spotifyIcon-2J9kSv { display: none !important;}
+  }
+
+  // Connections
+  .connectedAccount-2Jb-Z0 {
+    border: solid #151b27;
+    border-width: 1.2px 1.2px 3px 1.2px;
+    border-radius: 4px;
+    width: 300px;
+    transition: 100ms;
+
+    &:active {
+      border-width: 1.2px 1.2px 1.2px 1.2px;
+      transform: translateY(1px);
+    }
+
+    .connectedAccountIcon-3_EQqg { padding: 5px; border-radius: 4px;}
+    .connectedAccountName-E1KzaT { margin-left: 13px;}
+  }
+
+  .accountBtnInner-sj5jLs[aria-label="Battle.net"],
+  .accountBtnInner-sj5jLs[aria-label="Battle.net"]:hover,
+  [src="/assets/4662875160dc4c56954003ebda995414.png"] {
+    background-color: #1da0f248;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Twitch"],
+  .accountBtnInner-sj5jLs[aria-label="Twitch"]:hover,
+  [src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] {
+    background-color: #601bd852;
+  }
+  .accountBtnInner-sj5jLs[aria-label="YouTube"],
+  .accountBtnInner-sj5jLs[aria-label="YouTube"]:hover,
+  [src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
+    background-color: #d9252b49;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Twitter"],
+  .accountBtnInner-sj5jLs[aria-label="Twitter"]:hover,
+  [src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
+    background-color: #0098e446;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Steam"],
+  .accountBtnInner-sj5jLs[aria-label="Steam"]:hover,
+  [src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
+    background-color: #00000034;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Reddit"],
+  .accountBtnInner-sj5jLs[aria-label="Reddit"]:hover,
+  [src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
+    background-color: #fe44013d;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Facebook"],
+  .accountBtnInner-sj5jLs[aria-label="Facebook"]:hover,
+  [src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
+    background-color: #2e328485;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Spotify"],
+  .accountBtnInner-sj5jLs[aria-label="Spotify"]:hover,
+  [src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
+    background-color: #1ed75f34;
+  }
+  .accountBtnInner-sj5jLs[aria-label="Xbox Live"],
+  .accountBtnInner-sj5jLs[aria-label="Xbox Live"]:hover,
+  [src="/assets/0d44ba28e39303de3832db580a252456.png"] {
+    background-color: #5dc21e42;
+  }
+  .accountBtnInner-sj5jLs[aria-label="League Of Legends"],
+  .accountBtnInner-sj5jLs[aria-label="League Of Legends"]:hover,
+  [src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] {
+    background-color: #cea14638;
+  }
+  .accountBtnInner-sj5jLs[aria-label="GitHub"],
+  .accountBtnInner-sj5jLs[aria-label="GitHub"]:hover,
+  [src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] {
+    background-color: #24292e62;
+  }
+
+  // Mutuals
+  .listRow-1iDGel { margin: 0; padding: 8px 12px;}
+
+  // -- USRBG for modals --
+  overflow: hidden;
+  --USRBG-banner-height: 60px;
+
+  &[style*="-user-"] {
+    --USRBG-banner-height: 100%;
+    --USRBG-avatar-offset: 76px;
+
+    .banner-2QYc2d {
+      height: var(--USRBG-banner-height, 120px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: var(--user-popout-position, center) center;
+      background-image: var(--user-background);
+    }
+
+    .avatarWrapperNormal-26WQIb {
+      top: var(--USRBG-avatar-offset, 76px);
+    }
+  }
+}
+
+}

@@ -1,0 +1,73 @@
+:root { 
+
+.container-1r6BKw.themed-ANHk51 {
+  background: var(--background-secondary);
+
+  .children-19S4PO::after { background: linear-gradient(90deg,rgba(54, 57, 63, 0) 0, var(--background-secondary));}
+
+  // Search bar
+  .search-36MZv- {
+    order: 1; margin-left: 4px;
+
+    .search-2oPWTC:not(.open-6_Y_aH) {
+      .searchBar-3dMhjb {
+        width: 27px;
+        transition: 250ms;
+        background-color: transparent;
+
+        .iconContainer-O4O2CN {
+          transform: scale(1.3);
+          transition: 250ms;
+
+          .icon-3cZ1F_ { color: var(--interactive-normal);}
+        }
+      }
+
+      &:hover .searchBar-3dMhjb {
+        width: 240px;
+        background-color: var(--background-tertiary);
+
+        .iconContainer-O4O2CN { 
+          transform: scale(1);
+
+          .icon-3cZ1F_ { color: var(--text-muted);}
+        }
+      }
+    }
+    .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 { background-color: var(--background-primary);}
+  }
+}
+
+// I'm a pro
+[href="https://support.discord.com"] { display: none;}
+  
+// -- Search bar and modal --
+.container-3ayLPN {
+  background-color: var(--background-secondary-alt);
+  box-shadow: none;
+
+  .resultsGroup-r_nuzN .header-2N-gMV { text-align: center;}
+
+  .option-96V44q {
+    margin: 0;
+    border-radius: 0;
+
+    &::after { background: linear-gradient(90deg,rgba(54, 57, 63, 0), var(--background-secondary-alt) 80%);}
+    &.selected-rZcOL-:after { background: linear-gradient(90deg,rgba(54, 57, 63, 0), var(--background-secondary) 80%);}
+  }
+
+  // Calendar
+  .calendarPicker-2yf6Ci .react-datepicker {
+    background-color: var(--background-secondary-alt);
+
+    &__day, &__header {
+      background: var(--background-secondary-alt) !important;
+      border-color: var(--background-tertiary);
+    }
+  }
+
+  // I'm still a pro
+  .searchLearnMore-3SQUAj { display: none;}
+}
+
+}

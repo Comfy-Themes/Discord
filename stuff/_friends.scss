@@ -1,0 +1,39 @@
+:root {
+
+// Friend column
+.peopleColumn-29fq28 { background: var(--background-primary);}
+  
+// Friend activities
+.nowPlayingColumn-2sl4cE { 
+  background: var(--background-secondary-alt);
+
+  .scroller-2ZPeAD { border: none;}
+
+  .itemCard-v9viV7 {
+    border: none;
+
+    &.active-1xchHY, &.interactive-3B9GmY:hover { background: var(--background-secondary);}
+
+    .section-2gLsgF:last-child { margin-top: 10px;}
+    .inset-3sAvek { background: transparent;}
+    .applicationStreamingPreviewWrapper-8QqvVY { background-color: var(--background-secondary);}
+    .separator-XqIyoz { display: none;}
+  }
+}
+
+// Friend call buttons
+.bottomControls-lIJyYL {
+  .centerButton-3CaNcJ { border-radius: 7px;}
+  .colorable-1bkp8v.primaryDark-3mSFDl { background: var(--background-secondary-alt);}
+  foreignObject { mask: none;}
+}
+
+// Regionnal selector friend call
+.quickSelect-3BxO0K { margin-top: 10px;}
+
+.quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W {
+  background: var(--background-secondary-alt);
+  box-shadow: none;
+}
+
+}
