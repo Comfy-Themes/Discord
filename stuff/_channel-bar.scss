@@ -48,12 +48,14 @@
 
   .resultsGroup-r_nuzN .header-2N-gMV { text-align: center;}
 
+  .queryContainer-RKFJW- { background-color: var(--background-tertiary);}
+
   .option-96V44q {
     margin: 0;
     border-radius: 0;
 
     &::after { background: linear-gradient(90deg,rgba(54, 57, 63, 0), var(--background-secondary-alt) 80%);}
-    &.selected-rZcOL-:after { background: linear-gradient(90deg,rgba(54, 57, 63, 0), var(--background-secondary) 80%);}
+    &.selected-rZcOL- { background: linear-gradient(90deg,rgba(54, 57, 63, 0), var(--background-secondary) 80%);}
   }
 
   // Calendar

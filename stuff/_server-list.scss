@@ -84,7 +84,7 @@
   .unreadMentionsBar-1Bu1dC {
     border-radius: 0;
     background: linear-gradient(var(--mention-color), #0000);
-    transition: 300s;
+    transition: 100ms;
 
     &:active { background: linear-gradient(var(--mention-color), #0000);}
   }

@@ -20,6 +20,9 @@
   border-radius: 5px 0 0 5px;
 }
 
+.closeButton-1tv5uR { border-radius: 5px;}
+.keybind-KpFkfr { display: none;}
+
 // My account
 .avatarUploaderIndicator-2G-aIZ { display: none;}
 
@@ -156,18 +159,19 @@
     .theme-light { display: none;}
     .messageContainer-1DiFnQ { background-color: var(--background-secondary);}
   }
-
-  .divider-3573oO { display: none;}
-  .container-2_Tvc_, .container-2uOrel { margin: 40px 0;}
 }
 
 // Emoji
 .emojiRow-zIc7ZX { box-shadow: none;}
 .emojiAliasInput-1y-NBz .emojiInput-1aLNse { background: var(--background-secondary);}
-.card-FDVird::before {
-  background: var(--background-secondary);
-  border-color: transparent;
-  opacity: 1; margin: 5px 0;
+.card-FDVird {
+  box-shadow: none;
+
+  &::before {
+    background: var(--background-secondary);
+    border-color: transparent;
+    opacity: 1; margin: 5px 0;
+  }
 }
 .inputWrapper-31_8H8 {
   width: unset;
@@ -207,7 +211,11 @@
 // Activate community modal
 .css-dwar6a-menu { background-color: var(--background-secondary-alt);}
 
+// Membership Screening
+.editableFieldsContainer-1LYE1s { width: unset;}
+
 // Welcome screen
+.channelIcon-1eKmlw, .channelIcon-g61PDh { background: var(--background-secondary-alt);}
 .descriptionInput-3b30C8 { background: var(--background-secondary-alt); border: none;}
 
 // Server Boost Status
@@ -223,12 +231,7 @@
 .subscribers-34Wiok .subscriberMask-2keJDX { margin-right: 8px;}
 
 // Members
-.divider-3573oO { display: none;}
-.member-1q7VfX { 
-  box-shadow: none;
-
-  &:nth-child(3) { margin-top: 10px;}
-}
+.member-1q7VfX:nth-child(3) { margin-top: 10px;}
 .overflowRolesPopout-140n9i { background: var(--background-secondary);}
 
 }

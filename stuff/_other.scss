@@ -10,7 +10,7 @@
       pointer-events: fill;
     }
   } 
-  &:hover {  background-color: var(--background-teritary);}
+  &:hover { background-color: var(--background-tertiary);}
 }
 
 .winButtonClose-1HsbF- {
@@ -49,67 +49,12 @@
   transition: opacity 0.15s linear 0s;
 } :root {
 
-
-// Avatar in status picker
-.avatarWrapper-2yR4wp[aria-expanded="true"] {
-  position: absolute;
-  left: 90px;
-  bottom: 145px;
-  margin: 0;
-  z-index: 1005;
-  pointer-events: none;
-
-  .wrapper-3t9DeA::before {
-    content: '' !important;
-    position: absolute;
-    top: -18px; left: -85px;
-    width: 230px; height: 120px;
-    pointer-events: none;
-    background-color: var(--background-secondary-alt);
-    background-image: var(--status-background);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 3px;
-    -webkit-mask: linear-gradient(black, transparent 100%);
-    mask: linear-gradient(black, transparent 100%);
-    opacity: 0.8;
-  }
-
-  // Username in status picker
-  & + .nameTag-3uD-yy {
-    position: absolute;
-    display: flex;
-    bottom: 113px;
-    left: 50px;
-    width: 145px;
-    z-index: 10005;
-    margin: 0;
-    justify-content: center;
-  }
-}
-
-// Fixing z-index issue
-.panels-j1Uci_ { 
-  z-index: unset;
-
-  & > .container-3baos1 {
-    & > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
-      width: 60px !important;
-      height: 60px !important;
-      opacity: 1;
-    }
-
-    .title-eS5yk3 { font-size: 18px;}
-  } 
-}
-
 #status-picker {
   position: fixed;
   bottom: 8px;
   left: 77px;
   width: 230px;
-  height: 215px;
+  height: 225px;
   background: var(--background-tertiary);
   border-radius: 5px;
 
@@ -127,7 +72,7 @@
     .item-1tOPte, .submenuContainer-2gbm7M > .item-1tOPte {
       border-radius: 5px;
       margin: 3px; padding: 0;
-      transition: background 200ms;
+      transition: background 120ms;
 
       .mask-1qbNWk.icon-1IxfJ2 {
         height: 18px;
@@ -188,6 +133,66 @@
   transition: 0.15s;
 }
 .footer-2gL1pp { background: var(--background-tertiary);}
+
+// Avatar in status picker
+.panels-j1Uci_ { 
+  z-index: unset;
+
+  & > .container-3baos1 {
+
+    .avatarWrapper-2yR4wp[aria-expanded="true"] {
+      position: absolute;
+      left: 90px;
+      bottom: 160px;
+      margin: 0;
+      z-index: 1005;
+      pointer-events: none;
+
+      .wrapper-3t9DeA {
+        width: 60px !important; height: 60px !important;
+        opacity: 1;
+
+        &::before {
+          content: '' !important;
+          position: absolute;
+          top: -13px; left: -85px;
+          width: 230px; height: 140px;
+          pointer-events: none;
+          background-color: var(--background-secondary-alt);
+          background-image: var(--status-background);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          border-radius: 3px;
+          -webkit-mask: linear-gradient(black, transparent 100%);
+          mask: linear-gradient(black, transparent 100%);
+          opacity: 0.8;
+        }
+      }
+
+      // Username in status picker
+      & + .nameTag-3uD-yy {
+        position: absolute;
+        display: flex; flex-direction: column;
+        bottom: 115px; left: 50px;
+        width: 145px;
+        z-index: 10005;
+        margin: 0;
+        align-items: center;
+
+        .title-eS5yk3 { font-size: 18px;}
+
+        // Discriminator
+        .subtext-3CDbHg { 
+          font-size: 15px; line-height: 20px;
+          width: 100%; text-align: center;
+          
+          .hoverRoll-YK53gQ { text-align: center;}
+        }
+      }
+    }
+  }
+}
 
 // -- Better menus --
 

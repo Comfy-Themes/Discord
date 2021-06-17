@@ -6,8 +6,7 @@
 // Avatar of the user
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] {
   position: fixed;
-  bottom: var(--avatar-bottom);
-  left: var(--avatar-left);
+  bottom: 26.5px; left: 327.5px;
   z-index: 2; margin: 0;
 
   & > .avatar-SmRMf2 {
@@ -63,17 +62,15 @@
 }
 
 // Mentions
-.mentioned-xhSam7 {
+.message-2qnXI6.mentioned-xhSam7 {
   background-color: var(--mention-color-background);
 
   &::before {
     background: var(--mention-color-bar);
     padding: 1px;
   }
-}
-.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
-.mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background-color: var(--mention-color-hover);
+
+  &:hover { background-color: var(--mention-color-hover) !important;}
 }
 
 // Going back to new messages
