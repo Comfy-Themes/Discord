@@ -2,87 +2,103 @@
 
 // -- Member popout --
 .userPopout-xaxa6l { 
+  background-color: var(--background-secondary);
   box-shadow: 0 0 10px 0 #101320d2;
 
-  & > * { background: var(--background-secondary);}
+  .headerTop-3vNv-a { 
+    padding: 54px 16px 16px 16px;
+    background-color: var(--background-tertiary);
+  }
+
+  .body-3HBlXn {
+
+    // Custom status
+    .customStatus-2SDCR6 { 
+      padding: 0 16px 16px 16px;
+      background-color: var(--background-tertiary);
+    }
+
+    // No divider
+    .divider-3NUv48 { display: none;}
+
+    // -- Activities --
+    .bodyInnerWrapper-26fQXj {
+      background-color: transparent;
+      padding: 16px 16px 0 16px;
+
+      .activity-2INFPu { 
+        padding: 16px; margin-bottom: 16px; 
+        border-radius: 5px; z-index: 1;
+        overflow: hidden;
+    
+        .headerText-1HLrL7, .activityName-1IaRLn, 
+        .content-3JfFJh, .details-38sfDr, .name-29ETJS, 
+        .nameNormal-2lqVQK, .nameWrap-3Z4G_9 { color: white;}
+    
+        .button-38aScr {
+          border: none;
+          background-color: #ffffff21;
+          box-shadow: 0 4px 15px #00000021;
+          color: #fff;
+        }
+    
+        // Playing
+        &::after {
+          content: ""; position: absolute;
+          width: 100%; height: 100%; z-index: -2;
+          left: 0; top: 0;
+          background: #7289da;
+        }
+    
+        // Spotify
+        .timeBarUserPopout-AWPFf2::after {
+          content: ""; position: absolute;
+          width: 100%; height: 100%; z-index: -1;
+          left: 0; top: 0;
+          background: #1db954;
+        }
+
+        .spotifyIcon-2J9kSv { display: none;}
+      }
+
+      // Roles
+      .role-2irmRk {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        border: solid;
+        border-width: 0 0 0 3px;
+        border-radius: 1px 3px 3px 1px;
+
+        .roleCircle-3xAZ1j {
+          width: var(--role-circle) !important;
+          height: var(--role-circle) !important;
+
+          &::before {
+            position: absolute;
+            content: "";
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: inherit;
+            opacity: 0.3;
+            z-index: -1;
+          }
+        }
+      }
+      
+      .note-1oo11U { margin: 0;}
+    }
+  }
 
   // Avatar
-  .avatar-37jOim { border: none; background: transparent;}
+  .wrapper-3t9DeA { border: none; background: transparent;}
   .avatarHint-2A3RNb { display: none;}
 
-  // -- Activities --
-  .activityUserPopout-2yItg2 { 
-    padding: 16px; margin: 8px; 
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .note-3HfJZ5 .textarea-2r0oV8:focus { -color: var(--background-tertiary);}
+  // Footer
+  .footer-3UKYOU { 
+    background-color: transparent;
 
-  .footer-1fjuF6 .inputDefault-_djjkz {
-    border: none;
-    background: var(--background-secondary-alt);
-  }
-
-  // -- Activities --
-  .activityUserPopout-2yItg2 { 
-    padding: 16px; margin: 8px; 
-    border-radius: 5px; z-index: 1;
-    overflow: hidden;
-
-    .headerText-1HLrL7, .activityName-1IaRLn, 
-    .content-3JfFJh, .details-38sfDr, .name-29ETJS, 
-    .nameNormal-2lqVQK, .nameWrap-3Z4G_9 { color: white;}
-
-    .button-38aScr {
-      border: none;
-      background-color: #ffffff21;
-      box-shadow: 0 4px 15px #00000021;
-      color: #fff;
-    }
-
-    // Playing
-    .contentGameImageUserPopout-2KWIsz::after,
-    .contentImagesUserPopout-1vLdRA::after {
-      content: ""; position: absolute;
-      width: 100%; height: 100%; z-index: -1;
-      left: 0; top: 0;
-      background: #7289da;
-    }
-
-    // Spotify
-    .timeBarUserPopout-AWPFf2::after {
-      content: ""; position: absolute;
-      width: 100%; height: 100%; z-index: -1;
-      left: 0; top: 0;
-      background: #1db954;
-    }
-    .spotifyIcon-2J9kSv { display: none;}
-  }
-  
-  // Roles
-  .role-2irmRk {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    border: solid;
-    border-width: 0 0 0 3px;
-    border-radius: 1px 3px 3px 1px;
-
-    .roleCircle-3xAZ1j {
-      width: var(--role-circle) !important;
-      height: var(--role-circle) !important;
-
-      &::before {
-        position: absolute;
-        content: "";
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background: inherit;
-        opacity: 0.3;
-        z-index: -1;
-      }
-    }
+    .input-2_SIlA { background-color: var(--background-secondary-alt);}
   }
 
   // -- USRBG for popouts --
@@ -186,6 +202,7 @@
         }
 
         .headerTop-547GTz { 
+          position: static;
           padding: 0;
           flex-direction: column;
 

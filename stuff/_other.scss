@@ -362,10 +362,10 @@ div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y:
 .avatarWrapper-2yR4wp[aria-expanded="false"] .pointerEvents-2zdfdO, .peopleListItem-2nzedh .pointerEvents-2zdfdO { stroke: var(--background-primary);}
 
 // Typing dots
-.dots-3Bkt3k {
-   overflow: visible;
+.wrapper-3t9DeA .dots-3Bkt3k {
+  overflow: visible;
 
-  circle { cy: 5.5;}
+  g { transform: translateY(2.5px);}
 }
 
 // Masks in user popouts
