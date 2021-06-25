@@ -24,7 +24,49 @@
 .keybind-KpFkfr { display: none;}
 
 // My account
-.avatarUploaderIndicator-2G-aIZ { display: none;}
+.accountProfileCard-1XCH88 {
+  background-color: var(--background-secondary);
+
+  .avatar-1uQSZT {
+    border-color: transparent;
+    border-width: 9px 0;
+    background-color: transparent;
+  }
+}
+
+// User Profile
+.userProfileCustomizationSection-8Vpo48 {
+  .baseLayout-2GkbfB { 
+    & > :first-child { flex: 2 auto;}
+
+    // Avatar
+    .avatarUploaderInner-Oiob_P { 
+      border: none;
+      border-radius: var(--avatar-radius);
+
+      .avatarUploaderIndicator-2G-aIZ { display: none;}
+    }
+
+    .popoutInfo-pKbpvG {
+      background-color: var(--background-secondary);
+
+      .headerTop-3vNv-a, .aboutMeSection-1Fw5Ia, .customStatus-oN4ZZY { background-color: var(--background-tertiary);}
+      .aboutMeSection-1Fw5Ia { padding: 0 12px 12px 16px;}
+
+      // No scrollbar
+    .divider-ewBQKj { display: none;}
+
+      // Activity
+      .fakeActivityWrapper-2i1oU- {
+        margin: 16px 16px 0 16px; padding-bottom: 16px;
+        background-color: #7289da;
+        border-radius: 5px;
+  
+        .colorStandard-2KCXvj, h3 { color: white;}
+      }
+    }
+  }
+}
 
 // Authorized apps
 .cardPrimaryOutline-29Ujqw { background-color: var(--background-secondary);}

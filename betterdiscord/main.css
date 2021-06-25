@@ -797,6 +797,9 @@
   padding: 54px 16px 16px 16px;
   background-color: var(--background-tertiary);
 }
+:root .userPopout-xaxa6l .headerTop-3vNv-a .setIdentityLink-1t8Ahd {
+  display: none;
+}
 :root .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY, :root .userPopout-xaxa6l .body-3HBlXn .aboutMeSection-1Fw5Ia {
   padding: 0 16px 16px 16px;
   background-color: var(--background-tertiary);
@@ -874,6 +877,12 @@
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U {
   margin: 0;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
+  transition: background-color 120ms;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8:focus {
+  background-color: var(--background-secondary-alt);
 }
 :root .userPopout-xaxa6l .wrapper-3t9DeA {
   border: none;
@@ -1251,8 +1260,44 @@
 :root .keybind-KpFkfr {
   display: none;
 }
-:root .avatarUploaderIndicator-2G-aIZ {
+:root .accountProfileCard-1XCH88 {
+  background-color: var(--background-secondary);
+}
+:root .accountProfileCard-1XCH88 .avatar-1uQSZT {
+  border-color: transparent;
+  border-width: 9px 0;
+  background-color: transparent;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB > :first-child {
+  flex: 2 auto;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .avatarUploaderInner-Oiob_P {
+  border: none;
+  border-radius: var(--avatar-radius);
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .avatarUploaderInner-Oiob_P .avatarUploaderIndicator-2G-aIZ {
   display: none;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG {
+  background-color: var(--background-secondary);
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .headerTop-3vNv-a, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .aboutMeSection-1Fw5Ia, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .customStatus-oN4ZZY {
+  background-color: var(--background-tertiary);
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .aboutMeSection-1Fw5Ia {
+  padding: 0 12px 12px 16px;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .divider-ewBQKj {
+  display: none;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .fakeActivityWrapper-2i1oU- {
+  margin: 16px 16px 0 16px;
+  padding-bottom: 16px;
+  background-color: #7289da;
+  border-radius: 5px;
+}
+:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .fakeActivityWrapper-2i1oU- .colorStandard-2KCXvj, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .fakeActivityWrapper-2i1oU- h3 {
+  color: white;
 }
 :root .cardPrimaryOutline-29Ujqw {
   background-color: var(--background-secondary);

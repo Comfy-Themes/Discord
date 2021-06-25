@@ -8,6 +8,9 @@
   .headerTop-3vNv-a { 
     padding: 54px 16px 16px 16px;
     background-color: var(--background-tertiary);
+
+    // who cares about that
+    .setIdentityLink-1t8Ahd { display: none;}
   }
 
   .body-3HBlXn {
@@ -86,7 +89,15 @@
         }
       }
       
-      .note-1oo11U { margin: 0;}
+      .note-1oo11U { 
+        margin: 0;
+
+        .textarea-2r0oV8{
+          transition: background-color 120ms;
+
+          &:focus { background-color: var(--background-secondary-alt);}
+        }
+      }
     }
   }
 
