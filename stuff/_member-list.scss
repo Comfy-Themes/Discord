@@ -14,10 +14,11 @@
   }
 
   .body-3HBlXn {
+    padding: 0 !important;
 
     // Custom status
     .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { 
-      padding: 0 16px 16px 16px;
+      padding: 0 16px 16px 16px; margin: 0;
       background-color: var(--background-tertiary);
     }
 
