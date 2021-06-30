@@ -24,8 +24,9 @@ Go into your theme folder
 - For Powercord/Vizality : `_custom.css`
 
 ## More preview
-![Preview](https://nyri4.github.io/Comfy/assets/status_picker.png)
-![Preview](https://nyri4.github.io/Comfy/assets/modal.png)
+| Status picker | User modal |
+| ------------- | ------------- |
+| ![Preview](https://nyri4.github.io/Comfy/assets/status_picker.png)  | ![Preview](https://nyri4.github.io/Comfy/assets/modal.png)  |
 
 ## Credits
 
