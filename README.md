@@ -3,7 +3,7 @@
 ---
 
 # Comfy
-![Preview](https://i.ibb.co/5cWJGRP/Preview.png)
+![Preview](https://nyri4.github.io/Comfy/assets/preview.png)
 
 ## 📥 Installation
 
@@ -15,13 +15,17 @@ git clone https://github.com/NYRI4/Comfy-git-clone
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.app/Download?id=130)
+1. Go [here](https://betterdiscord.app/theme/Comfy)
 2. Save the file into your theme folder
 
 ## 🖌️ Customization
 Go into your theme folder
 - For BetterDiscord : `comfy.theme.css`
 - For Powercord/Vizality : `_custom.css`
+
+## More preview
+![Preview](https://nyri4.github.io/Comfy/assets/status_picker.png)
+![Preview](https://nyri4.github.io/Comfy/assets/modal.png)
 
 ## Credits
 
