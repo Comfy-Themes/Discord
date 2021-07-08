@@ -183,6 +183,15 @@
   }
 }
 
+// Invite popout
+.inviteRow-2L02ae {
+  border-radius: 0; padding-left: 15px;
+
+  &:hover { background-color: var(--background-modifier-hover);}
+
+  .lookFilled-1Gx00P.colorGreen-29iAKY:hover { background-color: var(--old-green);}
+}
+
 // Adding roles
 .autocompleteShadow-iiGWFU {
   box-shadow: 0 4px 15px #00000031;

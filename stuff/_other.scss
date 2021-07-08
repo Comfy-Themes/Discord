@@ -450,4 +450,15 @@ div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y:
 // Token thing
 .contentWarningPopout-n5JsIs { background-color: var(--background-primary); box-shadow: none;}
 
+// No scrollbars
+.layerContainer-yqaFcK { 
+  *::-webkit-scrollbar { display: none;}
+
+  .scroller-2hZ97C { 
+    padding-left: 0;
+
+    & > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important;}
+  } 
+}
+
 }

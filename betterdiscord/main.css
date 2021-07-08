@@ -140,6 +140,9 @@
 :root .contentWrapper-SvZHNd .arrow-gKvcEx {
   display: none;
 }
+:root .stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+  background-color: #6e85d321;
+}
 :root .attachButton-2WznTc .attachButtonPlus-jWVFah,
 :root .attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
   fill: var(--chat-buttons);
@@ -544,6 +547,16 @@
 :root .group-1WdBVp .item-1yAxl1:hover.allow-1PzSY3, :root .group-1WdBVp .item-1yAxl1.selected-2YhbGh.allow-1PzSY3 {
   color: #43b581;
   background-color: #43b5823b;
+}
+:root .inviteRow-2L02ae {
+  border-radius: 0;
+  padding-left: 15px;
+}
+:root .inviteRow-2L02ae:hover {
+  background-color: var(--background-modifier-hover);
+}
+:root .inviteRow-2L02ae .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--old-green);
 }
 :root .autocompleteShadow-iiGWFU {
   box-shadow: 0 4px 15px #00000031;
@@ -2040,6 +2053,15 @@
 :root .contentWarningPopout-n5JsIs {
   background-color: var(--background-primary);
   box-shadow: none;
+}
+:root .layerContainer-yqaFcK *::-webkit-scrollbar {
+  display: none;
+}
+:root .layerContainer-yqaFcK .scroller-2hZ97C {
+  padding-left: 0;
+}
+:root .layerContainer-yqaFcK .scroller-2hZ97C > .content-3YMskv, :root .layerContainer-yqaFcK .scroller-2hZ97C .buttons-3JBrkn, :root .layerContainer-yqaFcK .scroller-2hZ97C .messagesPopout-24nkyi {
+  padding-right: 10px !important;
 }
 
 :root #GameActivityToggleBtn .st0 {
