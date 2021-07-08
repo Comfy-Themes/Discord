@@ -643,14 +643,12 @@
 }
 
 :root .userPopout-xaxa6l {
-  background-color: var(--background-secondary);
   box-shadow: 0 0 10px 0 #101320d2;
   overflow: hidden;
   --USRBG-banner-height: 60px;
 }
 :root .userPopout-xaxa6l .headerTop-3vNv-a {
   padding: 54px 16px 16px 16px;
-  background-color: var(--background-tertiary);
 }
 :root .userPopout-xaxa6l .headerTop-3vNv-a .setIdentityLink-1t8Ahd {
   display: none;
@@ -661,21 +659,17 @@
 :root .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY, :root .userPopout-xaxa6l .body-3HBlXn .aboutMeSection-1Fw5Ia {
   padding: 0 16px 16px 16px;
   margin: 0;
-  background-color: var(--background-tertiary);
 }
 :root .userPopout-xaxa6l .body-3HBlXn .divider-ewBQKj {
   display: none;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
-  background-color: transparent;
   padding: 16px 16px 0 16px;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu {
   padding: 16px;
-  margin-bottom: 66px;
-  border-radius: 5px;
+  margin: 20px 0 16px 0;
   z-index: 1;
-  overflow: hidden;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerText-1HLrL7, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .activityName-1IaRLn,
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .content-3JfFJh, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .details-38sfDr, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .name-29ETJS,
@@ -687,6 +681,27 @@
   background-color: #ffffff21;
   box-shadow: 0 4px 15px #00000021;
   color: #fff;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerTextNormal-2mGWX3::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  background: url("https://nyri4.github.io/Comfy/assets/wave.png");
+  background-size: 268px 20px;
+  animation: animate2 4s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+@keyframes animate2 {
+  0% {
+    background-position-x: 268px;
+  }
+  100% {
+    background-position-x: 0;
+  }
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::before {
   content: "";
@@ -701,22 +716,15 @@
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::after {
   content: "";
   position: absolute;
-  height: 50px;
-  z-index: -2;
-  left: -16px;
-  right: -16px;
-  bottom: -62px;
-  background: url("https://nyri4.github.io/Comfy/assets/wave_playing.png") no-repeat;
-  background-size: 250px 20px;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  background: url("https://nyri4.github.io/Comfy/assets/wave_playing.png");
+  background-size: 268px 20px;
   animation: animate 6s linear infinite;
-}
-@keyframes animate {
-  0% {
-    background-position-x: 0;
-  }
-  100% {
-    background-position-x: 250px;
-  }
+  animation-delay: 0s;
+  opacity: 1;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::before {
   content: "";
@@ -728,8 +736,56 @@
   top: 0;
   background: #1db954;
 }
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.png");
+  background-size: 268px 20px;
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 268px;
+  }
+}
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .spotifyIcon-2J9kSv {
   display: none;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu + h3 {
+  position: relative;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu + h3::before {
+  content: "";
+  position: absolute;
+  top: -36px;
+  left: -3px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border: solid var(--background-tertiary);
+  border-width: 0 0 3px 3px;
+  border-radius: 0 0 0 8px;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu + h3::after {
+  content: "";
+  position: absolute;
+  top: -36px;
+  right: -3px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border: solid var(--background-tertiary);
+  border-width: 0 3px 3px 0;
+  border-radius: 0 0 8px 0;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .role-2irmRk {
   position: relative;
@@ -771,9 +827,14 @@
   display: none;
 }
 :root .userPopout-xaxa6l .footer-3UKYOU {
-  background-color: transparent;
+  padding-top: 16px;
+  margin-top: 0;
 }
 :root .userPopout-xaxa6l .footer-3UKYOU .input-2_SIlA {
+  background-color: transparent;
+  transition: background-color 120ms;
+}
+:root .userPopout-xaxa6l .footer-3UKYOU .input-2_SIlA:focus {
   background-color: var(--background-secondary-alt);
 }
 :root .userPopout-xaxa6l[style*=-user-] {
