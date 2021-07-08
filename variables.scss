@@ -1,12 +1,6 @@
-/**
-* @name Comfy
-* @author Nyria#3863
-* @description Stay comfy while talking to your friends
-* @invite rtBQX5D3bD
-* @version 2.0
-*/
+@use "app.scss";
 
-@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+:root {
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -21,10 +15,11 @@
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
 ::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the dafault one */
-.container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important;}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -6px !important; left: -8px !important; width: 240px !important; height: 53px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-14-BFJ:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}
+/* ═══════『 🎵 ・ Powercord  seek bar 』- Comment the line below if you want the dafault one */
+.powercord-spotify .spotify-seek-bar-progress { background-color: var(--spotify-color) !important;} .powercord-spotify .spotify-seek-bar {position: absolute;bottom: 0;width: 240px; height: 56px;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.powercord-spotify.hover .spotify-seek-bar { height: 64px; }.powercord-spotify .avatarWrapper-2yR4wp, .powercord-spotify .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; } .spotify-extra-controls { position: relative; z-index: 1; } .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar { height: 79px !important;} .powercord-spotify .spotify-buttons, .spotify-extra-controls .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}
 
-:root { 
+/* ═══════『 🎵 ・ Vizality  seek bar 』- Comment the line below if you want the dafault one */
+.spotify-in-discord-player-seek-bar { position: absolute; bottom: 0;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;} .spotify-in-discord-player .container-3baos1 { margin-bottom: 0;}
 
 /* ═══════『 🖼️ ・ Background in the status picker 』═══════
 *
@@ -96,11 +91,14 @@
 /* Default value : #7289DA */
 --chat-buttons: #7289DA;
 
-/* ═══════『 💬 SpotifyControls seek bar 』═══════
+/* ═══════『 💬 Spotify seek bar 』═══════
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
 
-/* Default value : #1EDC62 */
---spotify-color: #1EDC62;
+// Vizality - Default value : #1EDC62
+--spotify-in-discord__spotify-brand-color: #1EDC62;
+
+// Powercord - Default value : #1EDC62
+--spotify-color: #1EDC62 !important;
 
 /* ═══════『 🟢 Status 』═══════ */
 
@@ -129,40 +127,43 @@
 
 --discord-logo: none;
 
-}
- 
-:root.theme-dark {
-    --background-primary: #23283D;
-    --background-secondary: #1E2233;
-    --background-secondary-alt: #191F2E;
+&.theme-dark {
     --background-tertiary: #101320;
-    --background-mobile-primary: #23283D;
-    --background-mobile-secondary: #1E2233;
-    --channeltextarea-background: #191F2E;
-    --background-accent: #7289DA;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-mobile-primary: #23283d;
+    --background-mobile-secondary: #1e2233;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
     --background-message-hover: transparent;
-    --background-modifier-hover: #1C2030;
-    --background-modifier-active: #1A1E2E;
-    --background-modifier-selected: #191F2E;
-    --deprecated-card-bg: #12141F63;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
     --background-floating: #101320;
     --deprecated-quickswitcher-input-background:#101320;
     --elevation-low: none;
     --scrollbar-auto-thumb: #121722;
-    --scrollbar-auto-track: #191F2E;
+    --scrollbar-auto-track: #191f2e;
     --scrollbar-thin-thumb: #141925;
+    --toast-background: #1e2233 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
     --activity-card-background: #101320;
 }
- 
-:root.theme-light {
-    --background-primary: #23283D;
-    --background-secondary: #1E2233;
-    --background-secondary-alt: #191F2E;
+
+&.theme-light {
     --background-tertiary: #101320;
-    --background-accent: #7289DA;
-    --background-modifier-hover: #262B41;
-    --background-modifier-active: #262B41;
-    --header-primary: #FFF;
-    --header-secondary: #B1B5B9;
-    --text-normal: #8E9297;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #262b41;
+    --background-modifier-active: #262b41;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}
+
 }

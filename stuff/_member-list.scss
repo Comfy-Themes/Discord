@@ -31,7 +31,7 @@
       padding: 16px 16px 0 16px;
 
       .activity-2INFPu { 
-        padding: 16px; margin-bottom: 16px; 
+        padding: 16px; margin-bottom: 66px; 
         border-radius: 5px; z-index: 1;
         overflow: hidden;
     
@@ -47,15 +47,26 @@
         }
     
         // Playing
-        &::after {
+        &::before {
           content: ""; position: absolute;
           width: 100%; height: 100%; z-index: -2;
           left: 0; top: 0;
           background: #7289da;
         }
+
+        &::after {
+          content: ""; position: absolute;
+          height: 50px; z-index: -2;
+          left: -16px; right: -16px; bottom: -62px;
+          background: url("https://nyri4.github.io/Comfy/assets/wave_playing.png") no-repeat;
+          background-size: 250px 20px; 
+          animation: animate 6s linear infinite;
+
+          @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}
+        }
     
         // Spotify
-        .timeBarUserPopout-AWPFf2::after {
+        .timeBarUserPopout-AWPFf2::before {
           content: ""; position: absolute;
           width: 100%; height: 100%; z-index: -1;
           left: 0; top: 0;
@@ -200,10 +211,10 @@
       .avatar-AvHqJA {
         position: absolute;
         top: -180px; left: 50%;
-        margin-left: calc((var(--avatar-width) / 2) - var(--avatar-width)); border: none;
+        margin-left: -65px; border: none;
         background: none;
-        width: var(--avatar-width) !important;
-        height: var(--avatar-width) !important;
+        width: 130px !important;
+        height: 130px !important;
       }
 
       .header-4zuFdR {
@@ -238,8 +249,8 @@
       }
 
       .nameTag-ECvD8P {
-        margin: calc(var(--avatar-width) + 20px) 0 10px 0;
-        justify-content: center;
+        margin: 150px 0 10px 0;
+        text-align: center;
 
         .username-2b1r56 { max-width: 142px; white-space: nowrap;}
       }

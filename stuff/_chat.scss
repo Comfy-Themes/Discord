@@ -20,7 +20,7 @@
 }
 
 // Hiding avatar
-.content-98HsJk > :nth-child(2):not(.chat-3bRxxu), .callContainer-3UuV6S { z-index: 2;}
+.content-98HsJk > :nth-child(2):not(.chat-3bRxxu), .callContainer-3UuV6S, .gatedContent-3-B7qB { z-index: 2;}
 
 // Chat bar
 .form-2fGMdU {
@@ -133,6 +133,12 @@
 }
 
 .navButtonActive-1MkytQ, .emojiItem-14v6tW.emojiItemSelected-1aLkfV { background-color: #6e85d321;}
+
+.imageLoading-bpSr0M { 
+  background-image: none !important;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
 
 .contentWrapper-SvZHNd {
   grid-row-gap: 20px;

@@ -159,7 +159,7 @@
           width: 230px; height: 140px;
           pointer-events: none;
           background-color: var(--background-secondary-alt);
-          background-image: var(--status-background);
+          background: var(--status-background);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
@@ -253,13 +253,8 @@ rect {
 .message-2qRu38 { background: var(--background-primary);}
 
 // Tooltips
-.tooltip-2QfLtc {
-  display: var(--tooltips);
-  background: var(--background-tertiary);
-}
-.tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-  border-top-color: var(--background-tertiary);
-}
+.tooltip-2QfLtc { background: var(--background-tertiary);}
+.tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--background-tertiary);}
 
 // Keyboard shortcuts
 .keyboardShortcutsModal-3piNz7 {

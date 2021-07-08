@@ -35,35 +35,42 @@
 }
 
 // User Profile
-.userProfileCustomizationSection-8Vpo48 {
-  .baseLayout-2GkbfB { 
-    & > :first-child { flex: 2 auto;}
+.userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB {
+  & > :first-child { flex: 2 auto;}
 
-    // Avatar
-    .avatarUploaderInner-Oiob_P { 
-      border: none;
-      border-radius: var(--avatar-radius);
+  // Avatar
+  .avatarUploaderInner-Oiob_P { 
+    border: none;
+    border-radius: var(--avatar-radius);
 
-      .avatarUploaderIndicator-2G-aIZ { display: none;}
+    .avatarUploaderIndicator-2G-aIZ { display: none;}
+  }
+
+  .headerTop-3vNv-a { padding-top: 54px;}
+
+  .popoutInfo-pKbpvG {
+    padding: 0 0 16px 0;
+    background-color: var(--background-secondary);
+
+    .customStatus-oN4ZZY { 
+      padding: 0 12px 12px 16px; margin-bottom: 0;
+      background-color: var(--background-tertiary);
     }
 
-    .popoutInfo-pKbpvG {
-      background-color: var(--background-secondary);
-
-      .headerTop-3vNv-a, .aboutMeSection-1Fw5Ia, .customStatus-oN4ZZY { background-color: var(--background-tertiary);}
-      .aboutMeSection-1Fw5Ia { padding: 0 12px 12px 16px;}
-
-      // No scrollbar
     .divider-ewBQKj { display: none;}
 
-      // Activity
-      .fakeActivityWrapper-2i1oU- {
-        margin: 16px 16px 0 16px; padding-bottom: 16px;
-        background-color: #7289da;
-        border-radius: 5px;
-  
-        .colorStandard-2KCXvj, h3 { color: white;}
-      }
+    .aboutMeSection-1Fw5Ia { 
+      padding: 0 12px 12px 16px;
+      background-color: var(--background-tertiary);
+    }
+
+    // Activity
+    & > div[aria-hidden="true"]:last-child {
+      margin: 0 16px; padding: 16px;
+      background-color: #7289da;
+      border-radius: 5px;
+
+      .colorStandard-2KCXvj, h3 { color: white;}
     }
   }
 }
@@ -103,6 +110,13 @@
 .gameNameInput-385LoS:hover, .gameNameInput-385LoS:focus { background: var(--background-secondary-alt); border: none;}
 .game-1ipmAa { box-shadow: 0 1px 0 0 var(--background-secondary); }
 .css-17e1tep-control { border: none;}
+
+// Comfy icon
+.socialLinks-3jqNFy::after {
+  content: ""; position: absolute;
+  width: 28px; height: 28px; margin-top: -7px;
+  background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/cover no-repeat;
+}
 
 // --------------------------- ⚙️ SERVER SETTINGS ---------------------------
 
