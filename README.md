@@ -10,7 +10,7 @@
 ### Powercord & Vizality
 
 ```sh
-git clone https://github.com/NYRI4/Comfy-git-clone
+git clone https://github.com/NYRI4/Comfy
 ```
 
 ### BetterDiscord
