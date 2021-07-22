@@ -1,4 +1,20 @@
 :root {
-    #splash { background: #23283d;}
+    #splash { 
+        background: #23283d;
 
+        video { 
+            display: none;
+          
+            & + .splash-text {
+              top: 82px;
+          
+              &::before {
+                content: ""; position: absolute;
+                bottom: 60px; left: -60px;
+                width: 200px; height: 200px;
+                background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/80% no-repeat;
+              }
+            }
+          }
+    }
 }

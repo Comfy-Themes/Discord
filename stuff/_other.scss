@@ -228,20 +228,20 @@
 }
 
 // Loading screen
-// .ready-36e6Vk { 
-//   display: none;
+.ready-36e6Vk { 
+  display: none;
 
-//   & + .text-3c9Zq1 {
-//     top: 82px;
+  & + .text-3c9Zq1 {
+    top: 82px;
 
-//     &::before {
-//       content: ""; position: absolute;
-//       bottom: 100px; left: 50px;
-//       width: 200px; height: 200px;
-//       background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/cover no-repeat;
-//     }
-//   }
-// }
+    &::before {
+      content: ""; position: absolute;
+      bottom: 100px; left: 50px;
+      width: 200px; height: 200px;
+      background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/80% no-repeat;
+    }
+  }
+}
 
 // Coloured status when playing
 rect {

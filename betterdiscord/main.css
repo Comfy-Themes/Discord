@@ -1781,6 +1781,21 @@
 :root .item-1tOPte.colorDanger-2qLCe1:hover, :root .item-1tOPte.colorDanger-2qLCe1.focused-3afm-j, :root .item-1tOPte.colorDanger-2qLCe1:active:not(.hideInteraction-1iHO1O) {
   background-color: #f047471a;
 }
+:root .ready-36e6Vk {
+  display: none;
+}
+:root .ready-36e6Vk + .text-3c9Zq1 {
+  top: 82px;
+}
+:root .ready-36e6Vk + .text-3c9Zq1::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/80% no-repeat;
+}
 :root rect [mask="url(#svg-mask-status-online)"],
 :root rect [mask="url(#svg-mask-status-online-mobile)"] {
   fill: var(--online);
