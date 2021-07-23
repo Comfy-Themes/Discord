@@ -5,6 +5,5 @@
     "author": "Nyria#3863",
     "theme": "variables.scss",
     "splashTheme": "stuff/_splash.scss",
-    "consent": "false",
     "license": "GNU GPL"
 }

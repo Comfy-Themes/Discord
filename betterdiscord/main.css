@@ -933,7 +933,7 @@
 }
 :root .root-3QyAh1 .topSection-y3p-_D > header .avatar-AvHqJA {
   position: absolute;
-  top: -180px;
+  top: -215px;
   left: 50%;
   margin-left: -65px;
   border: none;
@@ -969,12 +969,10 @@
   margin: 8px 0 0 0;
 }
 :root .root-3QyAh1 .topSection-y3p-_D > header .nameTag-ECvD8P {
-  margin: 150px 0 10px 0;
-  text-align: center;
-}
-:root .root-3QyAh1 .topSection-y3p-_D > header .nameTag-ECvD8P .username-2b1r56 {
-  max-width: 142px;
-  white-space: nowrap;
+  margin: 160px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 :root .root-3QyAh1 .topSection-y3p-_D > header .customStatusActivity-nmH3DF {
   position: fixed;

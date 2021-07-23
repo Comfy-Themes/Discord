@@ -258,7 +258,7 @@
       // Avatar
       .avatar-AvHqJA {
         position: absolute;
-        top: -180px; left: 50%;
+        top: -215px; left: 50%;
         margin-left: -65px; border: none;
         background: none;
         width: 130px !important;
@@ -297,10 +297,9 @@
       }
 
       .nameTag-ECvD8P {
-        margin: 150px 0 10px 0;
-        text-align: center;
-
-        .username-2b1r56 { max-width: 142px; white-space: nowrap;}
+        margin: 160px 0 10px 0;
+        display: flex; flex-direction: column;
+        gap: 5px;
       }
 
       .customStatusActivity-nmH3DF {
