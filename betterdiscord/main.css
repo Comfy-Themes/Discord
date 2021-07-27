@@ -657,8 +657,6 @@
 
 :root .userPopout-xaxa6l {
   box-shadow: 0 0 10px 0 #101320d2;
-  overflow: hidden;
-  --USRBG-banner-height: 60px;
 }
 :root .userPopout-xaxa6l .headerTop-3vNv-a {
   padding: 54px 16px 16px 16px;
@@ -850,20 +848,6 @@
 :root .userPopout-xaxa6l .footer-3UKYOU .input-2_SIlA:focus {
   background-color: var(--background-secondary-alt);
 }
-:root .userPopout-xaxa6l[style*=-user-] {
-  --USRBG-banner-height: 120px;
-  --USRBG-avatar-offset: 76px;
-}
-:root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d {
-  height: var(--USRBG-banner-height, 120px);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: var(--user-popout-position, center) center;
-  background-image: var(--user-background);
-}
-:root .userPopout-xaxa6l[style*=-user-] .avatarWrapperNormal-26WQIb {
-  top: var(--USRBG-avatar-offset, 76px);
-}
 :root .container-3XJ8ns {
   z-index: 1003;
   border: none;
@@ -903,8 +887,6 @@
 }
 :root .root-3QyAh1 {
   width: 700px;
-  overflow: hidden;
-  --USRBG-banner-height: 60px;
 }
 :root .root-3QyAh1 .topSection-y3p-_D {
   display: flex;
@@ -921,6 +903,11 @@
   width: 100%;
   height: 100%;
   opacity: 0.7;
+}
+@media (min-height: 720px) {
+  :root .root-3QyAh1 .topSection-y3p-_D .banner-2QYc2d {
+    height: calc(100% - 240px);
+  }
 }
 :root .root-3QyAh1 .topSection-y3p-_D > header {
   display: flex;
@@ -1172,19 +1159,12 @@
   margin: 0;
   padding: 8px 12px;
 }
-:root .root-3QyAh1[style*=-user-] {
-  --USRBG-banner-height: 100%;
-  --USRBG-avatar-offset: 76px;
-}
+:root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d,
 :root .root-3QyAh1[style*=-user-] .banner-2QYc2d {
-  height: var(--USRBG-banner-height, 120px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
-}
-:root .root-3QyAh1[style*=-user-] .avatarWrapperNormal-26WQIb {
-  top: var(--USRBG-avatar-offset, 76px);
 }
 
 :root .contentRegion-3nDuYy {
