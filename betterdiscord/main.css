@@ -25,10 +25,10 @@
 :root .content-98HsJk > :nth-child(2):not(.chat-3bRxxu), :root .callContainer-3UuV6S, :root .gatedContent-3-B7qB {
   z-index: 2;
 }
-:root .form-2fGMdU {
+:root .chat-3bRxxu .form-2fGMdU {
   padding-left: 66px;
 }
-:root .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, :root .form-2fGMdU .wrapper-39oAo3:after {
+:root .chat-3bRxxu .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, :root .chat-3bRxxu .form-2fGMdU .wrapper-39oAo3:after {
   position: absolute;
   content: "";
   bottom: 2px;
@@ -437,6 +437,12 @@
 }
 :root .mainContent-2h-GEV .arrow-gKvcEx {
   display: none;
+}
+:root .typeThread-3ESTm- .content-1x5b-n {
+  padding-left: 34px;
+}
+:root .spine--Wla_O {
+  z-index: 1;
 }
 :root .container-1taM1r {
   background: var(--background-secondary);
