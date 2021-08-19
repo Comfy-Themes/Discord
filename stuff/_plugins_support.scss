@@ -34,8 +34,12 @@
 #MemberCount { background-color: var(--background-secondary) !important;}
 
 // Server folder
-.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: margin 0.3s linear;}
+.guilds-1SWlCJ.content-Pph8t6 + .base-3dtUhz .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: margin-left 300ms linear;}
 .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: 72px;}
+
+// Hide Channels
+.sidebar-2K8pFh .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: margin-left 400ms ease;}
+.sidebar-2K8pFh.hideChannelElement .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: -240px;}
 
 // Powercord update toast
 .powercord-toast {
