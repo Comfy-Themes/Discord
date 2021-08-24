@@ -316,10 +316,10 @@
     .tabBar-3nvOPa {
       justify-content: center;
 
-      .tabBarItem-3dfX8P[aria-controls="USER_INFO-tab"],
-      .tabBarItem-3dfX8P[aria-controls="MUTUAL_GUILDS-tab"],
-      .tabBarItem-3dfX8P[aria-controls="MUTUAL_FRIENDS-tab"],
-      .tabBarItem-3dfX8P[aria-controls="ACTIVITY-tab"] {
+      .tabBarItem-3dfX8P[aria-controls="user_info-tab"],
+      .tabBarItem-3dfX8P[aria-controls="mutual_guilds-tab"],
+      .tabBarItem-3dfX8P[aria-controls="mutual_friends-tab"],
+      .tabBarItem-3dfX8P[aria-controls="activity-tab"] {
         text-indent: 100%;
         overflow: hidden;
         margin: 0 30px;
@@ -334,10 +334,10 @@
         }
       }
 
-      .tabBarItem-3dfX8P[aria-controls="USER_INFO-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/user.png");}
-      .tabBarItem-3dfX8P[aria-controls="MUTUAL_GUILDS-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");}
-      .tabBarItem-3dfX8P[aria-controls="MUTUAL_FRIENDS-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");}
-      .tabBarItem-3dfX8P[aria-controls="ACTIVITY-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");}
+      .tabBarItem-3dfX8P[aria-controls="user_info-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/user.png");}
+      .tabBarItem-3dfX8P[aria-controls="mutual_guilds-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");}
+      .tabBarItem-3dfX8P[aria-controls="mutual_friends-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");}
+      .tabBarItem-3dfX8P[aria-controls="activity-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");}
     }
   }
   .noTabBar-3ZjPNR { border-top: none;}

@@ -1005,19 +1005,19 @@
 :root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa {
   justify-content: center;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=USER_INFO-tab],
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_GUILDS-tab],
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_FRIENDS-tab],
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=ACTIVITY-tab] {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab] {
   text-indent: 100%;
   overflow: hidden;
   margin: 0 30px;
   width: 30px;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=USER_INFO-tab]::after,
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_GUILDS-tab]::after,
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_FRIENDS-tab]::after,
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=ACTIVITY-tab]::after {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
   position: absolute;
   content: "";
   width: 30px;
@@ -1025,16 +1025,16 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=USER_INFO-tab]::after {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after {
   background-image: url("https://nyri4.github.io/Comfy/assets/user.png");
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_GUILDS-tab]::after {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after {
   background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=MUTUAL_FRIENDS-tab]::after {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after {
   background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=ACTIVITY-tab]::after {
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
   background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");
 }
 :root .root-3QyAh1 .noTabBar-3ZjPNR {
