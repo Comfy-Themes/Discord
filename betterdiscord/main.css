@@ -2105,6 +2105,14 @@
 :root .sidebar-2K8pFh.hideChannelElement .avatarWrapper-2yR4wp[aria-expanded=false] {
   margin-left: -240px;
 }
+:root .UserBackgrounds-banner-container {
+  position: static;
+}
+@media (min-height: 720px) {
+  :root .UserBackgrounds-banner-container .UserBackgrounds-banner-badge {
+    height: calc(100% - 240px);
+  }
+}
 :root .powercord-toast {
   border: none;
 }

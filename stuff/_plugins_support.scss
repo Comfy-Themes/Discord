@@ -41,6 +41,13 @@
 .sidebar-2K8pFh .avatarWrapper-2yR4wp[aria-expanded="false"] { transition: margin-left 400ms ease;}
 .sidebar-2K8pFh.hideChannelElement .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: -240px;}
 
+// UserBackground 
+.UserBackgrounds-banner-container { 
+  position: static;
+
+  @media (min-height: 720px) { .UserBackgrounds-banner-badge { height: calc(100% - 240px);}}
+}
+
 // Powercord update toast
 .powercord-toast {
   border: none;
