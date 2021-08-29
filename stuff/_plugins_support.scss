@@ -42,10 +42,13 @@
 .sidebar-2K8pFh.hideChannelElement .avatarWrapper-2yR4wp[aria-expanded="false"] { margin-left: -240px;}
 
 // UserBackground 
-.UserBackgrounds-banner-container { 
+.root-3QyAh1 .UserBackgrounds-banner-container { 
   position: static;
 
-  @media (min-height: 720px) { .UserBackgrounds-banner-badge { height: calc(100% - 240px);}}
+  .UserBackgrounds-banner-badge {     
+    top: 12px; right: 50%;
+    margin-right: -24px;
+  }
 }
 
 // Powercord update toast
