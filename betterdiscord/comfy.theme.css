@@ -142,9 +142,9 @@
     --channeltextarea-background: #191F2E;
     --background-accent: #7289DA;
     --background-message-hover: transparent;
-    --background-modifier-hover: #1C2030;
-    --background-modifier-active: #1A1E2E;
-    --background-modifier-selected: #191F2E;
+    --background-modifier-hover: #00000010;
+    --background-modifier-active: #0000001a;
+    --background-modifier-selected: #0000001f;
     --deprecated-card-bg: #12141F63;
     --background-floating: #101320;
     --deprecated-quickswitcher-input-background:#101320;
