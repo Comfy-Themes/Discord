@@ -16,7 +16,6 @@
 .sidebar-CFHs9e > div > .item-PXvHYJ,
 #bd-settings-sidebar .ui-tab-bar-item {
   padding: 8px 0 8px 10px;
-  margin-bottom: 0;
   border-radius: 5px 0 0 5px;
 }
 
@@ -31,7 +30,17 @@
     border-color: transparent;
     border-width: 9px 0;
     background-color: transparent;
+
+    .pointerEvents-2zdfdO { 
+      x: 66px; y: 66px; 
+      width: 20px; height: 20px;
+      rx: calc(var(--status-radius) + 1px) !important;
+      stroke: var(--background-secondary);
+      stroke-width: 4px;
+    }
   }
+
+  .background-1QDuV2 { margin-right: 0;}
 }
 
 // User Profile
@@ -108,7 +117,14 @@
 // Game Activity
 .notDetected-33MY4s, .addGamePopout-2RY8Ju { background: var(--background-secondary-alt);}
 .gameNameInput-385LoS:hover, .gameNameInput-385LoS:focus { background: var(--background-secondary-alt); border: none;}
-.game-1ipmAa { box-shadow: 0 1px 0 0 var(--background-secondary); }
+.game-1ipmAa { 
+  box-shadow: 0 1px 0 0 var(--background-secondary); 
+
+  .removeGame-2JFGPn { 
+    top: -3px; right: -5px;
+    border-radius: 5px;
+  }
+}
 .css-17e1tep-control { border: none;}
 
 // Comfy icon
@@ -222,8 +238,10 @@
 .emojiAliasInput-1y-NBz .emojiInput-1aLNse { background: var(--background-secondary);}
 .card-FDVird {
   box-shadow: none;
+  padding: 16px;
 
   &::before {
+    left: 0; right: 0;
     background: var(--background-secondary);
     border-color: transparent;
     opacity: 1; margin: 5px 0;
@@ -242,15 +260,24 @@
   background: var(--background-secondary);
   border-radius: 8px;
 }
-.auditLog-3jNbM6 {
+.auditLog-2ph_aK {
   border: none;
 
-  .headerExpanded-CUEwZ5 { border-radius: 8px 8px 0 0;}
-  .changeDetails-bk98pu { 
+  .headerClickable-g5d9lT {
+    background-color: var(--background-secondary-alt);
+    border-radius: 8px;
+  }
+
+  .headerExpanded-2egR38 { 
+    background-color: var(--background-secondary-alt);
+    border-radius: 8px 8px 0 0;
+  }
+
+  .changeDetails-2dV5gP { 
     background-color: var(--background-secondary);
     border-radius: 0 0 8px 8px;
   }
-  .divider-1pnAR2 { display: none;}
+  .divider-1tf9AP { display: none;}
 }
 
 // Integrations

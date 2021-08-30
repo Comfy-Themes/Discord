@@ -73,6 +73,41 @@
   &:hover { background-color: var(--mention-color-hover) !important;}
 }
 
+// Channel/User tag
+.wrapper-3WhCwL:not([style]) {
+  color: var(--brand-experiment);
+  background: transparent;
+
+  &::after { 
+    content: ""; opacity: 0.1;
+    top: 0; left: 0; z-index: -1;
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: var(--brand-experiment);
+    border-radius: inherit;
+  }
+}
+
+// Reaction
+.reaction-1hd86g {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--background-modifier-active);
+
+  &.reactionMe-wv5HKu {
+    position: relative;
+
+    &::after { 
+      content: ""; opacity: 0.4;
+      top: 0; left: 0; z-index: -1;
+      position: absolute;
+      width: 100%; height: 100%;
+      background-color: var(--brand-experiment);
+      border-radius: inherit;
+    }
+  }
+}
+
 // Going back to new messages
 .jumpToPresentBar-G1R9s6,
 .jumpToPresentBar-G1R9s6:active {
@@ -195,5 +230,20 @@
 
 // Code
 .markup-2BOw-j code { background: var(--deprecated-card-bg);}
+
+// Empty channel icon
+.emptyChannelIcon-cc932w {
+  position: relative;
+  background-color: transparent;
+
+  &::after {
+    content: ""; opacity: 0.3;
+    top: 0; left: 0; z-index: -1;
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: var(--brand-experiment);
+    border-radius: 8px;
+  }
+}
 
 }

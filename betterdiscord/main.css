@@ -1,6 +1,5 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://raw.githubusercontent.com/Goose-Nest/GT-RevertRebrand/main/RevertRebrand.theme.css");
 @import url("https://nyri4.github.io/donators/donators.css");
 :root .buttons-cl5qTG {
   transition: opacity 150ms;
@@ -68,6 +67,42 @@
 }
 :root .message-2qnXI6.mentioned-xhSam7:hover {
   background-color: var(--mention-color-hover) !important;
+}
+:root .wrapper-3WhCwL:not([style]) {
+  color: var(--brand-experiment);
+  background: transparent;
+}
+:root .wrapper-3WhCwL:not([style])::after {
+  content: "";
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: inherit;
+}
+:root .reaction-1hd86g {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--background-modifier-active);
+}
+:root .reaction-1hd86g.reactionMe-wv5HKu {
+  position: relative;
+}
+:root .reaction-1hd86g.reactionMe-wv5HKu::after {
+  content: "";
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: inherit;
 }
 :root .jumpToPresentBar-G1R9s6,
 :root .jumpToPresentBar-G1R9s6:active {
@@ -203,6 +238,22 @@
 }
 :root .markup-2BOw-j code {
   background: var(--deprecated-card-bg);
+}
+:root .emptyChannelIcon-cc932w {
+  position: relative;
+  background-color: transparent;
+}
+:root .emptyChannelIcon-cc932w::after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: 8px;
 }
 
 :root .guilds-1SWlCJ .scroller-2TZvBN,
@@ -1106,64 +1157,64 @@
 :root .root-3QyAh1 .connectedAccount-2Jb-Z0 .connectedAccountName-E1KzaT {
   margin-left: 13px;
 }
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="Battle.net"],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="Battle.net"]:hover,
-:root .root-3QyAh1 [src="/assets/4662875160dc4c56954003ebda995414.png"] {
-  background-color: #1da0f248;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Twitch],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Twitch]:hover,
-:root .root-3QyAh1 [src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] {
-  background-color: #601bd852;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=YouTube],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=YouTube]:hover,
-:root .root-3QyAh1 [src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
-  background-color: #d9252b49;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Twitter],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Twitter]:hover,
-:root .root-3QyAh1 [src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
-  background-color: #0098e446;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Steam],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Steam]:hover,
-:root .root-3QyAh1 [src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
-  background-color: #00000034;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Reddit],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Reddit]:hover,
-:root .root-3QyAh1 [src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
-  background-color: #fe44013d;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Facebook],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Facebook]:hover,
-:root .root-3QyAh1 [src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
-  background-color: #2e328485;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Spotify],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=Spotify]:hover,
-:root .root-3QyAh1 [src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
-  background-color: #1ed75f34;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="Xbox Live"],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="Xbox Live"]:hover,
-:root .root-3QyAh1 [src="/assets/0d44ba28e39303de3832db580a252456.png"] {
-  background-color: #5dc21e42;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="League Of Legends"],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label="League Of Legends"]:hover,
-:root .root-3QyAh1 [src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] {
-  background-color: #cea14638;
-}
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=GitHub],
-:root .root-3QyAh1 .accountBtnInner-sj5jLs[aria-label=GitHub]:hover,
-:root .root-3QyAh1 [src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] {
-  background-color: #24292e62;
-}
 :root .root-3QyAh1 .listRow-1iDGel {
   margin: 0;
   padding: 8px 12px;
+}
+:root .accountBtnInner-sj5jLs[aria-label="Battle.net"],
+:root .accountBtnInner-sj5jLs[aria-label="Battle.net"]:hover,
+:root [src="/assets/7b964801001dd47cc05a91d6dacf6075.png"] {
+  background-color: #1da0f248;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Twitch],
+:root .accountBtnInner-sj5jLs[aria-label=Twitch]:hover,
+:root [src="/assets/007e5cb8871cf0987283c6307ce7fed0.png"] {
+  background-color: #601bd852;
+}
+:root .accountBtnInner-sj5jLs[aria-label=YouTube],
+:root .accountBtnInner-sj5jLs[aria-label=YouTube]:hover,
+:root [src="/assets/25ec573cf82ee36d12296628f6bec11b.png"] {
+  background-color: #d9252b49;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Twitter],
+:root .accountBtnInner-sj5jLs[aria-label=Twitter]:hover,
+:root [src="/assets/6919f2a578d91a5d033b639f0fb52b3d.png"] {
+  background-color: #0098e446;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Steam],
+:root .accountBtnInner-sj5jLs[aria-label=Steam]:hover,
+:root [src="/assets/a9c26c8bebe406ca1adc1967bc532224.png"] {
+  background-color: #00000034;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Reddit],
+:root .accountBtnInner-sj5jLs[aria-label=Reddit]:hover,
+:root [src="/assets/b46c06eb71dc56a41432512168e6759a.png"] {
+  background-color: #fe44013d;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Facebook],
+:root .accountBtnInner-sj5jLs[aria-label=Facebook]:hover,
+:root [src="/assets/3d189c41ce8155dfebf86ba2d1acfbbc.png"] {
+  background-color: #2e328485;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Spotify],
+:root .accountBtnInner-sj5jLs[aria-label=Spotify]:hover,
+:root [src="/assets/7906941c1205ba04b6921f2af4c6a170.png"] {
+  background-color: #1ed75f34;
+}
+:root .accountBtnInner-sj5jLs[aria-label="Xbox Live"],
+:root .accountBtnInner-sj5jLs[aria-label="Xbox Live"]:hover,
+:root [src="/assets/746aba83c88f087e3eef23a47dd57923.png"] {
+  background-color: #5dc21e42;
+}
+:root .accountBtnInner-sj5jLs[aria-label="League Of Legends"],
+:root .accountBtnInner-sj5jLs[aria-label="League Of Legends"]:hover,
+:root [src="/assets/a0e2182e843745c73f7f3c8325a05ea9.png"] {
+  background-color: #cea14638;
+}
+:root .accountBtnInner-sj5jLs[aria-label=GitHub],
+:root .accountBtnInner-sj5jLs[aria-label=GitHub]:hover,
+:root [src="/assets/afb09840b496f2c49032075a33da7fab.png"] {
+  background-color: #24292e62;
 }
 :root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d,
 :root .root-3QyAh1[style*=-user-] .banner-2QYc2d {
@@ -1194,7 +1245,6 @@
 :root .sidebar-CFHs9e > div > .item-PXvHYJ,
 :root #bd-settings-sidebar .ui-tab-bar-item {
   padding: 8px 0 8px 10px;
-  margin-bottom: 0;
   border-radius: 5px 0 0 5px;
 }
 :root .closeButton-1tv5uR {
@@ -1210,6 +1260,18 @@
   border-color: transparent;
   border-width: 9px 0;
   background-color: transparent;
+}
+:root .accountProfileCard-1XCH88 .avatar-1uQSZT .pointerEvents-2zdfdO {
+  x: 66px;
+  y: 66px;
+  width: 20px;
+  height: 20px;
+  rx: calc(var(--status-radius) + 1px) !important;
+  stroke: var(--background-secondary);
+  stroke-width: 4px;
+}
+:root .accountProfileCard-1XCH88 .background-1QDuV2 {
+  margin-right: 0;
 }
 :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB > :first-child {
   flex: 2 auto;
@@ -1303,6 +1365,11 @@
 }
 :root .game-1ipmAa {
   box-shadow: 0 1px 0 0 var(--background-secondary);
+}
+:root .game-1ipmAa .removeGame-2JFGPn {
+  top: -3px;
+  right: -5px;
+  border-radius: 5px;
 }
 :root .css-17e1tep-control {
   border: none;
@@ -1419,8 +1486,11 @@
 }
 :root .card-FDVird {
   box-shadow: none;
+  padding: 16px;
 }
 :root .card-FDVird::before {
+  left: 0;
+  right: 0;
   background: var(--background-secondary);
   border-color: transparent;
   opacity: 1;
@@ -1438,17 +1508,22 @@
   background: var(--background-secondary);
   border-radius: 8px;
 }
-:root .auditLog-3jNbM6 {
+:root .auditLog-2ph_aK {
   border: none;
 }
-:root .auditLog-3jNbM6 .headerExpanded-CUEwZ5 {
+:root .auditLog-2ph_aK .headerClickable-g5d9lT {
+  background-color: var(--background-secondary-alt);
+  border-radius: 8px;
+}
+:root .auditLog-2ph_aK .headerExpanded-2egR38 {
+  background-color: var(--background-secondary-alt);
   border-radius: 8px 8px 0 0;
 }
-:root .auditLog-3jNbM6 .changeDetails-bk98pu {
+:root .auditLog-2ph_aK .changeDetails-2dV5gP {
   background-color: var(--background-secondary);
   border-radius: 0 0 8px 8px;
 }
-:root .auditLog-3jNbM6 .divider-1pnAR2 {
+:root .auditLog-2ph_aK .divider-1tf9AP {
   display: none;
 }
 :root .card-o7rAq-, :root .header-146Xl5 {
@@ -1599,6 +1674,11 @@
   transition: opacity 0.15s linear 0s;
 }
 
+:root {
+  --brand-experiment: #7289DA;
+  --brand-experiment-560: #5b70be;
+  --font-display: var(--font-primary);
+}
 :root #status-picker {
   position: fixed;
   bottom: 8px;
@@ -2049,9 +2129,6 @@
 :root .streamPreview-2-WUWT .button-38aScr:hover {
   background-color: #fff;
 }
-:root .lookFilled-1Gx00P.colorGrey-2DXtkV, :root .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  background-color: var(--brand-experiment);
-}
 :root .sparkles-fvfHK0 {
   z-index: unset;
 }
@@ -2067,6 +2144,26 @@
 }
 :root .layerContainer-yqaFcK .scroller-2hZ97C > .content-3YMskv, :root .layerContainer-yqaFcK .scroller-2hZ97C .buttons-3JBrkn, :root .layerContainer-yqaFcK .scroller-2hZ97C .messagesPopout-24nkyi {
   padding-right: 10px !important;
+}
+:root .lookFilled-1Gx00P.colorGrey-2DXtkV,
+:root .lookFilled-1Gx00P.colorBrandNew-g5lmBU {
+  background-color: var(--brand-experiment);
+}
+:root .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
+:root .lookFilled-1Gx00P.colorBrandNew-g5lmBU:hover {
+  background-color: var(--brand-experiment-560);
+}
+:root .gameVerifiedIcon-2dGGa5 .flowerStar-1GeTsn > path {
+  fill: var(--brand-experiment);
+}
+:root .homeIcon-FuNwkv > path {
+  d: path("M 20.6644 20 C 20.6644 20 19.8014 18.9762 19.0822 18.0714 C 22.2226 17.1905 23.4212 15.2381 23.4212 15.2381 C 22.4384 15.881 21.5034 16.3334 20.6644 16.6429 C 19.4658 17.1429 18.3151 17.4762 17.1884 17.6667 C 14.887 18.0953 12.7774 17.9762 10.9795 17.6429 C 9.61301 17.381 8.43836 17 7.45548 16.6191 C 6.90411 16.4048 6.30479 16.1429 5.70548 15.8096 C 5.63356 15.7619 5.56164 15.7381 5.48973 15.6905 C 5.44178 15.6667 5.41781 15.6429 5.39384 15.6191 C 4.96233 15.381 4.7226 15.2143 4.7226 15.2143 C 4.7226 15.2143 5.87329 17.1191 8.91781 18.0238 C 8.19863 18.9286 7.31164 20 7.31164 20 C 2.0137 19.8333 0 16.381 0 16.381 C 0 8.7144 3.45205 2.50017 3.45205 2.50017 C 6.90411 -0.07123 10.1884 0.000197861 10.1884 0.000197861 L 10.4281 0.285909 C 6.11301 1.52399 4.12329 3.40493 4.12329 3.40493 C 4.12329 3.40493 4.65068 3.11921 5.53767 2.71446 C 8.10274 1.59542 10.1404 1.2859 10.9795 1.21447 C 11.1233 1.19066 11.2432 1.16685 11.387 1.16685 C 12.8493 0.976379 14.5034 0.92876 16.2295 1.11923 C 18.5068 1.38114 20.9521 2.0478 23.4452 3.40493 C 23.4452 3.40493 21.5514 1.61923 17.476 0.381146 L 17.8116 0.000197861 C 17.8116 0.000197861 21.0959 -0.07123 24.5479 2.50017 C 24.5479 2.50017 28 8.7144 28 16.381 C 28 16.381 25.9623 19.8333 20.6644 20 Z M 9.51712 8.88106 C 8.15068 8.88106 7.07192 10.0715 7.07192 11.5239 C 7.07192 12.9763 8.17466 14.1667 9.51712 14.1667 C 10.8836 14.1667 11.9623 12.9763 11.9623 11.5239 C 11.9863 10.0715 10.8836 8.88106 9.51712 8.88106 Z M 18.2671 8.88106 C 16.9007 8.88106 15.8219 10.0715 15.8219 11.5239 C 15.8219 12.9763 16.9247 14.1667 18.2671 14.1667 C 19.6336 14.1667 20.7123 12.9763 20.7123 11.5239 C 20.7123 10.0715 19.6336 8.88106 18.2671 8.88106 Z");
+}
+:root .guildPopout-3CgKqR {
+  background-color: var(--background-secondary);
+}
+:root .guildPopout-3CgKqR .iconMask-AFPO7u {
+  background-color: transparent;
 }
 
 :root #GameActivityToggleBtn .st0 {
