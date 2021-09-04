@@ -1,8 +1,7 @@
 ![Banner](https://nyri4.github.io/Comfy/assets/banner.png)
+--- 
+<br>
 
----
-
-# Comfy
 ![Preview](https://nyri4.github.io/Comfy/assets/preview.png)
 
 ## 📥 Installation
@@ -15,25 +14,28 @@ git clone https://github.com/NYRI4/Comfy
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.app/theme/Comfy)
-2. Save the file into your theme folder
+Go [here](https://betterdiscord.app/theme/Comfy) and save the file into your theme folder
 
 ## 🖌️ Customization
-Go into your theme folder
-- For BetterDiscord : `comfy.theme.css`
-- For Powercord/Vizality : `_custom.css`
+Go into your theme folder and open :
 
-## More preview
-| Status picker | User modal |
-| ------------- | ------------- |
-| ![Preview](https://nyri4.github.io/Comfy/assets/status_picker.png)  | ![Preview](https://nyri4.github.io/Comfy/assets/modal.png)  |
+`comfy.theme.css` for BetterDiscord
 
-## Credits
+`variables.scss` for Powercord/Vizality
 
-Thanks a lot to : 
-- Snapperito
-- Harley 
-- Tropical
-- Strencher
-- _david_
-- and others peeps that I forgot for the help !
+## 🖼️ More preview
+| Status picker | User modal | Aliucord |
+| :---------: | :---------: | :---------: |
+| ![Preview](https://nyri4.github.io/Comfy/assets/status_picker.png)  | ![Preview](https://nyri4.github.io/Comfy/assets/modal.png)  | <img width=300 src="https://nyri4.github.io/Comfy/assets/preview-aliucord.png"></img> |
+
+## 📜 Credits
+
+Thanks a lot to :
+
+🎨 Snapperito <br>
+🐶 Harley <br>
+🌴 Tropical <br>
+🥨 Strencher <br>
+💾 _david_
+
+and others peeps that I forgot for the help !
