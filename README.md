@@ -1,6 +1,5 @@
 ![Banner](https://nyri4.github.io/Comfy/assets/banner.png)
 --- 
-<br>
 
 ![Preview](https://nyri4.github.io/Comfy/assets/preview.png)
 
