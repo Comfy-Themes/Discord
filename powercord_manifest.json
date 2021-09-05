@@ -1,7 +1,7 @@
 {
     "name": "Comfy",
     "description": "Stay comfy while talking to your friends",
-    "version": "2.0",
+    "version": "2.1",
     "author": "Nyria#3863",
     "theme": "variables.scss",
     "splashTheme": "stuff/_splash.scss",
