@@ -142,7 +142,7 @@
   z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
-  animation: 2s channel-unread infinite;
+  animation: var(--disable-animations), none;
 
   @keyframes channel-unread {
     0% { box-shadow: 0 0 0 0 var(--unread-color);}

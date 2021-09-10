@@ -27,6 +27,9 @@
 
 :root { 
 
+/* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
+--disable-animations: 2s channel-unread infinite;
+
 /* ═══════『 🖼️ ・ Background in the status picker 』═══════
 *
 *   ➥ Image : Replace the url of the current image with yours
