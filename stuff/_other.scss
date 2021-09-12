@@ -445,7 +445,11 @@ div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y:
 .streamPreview-2-WUWT { 
   width: 370px;
 
-  .previewContainer-12UlHl { height: 100%; background-color: var(--background-secondary);}
+  .previewContainer-12UlHl { 
+    height: 211px; background-color: var(--background-secondary);
+
+    .emptyPreviewImage-IBznSI { margin-bottom: 18px;}
+  }
 
   .button-38aScr { 
     border: none;

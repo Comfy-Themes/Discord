@@ -551,7 +551,7 @@
   z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
-  animation: 2s channel-unread infinite;
+  animation: var(--disable-animations), none;
 }
 @keyframes channel-unread {
   0% {
@@ -2117,8 +2117,11 @@
   width: 370px;
 }
 :root .streamPreview-2-WUWT .previewContainer-12UlHl {
-  height: 100%;
+  height: 211px;
   background-color: var(--background-secondary);
+}
+:root .streamPreview-2-WUWT .previewContainer-12UlHl .emptyPreviewImage-IBznSI {
+  margin-bottom: 18px;
 }
 :root .streamPreview-2-WUWT .button-38aScr {
   border: none;
