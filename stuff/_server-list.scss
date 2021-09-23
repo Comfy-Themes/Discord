@@ -120,10 +120,10 @@
 }
 
 // Unread pill
-.listItem-GuPuDH[bd-unread] .wrapper-25eVIn::before,
+.listItem-GuPuDH.bd-unread .wrapper-25eVIn::before,
 .listItem-GuPuDH[vz-unread] .wrapper-25eVIn::before,
 .listItem-GuPuDH.unread .wrapper-25eVIn::before,
-.wrapper-3Njo_c[bd-unread]:not([bd-expanded]) .wrapper-25eVIn::before,
+.wrapper-3Njo_c.bd-unread:not(.bd-expanded) .wrapper-25eVIn::before,
 .wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
 .wrapper-3Njo_c.unread:not(.expanded) .wrapper-25eVIn::before {
   content: "";
@@ -141,20 +141,20 @@
     100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
   }
 }
-.listItem-GuPuDH[bd-unread] .pill-1z4sAY, .listItem-GuPuDH[vz-unread] .pill-1z4sAY, .listItem-GuPuDH.unread .pill-1z4sAY,
-.wrapper-3Njo_c[bd-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
-.listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before, .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before, .listItem-GuPuDH[bd-unread][bd-mentioned] .wrapper-25eVIn::before,
-.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before, .wrapper-3Njo_c[bd-unread][bd-mentioned] .wrapper-25eVIn::before {
+.listItem-GuPuDH.bd-unread .pill-1z4sAY, .listItem-GuPuDH[vz-unread] .pill-1z4sAY, .listItem-GuPuDH.unread .pill-1z4sAY,
+.wrapper-3Njo_c.bd-unread:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
+.listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before, .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before, .listItem-GuPuDH.bd-unread[bd-mentioned] .wrapper-25eVIn::before,
+.wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before, .wrapper-3Njo_c.bd-unread[bd-mentioned] .wrapper-25eVIn::before {
   display: none;
 }
 
-.listItem-GuPuDH[bd-unread][bd-selected] .pill-1z4sAY, .listItem-GuPuDH.unread.selected .pill-1z4sAY,
+.listItem-GuPuDH.bd-unread[bd-selected] .pill-1z4sAY, .listItem-GuPuDH.unread.selected .pill-1z4sAY,
 .listItem-GuPuDH[vz-unread][vz-selected] .pill-1z4sAY, .listItem-GuPuDH.unread.selected .pill-1z4sAY,
-.wrapper-3Njo_c[bd-unread][bd-selected] .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY,
+.wrapper-3Njo_c.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY,
 .wrapper-3Njo_c[vz-unread][vz-selected]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread.selected:not(.expanded) .pill-1z4sAY,
-.listItem-GuPuDH[bd-unread]:hover .pill-1z4sAY,
+.listItem-GuPuDH.bd-unread:hover .pill-1z4sAY,
 .listItem-GuPuDH[vz-unread]:hover .pill-1z4sAY, .listItem-GuPuDH.unread:hover .pill-1z4sAY,
-.wrapper-3Njo_c[bd-unread]:hover .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY, 
+.wrapper-3Njo_c.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY, 
 .wrapper-3Njo_c[vz-unread]:hover:not(.expanded) .pill-1z4sAY, 
 .wrapper-3Njo_c.unread:hover:not(.expanded) .pill-1z4sAY { 
   display: flex;
