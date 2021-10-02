@@ -360,6 +360,7 @@
   left: 0;
 }
 :root .lowerBadge-29hYVK .numberBadge-2s8kKX {
+  background-color: var(--mention-color) !important;
   animation: var(--disable-animations), 2s server-mention infinite;
 }
 @keyframes server-mention {
@@ -537,6 +538,7 @@
   display: none;
 }
 :root .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
+  background-color: var(--mention-color) !important;
   animation: var(--disable-animations), 2s channel-mention infinite;
 }
 @keyframes channel-mention {
@@ -1903,12 +1905,6 @@
 }
 :root .message-2qRu38 {
   background: var(--background-primary);
-}
-:root .tooltip-2QfLtc {
-  background: var(--background-tertiary);
-}
-:root .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-  border-top-color: var(--background-tertiary);
 }
 :root .keyboardShortcutsModal-3piNz7 {
   background: var(--background-primary);

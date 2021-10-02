@@ -109,6 +109,7 @@
   top: 0; left: 0;
 
   .numberBadge-2s8kKX {
+    background-color: var(--mention-color) !important;
     animation: var(--disable-animations), 2s server-mention infinite;
 
     @keyframes server-mention {

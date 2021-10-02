@@ -126,6 +126,7 @@
   
 // Mention pill
 .mentionsBadge-3tC7Mi .numberBadge-2s8kKX { 
+  background-color: var(--mention-color) !important;
   animation: var(--disable-animations), 2s channel-mention infinite;
 
   @keyframes channel-mention {
