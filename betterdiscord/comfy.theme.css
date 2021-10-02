@@ -135,7 +135,7 @@
 
 }
  
-:root.theme-dark {
+.theme-dark {
     --background-primary: #23283D;
     --background-secondary: #1E2233;
     --background-secondary-alt: #191F2E;
@@ -158,7 +158,7 @@
     --activity-card-background: #101320;
 }
  
-:root.theme-light {
+.theme-light {
     --background-primary: #23283D;
     --background-secondary: #1E2233;
     --background-secondary-alt: #191F2E;

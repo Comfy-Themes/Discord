@@ -129,7 +129,9 @@
 
 --discord-logo: none;
 
-&.theme-dark {
+}
+
+.theme-dark {
     --background-tertiary: #101320;
     --background-secondary: #1e2233;
     --background-secondary-alt: #191f2e;
@@ -155,7 +157,7 @@
     --activity-card-background: #101320;
 }
 
-&.theme-light {
+.theme-light {
     --background-tertiary: #101320;
     --background-secondary: #1e2233;
     --background-secondary-alt: #191f2e;
@@ -166,6 +168,4 @@
     --header-primary: #fff;
     --header-secondary: #b1b5b9;
     --text-normal: #8e9297;
-}
-
 }
