@@ -45,12 +45,12 @@
           height: 20px;
           width: 268px; top: -20px; left: 0;
           background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
-          background-size: 197px 20px;
+          background-size: 268px 20px;
           animation: animate2 4s linear infinite;
           animation-delay: 0s;
           opacity: 1;
 
-          @keyframes animate2 { 0% { background-position-x: 197px; } 100% { background-position-x: 0;}}
+          @keyframes animate2 { 0% { background-position-x: 268px; } 100% { background-position-x: 0;}}
         }
     
         // Playing
@@ -66,7 +66,7 @@
           height: 20px;
           width: 268px; top: -20px; left: 0;
           background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-          background-size: 197px 20px;
+          background-size: 268px 20px;
           animation: animate 6s linear infinite;
           animation-delay: 0s;
           opacity: 1;
@@ -86,10 +86,10 @@
             height: 20px;
             width: 268px; top: -20px; left: 0; z-index: 1;
             background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-            background-size: 197px 20px;
+            background-size: 268px 20px;
             animation: animate 6s linear infinite;
             animation-delay: 0s;
-            @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 197px;}}
+            @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 268px;}}
           }
         }
 
