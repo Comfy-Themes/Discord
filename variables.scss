@@ -1,7 +1,5 @@
 @use "app.scss";
 
-:root {
-
 /* ═══════『 ⚠️・Important tips 』═══════
 *
 *   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
@@ -13,16 +11,18 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
+@forward "stuff/custom/no-scrollbar";
 
 /* ═══════『 🎵 ・ Powercord  seek bar 』- Comment the line below if you want the dafault one */
-.powercord-spotify .spotify-seek-bar-progress { background-color: var(--spotify-color) !important;} .powercord-spotify .spotify-seek-bar {position: absolute;bottom: 0;width: 240px; height: 56px;-webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);mask-image: linear-gradient(0.25turn, #0009, #0003);}.powercord-spotify.hover .spotify-seek-bar { height: 64px; }.powercord-spotify .avatarWrapper-2yR4wp, .powercord-spotify .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; } .spotify-extra-controls { position: relative; z-index: 1; } .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar { height: 79px !important;} .powercord-spotify .spotify-buttons, .spotify-extra-controls .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}
+@forward "stuff/custom/powercord-spotify";
 
 /* ═══════『 🎵 ・ Vizality  seek bar 』- Comment the line below if you want the dafault one */
-.spotify-in-discord-player-seek-bar { position: absolute; bottom: 0;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;} .spotify-in-discord-player .container-3baos1 { margin-bottom: 0;}
+@forward "stuff/custom/vizality-spotify";
+
+:root {
 
 /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-// --disable-animations: none !important;
+--disable-animations: 2s channel-unread infinite;
 
 /* ═══════『 🖼️ ・ Background in the status picker 』═══════
 *
@@ -94,8 +94,7 @@
 /* Default value : #7289DA */
 --chat-buttons: #7289DA;
 
-/* ═══════『 💬 Spotify seek bar 』═══════
-*   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
+/* ═══════『 💬 Spotify seek bar 』═══════ */
 
 // Vizality - Default value : #1EDC62
 --spotify-in-discord__spotify-brand-color: #1EDC62;

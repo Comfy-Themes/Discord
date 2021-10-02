@@ -20,15 +20,15 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
+@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css";
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the dafault one */
-.container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important;}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -6px !important; left: -8px !important; width: 240px !important; height: 53px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-14-BFJ:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}
+/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the scrollbar back */
+@import "https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css";
 
 :root { 
 
 /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-/* --disable-animations: none !important; */
+--disable-animations: 2s channel-unread infinite;
 
 /* ═══════『 🖼️ ・ Background in the status picker 』═══════
 *
