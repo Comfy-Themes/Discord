@@ -2139,8 +2139,8 @@
 :root .streamPreview-2-WUWT .button-38aScr:hover {
   background-color: #fff;
 }
-:root .sparkles-2XXTZO {
-  z-index: unset;
+:root .sparkles-fvfHK0 ~ * {
+  z-index: 2;
 }
 :root .contentWarningPopout-n5JsIs {
   background-color: var(--background-primary);
