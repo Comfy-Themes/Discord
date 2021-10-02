@@ -765,14 +765,14 @@
   top: -20px;
   left: 0;
   background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
-  background-size: 268px 20px;
+  background-size: 197px 20px;
   animation: animate2 4s linear infinite;
   animation-delay: 0s;
   opacity: 1;
 }
 @keyframes animate2 {
   0% {
-    background-position-x: 268px;
+    background-position-x: 197px;
   }
   100% {
     background-position-x: 0;
@@ -796,7 +796,7 @@
   top: -20px;
   left: 0;
   background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-  background-size: 268px 20px;
+  background-size: 197px 20px;
   animation: animate 6s linear infinite;
   animation-delay: 0s;
   opacity: 1;
@@ -820,7 +820,7 @@
   left: 0;
   z-index: 1;
   background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-  background-size: 268px 20px;
+  background-size: 197px 20px;
   animation: animate 6s linear infinite;
   animation-delay: 0s;
 }
@@ -829,7 +829,7 @@
     background-position-x: 0;
   }
   100% {
-    background-position-x: 268px;
+    background-position-x: 197px;
   }
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .spotifyIcon-2J9kSv {
