@@ -42,10 +42,10 @@
         // Waves are back :D
         .headerTextNormal-2mGWX3::before {
           content: ""; position: absolute;
-          height: 20px;
+          height: 21px;
           width: 268px; top: -20px; left: 0;
           background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
-          background-size: 268px 20px;
+          background-size: 268px 21px;
           animation: animate2 4s linear infinite;
           animation-delay: 0s;
           opacity: 1;
@@ -63,10 +63,10 @@
 
         &::after {
           content: ""; position: absolute;
-          height: 20px;
+          height: 21px;
           width: 268px; top: -20px; left: 0;
           background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-          background-size: 268px 20px;
+          background-size: 268px 21px;
           animation: animate 6s linear infinite;
           animation-delay: 0s;
           opacity: 1;
@@ -83,10 +83,10 @@
 
           &::after {
             content: ""; position: absolute;
-            height: 20px;
+            height: 22px;
             width: 268px; top: -20px; left: 0; z-index: 1;
             background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-            background-size: 268px 20px;
+            background-size: 268px 22px;
             animation: animate 6s linear infinite;
             animation-delay: 0s;
             @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 268px;}}
