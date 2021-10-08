@@ -4,7 +4,7 @@
     "description": "Stay comfy while talking to your friends",
     "version": "2.2",
     "author": "Nyria#3863",
-    "theme": "betterdiscord/comfy.theme.css",
+    "theme": "variables.scss",
     "consent": "false",
     "license": "CC BY-NC-ND 4.0"
 }
