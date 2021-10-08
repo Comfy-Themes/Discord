@@ -375,9 +375,9 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-:root .listItem-GuPuDH.bd-unread .wrapper-25eVIn::before,
-:root .listItem-GuPuDH[vz-unread] .wrapper-25eVIn::before,
-:root .listItem-GuPuDH.unread .wrapper-25eVIn::before,
+:root .listItem-1hlISG.bd-unread .wrapper-25eVIn::before,
+:root .listItem-1hlISG[vz-unread] .wrapper-25eVIn::before,
+:root .listItem-1hlISG.unread .wrapper-25eVIn::before,
 :root .wrapper-3Njo_c.bd-unread:not(.bd-expanded) .wrapper-25eVIn::before,
 :root .wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
 :root .wrapper-3Njo_c.unread:not(.expanded) .wrapper-25eVIn::before {
@@ -404,19 +404,19 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-:root .listItem-GuPuDH.bd-unread .pill-1z4sAY, :root .listItem-GuPuDH[vz-unread] .pill-1z4sAY, :root .listItem-GuPuDH.unread .pill-1z4sAY,
+:root .listItem-1hlISG.bd-unread .pill-1z4sAY, :root .listItem-1hlISG[vz-unread] .pill-1z4sAY, :root .listItem-1hlISG.unread .pill-1z4sAY,
 :root .wrapper-3Njo_c.bd-unread:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
-:root .listItem-GuPuDH.unread.mentioned .wrapper-25eVIn::before, :root .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .listItem-GuPuDH.bd-unread.bd-badge .wrapper-25eVIn::before,
+:root .listItem-1hlISG.unread.mentioned .wrapper-25eVIn::before, :root .listItem-1hlISG[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .listItem-1hlISG.bd-unread.bd-badge .wrapper-25eVIn::before,
 :root .wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, :root .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .wrapper-3Njo_c.bd-unread.bd-badge .wrapper-25eVIn::before {
   display: none;
 }
-:root .listItem-GuPuDH.bd-unread[bd-selected] .pill-1z4sAY, :root .listItem-GuPuDH.unread.selected .pill-1z4sAY,
-:root .listItem-GuPuDH[vz-unread][vz-selected] .pill-1z4sAY, :root .listItem-GuPuDH.unread.selected .pill-1z4sAY,
-:root .wrapper-3Njo_c.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY,
+:root .listItem-1hlISG.bd-unread[bd-selected] .pill-1z4sAY, :root .listItem-1hlISG.unread.selected .pill-1z4sAY,
+:root .listItem-1hlISG[vz-unread][vz-selected] .pill-1z4sAY, :root .listItem-1hlISG.unread.selected .pill-1z4sAY,
+:root .wrapper-3Njo_c.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-1hlISG .pill-1z4sAY,
 :root .wrapper-3Njo_c[vz-unread][vz-selected]:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c.unread.selected:not(.expanded) .pill-1z4sAY,
-:root .listItem-GuPuDH.bd-unread:hover .pill-1z4sAY,
-:root .listItem-GuPuDH[vz-unread]:hover .pill-1z4sAY, :root .listItem-GuPuDH.unread:hover .pill-1z4sAY,
-:root .wrapper-3Njo_c.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-GuPuDH .pill-1z4sAY,
+:root .listItem-1hlISG.bd-unread:hover .pill-1z4sAY,
+:root .listItem-1hlISG[vz-unread]:hover .pill-1z4sAY, :root .listItem-1hlISG.unread:hover .pill-1z4sAY,
+:root .wrapper-3Njo_c.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-1hlISG .pill-1z4sAY,
 :root .wrapper-3Njo_c[vz-unread]:hover:not(.expanded) .pill-1z4sAY,
 :root .wrapper-3Njo_c.unread:hover:not(.expanded) .pill-1z4sAY {
   display: flex;
