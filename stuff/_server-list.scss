@@ -134,7 +134,7 @@
   width: 12px; height: 12px;
   background: var(--unread-color);
   border-radius: 50%;
-  animation: 2s server-unread infinite;
+  animation: var(--disable-animations), 2s server-unread infinite;
 
   @keyframes server-unread {
     0% { box-shadow: 0 0 0 0 var(--unread-color);}
