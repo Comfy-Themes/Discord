@@ -1807,7 +1807,6 @@
   background-position: center;
   border-radius: 3px;
   -webkit-mask: linear-gradient(black, transparent 100%);
-  mask: linear-gradient(black, transparent 100%);
   opacity: 0.8;
 }
 :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=true] + .nameTag-3uD-yy {
@@ -1959,12 +1958,11 @@
   rx: var(--status-radius);
 }
 :root .mask-1l8v16 > svg > mask > rect[width="10"]:first-child {
-  x: 8;
+  x: 8.5;
   width: 14px;
   height: 11px;
 }
 :root .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
-  height: 25px;
   mask: none;
   x: 10;
   y: 8;

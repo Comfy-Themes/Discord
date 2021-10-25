@@ -165,7 +165,6 @@
           background-position: center;
           border-radius: 3px;
           -webkit-mask: linear-gradient(black, transparent 100%);
-          mask: linear-gradient(black, transparent 100%);
           opacity: 0.8;
         }
       }
@@ -320,8 +319,8 @@ rect {
 .cursorDefault-dsQJ1n, .mask-1l8v16 > svg { overflow: visible;}
 .userPopout-xaxa6l .mask-1l8v16 > svg > mask > rect:first-child { x: 18; y: 14 !important; ry: var(--status-radius);}
 div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child { y: 8; rx: var(--status-radius);}
-.mask-1l8v16 > svg > mask > rect[width="10"]:first-child { x: 8; width: 14px; height: 11px;}
-.avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect { height: 25px; mask: none; x: 10; y: 8; width: 10px; height: 10px; rx: var(--status-radius);}
+.mask-1l8v16 > svg > mask > rect[width="10"]:first-child { x: 8.5; width: 14px; height: 11px;}
+.avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect { mask: none; x: 10; y: 8; width: 10px; height: 10px; rx: var(--status-radius);}
 
 .mask-1l8v16 > svg {
   & > rect { height: 40px;}
