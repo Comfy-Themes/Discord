@@ -414,11 +414,11 @@
 }
 :root .listItem-2Ig28I.bd-unread[bd-selected] .pill-ZqtR4i, :root .listItem-2Ig28I.unread.selected .pill-ZqtR4i,
 :root .listItem-2Ig28I[vz-unread][vz-selected] .pill-ZqtR4i, :root .listItem-2Ig28I.unread.selected .pill-ZqtR4i,
-:root .wrapper-shyHJt.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-2Ig28I .pill-ZqtR4i,
+:root .wrapper-shyHJt.bd-unread[bd-selected] .expandedFolderBackground-3ZDF05 + .listItem-2Ig28I .pill-ZqtR4i,
 :root .wrapper-shyHJt[vz-unread][vz-selected]:not(.expanded) .pill-ZqtR4i, :root .wrapper-shyHJt.unread.selected:not(.expanded) .pill-ZqtR4i,
 :root .listItem-2Ig28I.bd-unread:hover .pill-ZqtR4i,
 :root .listItem-2Ig28I[vz-unread]:hover .pill-ZqtR4i, :root .listItem-2Ig28I.unread:hover .pill-ZqtR4i,
-:root .wrapper-shyHJt.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-2Ig28I .pill-ZqtR4i,
+:root .wrapper-shyHJt.bd-unread:hover .expandedFolderBackground-3ZDF05 + .listItem-2Ig28I .pill-ZqtR4i,
 :root .wrapper-shyHJt[vz-unread]:hover:not(.expanded) .pill-ZqtR4i,
 :root .wrapper-shyHJt.unread:hover:not(.expanded) .pill-ZqtR4i {
   display: flex;
