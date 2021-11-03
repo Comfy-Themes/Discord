@@ -261,6 +261,9 @@
   contain: none !important;
   padding-bottom: 170px;
 }
+:root .folder-2w6LX1 {
+  background-color: transparent;
+}
 :root .discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {
   margin-left: 0;
 }
@@ -374,12 +377,12 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-:root .listItem-1hlISG.bd-unread .wrapper-25eVIn::before,
-:root .listItem-1hlISG[vz-unread] .wrapper-25eVIn::before,
-:root .listItem-1hlISG.unread .wrapper-25eVIn::before,
-:root .wrapper-3Njo_c.bd-unread:not(.bd-expanded) .wrapper-25eVIn::before,
-:root .wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
-:root .wrapper-3Njo_c.unread:not(.expanded) .wrapper-25eVIn::before {
+:root .listItem-2Ig28I.bd-unread .wrapper-25eVIn::before,
+:root .listItem-2Ig28I[vz-unread] .wrapper-25eVIn::before,
+:root .listItem-2Ig28I.unread .wrapper-25eVIn::before,
+:root .wrapper-shyHJt.bd-unread:not(.bd-expanded) .wrapper-25eVIn::before,
+:root .wrapper-shyHJt[vz-unread]:not([vz-expanded]) .wrapper-25eVIn::before,
+:root .wrapper-shyHJt.unread:not(.expanded) .wrapper-25eVIn::before {
   content: "";
   position: absolute;
   display: block;
@@ -403,21 +406,21 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-:root .listItem-1hlISG.bd-unread .pill-1z4sAY, :root .listItem-1hlISG[vz-unread] .pill-1z4sAY, :root .listItem-1hlISG.unread .pill-1z4sAY,
-:root .wrapper-3Njo_c.bd-unread:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
-:root .listItem-1hlISG.unread.mentioned .wrapper-25eVIn::before, :root .listItem-1hlISG[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .listItem-1hlISG.bd-unread.bd-badge .wrapper-25eVIn::before,
-:root .wrapper-3Njo_c.unread.mentioned .wrapper-25eVIn::before, :root .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .wrapper-3Njo_c.bd-unread.bd-badge .wrapper-25eVIn::before {
+:root .listItem-2Ig28I.bd-unread .pill-ZqtR4i, :root .listItem-2Ig28I[vz-unread] .pill-ZqtR4i, :root .listItem-2Ig28I.unread .pill-ZqtR4i,
+:root .wrapper-shyHJt.bd-unread:not(.expanded) .pill-ZqtR4i, :root .wrapper-shyHJt[vz-unread]:not(.expanded) .pill-ZqtR4i, :root .wrapper-shyHJt.unread:not(.expanded) .pill-ZqtR4i,
+:root .listItem-2Ig28I.unread.mentioned .wrapper-25eVIn::before, :root .listItem-2Ig28I[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .listItem-2Ig28I.bd-unread.bd-badge .wrapper-25eVIn::before,
+:root .wrapper-shyHJt.unread.mentioned .wrapper-25eVIn::before, :root .wrapper-shyHJt[vz-unread][vz-mentioned] .wrapper-25eVIn::before, :root .wrapper-shyHJt.bd-unread.bd-badge .wrapper-25eVIn::before {
   display: none;
 }
-:root .listItem-1hlISG.bd-unread[bd-selected] .pill-1z4sAY, :root .listItem-1hlISG.unread.selected .pill-1z4sAY,
-:root .listItem-1hlISG[vz-unread][vz-selected] .pill-1z4sAY, :root .listItem-1hlISG.unread.selected .pill-1z4sAY,
-:root .wrapper-3Njo_c.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-1hlISG .pill-1z4sAY,
-:root .wrapper-3Njo_c[vz-unread][vz-selected]:not(.expanded) .pill-1z4sAY, :root .wrapper-3Njo_c.unread.selected:not(.expanded) .pill-1z4sAY,
-:root .listItem-1hlISG.bd-unread:hover .pill-1z4sAY,
-:root .listItem-1hlISG[vz-unread]:hover .pill-1z4sAY, :root .listItem-1hlISG.unread:hover .pill-1z4sAY,
-:root .wrapper-3Njo_c.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-1hlISG .pill-1z4sAY,
-:root .wrapper-3Njo_c[vz-unread]:hover:not(.expanded) .pill-1z4sAY,
-:root .wrapper-3Njo_c.unread:hover:not(.expanded) .pill-1z4sAY {
+:root .listItem-2Ig28I.bd-unread[bd-selected] .pill-ZqtR4i, :root .listItem-2Ig28I.unread.selected .pill-ZqtR4i,
+:root .listItem-2Ig28I[vz-unread][vz-selected] .pill-ZqtR4i, :root .listItem-2Ig28I.unread.selected .pill-ZqtR4i,
+:root .wrapper-shyHJt.bd-unread[bd-selected] .expandedFolderBackground-1cujaW + .listItem-2Ig28I .pill-ZqtR4i,
+:root .wrapper-shyHJt[vz-unread][vz-selected]:not(.expanded) .pill-ZqtR4i, :root .wrapper-shyHJt.unread.selected:not(.expanded) .pill-ZqtR4i,
+:root .listItem-2Ig28I.bd-unread:hover .pill-ZqtR4i,
+:root .listItem-2Ig28I[vz-unread]:hover .pill-ZqtR4i, :root .listItem-2Ig28I.unread:hover .pill-ZqtR4i,
+:root .wrapper-shyHJt.bd-unread:hover .expandedFolderBackground-1cujaW + .listItem-2Ig28I .pill-ZqtR4i,
+:root .wrapper-shyHJt[vz-unread]:hover:not(.expanded) .pill-ZqtR4i,
+:root .wrapper-shyHJt.unread:hover:not(.expanded) .pill-ZqtR4i {
   display: flex;
 }
 
@@ -2066,7 +2069,7 @@
   overflow: visible;
 }
 :root .wrapperSimple-19ogV2, :root .wrapper-25eVIn foreignObject,
-:root .folderIconWrapper-226oVY, :root .folderIconWrapper-1_bOZe,
+:root .folderIconWrapper-1Ml_1q,
 :root .expandedFolderBackground-2sPsd-,
 :root .flexChild-faoVW3 .avatarUploaderInner-3UNxY3 {
   border-radius: var(--server-radius);
@@ -2077,7 +2080,7 @@
 :root .wrapper-25eVIn foreignObject {
   transition: border-radius 200ms;
 }
-:root .wrapper-25eVIn foreignObject:hover foreignObject {
+:root .wrapper-25eVIn:hover foreignObject {
   border-radius: calc(var(--server-radius) - 3px);
 }
 :root .container-3auIfb, :root .input-rwLH4i {
