@@ -1,4 +1,6 @@
-:root { 
+@use "sass:string";
+
+:root {
 
 // -- Member popout --
 .userPopout-xaxa6l { 
@@ -24,7 +26,7 @@
     .bodyInnerWrapper-26fQXj {
       padding: 16px 16px 0 16px;
 
-      .activity-2INFPu { 
+      .activity-2INFPu {
         padding: 16px; margin: 20px 0 16px 0; 
         z-index: 1;
     
@@ -34,23 +36,26 @@
     
         .button-38aScr {
           border: none;
-          background-color: #ffffff21;
+          background-color: var(--listening-test);
           box-shadow: 0 4px 15px #00000021;
           color: #fff;
         }
 
         // Waves are back :D
+        .headerTextNormal-2mGWX3 { --test: var(--background-secondary)}
         .headerTextNormal-2mGWX3::before {
           content: ""; position: absolute;
-          height: 21px;
+          height: 21px; z-index: 1;
           width: 268px; top: -21px; left: 0;
-          background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
-          background-size: 268px 21px;
+          background: #7289da;
+          background: var(--playing);
+          -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
           animation: animate2 4s linear infinite;
           animation-delay: 0s;
           opacity: 1;
 
-          @keyframes animate2 { 0% { background-position-x: 268px; } 100% { background-position-x: 0;}}
+
+          @keyframes animate2 { 0% { -webkit-mask-position-x: 268px; } 100% { -webkit-mask-position-x: 0;}}
         }
     
         // Playing
@@ -59,14 +64,15 @@
           width: 100%; height: 100%; z-index: -2;
           left: 0; top: 0;
           background: #7289da;
+          background: var(--playing);
         }
 
         &::after {
           content: ""; position: absolute;
           height: 21px;
-          width: 268px; top: -20px; left: 0;
-          background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-          background-size: 268px 21px;
+          width: 268px; top: -21px; left: 0;
+          background: var(--background-secondary);
+          -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
           animation: animate 6s linear infinite;
           animation-delay: 0s;
           opacity: 1;
@@ -79,17 +85,20 @@
             width: 100%; height: 100%; z-index: -1;
             left: 0; top: 0;
             background: #1db954;
+            background: var(--listening);
           }
 
           &::after {
             content: ""; position: absolute;
-            height: 22px;
-            width: 268px; top: -20px; left: 0; z-index: 1;
-            background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-            background-size: 268px 22px;
+            height: 21px;
+            width: 268px; top: -21px; left: 0; z-index: 1;
+            background: #1db653;
+            background: var(--listening-test);
+            -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
             animation: animate 6s linear infinite;
             animation-delay: 0s;
-            @keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 268px;}}
+
+            @keyframes animate { 0% { -webkit-mask-position-x: 0;} 100% { -webkit-mask-position-x: 268px;}}
           }
         }
 
@@ -334,10 +343,10 @@
         }
       }
 
-      .tabBarItem-3dfX8P[aria-controls="user_info-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/user.png");}
-      .tabBarItem-3dfX8P[aria-controls="mutual_guilds-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");}
-      .tabBarItem-3dfX8P[aria-controls="mutual_friends-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");}
-      .tabBarItem-3dfX8P[aria-controls="activity-tab"]::after { background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");}
+      .tabBarItem-3dfX8P[aria-controls="user_info-tab"]::after { background-image: url("https://i.imgur.com/j3heWkd.png");}
+      .tabBarItem-3dfX8P[aria-controls="mutual_guilds-tab"]::after { background-image: url("https://i.imgur.com/9NdcVkI.png");}
+      .tabBarItem-3dfX8P[aria-controls="mutual_friends-tab"]::after { background-image: url("https://i.imgur.com/sHQ1yhw.png");}
+      .tabBarItem-3dfX8P[aria-controls="activity-tab"]::after { background-image: url("https://i.imgur.com/Twq232A.png");}
     }
   }
   .noTabBar-3ZjPNR { border-top: none;}

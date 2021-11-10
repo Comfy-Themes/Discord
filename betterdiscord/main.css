@@ -151,10 +151,10 @@
   background-repeat: no-repeat;
 }
 :root .navList-2UtuhC #sticker-picker-tab .navButton-2gQCx-::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/stickers.png");
+  background-image: url("https://i.imgur.com/S79punc.png");
 }
 :root .navList-2UtuhC #emoji-picker-tab .navButton-2gQCx-::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");
+  background-image: url("https://i.imgur.com/YOshExa.png");
 }
 :root .navList-2UtuhC .navButton-2gQCx- {
   width: 40px;
@@ -758,29 +758,34 @@
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .button-38aScr {
   border: none;
-  background-color: #ffffff21;
+  background-color: var(--listening-test);
   box-shadow: 0 4px 15px #00000021;
   color: #fff;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerTextNormal-2mGWX3 {
+  --test: var(--background-secondary);
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerTextNormal-2mGWX3::before {
   content: "";
   position: absolute;
   height: 21px;
+  z-index: 1;
   width: 268px;
   top: -21px;
   left: 0;
-  background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
-  background-size: 268px 21px;
+  background: #7289da;
+  background: var(--playing);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate2 4s linear infinite;
   animation-delay: 0s;
   opacity: 1;
 }
 @keyframes animate2 {
   0% {
-    background-position-x: 268px;
+    -webkit-mask-position-x: 268px;
   }
   100% {
-    background-position-x: 0;
+    -webkit-mask-position-x: 0;
   }
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::before {
@@ -792,16 +797,17 @@
   left: 0;
   top: 0;
   background: #7289da;
+  background: var(--playing);
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::after {
   content: "";
   position: absolute;
   height: 21px;
   width: 268px;
-  top: -20px;
+  top: -21px;
   left: 0;
-  background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-  background-size: 268px 21px;
+  background: var(--background-secondary);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
   animation-delay: 0s;
   opacity: 1;
@@ -815,26 +821,28 @@
   left: 0;
   top: 0;
   background: #1db954;
+  background: var(--listening);
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::after {
   content: "";
   position: absolute;
-  height: 22px;
+  height: 21px;
   width: 268px;
-  top: -20px;
+  top: -21px;
   left: 0;
   z-index: 1;
-  background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-  background-size: 268px 22px;
+  background: #1db653;
+  background: var(--listening-test);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
   animation-delay: 0s;
 }
 @keyframes animate {
   0% {
-    background-position-x: 0;
+    -webkit-mask-position-x: 0;
   }
   100% {
-    background-position-x: 268px;
+    -webkit-mask-position-x: 268px;
   }
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .spotifyIcon-2J9kSv {
@@ -1089,16 +1097,16 @@
   background-repeat: no-repeat;
 }
 :root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/user.png");
+  background-image: url("https://i.imgur.com/j3heWkd.png");
 }
 :root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");
+  background-image: url("https://i.imgur.com/9NdcVkI.png");
 }
 :root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");
+  background-image: url("https://i.imgur.com/sHQ1yhw.png");
 }
 :root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");
+  background-image: url("https://i.imgur.com/Twq232A.png");
 }
 :root .root-3QyAh1 .noTabBar-3ZjPNR {
   border-top: none;
@@ -1655,11 +1663,11 @@
 }
 .winButtonClose-1HsbF-::after {
   padding: 6px;
-  background-image: url("https://nyri4.github.io/Comfy/assets/close.png");
+  background-image: url("https://i.imgur.com/WAbJScJ.png");
   background-size: 100%;
 }
 .winButtonClose-1HsbF-:hover::after {
-  background-image: url("https://nyri4.github.io/Comfy/assets/close_hover.png");
+  background-image: url("https://i.imgur.com/ipwGE9a.png");
   background-size: 100%;
 }
 
@@ -1759,7 +1767,7 @@
   background-color: #ffcd4d3d;
 }
 :root #status-picker > .scroller-3BxosC #status-picker-custom-status .customEmojiPlaceholder-37iZ_j {
-  background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");
+  background-image: url("https://i.imgur.com/YOshExa.png");
 }
 :root #status-picker > .scroller-3BxosC #status-picker-custom-status .status-1fhblQ {
   display: block;

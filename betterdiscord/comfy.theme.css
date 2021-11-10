@@ -123,9 +123,15 @@
 /* Streaming - Default value : #593695 */
 --streaming: #593695;
 
-/* ═══════『 🔰 Role circle in user popout 』═══════
-*   Default value : 5px */
+/* ═══════『 🔰 User popout 』═══════ */
 
+/* Playing wave color */
+--playing: #7289da;
+
+/* Listening wave color */
+--listening: #1db653;
+
+/* Role circle - Default value : 5px */
 --role-circle: 5px;
 
 /* ═══════『 🗑️ Discord logo 』═══════
