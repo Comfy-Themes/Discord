@@ -42,13 +42,11 @@
         }
 
         // Waves are back :D
-        .headerTextNormal-2mGWX3 { --test: var(--background-secondary)}
         .headerTextNormal-2mGWX3::before {
           content: ""; position: absolute;
           height: 21px; z-index: 1;
           width: 268px; top: -21px; left: 0;
-          background: #7289da;
-          background: var(--playing);
+          background: var(--background-secondary);
           -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
           animation: animate2 4s linear infinite;
           animation-delay: 0s;
@@ -69,9 +67,10 @@
 
         &::after {
           content: ""; position: absolute;
-          height: 21px;
+          height: 21px; z-index: 2;
           width: 268px; top: -21px; left: 0;
-          background: var(--background-secondary);
+          background: #7289da;
+          background: var(--playing);
           -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
           animation: animate 6s linear infinite;
           animation-delay: 0s;
@@ -91,9 +90,9 @@
           &::after {
             content: ""; position: absolute;
             height: 21px;
-            width: 268px; top: -21px; left: 0; z-index: 1;
+            width: 268px; top: -21px; left: 0; z-index: 3;
             background: #1db653;
-            background: var(--listening-test);
+            background: var(--listening);
             -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
             animation: animate 6s linear infinite;
             animation-delay: 0s;
