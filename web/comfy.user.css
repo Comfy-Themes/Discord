@@ -7,12 +7,13 @@
 @homepageURL    https://github.com/NYRI4/Comfy
 @supportURL     https://discord.gg/rtBQX5D3bD
 @license      CC BY-NC-ND 4.0
-
-@var          text     statusBackground "https://i.imgur.com/ODa8LKK.jpg" https://i.imgur.com/ODa8LKK.jpg
 ==/UserStyle== */
 
+@-moz-document domain("discord.com") {
 
-/* ═══════『 ⚠️・Important tips 』═══════
+@import 'https://nyri4.github.io/Comfy/betterdiscord/main.css';
+
+    /* ═══════『 ⚠️・Important tips 』═══════
 *
 *   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
 *      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
@@ -22,154 +23,153 @@
 *   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
 */
 
-@import 'https://nyri4.github.io/Comfy/betterdiscord/main.css';
-
-:root {
+    :root {
 
 
-    /* ═══════『 🖼️ ・ Background in the status picker 』═══════
-    *
-    *   ➥ Image : Replace the url of the current image with yours
-    *
-    *   ➥ Color : Delete the url("https://mywebsite/example.png") and replace it by an HEX color
-    *
-    *   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG
-    */
+        /* ═══════『 🖼️ ・ Background in the status picker 』═══════
+        *
+        *   ➥ Image : Replace the url of the current image with yours
+        *
+        *   ➥ Color : Delete the url("https://mywebsite/example.png") and replace it by an HEX color
+        *
+        *   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG
+        */
 
-    --status-background: url(statusBackground);
+        --status-background: url(statusBackground);
 
-    /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
-    *
-    *   ➥ A higher value will means more space between the icons and a lower ...
-    *
-    *    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
-    *
-    */
+        /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
+        *
+        *   ➥ A higher value will means more space between the icons and a lower ...
+        *
+        *    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
+        *
+        */
 
-    /* Spacing - Default value : 8px */
-    --user-buttons-spacing: 8px;
+        /* Spacing - Default value : 8px */
+        --user-buttons-spacing: 8px;
 
-    /* Color - Default value : #096DC0 */
-    --user-buttons-color: #096DC0;
+        /* Color - Default value : #096DC0 */
+        --user-buttons-color: #096DC0;
 
-    /* ═══════『 ⭕ Roundness settings 』═══════
-    *
-    *    ➥ A higher value will means more rounded corners and a lower ...
-    *       0 ➜ Square
-    *       25 ➜ Circle
-    */
+        /* ═══════『 ⭕ Roundness settings 』═══════
+        *
+        *    ➥ A higher value will means more rounded corners and a lower ...
+        *       0 ➜ Square
+        *       25 ➜ Circle
+        */
 
-    /* Avatars - Default value : 5px */
-    --avatar-radius: 5px;
+        /* Avatars - Default value : 5px */
+        --avatar-radius: 5px;
 
-    /* Status - Default value : 3px */
-    --status-radius: 3px;
+        /* Status - Default value : 3px */
+        --status-radius: 3px;
 
-    /* Servers - Default value : 8px */
-    --server-radius: 8px;
+        /* Servers - Default value : 8px */
+        --server-radius: 8px;
 
-    /* ═══════『 😃 Colored emoji picker 』═══════
-    *   Change the value to "100%" if you want the default one */
+        /* ═══════『 😃 Colored emoji picker 』═══════
+        *   Change the value to "100%" if you want the default one */
 
-    --colored-emoji: grayscale(0%);
+        --colored-emoji: grayscale(0%);
 
-    /* ═══════『 📜 Server/channel list 』═══════ */
+        /* ═══════『 📜 Server/channel list 』═══════ */
 
-    /* Mention - Default value : #F04747 */
-    --mention-color: #F04747;
+        /* Mention - Default value : #F04747 */
+        --mention-color: #F04747;
 
-    /* Unread - Default value : #7289DA */
-    --unread-color: #7289DA;
+        /* Unread - Default value : #7289DA */
+        --unread-color: #7289DA;
 
-    /*  『 🔴 Mention colors in chat 』 */
+        /*  『 🔴 Mention colors in chat 』 */
 
-    /* Bar on the right - Default value : #C66262 */
-    --mention-color-bar: #C66262;
+        /* Bar on the right - Default value : #C66262 */
+        --mention-color-bar: #C66262;
 
-    /* Background - Default value : #C662621F */
-    --mention-color-background: #C662621F;
+        /* Background - Default value : #C662621F */
+        --mention-color-background: #C662621F;
 
-    /* On hover - Default value : #C6626226 */
-    --mention-color-hover: #C6626226;
+        /* On hover - Default value : #C6626226 */
+        --mention-color-hover: #C6626226;
 
-    /* ═══════『 💬 Chat buttons 』═══════ */
+        /* ═══════『 💬 Chat buttons 』═══════ */
 
-    /* Default value : #7289DA */
-    --chat-buttons: #7289DA;
+        /* Default value : #7289DA */
+        --chat-buttons: #7289DA;
 
-    /* ═══════『 💬 SpotifyControls seek bar 』═══════
-    *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
+        /* ═══════『 💬 SpotifyControls seek bar 』═══════
+        *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
 
-    /* Default value : #1EDC62 */
-    --spotify-color: #1EDC62;
+        /* Default value : #1EDC62 */
+        --spotify-color: #1EDC62;
 
-    /* ═══════『 🟢 Status 』═══════ */
+        /* ═══════『 🟢 Status 』═══════ */
 
-    /* Online - Default value : #43B581 */
-    --online: #43B581;
+        /* Online - Default value : #43B581 */
+        --online: #43B581;
 
-    /* Iddle - Default value : #FAA61A */
-    --iddle: #FAA61A;
+        /* Iddle - Default value : #FAA61A */
+        --iddle: #FAA61A;
 
-    /* Do Not Disturb - Default value : #F04747 */
-    --dnd: #F04747;
+        /* Do Not Disturb - Default value : #F04747 */
+        --dnd: #F04747;
 
-    /* Offline - Default value : #747F8D */
-    --offline: #747F8D;
+        /* Offline - Default value : #747F8D */
+        --offline: #747F8D;
 
-    /* Streaming - Default value : #593695 */
-    --streaming: #593695;
+        /* Streaming - Default value : #593695 */
+        --streaming: #593695;
 
-    /* ═══════『 🔰 User popout 』═══════ */
+        /* ═══════『 🔰 User popout 』═══════ */
 
-    /* Playing wave color */
-    --playing: #7289da;
+        /* Playing wave color */
+        --playing: #7289da;
 
-    /* Listening wave color */
-    --listening: #1db653;
+        /* Listening wave color */
+        --listening: #1db653;
 
-    /* Role circle - Default value : 5px */
-    --role-circle: 5px;
+        /* Role circle - Default value : 5px */
+        --role-circle: 5px;
 
-    /* ═══════『 🗑️ Discord logo 』═══════
-    *   Set it to "block" if you still want it */
+        /* ═══════『 🗑️ Discord logo 』═══════
+        *   Set it to "block" if you still want it */
 
-    --discord-logo: none;
+        --discord-logo: none;
 
-}
+    }
 
-.theme-dark {
-    --background-primary: #23283D;
-    --background-secondary: #1E2233;
-    --background-secondary-alt: #191F2E;
-    --background-tertiary: #101320;
-    --background-mobile-primary: #23283D;
-    --background-mobile-secondary: #1E2233;
-    --channeltextarea-background: #191F2E;
-    --background-accent: #7289DA;
-    --background-message-hover: transparent;
-    --background-modifier-hover: #00000010;
-    --background-modifier-active: #0000001a;
-    --background-modifier-selected: #0000001f;
-    --deprecated-card-bg: #12141F63;
-    --background-floating: #101320;
-    --deprecated-quickswitcher-input-background:#101320;
-    --elevation-low: none;
-    --scrollbar-auto-thumb: #121722;
-    --scrollbar-auto-track: #191F2E;
-    --scrollbar-thin-thumb: #141925;
-    --activity-card-background: #101320;
-}
+    .theme-dark {
+        --background-primary: #23283D;
+        --background-secondary: #1E2233;
+        --background-secondary-alt: #191F2E;
+        --background-tertiary: #101320;
+        --background-mobile-primary: #23283D;
+        --background-mobile-secondary: #1E2233;
+        --channeltextarea-background: #191F2E;
+        --background-accent: #7289DA;
+        --background-message-hover: transparent;
+        --background-modifier-hover: #00000010;
+        --background-modifier-active: #0000001a;
+        --background-modifier-selected: #0000001f;
+        --deprecated-card-bg: #12141F63;
+        --background-floating: #101320;
+        --deprecated-quickswitcher-input-background:#101320;
+        --elevation-low: none;
+        --scrollbar-auto-thumb: #121722;
+        --scrollbar-auto-track: #191F2E;
+        --scrollbar-thin-thumb: #141925;
+        --activity-card-background: #101320;
+    }
 
-.theme-light {
-    --background-primary: #23283D;
-    --background-secondary: #1E2233;
-    --background-secondary-alt: #191F2E;
-    --background-tertiary: #101320;
-    --background-accent: #7289DA;
-    --background-modifier-hover: #262B41;
-    --background-modifier-active: #262B41;
-    --header-primary: #FFF;
-    --header-secondary: #B1B5B9;
-    --text-normal: #8E9297;
+    .theme-light {
+        --background-primary: #23283D;
+        --background-secondary: #1E2233;
+        --background-secondary-alt: #191F2E;
+        --background-tertiary: #101320;
+        --background-accent: #7289DA;
+        --background-modifier-hover: #262B41;
+        --background-modifier-active: #262B41;
+        --header-primary: #FFF;
+        --header-secondary: #B1B5B9;
+        --text-normal: #8E9297;
+    }
 }
