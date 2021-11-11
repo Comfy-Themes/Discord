@@ -261,6 +261,9 @@
   contain: none !important;
   padding-bottom: 170px;
 }
+:root .expandedFolderBackground-3ZDF05 {
+  border-radius: var(--server-radius);
+}
 :root .folder-2w6LX1 {
   background-color: transparent;
 }
