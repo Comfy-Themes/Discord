@@ -13,20 +13,44 @@
 .folder-2w6LX1 { background-color: transparent;}
 
 // Discover
-.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {
+.discoverHeader-3th5O9 ~ .categoryItem-ONe8JV {
   margin-left: 0;
 
-  .itemInner-gPkiWb {
-    padding: 8px;
-  }
+  .itemInner-1XfZdz { padding: 8px;}
 }
 
-.pageWrapper-1PgVDX .scroller-1d5FgU { padding-left: 0;}
+.pageWrapper-1PgVDX { 
+  background-color: var(--background-primary);
+
+  .scroller-1d5FgU { padding: 0 !important;}
+
+  .headerImage-3X1tyY { 
+    position: relative;
+    top: -8px;
+    border-radius: 0;
+    -webkit-mask: linear-gradient(black, transparent);
+  }
+
+  .guildListSection-2CS8vH { padding: 0 32px 32px; box-sizing: border-box;}
+}
+
+.scroller-3Vjo4T {
+  padding: 0 !important;
+
+  .headerImage-1vDSE3 { 
+    position: relative;
+    top: -8px;
+    border-radius: 0;
+    -webkit-mask: linear-gradient(black, transparent);
+  }
+
+  .guildListSection-1zErMM, .footerDescription-3tQBQ3 { padding: 0 32px 32px; box-sizing: border-box;}
+}
 
 .css-bcsufo-menu {
   background: var(--background-secondary-alt);
 }
-.pageWrapper-1PgVDX,
+
 .css-1a1o7fb-control,
 .css-2dw5y-control,
 .css-p0ralp-control {
