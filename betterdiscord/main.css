@@ -143,7 +143,7 @@
   text-indent: 100%;
   overflow: hidden;
 }
-:root .navList-2UtuhC > *:not(#gif-picker-tab) > .navButton-2gQCx-::after {
+:root .navList-2UtuhC > *:not(#gif-picker-tab).navButton-2gQCx-::after {
   position: absolute;
   content: "";
   width: 20px;
@@ -151,11 +151,14 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-:root .navList-2UtuhC #sticker-picker-tab .navButton-2gQCx-::after {
+:root .navList-2UtuhC #sticker-picker-tab.navButton-2gQCx-::after {
   background-image: url("https://i.imgur.com/S79punc.png");
 }
-:root .navList-2UtuhC #emoji-picker-tab .navButton-2gQCx-::after {
+:root .navList-2UtuhC #emoji-picker-tab.navButton-2gQCx-::after {
   background-image: url("https://i.imgur.com/YOshExa.png");
+}
+:root .navList-2UtuhC #bd-emotes-tab.navButton-2gQCx-::after {
+  background-image: url("https://i.imgur.com/efz6JwF.png");
 }
 :root .navList-2UtuhC .navButton-2gQCx- {
   width: 40px;
@@ -268,19 +271,44 @@
 :root .folder-2w6LX1 {
   background-color: transparent;
 }
-:root .discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {
+:root .discoverHeader-3th5O9 ~ .categoryItem-ONe8JV {
   margin-left: 0;
 }
-:root .discoverHeader-Ijkm_M ~ .categoryItem-1QIroW .itemInner-gPkiWb {
+:root .discoverHeader-3th5O9 ~ .categoryItem-ONe8JV .itemInner-1XfZdz {
   padding: 8px;
 }
+:root .pageWrapper-1PgVDX {
+  background-color: var(--background-primary);
+}
 :root .pageWrapper-1PgVDX .scroller-1d5FgU {
-  padding-left: 0;
+  padding: 0 !important;
+}
+:root .pageWrapper-1PgVDX .headerImage-3X1tyY {
+  position: relative;
+  top: -8px;
+  border-radius: 0;
+  -webkit-mask: linear-gradient(black, transparent);
+}
+:root .pageWrapper-1PgVDX .guildListSection-2CS8vH {
+  padding: 0 32px 32px;
+  box-sizing: border-box;
+}
+:root .scroller-3Vjo4T {
+  padding: 0 !important;
+}
+:root .scroller-3Vjo4T .headerImage-1vDSE3 {
+  position: relative;
+  top: -8px;
+  border-radius: 0;
+  -webkit-mask: linear-gradient(black, transparent);
+}
+:root .scroller-3Vjo4T .guildListSection-1zErMM, :root .scroller-3Vjo4T .footerDescription-3tQBQ3 {
+  padding: 0 32px 32px;
+  box-sizing: border-box;
 }
 :root .css-bcsufo-menu {
   background: var(--background-secondary-alt);
 }
-:root .pageWrapper-1PgVDX,
 :root .css-1a1o7fb-control,
 :root .css-2dw5y-control,
 :root .css-p0ralp-control {
@@ -436,7 +464,6 @@
 }
 :root #guild-header-popout-premium-subscribe:hover, :root #guild-header-popout-premium-subscribe:active:not(.hideInteraction-1iHO1O) {
   background-color: #ff73fa1c;
-  border-radius: 5px 5px 0 0;
 }
 :root #guild-header-popout-premium-subscribe .icon-LYJorE {
   color: #ff73fa;
@@ -1340,12 +1367,12 @@
   border-radius: 5px;
   padding: 4px;
 }
-:root .premiumTabItem-1QTfBr .flex-1xMQg5 {
+:root .premiumLabel-fDtYys {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-:root .premiumTabItem-1QTfBr .flex-1xMQg5 .icon-Zc-uZZ {
-  margin-right: 5px;
+:root .premiumLabel-fDtYys svg {
+  margin-right: 8px;
 }
 :root .hero-EvfTTA {
   max-width: unset;
@@ -1578,12 +1605,12 @@
   background: var(--background-secondary-alt);
   border: none;
 }
-:root .serverBoostTabItem-2hFTIN .flex-1xMQg5 {
+:root .serverBoostTabItem-2hFTIN > div {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-:root .serverBoostTabItem-2hFTIN .flex-1xMQg5 .icon-3Povsy {
-  margin-right: 5px;
+:root .serverBoostTabItem-2hFTIN > div .icon-3Povsy {
+  margin-right: 8px;
 }
 :root .tierBody-3aUxuc {
   background: var(--background-secondary);
@@ -2146,8 +2173,8 @@
 :root .streamPreview-2-WUWT .button-38aScr:hover {
   background-color: #fff;
 }
-:root .sparkles-fvfHK0 ~ * {
-  z-index: 2;
+:root .container-1rn8Cv > img {
+  z-index: unset;
 }
 :root .contentWarningPopout-n5JsIs {
   background-color: var(--background-primary);
