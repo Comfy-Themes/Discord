@@ -138,7 +138,8 @@
   filter: var(--colored-emoji) !important;
 }
 :root #emoji-picker-tab .contents-18-Yxp,
-:root #sticker-picker-tab .contents-18-Yxp {
+:root #sticker-picker-tab .contents-18-Yxp,
+:root #bd-emotes-tab .contents-18-Yxp {
   text-indent: 100%;
   overflow: hidden;
 }

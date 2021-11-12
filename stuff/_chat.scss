@@ -141,13 +141,14 @@
 .sprite-2iCowe { filter: var(--colored-emoji) !important;}
 
 #emoji-picker-tab .contents-18-Yxp,
-#sticker-picker-tab .contents-18-Yxp {
+#sticker-picker-tab .contents-18-Yxp,
+#bd-emotes-tab .contents-18-Yxp {
   text-indent: 100%;
   overflow: hidden;
 }
 
 .navList-2UtuhC {
-  & > *:not(#gif-picker-tab) > .navButton-2gQCx-::after {
+  & > *:not(#gif-picker-tab).navButton-2gQCx-::after {
     position: absolute;
     content: "";
     width: 20px;
@@ -156,13 +157,9 @@
     background-repeat: no-repeat;
   }
 
-  #sticker-picker-tab .navButton-2gQCx-::after {
-    background-image: url("https://i.imgur.com/S79punc.png");
-  }
-
-  #emoji-picker-tab .navButton-2gQCx-::after {
-    background-image: url("https://i.imgur.com/YOshExa.png");
-  }
+  #sticker-picker-tab.navButton-2gQCx-::after {background-image: url("https://i.imgur.com/S79punc.png");}
+  #emoji-picker-tab.navButton-2gQCx-::after { background-image: url("https://i.imgur.com/YOshExa.png");}
+  #bd-emotes-tab.navButton-2gQCx-::after { background-image: url("https://i.imgur.com/efz6JwF.png");}
 
   .navButton-2gQCx- { width: 40px; padding: 8px;}
 }

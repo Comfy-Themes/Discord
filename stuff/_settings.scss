@@ -87,14 +87,14 @@
 // Authorized apps
 .cardPrimaryOutline-29Ujqw { background-color: var(--background-secondary);}
 
-// Connetions
+// Connections
 .connectionIcon-2ElzVe { border-radius: 5px; padding: 4px;}
 
 // Nitro
-.premiumTabItem-1QTfBr .flex-1xMQg5 {
+.premiumLabel-fDtYys {
   flex-direction: row-reverse; justify-content: flex-end;
 
-  .icon-Zc-uZZ { margin-right: 5px;}
+  svg { margin-right: 8px;}
 }
 
 .hero-EvfTTA { max-width: unset;}
@@ -302,10 +302,10 @@
 .descriptionInput-3b30C8 { background: var(--background-secondary-alt); border: none;}
 
 // Server Boost Status
-.serverBoostTabItem-2hFTIN .flex-1xMQg5 {
+.serverBoostTabItem-2hFTIN > div {
   flex-direction: row-reverse; justify-content: flex-end;
 
-  .icon-3Povsy { margin-right: 5px;}
+  .icon-3Povsy { margin-right: 8px;}
 }
 
 .tierBody-3aUxuc { background: var(--background-secondary);}
