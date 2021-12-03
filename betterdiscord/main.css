@@ -758,6 +758,9 @@
 :root .userPopout-xaxa6l {
   box-shadow: 0 0 10px 0 #101320d2;
 }
+:root .userPopout-xaxa6l .avatarPositionNormal-aZjAsn {
+  top: 76px;
+}
 :root .userPopout-xaxa6l .headerTop-3vNv-a {
   padding: 54px 16px 16px 16px;
 }
@@ -1212,58 +1215,63 @@
 }
 :root .accountBtnInner-sj5jLs[aria-label="Battle.net"],
 :root .accountBtnInner-sj5jLs[aria-label="Battle.net"]:hover,
-:root [src="/assets/7b964801001dd47cc05a91d6dacf6075.png"] {
+:root [src="/assets/37f15a06d062bdd0fc252d2b35d0b0bb.svg"] {
   background-color: #1da0f248;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Twitch],
 :root .accountBtnInner-sj5jLs[aria-label=Twitch]:hover,
-:root [src="/assets/007e5cb8871cf0987283c6307ce7fed0.png"] {
+:root [src="/assets/ca71e0b8818221eea1deebbaf8dc6518.svg"] {
   background-color: #601bd852;
 }
 :root .accountBtnInner-sj5jLs[aria-label=YouTube],
 :root .accountBtnInner-sj5jLs[aria-label=YouTube]:hover,
-:root [src="/assets/25ec573cf82ee36d12296628f6bec11b.png"] {
+:root [src="/assets/57ee9535485efae7eb923ed4893abb57.svg"] {
   background-color: #d9252b49;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Twitter],
 :root .accountBtnInner-sj5jLs[aria-label=Twitter]:hover,
-:root [src="/assets/6919f2a578d91a5d033b639f0fb52b3d.png"] {
+:root [src="/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg"] {
   background-color: #0098e446;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Steam],
 :root .accountBtnInner-sj5jLs[aria-label=Steam]:hover,
-:root [src="/assets/a9c26c8bebe406ca1adc1967bc532224.png"] {
+:root [src="/assets/d897626dfa2016ea3ad0af935acb6070.svg"] {
   background-color: #00000034;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Reddit],
 :root .accountBtnInner-sj5jLs[aria-label=Reddit]:hover,
-:root [src="/assets/b46c06eb71dc56a41432512168e6759a.png"] {
+:root [src="/assets/f3224f560c8f5974355596a4f7e9ce19.svg"] {
   background-color: #fe44013d;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Facebook],
 :root .accountBtnInner-sj5jLs[aria-label=Facebook]:hover,
-:root [src="/assets/3d189c41ce8155dfebf86ba2d1acfbbc.png"] {
+:root [src="/assets/32045743cb7670855ae726743c949e0c.svg"] {
   background-color: #2e328485;
 }
 :root .accountBtnInner-sj5jLs[aria-label=Spotify],
 :root .accountBtnInner-sj5jLs[aria-label=Spotify]:hover,
-:root [src="/assets/7906941c1205ba04b6921f2af4c6a170.png"] {
+:root [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
   background-color: #1ed75f34;
 }
 :root .accountBtnInner-sj5jLs[aria-label="Xbox Live"],
 :root .accountBtnInner-sj5jLs[aria-label="Xbox Live"]:hover,
-:root [src="/assets/746aba83c88f087e3eef23a47dd57923.png"] {
+:root [src="/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg"] {
   background-color: #5dc21e42;
 }
 :root .accountBtnInner-sj5jLs[aria-label="League Of Legends"],
 :root .accountBtnInner-sj5jLs[aria-label="League Of Legends"]:hover,
-:root [src="/assets/a0e2182e843745c73f7f3c8325a05ea9.png"] {
+:root [src="/assets/94dc6f30a819026fa295d85f1f72b4ab.svg"] {
   background-color: #cea14638;
 }
 :root .accountBtnInner-sj5jLs[aria-label=GitHub],
 :root .accountBtnInner-sj5jLs[aria-label=GitHub]:hover,
-:root [src="/assets/afb09840b496f2c49032075a33da7fab.png"] {
+:root [src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] {
   background-color: #24292e62;
+}
+:root .accountBtnInner-sj5jLs[aria-label=Skype],
+:root .accountBtnInner-sj5jLs[aria-label=Skype]:hover,
+:root [src="/assets/316ed923548387f8983e28a3804e6712.svg"] {
+  background-color: #0076d74b;
 }
 :root .userPopout-xaxa6l .banner-2QYc2d,
 :root .root-3QyAh1 .banner-2QYc2d {
@@ -1319,43 +1327,89 @@
 :root .accountProfileCard-1XCH88 .background-1QDuV2 {
   margin-right: 0;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB > :first-child {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH > :first-child {
   flex: 2 auto;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .avatarUploaderInner-Oiob_P {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .avatarUploaderInner-mAGe3e {
   border: none;
   border-radius: var(--avatar-radius);
+  background-color: transparent;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .avatarUploaderInner-Oiob_P .avatarUploaderIndicator-2G-aIZ {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .avatarUploaderInner-mAGe3e .avatarUploaderIcon-3UIzEQ {
   display: none;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .headerTop-3vNv-a {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a {
   padding-top: 54px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK {
   padding: 0 0 16px 0;
-  background-color: var(--background-secondary);
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .customStatus-oN4ZZY {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK .customStatus-oN4ZZY {
   padding: 0 12px 12px 16px;
   margin-bottom: 0;
   background-color: var(--background-tertiary);
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .divider-ewBQKj {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK .divider-ewBQKj {
   display: none;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG .aboutMeSection-1Fw5Ia {
-  padding: 0 12px 12px 16px;
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK .aboutMeSection-1Fw5Ia {
+  padding: 0 12px 16px 16px;
   background-color: var(--background-tertiary);
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG > div[aria-hidden=true]:last-child {
-  margin: 0 16px;
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK > div[aria-hidden=true]:last-child {
+  position: relative;
+  margin: 37px 16px 0 16px;
   padding: 16px;
   background-color: #7289da;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG > div[aria-hidden=true]:last-child .colorStandard-2KCXvj, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .popoutInfo-pKbpvG > div[aria-hidden=true]:last-child h3 {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK > div[aria-hidden=true]:last-child .colorStandard-2KCXvj, :root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK > div[aria-hidden=true]:last-child h3 {
   color: white;
+}
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK > div[aria-hidden=true]:last-child::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  z-index: 2;
+  width: 268px;
+  top: -21px;
+  left: 0;
+  background: #7289da;
+  background: var(--playing);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .popoutInfo-1A9dyK > div[aria-hidden=true]:last-child .fakeActivityTitle-ka26mT::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  z-index: 1;
+  width: 268px;
+  top: -21px;
+  left: 0;
+  background: var(--background-secondary);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+  animation: animate2 4s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+@keyframes animate {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 268px;
+  }
+}
+@keyframes animate2 {
+  0% {
+    -webkit-mask-position-x: 268px;
+  }
+  100% {
+    -webkit-mask-position-x: 0;
+  }
 }
 :root .cardPrimaryOutline-29Ujqw {
   background-color: var(--background-secondary);

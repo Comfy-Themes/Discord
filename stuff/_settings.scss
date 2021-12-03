@@ -44,22 +44,22 @@
 }
 
 // User Profile
-.userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB {
+.profileCustomizationSection-1-Issy .baseLayout-NX_bpH {
   & > :first-child { flex: 2 auto;}
 
   // Avatar
-  .avatarUploaderInner-Oiob_P { 
+  .avatarUploaderInner-mAGe3e { 
     border: none;
     border-radius: var(--avatar-radius);
+    background-color: transparent;
 
-    .avatarUploaderIndicator-2G-aIZ { display: none;}
+    .avatarUploaderIcon-3UIzEQ { display: none;}
   }
 
   .headerTop-3vNv-a { padding-top: 54px;}
 
-  .popoutInfo-pKbpvG {
+  .popoutInfo-1A9dyK {
     padding: 0 0 16px 0;
-    background-color: var(--background-secondary);
 
     .customStatus-oN4ZZY { 
       padding: 0 12px 12px 16px; margin-bottom: 0;
@@ -69,17 +69,44 @@
     .divider-ewBQKj { display: none;}
 
     .aboutMeSection-1Fw5Ia { 
-      padding: 0 12px 12px 16px;
+      padding: 0 12px 16px 16px;
       background-color: var(--background-tertiary);
     }
 
     // Activity
     & > div[aria-hidden="true"]:last-child {
-      margin: 0 16px; padding: 16px;
+      position: relative;
+      margin: 37px 16px 0 16px; padding: 16px;
       background-color: #7289da;
-      border-radius: 5px;
+      border-radius: 0 0 5px 5px;
 
       .colorStandard-2KCXvj, h3 { color: white;}
+
+      &::before {
+        content: ""; position: absolute;
+        height: 21px; z-index: 2;
+        width: 268px; top: -21px; left: 0;
+        background: #7289da;
+        background: var(--playing);
+        -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+        animation: animate 6s linear infinite;
+        animation-delay: 0s;
+        opacity: 1;
+      }
+
+      .fakeActivityTitle-ka26mT::before {
+        content: ""; position: absolute;
+        height: 21px; z-index: 1;
+        width: 268px; top: -21px; left: 0;
+        background: var(--background-secondary);
+        -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+        animation: animate2 4s linear infinite;
+        animation-delay: 0s;
+        opacity: 1;
+
+        @keyframes animate { 0% { -webkit-mask-position-x: 0;} 100% { -webkit-mask-position-x: 268px;}}
+        @keyframes animate2 { 0% { -webkit-mask-position-x: 268px; } 100% { -webkit-mask-position-x: 0;}}
+      }
     }
   }
 }
