@@ -874,7 +874,7 @@
     -webkit-mask-position-x: 268px;
   }
 }
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .spotifyIcon-2J9kSv {
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .platformIcon-32kXeN {
   display: none;
 }
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu + h3 {
@@ -1428,6 +1428,12 @@
   margin-top: -7px;
   background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/cover no-repeat;
 }
+:root .bannerUpsellContainer-1KrLvE {
+  background-color: var(--background-secondary);
+}
+:root .flexChild-faoVW3[style="flex: 1 1 50%;"] {
+  flex: 1 !important;
+}
 :root .noticeRegion-1YviSH {
   max-width: unset;
   right: 0;
@@ -1524,8 +1530,50 @@
 :root .contentWidth-xLB44s .previewContainer-1KQDJS .messageContainer-1DiFnQ {
   background-color: var(--background-secondary);
 }
-:root .emojiRow-zIc7ZX {
+:root .banner-1QYBBN {
+  max-width: unset;
+}
+:root div.emojiRow-3pAGQS {
+  display: inline-grid;
+  grid-template-areas: "image name" "uploader uploader";
+  height: unset;
   box-shadow: none;
+  row-gap: 32px;
+  column-gap: 16px;
+  margin: 0 8px 8px 0;
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+:root div.emojiRow-3pAGQS::before {
+  top: -5px;
+  height: calc(50% + 10px);
+  background-color: var(--background-secondary-alt);
+  border-radius: 0;
+}
+:root div.emojiRow-3pAGQS .emojiImage-13nmUx {
+  grid-area: image;
+  width: 40px;
+  height: 40px;
+}
+:root div.emojiRow-3pAGQS .flexChild-faoVW3 {
+  grid-area: name;
+  margin: 0;
+}
+:root div.emojiRow-3pAGQS .emojiUploader-3-VyOH {
+  grid-area: uploader;
+  margin-left: 0;
+}
+:root div.emojiRow-3pAGQS .emojiRemove-1g13zb {
+  top: unset;
+  bottom: -25px;
+  right: 5px;
+  opacity: 1;
+  border-radius: 8px;
+  transition: 200ms bottom;
+}
+:root div.emojiRow-3pAGQS:hover .emojiRemove-1g13zb {
+  bottom: 5px;
 }
 :root .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   background: var(--background-secondary);
@@ -1602,11 +1650,11 @@
   background: var(--background-secondary-alt);
   border: none;
 }
-:root .serverBoostTabItem-2hFTIN > div {
+:root .serverBoostTabItem-3vujbv > div {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-:root .serverBoostTabItem-2hFTIN > div .icon-3Povsy {
+:root .serverBoostTabItem-3vujbv > div .icon-21VyCF {
   margin-right: 8px;
 }
 :root .tierBody-3aUxuc {
