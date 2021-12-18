@@ -45,6 +45,17 @@
   background-color: var(--brand-experiment);
 }
 
+// Spam bar
+.spamBanner-F4eeXk { 
+  position: relative; flex-direction: column;
+  left: 56px; bottom: 8px; 
+  width: 330px; height: fit-content;
+  row-gap: 30px;
+
+  .bannerTextContainer-XQ8tOX { min-width: 0;}
+  .actionButtons-13eVg9 {justify-content: space-around;}
+}
+
 // Messages error bar
 .messagesErrorBar-nyJGU7 {
   border-radius: 15px;

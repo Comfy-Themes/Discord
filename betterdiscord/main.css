@@ -46,6 +46,21 @@
 :root .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
   background-color: var(--brand-experiment);
 }
+:root .spamBanner-F4eeXk {
+  position: relative;
+  flex-direction: column;
+  left: 56px;
+  bottom: 8px;
+  width: 330px;
+  height: fit-content;
+  row-gap: 30px;
+}
+:root .spamBanner-F4eeXk .bannerTextContainer-XQ8tOX {
+  min-width: 0;
+}
+:root .spamBanner-F4eeXk .actionButtons-13eVg9 {
+  justify-content: space-around;
+}
 :root .messagesErrorBar-nyJGU7 {
   border-radius: 15px;
   padding-bottom: 0;
