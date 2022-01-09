@@ -1,32 +1,33 @@
 :root {
 
 // Friend column
-.peopleColumn-29fq28 { background: var(--background-primary);}
+.peopleColumn-1wMU14 { background: var(--background-primary);}
   
 // Friend activities
-.nowPlayingColumn-2sl4cE { 
+.nowPlayingColumn-1eCBCN { 
   background: var(--background-secondary-alt);
 
-  .scroller-2ZPeAD { border: none;}
+  .scroller-hE2gWq { border: none;}
 
-  .itemCard-v9viV7 {
+  .itemCard-3Etziu {
     border: none;
 
-    &.active-1xchHY, &.interactive-3B9GmY:hover { background: var(--background-secondary);}
+    &.active-1xchHY, &.interactive-2zD88a:hover { background: var(--background-secondary);}
 
-    .section-2gLsgF:last-child { margin-top: 10px;}
-    .inset-3sAvek { background: transparent;}
+    .section-3G9aLW:last-child { margin-top: 10px;}
+    .inset-SbsSFp { background: transparent;}
     .applicationStreamingPreviewWrapper-8QqvVY { background-color: var(--background-secondary);}
     .separator-XqIyoz { display: none;}
   }
 }
 
 // Friend call buttons
-.bottomControls-lIJyYL {
-  .centerButton-3CaNcJ { border-radius: 7px;}
-  .colorable-1bkp8v.primaryDark-3mSFDl { background: var(--background-secondary-alt);}
+.bottomControls-31YuPK {
+  .centerButton-1IShs7 { border-radius: 7px;}
+  .colorable-3rVGna.primaryDark-2UJt1G { background: var(--background-secondary-alt);}
   foreignObject { mask: none;}
 }
+.participantsButton-1WBdFP { background: var(--background-secondary-alt);}
 
 // Regionnal selector friend call
 .quickSelect-3BxO0K { margin-top: 10px;}

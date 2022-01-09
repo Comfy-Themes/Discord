@@ -3,16 +3,16 @@
 // -- Guild header popout --
 #guild-header-popout {
 
-  .item-1tOPte {
+  .item-1OdjEX {
     flex-direction: row-reverse;
 
-    .iconContainer-2-XQPY { margin: 0 8px 0 0;}
+    .iconContainer-1-SsTR { margin: 0 8px 0 0;}
   }
 
   // Boost
   &-premium-subscribe {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #ff73fa1c;}
-    .icon-LYJorE { color: #ff73fa;}
+    .icon-E4cW1l { color: #ff73fa;}
   }
 
   // Invite
@@ -20,49 +20,49 @@
     color: #677bc4;
 
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #677bc41e;}
-    .icon-LYJorE { color: #677bc4;}
+    .icon-E4cW1l { color: #677bc4;}
   }
   
   // Settings
   &-settings {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #546e7a1e;}
-    .icon-LYJorE { color: #546e7a;}
+    .icon-E4cW1l { color: #546e7a;}
   }
   
   // Insights
   &-insights {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #1abc9c23;}
-    .icon-LYJorE { color: #1abc9c;}
+    .icon-E4cW1l { color: #1abc9c;}
   }
   
   // Create channel
   &-create-channel {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #e91e6221;}
-    .icon-LYJorE { color: #e91e63;}
+    .icon-E4cW1l { color: #e91e63;}
   }
   
   // Create category
   &-create-category {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #eaa14e13;}
-    .icon-LYJorE { color: #eaa14e;}
+    .icon-E4cW1l { color: #eaa14e;}
   }
   
   // Notifications
   &-notifications {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #e9bb4815;}
-    .icon-LYJorE { color: #fcd462;}
+    .icon-E4cW1l { color: #fcd462;}
   }
   
   // Privacy
   &-privacy {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #4a83d418;}
-    .icon-LYJorE { color: #4a84d4;}
+    .icon-E4cW1l { color: #4a84d4;}
   }
   
   // Nickname
   &-change-nickname {
     &:hover, &:active:not(.hideInteraction-1iHO1O) { background-color: #43b58218;}
-    .icon-LYJorE { color: #43b581;}
+    .icon-E4cW1l { color: #43b581;}
   }
   
   // Hide muted channels
@@ -76,11 +76,11 @@
 }
   
 // Categories arrows
-.mainContent-2h-GEV .arrow-gKvcEx { display: none;}
+.mainContent-uDGa6R .arrow-2HswgU { display: none;}
 
 // Thread channels
-.typeThread-3ESTm- .content-1x5b-n { padding-left: 34px;}
-.spine--Wla_O { z-index: 1;}
+.typeThread-2Aqh6X .content-1gYQeQ { padding-left: 34px;}
+.spine-29OFwR { z-index: 1;}
 
 // -- Notification --
 .container-1taM1r {
@@ -88,44 +88,44 @@
   z-index: 3;
 }
 
-.unreadTop-3rAB3r {
+.unreadTop-1DJtGv {
   top: -9px; z-index: 2;
   width: 100%; padding: 0;
 
-  .unreadBar-3t3sYc {
-    &.mention-1f5kbO {
+  .unreadBar-elBRZx {
+    &.mention-3XBnnZ {
       border-radius: 0;
       background: linear-gradient(var(--mention-color), #0000);
     }
 
-    &.unread-1xRYoj {
+    &.unread-2wipsx {
       border-radius: 0;
       background: linear-gradient(var(--unread-color), #0000);
     }
   }
 }
 
-.unreadBottom-1_LF_w {
+.unreadBottom-3Ojk6R  {
   width: 100%; height: 15px;
   padding: 0;
 
-  .unreadBar-3t3sYc {
-    &.mention-1f5kbO {
+  .unreadBar-elBRZx {
+    &.mention-3XBnnZ {
       border-radius: 0;
       background: linear-gradient(#0000, var(--mention-color));
     }
 
-    &.unread-1xRYoj {
+    &.unread-2wipsx {
       border-radius: 0;
       background: linear-gradient(#0000, var(--unread-color));
     }
   }
 }
 
-.unreadBar-3t3sYc > .text-2e2ZyG { display: none;}
+.unreadBar-elBRZx > .text-2GsXbW { display: none;}
   
 // Mention pill
-.mentionsBadge-3tC7Mi .numberBadge-2s8kKX { 
+.mentionsBadge-2ckrKL .numberBadge-37OJ3S { 
   background-color: var(--mention-color) !important;
   animation: var(--disable-animations), 2s channel-mention infinite;
 
@@ -137,7 +137,7 @@
 }
   
 // Unread pill
-.unread-2lAfLh {
+.unread-36eUEm {
   top: 54%; left: 5px;
   width: 6px; height: 6px;
   z-index: 1;
@@ -153,7 +153,7 @@
 }
   
 // Game activity / call area
-.activityPanel-28dQGo, .container-1giJp5 { border-bottom: none;}
+.activityPanel-9icbyU, .container-1zzFcN { border-bottom: none;}
 
 // Channel call
 .voiceUserSummary-2X_2vp svg:not(.icon-1tDorc) { padding-right: 10px;}
