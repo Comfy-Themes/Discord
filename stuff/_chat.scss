@@ -1,7 +1,7 @@
 :root {
     
 // Messages buttons
-.buttons-cl5qTG { transition: opacity 150ms;}
+.buttons-3dF5Kd { transition: opacity 150ms;}
 
 // Avatar of the user
 .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW[aria-expanded="false"] {
@@ -20,7 +20,7 @@
 }
 
 // Hiding avatar
-.content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), .callContainer-3UuV6S, .gatedContent-3-B7qB { z-index: 2;}
+.content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), .callContainer-BGIngG, .gatedContent-31-gID { z-index: 2;}
 
 // Chat bar
 .chat-2ZfjoI .form-3gdLxP {
@@ -46,18 +46,18 @@
 }
 
 // Spam bar
-.spamBanner-F4eeXk { 
+.spamBanner-1auiob { 
   position: relative; flex-direction: column;
   left: 56px; bottom: 8px; 
   width: 330px; height: fit-content;
   row-gap: 30px;
 
-  .bannerTextContainer-XQ8tOX { min-width: 0;}
-  .actionButtons-13eVg9 {justify-content: space-around;}
+  .bannerTextContainer-TbC9W4 { min-width: 0;}
+  .actionButtons-2SAg-Q {justify-content: space-around;}
 }
 
 // Messages error bar
-.messagesErrorBar-nyJGU7 {
+.messagesErrorBar-1IQ1rH {
   border-radius: 15px;
   padding-bottom: 0;
   margin-bottom: 15px;
@@ -133,12 +133,12 @@
 
   .base-2v-uc0 { border-radius: 0;}
 
-  &:first-of-type, .option-1B5ZV8 {
+  &:first-of-type, .option-Tt7anD {
     background-color: var(--background-tertiary);
   }
 }
 .autocomplete-3NRXG8 { background: var(--background-secondary-alt);}
-.categoryHeader-OpJ1Ly, .autocomplete-1vrmpx { background: var(--background-secondary);}
+.categoryHeader-OpJ1Ly, .autocomplete-3NRXG8 { background: var(--background-secondary);}
 .selected-3H3-RC { background: var(--background-primary);}
 
 // -- Emote picker --
@@ -170,7 +170,7 @@
 
 .navButtonActive-1EqC5l, .emojiItem-277VFM.emojiItemSelected-2Lg50V { background-color: #6e85d321;}
 
-.imageLoading-bpSr0M { 
+.imageLoading-2uloYN { 
   background-image: none !important;
   background-color: var(--background-primary);
   border-radius: 8px;
@@ -189,7 +189,7 @@
 // Chat buttons
 .attachButton-1ijpt9 .attachButtonPlus-3IYelE,
 .attachButton-1ijpt9:hover .attachButtonPlus-3IYelE { fill: var(--chat-buttons);}
-.buttonWrapper-3YFQGJ, .icon-3D60ES { color: var(--chat-buttons);}
+.buttonWrapper-3YFQGJ, .icon-1d5zch { color: var(--chat-buttons);}
 
 // @everyone popout
 .contentWarningPopout-WKdbDG { background-color: var(--background-secondary);}
@@ -207,7 +207,7 @@
 }
   
 // Attachement
-.attachment-33OFj0 { border: none;}
+.attachment-1PZZB2 { border: none;}
   
 // Spotify embed
 .embedSpotify-1rDvOE { border-radius: 5px;}

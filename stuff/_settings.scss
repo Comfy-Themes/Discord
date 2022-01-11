@@ -5,7 +5,7 @@
 // Wide settings
 .contentRegion-3HkfJJ { flex: 1 1 100%;}
 .contentColumn-1C7as6, .customColumn-2n-oKU,
-.sidebarScrollable-1qPI87 + .content-1rPSz4,
+.sidebarScrollable-2mW9Ls + .content-2ssVKB,
 .customScroller-m1-jZn>div { max-width: 95%;}
 
 .sidebar-nqHbhN {
@@ -118,7 +118,7 @@
 .connectionIcon-3nqZDW { border-radius: 5px; padding: 4px;}
 
 // Nitro
-.premiumLabel-fDtYys {
+.premiumLabel-V52REm {
   flex-direction: row-reverse; justify-content: flex-end;
 
   svg { margin-right: 8px;}
@@ -134,7 +134,7 @@
 .paymentRow-1HKOLu, .pageActions-1crTQL, .codeRedemptionRedirect-3SBiCp { background: var(--background-secondary-alt);}
 .payment-2bOh4k:hover { background-color: var(--background-secondary);}
 .expandedInfo-1W31i3 { background: var(--background-secondary);}
-.checked-3_4uQ9 { background: transparent; border-color: transparent;}
+.checked-1pZh2h { background: transparent; border-color: transparent;}
 .bottomDivider-ZmTm-j { border-bottom-color: transparent;}
 
 // Activity Status
@@ -164,7 +164,7 @@
 }
 
 // Roles
-.colorPickerCustom-1swUKF, .container-cMG81i {
+.colorPickerCustom-1swUKF, .container-2oNtJn {
   background: var(--background-secondary);
   border-radius: 5px;
 }
@@ -211,8 +211,8 @@
     }
   }
 
-  .item-3XjbnG:hover:not(.disabled-1Hwwfb), .topPill-30KHOu .item-3XjbnG:hover:not(.disabled-1Hwwfb),
-  .selected-g-kMVV.item-3XjbnG, .topPill-30KHOu .selected-g-kMVV.item-3XjbnG {
+  .item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .item-3XjbnG:hover:not(.disabled-1nofHP),
+  .selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .selected-g-kMVV.item-3XjbnG {
     background: none;
 
     .roleDot-2a4Pv7::after { 
@@ -227,14 +227,14 @@
     }
   }
 
-  .item-3XjbnG:hover:not(.disabled-1Hwwfb), .topPill-30KHOu .item-3XjbnG:hover:not(.disabled-1Hwwfb)
+  .item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .item-3XjbnG:hover:not(.disabled-1nofHP)
   { 
     background: none;
     
     .roleDot-2a4Pv7::before, .roleDot-2a4Pv7::after { opacity: 0.3;}
   }
 
-  .selected-g-kMVV.item-3XjbnG, .topPill-30KHOu .selected-g-kMVV.item-3XjbnG 
+  .selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .selected-g-kMVV.item-3XjbnG 
   { 
     background: none;
     
@@ -358,10 +358,10 @@ div.emojiRow-1aPaM- {
 .css-dwar6a-menu { background-color: var(--background-secondary-alt);}
 
 // Membership Screening
-.editableFieldsContainer-1LYE1s { width: unset;}
+.editableFieldsContainer-1p_q_4 { width: unset;}
 
 // Welcome screen
-.channelIcon-1eKmlw, .channelIcon-g61PDh { background: var(--background-secondary-alt);}
+.channelIcon-1eKmlw, .channelIcon-QyaRxN { background: var(--background-secondary-alt);}
 .descriptionInput-3b30C8 { background: var(--background-secondary-alt); border: none;}
 
 // Server Boost Status
@@ -374,7 +374,7 @@ div.emojiRow-1aPaM- {
 .tierBody-1d3UiS { background: var(--background-secondary);}
 .tierHeaderContent-2SPBAA, .tierInProgress-1vFUnw { background: var(--background-secondary-alt);}
 .background-3xJH_4 { color: var(--background-secondary-alt);}
-.subscribers-34Wiok .subscriberMask-2keJDX { margin-right: 8px;}
+.subscribers-1E4Ttt .subscriberMask-pExfOt { margin-right: 8px;}
 
 // Members
 .member-2cj2PI:nth-child(3) { margin-top: 10px;}
