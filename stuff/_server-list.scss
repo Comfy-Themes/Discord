@@ -148,16 +148,16 @@
 }
 
 // Unread pill
-.listItem-3SmSlK.bd-unread .wrapper-z5ab_q::before,
-.listItem-3SmSlK[vz-unread] .wrapper-z5ab_q::before,
-.listItem-3SmSlK.unread .wrapper-z5ab_q::before,
-.wrapper-38slSD.bd-unread:not(.bd-expanded) .wrapper-z5ab_q::before,
-.wrapper-38slSD[vz-unread]:not([vz-expanded]) .wrapper-z5ab_q::before,
-.wrapper-38slSD.unread:not(.expanded) .wrapper-z5ab_q::before {
+.listItem-3SmSlK.bd-unread::before,
+.listItem-3SmSlK[vz-unread]::before,
+.listItem-3SmSlK.unread::before,
+.wrapper-38slSD.bd-unread:not(.bd-expanded)::before,
+.wrapper-38slSD[vz-unread]:not([vz-expanded])::before,
+.wrapper-38slSD.unread:not(.expanded)::before {
   content: "";
   position: absolute;
   display: block;
-  top: 0; left: 0; z-index: 1;
+  top: 0; left: 12px; z-index: 1;
   width: 12px; height: 12px;
   background: var(--unread-color);
   border-radius: 50%;
@@ -169,10 +169,11 @@
     100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
   }
 }
+
 .listItem-3SmSlK.bd-unread .pill-2RsI5Q, .listItem-3SmSlK[vz-unread] .pill-2RsI5Q, .listItem-3SmSlK.unread .pill-2RsI5Q,
 .wrapper-38slSD.bd-unread:not(.expanded) .pill-2RsI5Q, .wrapper-38slSD[vz-unread]:not(.expanded) .pill-2RsI5Q, .wrapper-38slSD.unread:not(.expanded) .pill-2RsI5Q,
-.listItem-3SmSlK.unread.mentioned .wrapper-z5ab_q::before, .listItem-3SmSlK[vz-unread][vz-mentioned] .wrapper-z5ab_q::before, .listItem-3SmSlK.bd-unread.bd-badge .wrapper-z5ab_q::before,
-.wrapper-38slSD.unread.mentioned .wrapper-z5ab_q::before, .wrapper-38slSD[vz-unread][vz-mentioned] .wrapper-z5ab_q::before, .wrapper-38slSD.bd-unread.bd-badge .wrapper-z5ab_q::before {
+.listItem-3SmSlK.unread.mentioned::before, .listItem-3SmSlK[vz-unread][vz-mentioned]::before, .listItem-3SmSlK.bd-unread.bd-badge::before,
+.wrapper-38slSD.unread.mentioned::before, .wrapper-38slSD[vz-unread][vz-mentioned]::before, .wrapper-38slSD.bd-unread.bd-badge::before {
   display: none;
 }
 

@@ -418,17 +418,17 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-:root .listItem-3SmSlK.bd-unread .wrapper-z5ab_q::before,
-:root .listItem-3SmSlK[vz-unread] .wrapper-z5ab_q::before,
-:root .listItem-3SmSlK.unread .wrapper-z5ab_q::before,
-:root .wrapper-38slSD.bd-unread:not(.bd-expanded) .wrapper-z5ab_q::before,
-:root .wrapper-38slSD[vz-unread]:not([vz-expanded]) .wrapper-z5ab_q::before,
-:root .wrapper-38slSD.unread:not(.expanded) .wrapper-z5ab_q::before {
+:root .listItem-3SmSlK.bd-unread::before,
+:root .listItem-3SmSlK[vz-unread]::before,
+:root .listItem-3SmSlK.unread::before,
+:root .wrapper-38slSD.bd-unread:not(.bd-expanded)::before,
+:root .wrapper-38slSD[vz-unread]:not([vz-expanded])::before,
+:root .wrapper-38slSD.unread:not(.expanded)::before {
   content: "";
   position: absolute;
   display: block;
   top: 0;
-  left: 0;
+  left: 12px;
   z-index: 1;
   width: 12px;
   height: 12px;
@@ -449,8 +449,8 @@
 }
 :root .listItem-3SmSlK.bd-unread .pill-2RsI5Q, :root .listItem-3SmSlK[vz-unread] .pill-2RsI5Q, :root .listItem-3SmSlK.unread .pill-2RsI5Q,
 :root .wrapper-38slSD.bd-unread:not(.expanded) .pill-2RsI5Q, :root .wrapper-38slSD[vz-unread]:not(.expanded) .pill-2RsI5Q, :root .wrapper-38slSD.unread:not(.expanded) .pill-2RsI5Q,
-:root .listItem-3SmSlK.unread.mentioned .wrapper-z5ab_q::before, :root .listItem-3SmSlK[vz-unread][vz-mentioned] .wrapper-z5ab_q::before, :root .listItem-3SmSlK.bd-unread.bd-badge .wrapper-z5ab_q::before,
-:root .wrapper-38slSD.unread.mentioned .wrapper-z5ab_q::before, :root .wrapper-38slSD[vz-unread][vz-mentioned] .wrapper-z5ab_q::before, :root .wrapper-38slSD.bd-unread.bd-badge .wrapper-z5ab_q::before {
+:root .listItem-3SmSlK.unread.mentioned::before, :root .listItem-3SmSlK[vz-unread][vz-mentioned]::before, :root .listItem-3SmSlK.bd-unread.bd-badge::before,
+:root .wrapper-38slSD.unread.mentioned::before, :root .wrapper-38slSD[vz-unread][vz-mentioned]::before, :root .wrapper-38slSD.bd-unread.bd-badge::before {
   display: none;
 }
 :root .listItem-3SmSlK.bd-unread[bd-selected] .pill-2RsI5Q, :root .listItem-3SmSlK.unread.selected .pill-2RsI5Q,
