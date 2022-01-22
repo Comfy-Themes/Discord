@@ -244,12 +244,12 @@
 
 // Coloured status when playing
 rect {
-  [mask="url(#svg-mask-status-online)"],
-  [mask="url(#svg-mask-status-online-mobile)"] { fill: var(--online);}
-  [mask="url(#svg-mask-status-idle)"] { fill: var(--iddle);}
-  [mask="url(#svg-mask-status-dnd)"] { fill: var(--dnd);}
-  [mask="url(#svg-mask-status-offline)"] { fill: var(--offline);}
-  [mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
+  &[mask="url(#svg-mask-status-online)"],
+  &[mask="url(#svg-mask-status-online-mobile)"] { fill: var(--online);}
+  &[mask="url(#svg-mask-status-idle)"] { fill: var(--iddle);}
+  &[mask="url(#svg-mask-status-dnd)"] { fill: var(--dnd);}
+  &[mask="url(#svg-mask-status-offline)"] { fill: var(--offline);}
+  &[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 }
 
 // Joining message

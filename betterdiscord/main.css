@@ -2007,20 +2007,19 @@
   height: 200px;
   background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/80% no-repeat;
 }
-:root rect [mask="url(#svg-mask-status-online)"],
-:root rect [mask="url(#svg-mask-status-online-mobile)"] {
+:root rect[mask="url(#svg-mask-status-online)"], :root rect[mask="url(#svg-mask-status-online-mobile)"] {
   fill: var(--online);
 }
-:root rect [mask="url(#svg-mask-status-idle)"] {
+:root rect[mask="url(#svg-mask-status-idle)"] {
   fill: var(--iddle);
 }
-:root rect [mask="url(#svg-mask-status-dnd)"] {
+:root rect[mask="url(#svg-mask-status-dnd)"] {
   fill: var(--dnd);
 }
-:root rect [mask="url(#svg-mask-status-offline)"] {
+:root rect[mask="url(#svg-mask-status-offline)"] {
   fill: var(--offline);
 }
-:root rect [mask="url(#svg-mask-status-streaming)"] {
+:root rect[mask="url(#svg-mask-status-streaming)"] {
   fill: var(--streaming);
 }
 :root .contentWrapper-3oy4Xo {
