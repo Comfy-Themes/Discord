@@ -124,14 +124,19 @@
 .unreadBar-elBRZx > .text-2GsXbW { display: none;}
   
 // Mention pill
-.mentionsBadge-2ckrKL .numberBadge-37OJ3S { 
+.mentionsBadge-3H1BKJ .numberBadge-37OJ3S { 
   background-color: var(--mention-color) !important;
-  animation: var(--disable-animations), 2s channel-mention infinite;
 
-  @keyframes channel-mention {
-    0% { box-shadow: 0 0 0 0 var(--mention-color);}
-    70% { box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);}
-    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+  &::before {
+    content: "";
+    position: absolute;
+    width: 16px; 
+    height: 16px;
+    background-color: inherit;
+    border-radius: 100%; 
+    z-index: -1;
+    animation: var(--disable-animations), 2s pulse infinite;
+    will-change: transform;
   }
 }
   
@@ -142,12 +147,17 @@
   z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
-  animation: var(--disable-animations), 2s channel-unread infinite;
 
-  @keyframes channel-unread {
-    0% { box-shadow: 0 0 0 0 var(--unread-color);}
-    70% { box-shadow: 0 0 0 4px rgba(0, 0, 0, 0);}
-    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+  &::before {
+    content: "";
+    position: absolute;
+    width: 6px; 
+    height: 6px;
+    background-color: inherit;
+    border-radius: 100%; 
+    z-index: 1;
+    animation: var(--disable-animations), pulse 2s infinite; 
+    will-change: transform;
   }
 }
   

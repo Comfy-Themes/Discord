@@ -404,25 +404,39 @@
 }
 :root .lowerBadge-3WTshO .numberBadge-37OJ3S {
   background-color: var(--mention-color) !important;
-  animation: var(--disable-animations), 2s server-mention infinite;
 }
-@keyframes server-mention {
-  0% {
-    box-shadow: 0 0 0 0 var(--mention-color);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+:root .lowerBadge-3WTshO .numberBadge-37OJ3S::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: inherit;
+  border-radius: 100%;
+  z-index: -1;
+  animation: var(--disable-animations), 2s pulse infinite;
+  will-change: transform;
 }
-:root .listItem-3SmSlK.bd-unread::before,
-:root .listItem-3SmSlK[vz-unread]::before,
+:root .listItem-3SmSlK.bd-unread::before .listItem-3SmSlK[vz-unread]::before,
 :root .listItem-3SmSlK.unread::before,
 :root .wrapper-38slSD.bd-unread:not(.bd-expanded)::before,
 :root .wrapper-38slSD[vz-unread]:not([vz-expanded])::before,
 :root .wrapper-38slSD.unread:not(.expanded)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 12px;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  background: var(--unread-color);
+  border-radius: 50%;
+}
+:root .listItem-3SmSlK.bd-unread::after .listItem-3SmSlK[vz-unread]::after,
+:root .listItem-3SmSlK.unread::after,
+:root .wrapper-38slSD.bd-unread:not(.bd-expanded)::after,
+:root .wrapper-38slSD[vz-unread]:not([vz-expanded])::after,
+:root .wrapper-38slSD.unread:not(.expanded)::after {
   content: "";
   position: absolute;
   display: block;
@@ -433,23 +447,15 @@
   height: 12px;
   background: var(--unread-color);
   border-radius: 50%;
-  animation: var(--disable-animations), 2s server-unread infinite;
-}
-@keyframes server-unread {
-  0% {
-    box-shadow: 0 0 0 0 var(--unread-color);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+  animation: var(--disable-animations), 2s pulse infinite;
+  will-change: transform;
 }
 :root .listItem-3SmSlK.bd-unread .pill-2RsI5Q, :root .listItem-3SmSlK[vz-unread] .pill-2RsI5Q, :root .listItem-3SmSlK.unread .pill-2RsI5Q,
 :root .wrapper-38slSD.bd-unread:not(.expanded) .pill-2RsI5Q, :root .wrapper-38slSD[vz-unread]:not(.expanded) .pill-2RsI5Q, :root .wrapper-38slSD.unread:not(.expanded) .pill-2RsI5Q,
 :root .listItem-3SmSlK.unread.mentioned::before, :root .listItem-3SmSlK[vz-unread][vz-mentioned]::before, :root .listItem-3SmSlK.bd-unread.bd-badge::before,
-:root .wrapper-38slSD.unread.mentioned::before, :root .wrapper-38slSD[vz-unread][vz-mentioned]::before, :root .wrapper-38slSD.bd-unread.bd-badge::before {
+:root .wrapper-38slSD.unread.mentioned::before, :root .wrapper-38slSD[vz-unread][vz-mentioned]::before, :root .wrapper-38slSD.bd-unread.bd-badge::before,
+:root .listItem-3SmSlK.unread.mentioned::after, :root .listItem-3SmSlK[vz-unread][vz-mentioned]::after, :root .listItem-3SmSlK.bd-unread.bd-badge::after,
+:root .wrapper-38slSD.unread.mentioned::after, :root .wrapper-38slSD[vz-unread][vz-mentioned]::after, :root .wrapper-38slSD.bd-unread.bd-badge::after {
   display: none;
 }
 :root .listItem-3SmSlK.bd-unread[bd-selected] .pill-2RsI5Q, :root .listItem-3SmSlK.unread.selected .pill-2RsI5Q,
@@ -464,6 +470,16 @@
   display: flex;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
 :root #guild-header-popout .item-1OdjEX {
   flex-direction: row-reverse;
 }
@@ -576,20 +592,19 @@
 :root .unreadBar-elBRZx > .text-2GsXbW {
   display: none;
 }
-:root .mentionsBadge-2ckrKL .numberBadge-37OJ3S {
+:root .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
   background-color: var(--mention-color) !important;
-  animation: var(--disable-animations), 2s channel-mention infinite;
 }
-@keyframes channel-mention {
-  0% {
-    box-shadow: 0 0 0 0 var(--mention-color);
-  }
-  70% {
-    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+:root .mentionsBadge-3H1BKJ .numberBadge-37OJ3S::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: inherit;
+  border-radius: 100%;
+  z-index: -1;
+  animation: var(--disable-animations), 2s pulse infinite;
+  will-change: transform;
 }
 :root .unread-36eUEm {
   top: 54%;
@@ -599,18 +614,17 @@
   z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
-  animation: var(--disable-animations), 2s channel-unread infinite;
 }
-@keyframes channel-unread {
-  0% {
-    box-shadow: 0 0 0 0 var(--unread-color);
-  }
-  70% {
-    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+:root .unread-36eUEm::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: inherit;
+  border-radius: 100%;
+  z-index: 1;
+  animation: var(--disable-animations), pulse 2s infinite;
+  will-change: transform;
 }
 :root .activityPanel-9icbyU, :root .container-1zzFcN {
   border-bottom: none;

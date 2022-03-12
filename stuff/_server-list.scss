@@ -137,23 +137,44 @@
 
   .numberBadge-37OJ3S {
     background-color: var(--mention-color) !important;
-    animation: var(--disable-animations), 2s server-mention infinite;
 
-    @keyframes server-mention {
-      0% { box-shadow: 0 0 0 0 var(--mention-color);}
-      70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);}
-      100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
+    &::before {
+      content: "";
+      position: absolute;
+      width: 16px; 
+      height: 16px;
+      background-color: inherit;
+      border-radius: 100%; 
+      z-index: -1;
+      animation: var(--disable-animations), 2s pulse infinite;
+      will-change: transform;
     }
   }
 }
 
 // Unread pill
-.listItem-3SmSlK.bd-unread::before,
+.listItem-3SmSlK.bd-unread::before
 .listItem-3SmSlK[vz-unread]::before,
 .listItem-3SmSlK.unread::before,
 .wrapper-38slSD.bd-unread:not(.bd-expanded)::before,
 .wrapper-38slSD[vz-unread]:not([vz-expanded])::before,
-.wrapper-38slSD.unread:not(.expanded)::before {
+.wrapper-38slSD.unread:not(.expanded)::before 
+{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0; left: 12px; z-index: 2;
+  width: 12px; height: 12px;
+  background: var(--unread-color);
+  border-radius: 50%;
+}
+
+.listItem-3SmSlK.bd-unread::after
+.listItem-3SmSlK[vz-unread]::after,
+.listItem-3SmSlK.unread::after,
+.wrapper-38slSD.bd-unread:not(.bd-expanded)::after,
+.wrapper-38slSD[vz-unread]:not([vz-expanded])::after,
+.wrapper-38slSD.unread:not(.expanded)::after {
   content: "";
   position: absolute;
   display: block;
@@ -161,19 +182,16 @@
   width: 12px; height: 12px;
   background: var(--unread-color);
   border-radius: 50%;
-  animation: var(--disable-animations), 2s server-unread infinite;
-
-  @keyframes server-unread {
-    0% { box-shadow: 0 0 0 0 var(--unread-color);}
-    70% { box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);}
-    100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);}
-  }
+  animation: var(--disable-animations), 2s pulse infinite;
+  will-change: transform;
 }
 
 .listItem-3SmSlK.bd-unread .pill-2RsI5Q, .listItem-3SmSlK[vz-unread] .pill-2RsI5Q, .listItem-3SmSlK.unread .pill-2RsI5Q,
 .wrapper-38slSD.bd-unread:not(.expanded) .pill-2RsI5Q, .wrapper-38slSD[vz-unread]:not(.expanded) .pill-2RsI5Q, .wrapper-38slSD.unread:not(.expanded) .pill-2RsI5Q,
 .listItem-3SmSlK.unread.mentioned::before, .listItem-3SmSlK[vz-unread][vz-mentioned]::before, .listItem-3SmSlK.bd-unread.bd-badge::before,
-.wrapper-38slSD.unread.mentioned::before, .wrapper-38slSD[vz-unread][vz-mentioned]::before, .wrapper-38slSD.bd-unread.bd-badge::before {
+.wrapper-38slSD.unread.mentioned::before, .wrapper-38slSD[vz-unread][vz-mentioned]::before, .wrapper-38slSD.bd-unread.bd-badge::before,
+.listItem-3SmSlK.unread.mentioned::after, .listItem-3SmSlK[vz-unread][vz-mentioned]::after, .listItem-3SmSlK.bd-unread.bd-badge::after,
+.wrapper-38slSD.unread.mentioned::after, .wrapper-38slSD[vz-unread][vz-mentioned]::after, .wrapper-38slSD.bd-unread.bd-badge::after {
   display: none;
 }
 
@@ -189,4 +207,16 @@
   display: flex;
 }
 
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
 }
