@@ -433,7 +433,8 @@
   background: var(--unread-color);
   border-radius: 50%;
 }
-:root .listItem-3SmSlK.bd-unread::after .listItem-3SmSlK[vz-unread]::after,
+:root .listItem-3SmSlK.bd-unread::after,
+:root .listItem-3SmSlK[vz-unread]::after,
 :root .listItem-3SmSlK.unread::after,
 :root .wrapper-38slSD.bd-unread:not(.bd-expanded)::after,
 :root .wrapper-38slSD[vz-unread]:not([vz-expanded])::after,
