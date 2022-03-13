@@ -416,7 +416,8 @@
   animation: var(--disable-animations), 2s pulse infinite;
   will-change: transform;
 }
-:root .listItem-3SmSlK.bd-unread::before .listItem-3SmSlK[vz-unread]::before,
+:root .listItem-3SmSlK.bd-unread::before,
+:root .listItem-3SmSlK[vz-unread]::before,
 :root .listItem-3SmSlK.unread::before,
 :root .wrapper-38slSD.bd-unread:not(.bd-expanded)::before,
 :root .wrapper-38slSD[vz-unread]:not([vz-expanded])::before,
