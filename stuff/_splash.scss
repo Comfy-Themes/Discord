@@ -1,22 +1,24 @@
 :root {
+  #splash {
+    background: #23283d;
 
-#splash { 
-  background: #23283d;
-
-  video { 
+    video {
       display: none;
-    
+
       & + .splash-text {
         top: 82px;
-    
+
         &::before {
-          content: ""; position: fixed;
-          bottom: 40px; left: 0;
-          width: 100%; height: 100%;
-          background: url("https://nyri4.github.io/Comfy/assets/bonfire.gif") center/50% no-repeat;
+          content: "";
+          position: fixed;
+          bottom: 40px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
+            center/50% no-repeat;
         }
       }
     }
-}
-
+  }
 }
