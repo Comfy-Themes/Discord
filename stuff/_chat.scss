@@ -4,16 +4,19 @@
 .buttons-3dF5Kd { transition: opacity 150ms;}
 
 // Avatar of the user
-.panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW[aria-expanded="false"] {
+.panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
   position: fixed;
   bottom: 26.5px; left: 327.5px;
-  z-index: 2; margin: 0;
+  z-index: 2; margin: 0; padding: 0;
+  min-width: unset;
 
   & > .avatar-1EWyVD {
     width: 40px !important;
     height: 40px !important;
+    
 
     &:hover { opacity: 1;}
+    & + .nameTag-sc-gpq { display: none;}
   }
 
   & + .nameTag-sc-gpq { display: none;}

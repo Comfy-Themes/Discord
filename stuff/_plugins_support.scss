@@ -34,12 +34,12 @@
 #MemberCount { background-color: var(--background-secondary) !important;}
 
 // Server folder
-.guilds-2JjMmN.content-Pph8t6 + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW[aria-expanded="false"] { transition: margin-left 300ms linear;}
-.guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW[aria-expanded="false"] { margin-left: 72px;}
+.guilds-2JjMmN.content-Pph8t6 + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW { transition: margin-left 300ms linear;}
+.guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW { margin-left: 72px;}
 
 // Hide Channels
-.sidebar-1tnWFu .avatarWrapper-1B9FTW[aria-expanded="false"] { transition: margin-left 400ms ease;}
-.sidebar-1tnWFu.hideChannelElement .avatarWrapper-1B9FTW[aria-expanded="false"] { margin-left: -240px;}
+.sidebar-1tnWFu .avatarWrapper-1B9FTW { transition: margin-left 400ms ease;}
+.sidebar-1tnWFu.hideChannelElement .avatarWrapper-1B9FTW { margin-left: -240px;}
 
 // UserBackground 
 .root-8LYsGj .UserBackgrounds-banner-container { 
