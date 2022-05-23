@@ -797,6 +797,10 @@
   padding: 0 16px 16px 16px;
   margin: 0;
 }
+:root .userPopout-2j1gM4 .body-2wLx-E .applicationInstallButton-taCWKH {
+  width: calc(100% - 32px);
+  margin: 0 16px 16px 16px;
+}
 :root .userPopout-2j1gM4 .body-2wLx-E .divider-1wtgZ3 {
   display: none;
 }
