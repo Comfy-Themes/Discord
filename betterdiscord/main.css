@@ -1853,7 +1853,7 @@
   bottom: 8px;
   left: 77px;
   width: 230px;
-  height: 225px;
+  height: 260px;
   background: var(--background-tertiary);
   border-radius: 5px;
 }
@@ -1923,6 +1923,12 @@
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status .status-3TYC5W {
   display: block;
 }
+:root #status-picker > .scroller-1bVxF5 #status-picker-switch-account .statusItem-2hiCNB {
+  padding: 4px 8px;
+}
+:root #status-picker > .scroller-1bVxF5 #status-picker-switch-account .status-3TYC5W {
+  display: block;
+}
 :root #status-picker > .scroller-1bVxF5 .separator-1So4YB,
 :root #status-picker > .scroller-1bVxF5 .status-3TYC5W,
 :root #status-picker > .scroller-1bVxF5 .description-3Cwkxk {
@@ -1946,7 +1952,7 @@
 :root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded=true]:not(.withTagAsButton-OsgQ9L) {
   position: absolute;
   left: 90px;
-  bottom: 160px;
+  bottom: 195px;
   margin: 0;
   z-index: 1005;
   pointer-events: none;
@@ -1977,7 +1983,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 115px;
+  bottom: 145px;
   left: 50px;
   width: 145px;
   z-index: 10005;
@@ -2356,8 +2362,10 @@
   y: 20;
 }
 :root .avatarWrapper-1B9FTW[aria-expanded=true] .pointerEvents-9SZWKj {
-  x: 24;
-  y: 24;
+  width: 10px;
+  height: 10px;
+  x: 26;
+  y: 26;
 }
 :root .listAvatar-1NlAhb .pointerEvents-9SZWKj {
   x: 30;
@@ -2378,7 +2386,7 @@
 :root .nowPlayingColumn-1eCBCN .pointerEvents-9SZWKj {
   stroke: var(--background-secondary-alt);
 }
-:root .avatarWrapper-1B9FTW .pointerEvents-9SZWKj,
+:root .avatarWrapper-1B9FTW[aria-expanded=false] .pointerEvents-9SZWKj,
 :root .peopleListItem-u6dGxF .pointerEvents-9SZWKj {
   stroke: var(--background-primary);
 }

@@ -64,7 +64,7 @@
     bottom: 8px;
     left: 77px;
     width: 230px;
-    height: 225px;
+    height: 260px;
     background: var(--background-tertiary);
     border-radius: 5px;
 
@@ -149,6 +149,14 @@
             display: block;
           }
         }
+
+        &-switch-account {
+          .statusItem-2hiCNB {
+            padding: 4px 8px;
+          }
+
+          .status-3TYC5W { display: block;}
+        }
       }
 
       // Hiding text and separators
@@ -182,7 +190,7 @@
       .avatarWrapper-1B9FTW[aria-expanded="true"]:not(.withTagAsButton-OsgQ9L) {
         position: absolute;
         left: 90px;
-        bottom: 160px;
+        bottom: 195px;
         margin: 0;
         z-index: 1005;
         pointer-events: none;
@@ -216,7 +224,7 @@
           position: absolute;
           display: flex;
           flex-direction: column;
-          bottom: 115px;
+          bottom: 145px;
           left: 50px;
           width: 145px;
           z-index: 10005;
@@ -664,8 +672,10 @@
 
   // Mask in the status picker
   .avatarWrapper-1B9FTW[aria-expanded="true"] .pointerEvents-9SZWKj {
-    x: 24;
-    y: 24;
+    width: 10px; 
+    height: 10px;
+    x: 26;
+    y: 26;
   }
 
   // Mutuals status
@@ -693,7 +703,7 @@
   .nowPlayingColumn-1eCBCN .pointerEvents-9SZWKj {
     stroke: var(--background-secondary-alt);
   }
-  .avatarWrapper-1B9FTW .pointerEvents-9SZWKj,
+  .avatarWrapper-1B9FTW[aria-expanded="false"] .pointerEvents-9SZWKj,
   .peopleListItem-u6dGxF .pointerEvents-9SZWKj {
     stroke: var(--background-primary);
   }
