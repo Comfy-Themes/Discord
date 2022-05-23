@@ -493,6 +493,10 @@
 :root #guild-header-popout .item-1OdjEX .iconContainer-1-SsTR {
   margin: 0 8px 0 0;
 }
+:root #guild-header-popout .icon-eUBS01 {
+  width: 100%;
+  height: 100%;
+}
 :root #guild-header-popout-premium-subscribe:hover, :root #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_) {
   background-color: #ff73fa1c;
 }
