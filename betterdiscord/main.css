@@ -874,6 +874,7 @@
   animation: animate 6s linear infinite;
   animation-delay: 0s;
   opacity: 1;
+  transform: translateY(1px);
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .timeBarUserPopout-qLXZaR::before {
   content: "";
