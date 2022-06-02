@@ -25,6 +25,9 @@
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the scrollbar back */
 @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
 
+/* ═══════『 ⭕ ・ RadialStatus compability 』- Uncomment the line below to fix circles in user popup */
+/* #app-mount .wrapper-1VLyxH rect { rx: var(--rs-avatar-shape) !important; } */
+
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
   --disable-animations: 2s channel-unread infinite;
@@ -35,7 +38,7 @@
 *
 *   ➥ Color : Delete the url("https://mywebsite/example.png") and replace it by an HEX color
 *
-*   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG 
+*   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG
 */
 
   --status-background: url("https://i.imgur.com/ODa8LKK.jpg");
