@@ -80,8 +80,8 @@
   /* Mention - Default value : #F04747 */
   --mention-color: #f04747;
 
-  /* Unread - Default value : #7289DA */
-  --unread-color: #7289da;
+  /* Unread - Default value : #5865F2 */
+  --unread-color: var(--blurple);
 
   /*  『 🔴 Mention colors in chat 』 */
 
@@ -96,8 +96,8 @@
 
   /* ═══════『 💬 Chat buttons 』═══════ */
 
-  /* Default value : #7289DA */
-  --chat-buttons: #7289da;
+  /* Default value : #5865F2 */
+  --chat-buttons: var(--blurple);
 
   /* ═══════『 💬 SpotifyControls seek bar 』═══════
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
@@ -125,7 +125,7 @@
   /* ═══════『 🔰 User popout 』═══════ */
 
   /* Playing wave color */
-  --playing: #7289da;
+  --playing: var(--blurple);
 
   /* Listening wave color */
   --listening: #1db653;
@@ -137,6 +137,14 @@
 *   Set it to "block" if you still want it */
 
   --discord-logo: none;
+
+  /* ═══════『 🔥 Blurple 』═══════
+*   Old VS New Discord colors */
+
+  /* old value : #7289DA | new value : #5865F2 */
+  --blurple: #5865F2;
+  /* old value : #5b70be | new value : #4752C4 */
+  --blurple-hovered: #4752C4;
 }
 
 .theme-dark {
@@ -147,7 +155,7 @@
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
   --channeltextarea-background: #191f2e;
-  --background-accent: #7289da;
+  --background-accent: var(--blurple);
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
   --background-modifier-active: #0000001a;
@@ -168,7 +176,7 @@
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
   --background-tertiary: #101320;
-  --background-accent: #7289da;
+  --background-accent: var(--blurple);
   --background-modifier-hover: #262b41;
   --background-modifier-active: #262b41;
   --header-primary: #fff;

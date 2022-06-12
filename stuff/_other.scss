@@ -307,7 +307,7 @@
             content: ""; position: absolute;
             width: 100%; height: 100%; z-index: -2;
             left: 0; top: 0;
-            background: #7289da;
+            background: var(--blurple);
             background: var(--playing);
           }
 
@@ -315,7 +315,7 @@
             content: ""; position: absolute;
             height: 21px; z-index: 2;
             width: 268px; top: -21px; left: 0;
-            background: #7289da;
+            background: var(--blurple);
             background: var(--playing);
             -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
             animation: animate 6s linear infinite;
@@ -888,8 +888,8 @@
   }
 
   // Revert some Discord internal changes
-  --brand-experiment: #7289da;
-  --brand-experiment-560: #5b70be;
+  --brand-experiment: var(--blurple);
+  --brand-experiment-560: var(--blurple-hovered);
   --font-display: var(--font-primary);
 
   .lookFilled-yCfaCM.colorGrey-2iAG-B,

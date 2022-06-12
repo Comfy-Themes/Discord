@@ -857,7 +857,7 @@
   z-index: -2;
   left: 0;
   top: 0;
-  background: #7289da;
+  background: var(--blurple);
   background: var(--playing);
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L::after {
@@ -868,7 +868,7 @@
   width: 268px;
   top: -21px;
   left: 0;
-  background: #7289da;
+  background: var(--blurple);
   background: var(--playing);
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
@@ -1208,7 +1208,7 @@
   z-index: -2;
   left: 0;
   top: 0;
-  background: #7289da;
+  background: var(--blurple);
 }
 :root .root-8LYsGj .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
   content: "";
@@ -1392,7 +1392,7 @@
   position: relative;
   margin: 37px 16px 0 16px;
   padding: 16px;
-  background-color: #7289da;
+  background-color: var(--blurple);
   border-radius: 0 0 5px 5px;
 }
 :root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .popoutInfo-16MuYF > div[aria-hidden=true]:last-child .colorStandard-21JIj7, :root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .popoutInfo-16MuYF > div[aria-hidden=true]:last-child h3 {
@@ -1406,7 +1406,7 @@
   width: 268px;
   top: -21px;
   left: 0;
-  background: #7289da;
+  background: var(--blurple);
   background: var(--playing);
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
@@ -1844,8 +1844,8 @@
 }
 
 :root {
-  --brand-experiment: #7289da;
-  --brand-experiment-560: #5b70be;
+  --brand-experiment: var(--blurple);
+  --brand-experiment-560: var(--blurple-hovered);
   --font-display: var(--font-primary);
 }
 :root #status-picker {
@@ -2067,7 +2067,7 @@
   z-index: -2;
   left: 0;
   top: 0;
-  background: #7289da;
+  background: var(--blurple);
   background: var(--playing);
 }
 :root .profileGroup-1yKk23 .profileBody-3QbfPe .bodyInnerWrapper-2bQs1k .activity-1gTu-L::after {
@@ -2078,7 +2078,7 @@
   width: 268px;
   top: -21px;
   left: 0;
-  background: #7289da;
+  background: var(--blurple);
   background: var(--playing);
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
