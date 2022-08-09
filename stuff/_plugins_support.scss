@@ -48,32 +48,4 @@
   .UserBackgrounds-banner-badge { top: 13px; right: 50px;}
 }
 
-// Powercord update toast
-.powercord-toast {
-  border: none;
-
-  & > .buttons > .lookOutlined-3yKVGo.colorGrey-2iAG-B {
-    color: #fff;
-    border: none;
-  }
-}
-
-// Vizality
-.channel-1Shao0 { max-width: unset;}
-[href="/vizality"], .vz-dashboard-sidebar-item, .vz-dashboard-sidebar-subitem.categoryItem-3zFJns { margin-left: 0;}
-.vz-dashboard-sidebar-subitem-inner.layout-1qmrhw { padding: 12px !important;}
-.vz-dashboard-sidebar-item-inner.layout-1qmrhw { padding: 5px 8px !important;}
-.vz-c-settings-item { background: var(--background-secondary);}
-.vz-c-settings-category-title, .vz-c-settings-category-title[vz-opened] { background: var(--background-secondary-alt);}
-.vz-toast-buttons .lookOutlined-3yKVGo.colorGrey-2iAG-B { color: #fff; border: none;} 
-.content-1SgpWY .vz-dashboard-sidebar[vz-collapsed] { --vz-dashboard-sidebar-width: 50px;}
-.vz-dashboard-sidebar[vz-collapsed] .nameTag-sc-gpq+div { display: flex;}
-
-// Vizality connections plugin
-.ud-connections > div > img {
-  border-radius: 5px;
-  padding: 3px;
-  margin: 3px;
-}
-
 }

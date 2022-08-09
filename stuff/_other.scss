@@ -255,12 +255,14 @@
   .profileGroup-1yKk23 {
     margin: 0;
 
+    .avatarPositionNormal-2jWoC2 { top: 76px;}
+
     .headerTop-3GPUSF { 
-      padding: 54px 16px 16px 16px;
+      padding: 54px 16px 0 16px;
     }
 
     .profileBody-3QbfPe {
-      padding: 0 !important;
+      padding: 16px;
 
       // Custom status
       .customStatus-3XAoF9, .userInfoSection-3her-v { padding: 0 16px 16px 16px; margin: 0;}
@@ -270,10 +272,12 @@
 
       // -- Activities --
       .bodyInnerWrapper-2bQs1k {
-        padding: 16px 16px 0 16px;
+        padding: 0;
+        border-radius: 0 0 5px 5px;
+        overflow: hidden; background-color: transparent;
 
         .activity-1gTu-L {
-          padding: 16px; margin: 21px 0 16px 0; 
+          padding: 16px; margin-top: 21px; 
           z-index: 1;
       
           .headerText-3g1XK9, .activityName-3YXl6e, 
@@ -286,8 +290,7 @@
             box-shadow: 0 4px 15px #00000021;
             color: #fff;
           }
-
-          // Waves are back :D
+          
           .headerTextNormal-Z8we9g::before {
             content: ""; position: absolute;
             height: 21px; z-index: 1;
@@ -671,11 +674,13 @@
   }
 
   // Mask in the status picker
-  .avatarWrapper-1B9FTW[aria-expanded="true"] .pointerEvents-9SZWKj {
-    width: 10px; 
-    height: 10px;
-    x: 26;
-    y: 26;
+  #account-avatar .pointerEvents-9SZWKj {
+    width: 18px; 
+    height: 18px;
+    x: 68;
+    y: 68;
+    stroke-width: 3.5px;
+    rx: calc(1px + var(--status-radius));
   }
 
   // Mutuals status
@@ -703,7 +708,7 @@
   .nowPlayingColumn-1eCBCN .pointerEvents-9SZWKj {
     stroke: var(--background-secondary-alt);
   }
-  .avatarWrapper-1B9FTW[aria-expanded="false"] .pointerEvents-9SZWKj,
+  .avatarWrapper-1B9FTW[aria-expanded] .pointerEvents-9SZWKj,
   .peopleListItem-u6dGxF .pointerEvents-9SZWKj {
     stroke: var(--background-primary);
   }
@@ -835,12 +840,12 @@
   }
 
   // Bigger stream preview popout
-  .streamPreview-3qoMP4 {
+  .streamPreview-I7itZ6 {
     width: 370px;
+    background-color: var(--background-secondary);
 
-    .previewContainer-21fFBz {
+    .previewContainer-35LFgt {
       height: 211px;
-      background-color: var(--background-secondary);
 
       .emptyPreviewImage-3LUxKH {
         margin-bottom: 18px;

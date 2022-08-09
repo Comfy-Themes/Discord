@@ -16,7 +16,7 @@
     padding: 0 !important;
 
     // Custom status
-    .customStatus-3XAoF9, .userInfoSection-3her-v { padding: 0 16px 16px 16px; margin: 0;}
+    .customStatus-3XAoF9, .userInfoSection-3her-v { padding-bottom: 16px; margin: 0;}
 
     // Add bot
     .applicationInstallButton-taCWKH { 
@@ -29,7 +29,7 @@
 
     // -- Activities --
     .bodyInnerWrapper-2bQs1k {
-      padding: 16px 16px 0 16px;
+      padding: 0 16px 0 16px;
 
       .activity-1gTu-L {
         padding: 16px; margin: 21px 0 16px 0; 
@@ -141,20 +141,26 @@
         border-width: 0 0 0 3px;
         border-radius: 1px 3px 3px 1px;
 
-        .roleCircle-1EgnFN {
-          width: var(--role-circle) !important;
-          height: var(--role-circle) !important;
+        .roleRemoveButton-17oXnT {
+          position: static;
 
-          &::before {
-            position: absolute;
-            content: "";
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: inherit;
-            opacity: 0.3;
-            z-index: -1;
+          .roleCircle-3K9O3d  {
+            width: var(--role-circle) !important;
+            height: var(--role-circle) !important;
+
+            &::before {
+              position: absolute;
+              content: "";
+              top: 0; left: 0;
+              width: 100%; height: 100%;
+              background: inherit;
+              opacity: 0.3;
+              z-index: -1;
+            }
           }
         }
+
+        
       }
       
       .note-Go5ZP2 { 
@@ -399,11 +405,11 @@
   }
 
   // Connections
-  .connectedAccount-1xKpli {
+  .connectedAccountContainer-SlCC-S {
     border: solid #151b27;
     border-width: 1.2px 1.2px 3px 1.2px;
     border-radius: 4px;
-    width: 300px;
+    width: 296px;
     transition: 100ms;
 
     &:active {
@@ -411,71 +417,74 @@
       transform: translateY(1px);
     }
 
-    .connectedAccountIcon-2vls0t { padding: 5px; border-radius: 4px;}
-    .connectedAccountName-j0meX4 { margin-left: 13px;}
+    .connectedAccountIcon-1FXG0p { padding: 5px; border-radius: 4px;}
+    .connectedAccountNameContainer-EXbBUQ { margin-left: 13px;}
   }
 
   // Mutuals
   .listRow-2nO1T6 { margin: 0; padding: 8px 12px;}
 }
 
-.accountBtnInner-3XK70s[aria-label="Battle.net"],
-.accountBtnInner-3XK70s[aria-label="Battle.net"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Battle.net"],
+.accountBtnInner-3ttD-i[aria-label="Battle.net"]:hover,
 [src="/assets/37f15a06d062bdd0fc252d2b35d0b0bb.svg"] { background-color: #1da0f248;}
 
-.accountBtnInner-3XK70s[aria-label="Twitch"],
-.accountBtnInner-3XK70s[aria-label="Twitch"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Twitch"],
+.accountBtnInner-3ttD-i[aria-label="Twitch"]:hover,
 [src="/assets/ca71e0b8818221eea1deebbaf8dc6518.svg"] { background-color: #601bd852;}
 
-.accountBtnInner-3XK70s[aria-label="YouTube"],
-.accountBtnInner-3XK70s[aria-label="YouTube"]:hover,
+.accountBtnInner-3ttD-i[aria-label="YouTube"],
+.accountBtnInner-3ttD-i[aria-label="YouTube"]:hover,
 [src="/assets/57ee9535485efae7eb923ed4893abb57.svg"] { background-color: #d9252b49;}
 
-.accountBtnInner-3XK70s[aria-label="Twitter"],
-.accountBtnInner-3XK70s[aria-label="Twitter"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Twitter"],
+.accountBtnInner-3ttD-i[aria-label="Twitter"]:hover,
 [src="/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg"] { background-color: #0098e446;}
 
-.accountBtnInner-3XK70s[aria-label="Steam"],
-.accountBtnInner-3XK70s[aria-label="Steam"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Steam"],
+.accountBtnInner-3ttD-i[aria-label="Steam"]:hover,
 [src="/assets/d897626dfa2016ea3ad0af935acb6070.svg"] { background-color: #00000034;}
 
-.accountBtnInner-3XK70s[aria-label="Reddit"],
-.accountBtnInner-3XK70s[aria-label="Reddit"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Reddit"],
+.accountBtnInner-3ttD-i[aria-label="Reddit"]:hover,
 [src="/assets/f3224f560c8f5974355596a4f7e9ce19.svg"] { background-color: #fe44013d;}
 
-.accountBtnInner-3XK70s[aria-label="Facebook"],
-.accountBtnInner-3XK70s[aria-label="Facebook"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Facebook"],
+.accountBtnInner-3ttD-i[aria-label="Facebook"]:hover,
 [src="/assets/32045743cb7670855ae726743c949e0c.svg"] { background-color: #2e328485;}
 
-.accountBtnInner-3XK70s[aria-label="Spotify"],
-.accountBtnInner-3XK70s[aria-label="Spotify"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Spotify"],
+.accountBtnInner-3ttD-i[aria-label="Spotify"]:hover,
 [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] { background-color: #1ed75f34;}
 
-.accountBtnInner-3XK70s[aria-label="Xbox Live"],
-.accountBtnInner-3XK70s[aria-label="Xbox Live"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Xbox Live"],
+.accountBtnInner-3ttD-i[aria-label="Xbox Live"]:hover,
 [src="/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg"] { background-color: #5dc21e42;}
 
-.accountBtnInner-3XK70s[aria-label="League Of Legends"],
-.accountBtnInner-3XK70s[aria-label="League Of Legends"]:hover,
+.accountBtnInner-3ttD-i[aria-label="League Of Legends"],
+.accountBtnInner-3ttD-i[aria-label="League Of Legends"]:hover,
 [src="/assets/94dc6f30a819026fa295d85f1f72b4ab.svg"] { background-color: #cea14638;}
 
-.accountBtnInner-3XK70s[aria-label="GitHub"],
-.accountBtnInner-3XK70s[aria-label="GitHub"]:hover,
+.accountBtnInner-3ttD-i[aria-label="GitHub"],
+.accountBtnInner-3ttD-i[aria-label="GitHub"]:hover,
 [src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] { background-color: #24292e62;}
 
-.accountBtnInner-3XK70s[aria-label="Skype"],
-.accountBtnInner-3XK70s[aria-label="Skype"]:hover,
+.accountBtnInner-3ttD-i[aria-label="Skype"],
+.accountBtnInner-3ttD-i[aria-label="Skype"]:hover,
 [src="/assets/316ed923548387f8983e28a3804e6712.svg"] { background-color: #0076d74b;}
 
-// USRBG for BetterDiscord only
-.userPopout-2j1gM4 .banner-1YaD3N,
-.root-g14mjS .banner-1YaD3N {
+.accountBtnInner-3ttD-i[aria-label="Epic Games"],
+.accountBtnInner-3ttD-i[aria-label="Epic Games"]:hover,
+[src="/assets/db9e2406158133f91e1fe24bb56425c2.svg"] { background-color: #2f2f2f59;}
+
+// USRBG
+.banner-1YaD3N {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: var(--user-popout-position, center) center;
     background-image: var(--user-background);
 }
 
-.userPopout-2j1gM4 .banner-1YaD3N  { height: 120px;}
+.banner-1YaD3N  { height: 120px;}
 
 }
