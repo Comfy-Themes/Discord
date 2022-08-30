@@ -1,0 +1,9 @@
+{
+    "name": "Comfy",
+    "description": "Stay comfy while talking to your friends",
+    "version": "2.2.1",
+    "author": "Nyria#3863",
+    "theme": "_variables.scss",
+    "splashTheme": "stuff/_splash.scss",
+    "license": "CC BY-NC-ND 4.0"
+}
