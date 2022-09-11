@@ -14,7 +14,7 @@
 .discoverHeader-1vsvZ0 ~ .categoryItem-Kc_HK_ {
   margin-left: 0;
 
-  .itemInner-3e_4G4 { padding: 8px;}
+  .itemInner-3e_4G4 { padding: 8px; border-radius: 0;}
 }
 
 .pageWrapper-2PwDoS {
@@ -53,6 +53,22 @@
 .css-2dw5y-control,
 .css-p0ralp-control {
   background: var(--background-secondary);
+}
+
+// Student Hubs
+.itemInner-3k3Sn6 { 
+  padding: 8px;
+  margin-left: 0;
+}
+
+.header-224ffR {
+  margin: -32px -32px 0 -32px;
+  border-radius: 0;
+
+  .headerImage-Xy5R7m { 
+    border-radius: 0;
+    -webkit-mask: linear-gradient(black, transparent);
+  }
 }
 
 // Create a server modal
