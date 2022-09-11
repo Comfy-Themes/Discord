@@ -482,8 +482,7 @@
         left: 50px;
         width: 200px;
         height: 200px;
-        background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
-          center/80% no-repeat;
+        background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
       }
     }
   }
@@ -782,7 +781,7 @@
   .wrapper-28eC3z foreignObject,
   .folderIconWrapper-1oRIZr,
   .expandedFolderBackground-1kSAf6,
-  .flexChild-3PzYmX .avatarUploaderInner-yEhTv5 {
+  .flexChild-3PzYmX .avatarUploaderInner-1Cp1oP {
     border-radius: var(--server-radius);
   }
 
@@ -923,5 +922,13 @@
     .iconMask-1lJhcS {
       background-color: transparent;
     }
+  }
+
+  // New type of channel
+  .container-3wLKDe { background-color: var(--background-secondary-alt);}
+
+  // BetterDiscord plugins list
+  .bd-addon-list.bd-grid-view { 
+    grid-template-columns: 1fr 1fr;
   }
 }

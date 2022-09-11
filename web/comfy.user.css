@@ -6,7 +6,7 @@
 @author       Nyria (https://github.com/NYRI4/)
 @homepageURL    https://github.com/NYRI4/Comfy
 @supportURL     https://discord.gg/rtBQX5D3bD
-@license      CC BY-NC-ND 4.0
+@license      WTFPL
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
@@ -23,16 +23,6 @@
 */
 
   :root {
-    /* ═══════『 🖼️ ・ Background in the status picker 』═══════
-        *
-        *   ➥ Image : Replace the url of the current image with yours
-        *
-        *   ➥ Color : Delete the url("https://mywebsite/example.png") and replace it by an HEX color
-        *
-        *   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG
-        */
-
-    --status-background: url("https://i.imgur.com/ODa8LKK.jpg");
 
     /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
         *
@@ -92,12 +82,6 @@
 
     /* Default value : #7289DA */
     --chat-buttons: #7289da;
-
-    /* ═══════『 💬 SpotifyControls seek bar 』═══════
-        *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
-
-    /* Default value : #1EDC62 */
-    --spotify-color: #1edc62;
 
     /* ═══════『 🟢 Status 』═══════ */
 

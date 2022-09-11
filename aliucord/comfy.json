@@ -3,7 +3,7 @@
   "author": "Nyria#3863",
   "version": "1.0.0",
   "updater": "https://raw.githubusercontent.com/NYRI4/Comfy/master/aliucord/comfy.json",
-  "license": "CC BY-NC-ND 4.0",
+  "license": "WTFPL",
   "drawablecolor_drawable_overlay_channels_selected_dark": 385875968,
   "statusbar_color": -15723744,
   "color_primary_630": -14802381,

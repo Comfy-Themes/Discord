@@ -44,7 +44,7 @@
 }
 
 // User Profile
-.profileCustomizationSection-2OOT4p .baseLayout-8AMrwn {
+.profileCustomizationSection-53kreU .baseLayout-1_9QRm {
   & > :first-child { flex: 2 auto;}
 
   // Avatar
@@ -53,7 +53,7 @@
     border-radius: var(--avatar-radius);
     background-color: transparent;
 
-    .avatarUploaderIcon-3-5PWB { display: none;}
+    .imageUploaderIcon-2OHmFu { display: none;}
   }
 
   .headerTop-3GPUSF { padding-top: 54px;}
@@ -80,12 +80,12 @@
       background-color: #7289da;
       border-radius: 0 0 5px 5px;
 
-      .colorStandard-21JIj7, h3 { color: white;}
+      .defaultColor-24IHKz, h3 { color: white !important;}
 
       &::before {
         content: ""; position: absolute;
         height: 21px; z-index: 2;
-        width: 268px; top: -21px; left: 0;
+        width: 268px; top: -20px; left: 0;
         background: #7289da;
         background: var(--playing);
         -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
@@ -118,10 +118,11 @@
 .connectionIcon-1iZ6F_ { border-radius: 5px; padding: 4px;}
 
 // Nitro
-.premiumLabel-V52REm {
+.premiumLabel-3HPvdB {
   flex-direction: row-reverse; justify-content: flex-end;
 
   svg { margin-right: 8px;}
+  + .background-Gjdjzm { border-radius: 5px 0 0 5px;}
 }
 
 .hero-1aNo0v { max-width: unset;}
@@ -169,7 +170,7 @@
   border-radius: 5px;
 }
 
-.roleRow-3LoHQ6 { 
+.roleRow-230vCm { 
   margin: 5px 0;
   background-color: var(--background-secondary);
 
@@ -192,8 +193,8 @@
       border-radius: 5px;
       margin-bottom: 6px; padding-left: 20px;
 
-      .roleDot-2a4Pv7 { 
-        width: 0;
+      .roleCircle-3K9O3d { 
+        width: 0; margin: 0;
 
         &::before {
           position: absolute;
@@ -215,7 +216,7 @@
   .selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .selected-g-kMVV.item-3XjbnG {
     background: none;
 
-    .roleDot-2a4Pv7::after { 
+    .roleCircle-3K9O3d::after { 
       position: absolute;
       border-radius: 3px;
       content: "";
@@ -231,14 +232,14 @@
   { 
     background: none;
     
-    .roleDot-2a4Pv7::before, .roleDot-2a4Pv7::after { opacity: 0.3;}
+    .roleCircle-3K9O3d::before, .roleCircle-3K9O3d::after { opacity: 0.3;}
   }
 
   .selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .selected-g-kMVV.item-3XjbnG 
   { 
     background: none;
     
-    .roleDot-2a4Pv7::before, .roleDot-2a4Pv7::after { opacity: 0.5 !important;}
+    .roleCircle-3K9O3d::before, .roleCircle-3K9O3d::after { opacity: 0.5 !important;}
   }
 }
 
@@ -273,17 +274,20 @@ div.emojiRow-1aPaM- {
     border-radius: 0;
   }
 
-  .emojiImage-1sHmM- {
+  .emojiColumn-2P3Fj1 {
     grid-area: image;
-    width: 40px; height: 40px;
+
+    .emojiImage-1sHmM- {
+      width: 40px; height: 40px;
+    }
   }
 
-  .flexChild-3PzYmX { 
+  .column-2uxjpN:nth-child(2) { 
     grid-area: name;
     margin: 0;
   }
 
-  .emojiUploader-1hw9wh { 
+  .column-2uxjpN:nth-child(3) { 
     grid-area: uploader;
     margin-left: 0;
   }

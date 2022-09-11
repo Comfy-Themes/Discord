@@ -13,27 +13,13 @@
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
 @forward "stuff/custom/no-scrollbar";
 
-/* ═══════『 🎵 ・ Powercord  seek bar 』- Comment the line below if you want the dafault one */
-@forward "stuff/custom/powercord-spotify";
-
-/* ═══════『 🎵 ・ Vizality  seek bar 』- Comment the line below if you want the dafault one */
-@forward "stuff/custom/vizality-spotify";
+/* ═══════『 🎵 ・ Replugged  seek bar 』- Comment the line below if you want the dafault one */
+@forward "stuff/custom/replugged-spotify";
 
 :root {
 
 /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
 --disable-animations: 2s channel-unread infinite;
-
-/* ═══════『 🖼️ ・ Background in the status picker 』═══════
-*
-*   ➥ Image : Replace the url of the current image with yours
-*
-*   ➥ Color : Delete the url("https://mywebsite/example.png") and replace it by an HEX color
-*
-*   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG 
-*/
-
---status-background: url('https://i.imgur.com/ODa8LKK.jpg');
 
 /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
 *
@@ -96,10 +82,7 @@
 
 /* ═══════『 💬 Spotify seek bar 』═══════ */
 
-// Vizality - Default value : #1EDC62
---spotify-in-discord__spotify-brand-color: #1EDC62;
-
-// Powercord - Default value : #1EDC62
+// Replugged - Default value : #1EDC62
 --spotify-color: #1EDC62 !important;
 
 /* ═══════『 🟢 Status 』═══════ */
