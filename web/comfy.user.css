@@ -17,7 +17,7 @@
 *   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
 *      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
 *
-*   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledges in CSS.
+*   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledge of CSS.
 *
 *   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
 */
@@ -36,7 +36,7 @@
 
     /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
         *
-        *   ➥ A higher value will means more space between the icons and a lower ...
+        *   ➥ A higher value means more space between the icons and a lower ...
         *
         *    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
         *
@@ -50,7 +50,7 @@
 
     /* ═══════『 ⭕ Roundness settings 』═══════
         *
-        *    ➥ A higher value will means more rounded corners and a lower ...
+        *    ➥ A higher value means more rounded corners and a lower ...
         *       0 ➜ Square
         *       25 ➜ Circle
         */
@@ -104,7 +104,7 @@
     /* Online - Default value : #43B581 */
     --online: #43b581;
 
-    /* Iddle - Default value : #FAA61A */
+    /* Idle - Default value : #FAA61A */
     --iddle: #faa61a;
 
     /* Do Not Disturb - Default value : #F04747 */
