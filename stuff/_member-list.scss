@@ -6,8 +6,11 @@
 .userPopout-2j1gM4 { 
   box-shadow: 0 0 10px 0 #101320d2;
 
-  .avatarPositionNormal-2jWoC2 { top: 76px;}
-
+  .headerNormal-3Zn_yu  {
+    mask { display: none;}
+    .avatarWrapper-eenWra { left: 16px;}
+  }
+  
   .headerTop-3GPUSF { 
     padding: 54px 16px 16px 16px;
   }
@@ -103,25 +106,25 @@
         .platformIcon-k3yytQ { display: none;}
 
         // Scuffed border-radius
-        & + h3 {
+        & + h1 {
           position: relative;
 
           &::before { 
             content: ""; position: absolute;
-            top: -36px; left: -3px; z-index: 1;
+            top: -36px; left: -5px; z-index: 1;
             width: 20px; height: 20px;
             border: solid var(--background-tertiary);
-            border-width: 0 0 3px 3px;
-            border-radius: 0 0 0 8px;
+            border-width: 0 0 5px 5px;
+            border-radius: 0 0 0 16px;
           }
 
           &::after { 
             content: ""; position: absolute;
-            top: -36px; right: -3px; z-index: 1;
+            top: -36px; right: -5px; z-index: 1;
             width: 20px; height: 20px;
             border: solid var(--background-tertiary);
-            border-width: 0 3px 3px 0;
-            border-radius: 0 0 8px 0;
+            border-width: 0 5px 5px 0;
+            border-radius: 0 0 16px 0;
           }
         }
       }
