@@ -6,7 +6,7 @@
 
 ## 📥 Installation
 
-### Powercord & Vizality
+### Reppluged
 
 ```sh
 git clone https://github.com/Comfy-Themes/Comfy
@@ -22,13 +22,13 @@ Go into your theme folder and open :
 
 `comfy.theme.css` for BetterDiscord
 
-`variables.scss` for Powercord/Vizality
+`variables.scss` for Reppluged
 
 ## 🖼️ More preview
 
-|                                Status picker                                |                             User modal                              |                                            Aliucord                                            |
-| :-------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| ![Preview](https://comfy-themes.github.io/Discord/assets/status_picker.png) | ![Preview](https://comfy-themes.github.io/Discord/assets/modal.png) | <img width=300 src="https://comfy-themes.github.io/Discord/assets/preview-aliucord.png"></img> |
+|                             User modal                              |                                            Aliucord                                            |
+| :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| <img width=300 src="https://comfy-themes.github.io/Discord/assets/modal.png"></img> | <img width=300 src="https://comfy-themes.github.io/Discord/assets/preview-aliucord.png"></img> |
 
 ## 📜 Credits
 
