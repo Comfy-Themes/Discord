@@ -14,12 +14,18 @@
     width: 40px !important;
     height: 40px !important;
     
+    foreignObject {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .pointerEvents-9SZWKj {
+      x: 31px; y: 31px;
+    }
 
     &:hover { opacity: 1;}
     & + .nameTag-sc-gpq { display: none;}
   }
-
-  & + .nameTag-sc-gpq { display: none;}
 }
 
 // Hiding avatar

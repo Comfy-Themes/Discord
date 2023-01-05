@@ -49,6 +49,27 @@
     &:hover, &:active:not(.hideInteraction-2jPGL_) { background-color: #eaa14e13;}
     .icon-E4cW1l { color: #eaa14e;}
   }
+
+  // Create event
+  &-create-event {
+    &:hover, &:active:not(.hideInteraction-2jPGL_) { background-color: #ede9e611;}
+    .icon-E4cW1l { 
+      & > path:first-child { fill: #677bc4;}
+      & > path:last-child { fill: #ede9e6;}
+    }
+  }
+
+  // Active threads
+  &-active-threads {
+    &:hover, &:active:not(.hideInteraction-2jPGL_) { background-color: #5488f731;}
+    .icon-E4cW1l { color: #5488f7;}
+  }
+
+  // Application directory
+  &-application-directory {
+    &:hover, &:active:not(.hideInteraction-2jPGL_) { background-color: #30495713;}
+    .icon-E4cW1l { color: #304957;}
+  }
   
   // Notifications
   &-notifications {
