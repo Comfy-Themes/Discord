@@ -11,35 +11,20 @@
   .userPopoutInner-1hXSeY {
     max-height: unset !important;
   }
-  
-  // Nitro shit
-  .banner-2JvDVu { display: none;}
 
   // Banner
   .bannerSVGWrapper-qc0szY {
     overflow: visible;
     min-height: 120px !important;
 
-    foreignObject { 
-      mask: unset;
-    }
+    foreignObject { mask: unset;}
 
     .banner-2boKnS { height: 120px;}
 
-    // Pencil
     .pencilContainer-11Kuga { display: none;}
 
-    &[viewBox="0 0 340 60"] {
-      foreignObject { 
-        transform: translateY(-30px);
-      }
-    }
-
-    &[viewBox="0 0 340 90"] {
-      foreignObject { 
-        transform: translateY(-15px);
-      }
-    }
+    &[viewBox="0 0 340 60"] foreignObject { transform: translateY(-30px);}
+    &[viewBox="0 0 340 90"] foreignObject { transform: translateY(-15px);}
   }
 
   // Avatar
@@ -47,21 +32,21 @@
     top: 20px;
     left: 16px;
 
+    circle { display: none;}
+
+    .avatarHint-2g3Mcd {
+      border-radius: 5px;
+
+      foreignObject { mask: none;}
+    }
+
+    .avatarDecorationHint-GIo7Yh {
+      width: 80px; height: 80px;
+      top: 0px; left: 0px;
+      border-radius: 5px !important;
     
-  }
-
-  .avatarHint-2g3Mcd {
-    border-radius: 5px;
-
-    foreignObject { mask: none;}
-  } 
-
-  .avatarDecorationHint-GIo7Yh {
-    width: 80px; height: 80px;
-    top: 0px; left: 0px;
-    border-radius: 5px !important;
-    
-    foreignObject { mask: none;}
+      foreignObject { mask: none;}
+    }
   }
 
   // Username
@@ -77,6 +62,16 @@
         position: absolute;
         top: 30px; left: 115px;
         z-index: 1;
+        max-width: 200px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+
+        & > span {
+          word-break: unset;
+          white-space: unset;
+        }
       }
     }
     
@@ -268,8 +263,6 @@
 .userProfileModalOuter-1FYL8T { 
   width: 700px;
 
-  
-  
   .topSection-1Khgkv {
     margin-bottom: 0;
     
