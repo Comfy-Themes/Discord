@@ -818,30 +818,30 @@
           order: 1;
   margin-left: 4px;
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_) .searchBar-jGtisZ {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {
   width: 27px;
   -webkit-transition: 250ms;
   transition: 250ms;
   background-color: transparent;
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_) .searchBar-jGtisZ .iconContainer-1RqWJj {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ .iconContainer-1RqWJj {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_) .searchBar-jGtisZ .iconContainer-1RqWJj .icon-18rqoe {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ .iconContainer-1RqWJj .icon-18rqoe {
   color: var(--interactive-normal);
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_):hover .searchBar-jGtisZ {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {
   width: 220px;
   background-color: var(--background-tertiary);
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_):hover .searchBar-jGtisZ .iconContainer-1RqWJj {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ .iconContainer-1RqWJj {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-3y3yI_):hover .searchBar-jGtisZ .iconContainer-1RqWJj .icon-18rqoe {
+:root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ .iconContainer-1RqWJj .icon-18rqoe {
   color: var(--text-muted);
 }
 :root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .searchAnswer-23w-CH, :root .container-ZMc96U.themed-Hp1KC_ .search-39IXmY .searchFilter-2UfsDk {
