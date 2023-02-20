@@ -365,8 +365,8 @@
   }
   .avatarWrapper-1B9FTW .wrapper-1VLyxH > .mask-1FEkla > svg > rect {
     mask: none;
-    x: 10;
-    y: 8;
+    x: 17;
+    y: 15;
     width: 10px;
     height: 10px;
     rx: var(--status-radius);
@@ -667,6 +667,13 @@
   }
 
   .directoryModal-YJsOMv {
+    background-color: var(--background-primary);
+  }
+
+  // New channels and role thing
+  .container-2IKOsH, .header-3xB4vB, 
+  .emptyPage-2TGR7j, .scrollerContainer-y16Rs9,
+  .container-1um7CU {
     background-color: var(--background-primary);
   }
 }

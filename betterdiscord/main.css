@@ -31,11 +31,14 @@
 :root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD + .nameTag-sc-gpq {
   display: none;
 }
-:root .content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), :root .callContainer-BGIngG, :root .gatedContent-31-gID, :root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F, :root .content-1jQy2l > .container-3wLKDe {
+:root .content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), :root .callContainer-BGIngG, :root .gatedContent-31-gID, :root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F, :root .content-1jQy2l > .container-3wLKDe, :root .container-2IKOsH {
   z-index: 2;
 }
 :root .chat-2ZfjoI .form-3gdLxP {
   padding-left: 66px;
+}
+:root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX {
+  z-index: unset;
 }
 :root .chat-2ZfjoI .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h::after, :root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX::after {
   position: absolute;
@@ -1001,7 +1004,7 @@
 :root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .nameNormal-2fPMD2, :root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .nameWrap-3TyM52 {
   color: white;
 }
-:root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .button-f2h6uQ {
+:root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .buttonColor-XIRMbp {
   border: none;
   background-color: var(--listening-test);
   -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
@@ -2305,8 +2308,8 @@
 :root .avatarWrapper-1B9FTW .wrapper-1VLyxH > .mask-1FEkla > svg > rect {
   -webkit-mask: none;
           mask: none;
-  x: 10;
-  y: 8;
+  x: 17;
+  y: 15;
   width: 10px;
   height: 10px;
   rx: var(--status-radius);
@@ -2532,6 +2535,11 @@
   grid-template-columns: 1fr 1fr;
 }
 :root .directoryModal-YJsOMv {
+  background-color: var(--background-primary);
+}
+:root .container-2IKOsH, :root .header-3xB4vB,
+:root .emptyPage-2TGR7j, :root .scrollerContainer-y16Rs9,
+:root .container-1um7CU {
   background-color: var(--background-primary);
 }
 
