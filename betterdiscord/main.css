@@ -166,9 +166,9 @@
   -webkit-filter: var(--colored-emoji) !important;
           filter: var(--colored-emoji) !important;
 }
-:root #emoji-picker-tab .contents-3ca1mk,
-:root #sticker-picker-tab .contents-3ca1mk,
-:root #bd-emotes-tab .contents-3ca1mk {
+:root #emoji-picker-tab .contents-3NembX,
+:root #sticker-picker-tab .contents-3NembX,
+:root #bd-emotes-tab .contents-3NembX {
   text-indent: 100%;
   overflow: hidden;
 }
