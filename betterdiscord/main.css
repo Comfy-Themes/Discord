@@ -31,7 +31,12 @@
 :root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD + .nameTag-sc-gpq {
   display: none;
 }
-:root .content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), :root .callContainer-BGIngG, :root .gatedContent-31-gID, :root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F, :root .content-1jQy2l > .container-3wLKDe, :root .container-2IKOsH {
+:root .content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI),
+:root .callContainer-BGIngG,
+:root .gatedContent-31-gID,
+:root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F,
+:root .content-1jQy2l > .container-3wLKDe,
+:root .container-2IKOsH {
   z-index: 2;
 }
 :root .chat-2ZfjoI .form-3gdLxP {
@@ -40,7 +45,8 @@
 :root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX {
   z-index: unset;
 }
-:root .chat-2ZfjoI .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h::after, :root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX::after {
+:root .chat-2ZfjoI .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h::after,
+:root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX::after {
   position: absolute;
   content: "";
   bottom: 2px;
@@ -103,6 +109,7 @@
   background-color: var(--mention-color-hover) !important;
 }
 :root .wrapper-1ZcZW-:not([style]) {
+  position: relative;
   color: var(--brand-experiment);
   background: transparent;
 }
@@ -150,13 +157,15 @@
 :root .autocompleteRow-14iwvH .base-2v-uc0 {
   border-radius: 0;
 }
-:root .autocompleteRow-14iwvH:first-of-type, :root .autocompleteRow-14iwvH .option-Tt7anD {
+:root .autocompleteRow-14iwvH:first-of-type,
+:root .autocompleteRow-14iwvH .option-Tt7anD {
   background-color: var(--background-tertiary);
 }
 :root .autocomplete-3NRXG8 {
   background: var(--background-secondary-alt);
 }
-:root .categoryHeader-OpJ1Ly, :root .autocomplete-3NRXG8 {
+:root .categoryHeader-OpJ1Ly,
+:root .autocomplete-3NRXG8 {
   background: var(--background-secondary);
 }
 :root .selected-3H3-RC {
@@ -193,7 +202,8 @@
   width: 40px;
   padding: 8px;
 }
-:root .navButtonActive-1EqC5l, :root .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+:root .navButtonActive-1EqC5l,
+:root .emojiItem-277VFM.emojiItemSelected-2Lg50V {
   background-color: rgba(110, 133, 211, 0.1294117647);
 }
 :root .imageLoading-2uloYN {
@@ -215,7 +225,8 @@
 :root .attachButton-1ijpt9:hover .attachButtonPlus-3IYelE {
   fill: var(--chat-buttons);
 }
-:root .buttonWrapper-3YFQGJ, :root .icon-1d5zch {
+:root .buttonWrapper-3YFQGJ,
+:root .icon-1d5zch {
   color: var(--chat-buttons);
 }
 :root .contentWarningPopout-WKdbDG {
@@ -224,10 +235,12 @@
 :root .scroller-2GkvCq {
   background: var(--background-tertiary);
 }
-:root .container-KM8BU6, :root .reactors-1VXca7 {
+:root .container-KM8BU6,
+:root .reactors-1VXca7 {
   background: var(--background-secondary);
 }
-:root .reactionSelected-1aMb2K, :root .reactionDefault-1Sjj1f:hover {
+:root .reactionSelected-1aMb2K,
+:root .reactionDefault-1Sjj1f:hover {
   margin-right: 6px;
 }
 :root .reactionSelected-1aMb2K {

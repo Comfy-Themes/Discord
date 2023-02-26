@@ -1,12 +1,12 @@
-@forward 'stuff/chat';
-@forward 'stuff/server-list';
-@forward 'stuff/channel-list';
-@forward 'stuff/channel-bar';
-@forward 'stuff/member-list';
-@forward 'stuff/settings';
-@forward 'stuff/friends';
-@forward 'stuff/other';
-@forward 'stuff/plugins_support';
+@forward "stuff/chat";
+@forward "stuff/server-list";
+@forward "stuff/channel-list";
+@forward "stuff/channel-bar";
+@forward "stuff/member-list";
+@forward "stuff/settings";
+@forward "stuff/friends";
+@forward "stuff/other";
+@forward "stuff/plugins_support";
 
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url('https://nyri4.github.io/donators/donators.css');
+@import url("https://nyri4.github.io/donators/donators.css");
