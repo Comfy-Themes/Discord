@@ -7,7 +7,7 @@
         "discordID": "265924886461939712",
         "github": "NYRI4"
     },
-    "version": "2.2.2",
+    "version": "2.2.3",
     "updater": {
         "type": "github",
         "id": "Comfy-Themes/Discord"
