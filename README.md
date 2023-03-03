@@ -1,36 +1,64 @@
-![Banner](https://comfy-themes.github.io/Discord/assets/banner.png)
+<img align="right" src="https://comfy-themes.github.io/Discord/assets/preview.png" alt="Preview" width="40%">
 
----
+<div align="left">
+  <img align="left" src="https://i.imgur.com/lEPTm0F.png" alt="Logo" width="60" height="70">
 
-![Preview](https://comfy-themes.github.io/Discord/assets/preview.png)
+  <h3 align="left">Comfy</h3>
+  <p align="left">Stay comfy while talking to your friends</p>
+
+  <br/>
+
+  <a href="https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Comfy-Themes/Discord/betterdiscord/comfy.theme.css"><strong>» Theme Preview</strong></a>
+  ・
+  <a href="https://github.com/Comfy-Themes/Discord/issues">Report an issue</a>
+  ・
+  <a href="https://discord.gg/comfy-camp-811203761619337259">Join the support server</a>
+</div>
+<br/>
 
 ## 📥 Installation
 
-### Reppluged
+<br/>
+<div align="left">
+    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
+    <b><p align="left">BetterDiscord</b>
+    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://betterdiscord.app/theme/Comfy">here</a></p>
+</div>
 
-```sh
-git clone https://github.com/Comfy-Themes/Comfy
-```
+<div align="left">
+    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
+    <b><p align="left">Replugged</b>
+    <br/>Click <a href="https://replugged.dev/install?identifier=Comfy-Themes/Discord&source=github">here</a> and confirm the install in the client</p>
+</div>
 
-### BetterDiscord
-
-Go [here](https://betterdiscord.app/theme/Comfy) and save the file into your theme folder
+<div align="left">
+    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
+    <b><p align="left">Vencord</b>
+    <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Themes tab </p>
+</div><br/>
 
 ## 🖌️ Customization
 
-Go into your theme folder and open :
+<br/>
+<div align="left">
+    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
+    <b><p align="left">BetterDiscord</b>
+    <br/>Open Settings > Themes > Themes folder and open <code>comfy.theme.css</code></p>
+</div>
 
-`comfy.theme.css` for BetterDiscord
+<div align="left">
+    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
+    <b><p align="left">Replugged</b>
+    <br/>Navigate to <code>betterdiscord/comfy.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
+</div>
 
-`variables.scss` for Reppluged
+<div align="left">
+    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
+    <b><p align="left">Vencord</b>
+    <br/>Navigate to <code>betterdiscord/comfy.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
+</div><br/>
 
-## 🖼️ More preview
-
-|                             User modal                              |                                            Aliucord                                            |
-| :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| <img width=300 src="https://comfy-themes.github.io/Discord/assets/modal.png"></img> | <img width=300 src="https://comfy-themes.github.io/Discord/assets/preview-aliucord.png"></img> |
-
-## 📜 Credits
+## 🫰 Credits
 
 Thanks a lot to :
 
@@ -40,4 +68,4 @@ Thanks a lot to :
 🥨 Strencher <br>
 💾 _david_
 
-and others peeps that I forgot for the help !
+and others fren that I forgot for the help !
