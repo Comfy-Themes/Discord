@@ -1,18 +1,18 @@
 {
-    "id": "nyria.comfy",
-    "name": "Comfy",
-    "description": "Stay comfy while talking to your friends",
-    "author": {
-        "name": "Nyria",
-        "discordID": "265924886461939712",
-        "github": "NYRI4"
-    },
-    "version": "2.2.5",
-    "updater": {
-        "type": "github",
-        "id": "Comfy-Themes/Discord"
-    },
-    "license": "WTFPL",
-    "type": "replugged-theme",
-    "main": "betterdiscord/comfy.theme.css"
+  "id": "nyria.comfy",
+  "name": "Comfy",
+  "description": "Stay comfy while talking to your friends",
+  "author": {
+    "name": "Nyria",
+    "discordID": "265924886461939712",
+    "github": "NYRI4"
+  },
+  "version": "2.3.0",
+  "updater": {
+    "type": "github",
+    "id": "Comfy-Themes/Discord"
+  },
+  "license": "WTFPL",
+  "type": "replugged-theme",
+  "main": "betterdiscord/comfy.theme.css"
 }

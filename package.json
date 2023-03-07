@@ -1,25 +1,24 @@
 {
-    "name": "comfy",
-    "version": "2.2.5",
-    "description": "Stay comfy while talking to your friends",
-    "engines": {
-      "node": ">=14.0.0"
-    },
-    "scripts": {
-      "build": "replugged build theme",
-      "watch": "replugged build theme --watch",
-      "bundle": "replugged bundle theme",
-      "lint": "prettier ./src --check",
-      "lint:fix": "prettier ./src --write"
-    },
-    "author": "Nyria",
-    "license": "WTFPL",
-    "devDependencies": {
-      "@parcel/config-default": "^2.8.3",
-      "@parcel/core": "^2.8.3",
-      "@types/node": "^18.13.0",
-      "prettier": "^2.8.4",
-      "replugged": "4.0.0-beta0.27"
-    }
+  "name": "comfy",
+  "version": "2.3.0",
+  "description": "Stay comfy while talking to your friends",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "author": "Nyria",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@types/node": "^18.13.0",
+    "prettier": "^2.8.4",
+    "replugged": "4.0.0-beta0.27"
   }
-  
+}

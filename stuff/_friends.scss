@@ -1,40 +1,63 @@
 :root {
-
-// Friend column
-.peopleColumn-1wMU14 { background: var(--background-primary);}
-  
-// Friend activities
-.nowPlayingColumn-1eCBCN { 
-  background: var(--background-secondary-alt);
-
-  .scroller-hE2gWq { border: none;}
-
-  .itemCard-3Etziu {
-    border: none;
-
-    &.active-1W_Gl9, &.interactive-2zD88a:hover { background: var(--background-secondary);}
-
-    .section-3G9aLW:last-child { margin-top: 10px;}
-    .inset-SbsSFp { background: transparent;}
-    .applicationStreamingPreviewWrapper-7j27t8 { background-color: var(--background-secondary);}
-    .separator-2OaeRP { display: none;}
+  // Friend column
+  .peopleColumn-1wMU14 {
+    background: var(--background-primary);
   }
-}
 
-// Friend call buttons
-.bottomControls-31YuPK {
-  .centerButton-1IShs7 { border-radius: 7px;}
-  .colorable-3rVGna.primaryDark-2UJt1G { background: var(--background-secondary-alt);}
-  foreignObject { mask: none;}
-}
-.participantsButton-1WBdFP { background: var(--background-secondary-alt);}
+  // Friend activities
+  .nowPlayingColumn-1eCBCN {
+    background: var(--background-secondary-alt);
 
-// Regionnal selector friend call
-.quickSelect-384d3G { margin-top: 10px;}
+    .scroller-hE2gWq {
+      border: none;
+    }
 
-.quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {
-  background: var(--background-secondary-alt);
-  box-shadow: none;
-}
+    .itemCard-3Etziu {
+      border: none;
 
+      &.active-1W_Gl9,
+      &.interactive-2zD88a:hover {
+        background: var(--background-secondary);
+      }
+
+      .section-3G9aLW:last-child {
+        margin-top: 10px;
+      }
+      .inset-SbsSFp {
+        background: transparent;
+      }
+      .applicationStreamingPreviewWrapper-7j27t8 {
+        background-color: var(--background-secondary);
+      }
+      .separator-2OaeRP {
+        display: none;
+      }
+    }
+  }
+
+  // Friend call buttons
+  .bottomControls-31YuPK {
+    .centerButton-1IShs7 {
+      border-radius: 7px;
+    }
+    .colorable-3rVGna.primaryDark-2UJt1G {
+      background: var(--background-secondary-alt);
+    }
+    foreignObject {
+      mask: none;
+    }
+  }
+  .participantsButton-1WBdFP {
+    background: var(--background-secondary-alt);
+  }
+
+  // Regionnal selector friend call
+  .quickSelect-384d3G {
+    margin-top: 10px;
+  }
+
+  .quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {
+    background: var(--background-secondary-alt);
+    box-shadow: none;
+  }
 }
