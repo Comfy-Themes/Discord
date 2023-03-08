@@ -1,6 +1,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.layerContainer-2v_Sit *::-webkit-scrollbar {
+  display: none;
+}
 .content-1gYQeQ {
   margin: 0 !important;
   border-radius: 0;
