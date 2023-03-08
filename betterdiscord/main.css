@@ -2216,9 +2216,6 @@
   background-color: var(--background-primary);
   box-shadow: none;
 }
-:root .layerContainer-2v_Sit *::-webkit-scrollbar {
-  display: none;
-}
 :root .layerContainer-2v_Sit .scroller-3nFW5p {
   padding-left: 0;
 }
@@ -2311,9 +2308,6 @@
   right: 50px;
 }
 
-:root ::-webkit-scrollbar {
-  display: none;
-}
 :root .content-1gYQeQ {
   margin: 0 !important;
   border-radius: 0;
