@@ -554,9 +554,13 @@
     }
   }
 
-  // New type of channel
+  // Threads
   .container-3wLKDe {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-primary);
+
+    .mainCard-3KBsBI {
+      background-color: var(--background-secondary);
+    }
   }
 
   // BetterDiscord

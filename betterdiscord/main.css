@@ -805,6 +805,7 @@
   mask: unset;
 }
 :root .userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY .banner-2boKnS {
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6549019608), rgba(0, 0, 0, 0.6549019608));
   height: 120px;
 }
 :root .userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY .pencilContainer-11Kuga {
@@ -1083,6 +1084,7 @@
   transform: translateY(-22px);
 }
 :root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .bannerSVGWrapper-qc0szY .banner-2boKnS {
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6549019608), rgba(0, 0, 0, 0.6549019608));
   height: 160px;
   border-radius: 0;
 }
@@ -2248,7 +2250,10 @@
   background-color: transparent;
 }
 :root .container-3wLKDe {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-primary);
+}
+:root .container-3wLKDe .mainCard-3KBsBI {
+  background-color: var(--background-secondary);
 }
 :root .bd-sidebar-header {
   padding-right: 10px;
