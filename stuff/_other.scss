@@ -53,8 +53,6 @@
   }
 }
 
-// -- 🟢 STATUS PICKER --
-
 :root {
   // Custom status modal
   .select-Zz0IcO,
@@ -67,6 +65,11 @@
   }
   .footer-IubaaS {
     background: var(--background-tertiary);
+  }
+
+  // Profile
+  .accountProfilePopoutWrapper-3GskID .submenuPaddingContainer-QgnL1r {
+    margin-left: -5px;
   }
 
   // -- Better menus --

@@ -1891,6 +1891,9 @@
 :root .footer-IubaaS {
   background: var(--background-tertiary);
 }
+:root .accountProfilePopoutWrapper-3GskID .submenuPaddingContainer-QgnL1r {
+  margin-left: -5px;
+}
 :root .menu-2TXYjN {
   border-radius: 5px;
   overflow: hidden;
