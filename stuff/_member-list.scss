@@ -1,20 +1,20 @@
 @use "sass:string";
 
 :root {
-  .bannerSVGWrapper-qc0szY mask {
+  .bannerSVGWrapper-2CLfzN mask {
     display: none;
   }
 
   // -- Member popout --
-  .userPopoutOuter-3AVBmJ {
+  .userPopoutOuter-1OHwPL {
     max-height: unset !important;
 
-    .userPopoutInner-1hXSeY {
+    .userPopoutInner-nv9Y92 {
       max-height: unset !important;
     }
 
     // Banner
-    .bannerSVGWrapper-qc0szY {
+    .bannerSVGWrapper-2CLfzN {
       overflow: visible;
       min-height: 120px !important;
 
@@ -22,12 +22,12 @@
         mask: unset;
       }
 
-      .banner-2boKnS {
+      .banner-1YaD3N {
         -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
         height: 120px;
       }
 
-      .pencilContainer-11Kuga {
+      .pencilContainer-18TrEJ {
         display: none;
       }
 
@@ -40,7 +40,7 @@
     }
 
     // Avatar
-    .avatarWrapper-3y0KZ1 {
+    .avatarWrapper-eenWra {
       top: 20px;
       left: 16px;
 
@@ -48,20 +48,8 @@
         display: none;
       }
 
-      .avatarHint-2g3Mcd {
+      .avatarHint-k7pYop {
         border-radius: 5px;
-
-        foreignObject {
-          mask: none;
-        }
-      }
-
-      .avatarDecorationHint-GIo7Yh {
-        width: 80px;
-        height: 80px;
-        top: 0px;
-        left: 0px;
-        border-radius: 5px !important;
 
         foreignObject {
           mask: none;
@@ -70,16 +58,16 @@
     }
 
     // Username
-    .userPopoutOverlayBackground-dKOOda {
+    .userPopoutOverlayBackground-3A0Pcz {
       position: static;
       overflow: visible;
       margin: 16px;
       max-height: calc(100vh - 200px);
 
-      .usernameSection-2d814A {
+      .usernameSection-3FppkT {
         & > .copiableNameTag-1BpMX8,
-        & > div > .userText-148fun > .nickname-2rimyL,
-        & > div > .userText-148fun > .userTagNoNickname-2MJ9HD {
+        & > div > .userText-1_v2Cq > .nickname-3P1RuO,
+        & > div > .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
           position: absolute;
           top: 30px;
           left: 115px;
@@ -97,14 +85,14 @@
         }
       }
     }
-    .profileBadges-31rDHI:empty
-      + .userPopoutOverlayBackground-dKOOda
-      .nickname-2rimyL {
+    .profileBadges-2pItdR:empty
+      + .userPopoutOverlayBackground-3A0Pcz
+      .nickname-3P1RuO {
       top: 20px;
     }
 
     // Badges
-    .profileBadges-31rDHI {
+    .profileBadges-2pItdR {
       position: absolute;
       top: 60px;
       left: 110px;
@@ -113,36 +101,28 @@
     }
 
     // Body
-    .userPopoutOverlayBackground-dKOOda {
-      .scroller-1jBQYo {
+    .userPopoutOverlayBackground-3A0Pcz {
+      .scroller-15bIdk {
         padding-right: 12px !important;
       }
 
-      .section-3FmfOT {
+      .section-28YDOf {
         padding-top: 0;
         padding-bottom: 12px;
       }
 
       // Nickname
-      .userTagWithNickname-3-znkC {
+      .userTagWithNickname-13lfvd {
         padding-top: 12px;
       }
 
       // Dividers
-      .divider-1tWBgZ {
-        display: none;
-      }
-      .scrollerSeparator-3MxsAq {
-        box-shadow: none;
-      }
-
-      // No divider
-      .divider-1wtgZ3 {
+      .divider-2dDziJ {
         display: none;
       }
 
       // -- Activities --
-      .activity-E0U09Y {
+      .activity-3uaYny {
         padding: 16px;
         margin-top: 25px;
         z-index: 1;
@@ -154,7 +134,7 @@
           color: white;
         }
 
-        .buttonColor-XIRMbp {
+        .buttonColor-_0gSD_ {
           border: none;
           background-color: var(--listening-test);
           box-shadow: 0 4px 15px #00000021;
@@ -350,10 +330,10 @@
   }
 
   // -- User modal --
-  .userProfileModalOuter-1FYL8T {
+  .userProfileModalOuter-2wdWjU {
     width: 700px;
 
-    .userProfileModalInner-3fh3QA {
+    .userProfileModalInner-3dx9L9 {
       overflow: hidden;
 
       &::before {
@@ -361,10 +341,10 @@
       }
     }
 
-    .topSection-1Khgkv {
+    .topSection-13QKHs {
       margin-bottom: 0;
 
-      .bannerSVGWrapper-qc0szY {
+      .bannerSVGWrapper-2CLfzN {
         min-height: 160px !important;
 
         &[viewBox="0 0 600 106"] {
@@ -373,33 +353,33 @@
           }
         }
 
-        .banner-2boKnS {
+        .banner-1YaD3N {
           -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
           height: 160px;
           border-radius: 0;
         }
       }
 
-      .avatar-1YsFQ1 {
+      .avatar-3QF_VA {
         top: -143px;
       }
 
-      .headerTop-212g15 {
+      .headerTop-1PNKck {
         flex-direction: column;
         top: -100px;
         left: 155px;
 
-        .badgeList-2pMvZX {
+        .badgeList-2aoHPw {
           padding: 0 0 10px 0;
           background-color: transparent;
         }
       }
     }
 
-    .userProfileModalOverlayBackground-8p3-eU {
+    .userProfileModalOverlayBackground-2dAaBg {
       overflow: visible;
 
-      .nameTag-2ysfG3 {
+      .nameTag-35jqbZ {
         position: absolute;
         top: -150px;
         left: 140px;
@@ -413,7 +393,7 @@
     .mask-1y0tyc circle[fill="black"] {
       display: none;
     }
-    .mask-1y0tyc .cursorDefault--wfhy5 rect,
+    .mask-1y0tyc .cursorDefault-2M8ZNp rect,
     .mask-1y0tyc .pointerEvents-2KjWnj {
       rx: calc(1px + var(--status-radius)) !important;
       ry: calc(1px + var(--status-radius));
@@ -445,7 +425,7 @@
       }
 
       // Playing
-      .contentImagesProfile-27BIzt::after,
+      .contentImagesProfileV2-2Z-K9I::after,
       .contentGameImageProfile-24ty00::after {
         content: "";
         position: absolute;
@@ -474,7 +454,7 @@
     }
 
     // Connections
-    .connectedAccountContainer-2TWiXT {
+    .connectedAccountContainer-3aLMHJ {
       border: solid #000000;
       border-width: 1.2px 1.2px 3px 1.2px;
       border-radius: 4px;
@@ -486,25 +466,25 @@
         transform: translateY(1px);
       }
 
-      .connectedAccountIcon-2szOw- {
+      .connectedAccountIcon-3FdW8x {
         padding: 5px;
         border-radius: 4px;
       }
-      .connectedAccountNameContainer-3v4pIj {
+      .connectedAccountNameContainer-3e9mvO {
         margin-left: 13px;
       }
-      .connectedAccountChildren-2jEgw3 {
+      .connectedAccountChildren-29Qmfl {
         margin-left: 56px;
       }
     }
 
     // Mutuals
-    .listRow-Y5zoF8 {
+    .listRow-2nO1T6 {
       margin: 0;
       padding: 8px 12px;
     }
 
-    .pencilContainer-11Kuga {
+    .pencilContainer-18TrEJ {
       display: none;
     }
   }
@@ -512,126 +492,126 @@
   .accountBtnInner-1DCgBm[aria-label="Battle.net"],
   .accountButtonInner-33vCDY[aria-label="Battle.net"],
   .accountButtonInner-33vCDY[aria-label="Battle.net"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Battle.net"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Battle.net"] {
     background-color: #1da0f248;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Twitch"],
   .accountButtonInner-33vCDY[aria-label="Twitch"],
   .accountButtonInner-33vCDY[aria-label="Twitch"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Twitch"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Twitch"] {
     background-color: #601bd852;
   }
 
   .accountBtnInner-1DCgBm[aria-label="YouTube"],
   .accountButtonInner-33vCDY[aria-label="YouTube"],
   .accountButtonInner-33vCDY[aria-label="YouTube"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="YouTube"] {
+  .connectedAccountIcon-3FdW8x[aria-label="YouTube"] {
     background-color: #d9252b49;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Twitter"],
   .accountButtonInner-33vCDY[aria-label="Twitter"],
   .accountButtonInner-33vCDY[aria-label="Twitter"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Twitter"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Twitter"] {
     background-color: #0098e43f;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Steam"],
   .accountButtonInner-33vCDY[aria-label="Steam"],
   .accountButtonInner-33vCDY[aria-label="Steam"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Steam"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Steam"] {
     background-color: #00000034;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Reddit"],
   .accountButtonInner-33vCDY[aria-label="Reddit"],
   .accountButtonInner-33vCDY[aria-label="Reddit"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Reddit"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Reddit"] {
     background-color: #fe44013d;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Facebook"],
   .accountButtonInner-33vCDY[aria-label="Facebook"],
   .accountButtonInner-33vCDY[aria-label="Facebook"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Facebook"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Facebook"] {
     background-color: #2e328485;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Spotify"],
   .accountButtonInner-33vCDY[aria-label="Spotify"],
   .accountButtonInner-33vCDY[aria-label="Spotify"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Spotify"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Spotify"] {
     background-color: #1ed75f34;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Xbox"],
   .accountButtonInner-33vCDY[aria-label="Xbox"],
   .accountButtonInner-33vCDY[aria-label="Xbox"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Xbox"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Xbox"] {
     background-color: #5dc21e36;
   }
 
   .accountBtnInner-1DCgBm[aria-label="League of Legends"],
   .accountButtonInner-33vCDY[aria-label="League of Legends"],
   .accountButtonInner-33vCDY[aria-label="League of Legends"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="League of Legends"] {
+  .connectedAccountIcon-3FdW8x[aria-label="League of Legends"] {
     background-color: #cea14638;
   }
 
   .accountBtnInner-1DCgBm[aria-label="GitHub"],
   .accountButtonInner-33vCDY[aria-label="GitHub"],
   .accountButtonInner-33vCDY[aria-label="GitHub"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="GitHub"] {
+  .connectedAccountIcon-3FdW8x[aria-label="GitHub"] {
     background-color: #24292e62;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Skype"],
   .accountButtonInner-33vCDY[aria-label="Skype"],
   .accountButtonInner-33vCDY[aria-label="Skype"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Skype"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Skype"] {
     background-color: #0076d74b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Epic Games"],
   .accountButtonInner-33vCDY[aria-label="Epic Games"],
   .accountButtonInner-33vCDY[aria-label="Epic Games"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Epic Games"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Epic Games"] {
     background-color: #2f2f2f59;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Riot Games"],
   .accountButtonInner-33vCDY[aria-label="Riot Games"],
   .accountButtonInner-33vCDY[aria-label="Riot Games"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="Riot Games"] {
+  .connectedAccountIcon-3FdW8x[aria-label="Riot Games"] {
     background-color: #eb1c2d38;
   }
 
   .accountBtnInner-1DCgBm[aria-label="PayPal"],
   .accountButtonInner-33vCDY[aria-label="PayPal"],
   .accountButtonInner-33vCDY[aria-label="PayPal"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="PayPal"] {
+  .connectedAccountIcon-3FdW8x[aria-label="PayPal"] {
     background-color: #009fe33b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="TikTok"],
   .accountButtonInner-33vCDY[aria-label="TikTok"],
   .accountButtonInner-33vCDY[aria-label="TikTok"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="TikTok"] {
+  .connectedAccountIcon-3FdW8x[aria-label="TikTok"] {
     background-color: #64bfc546;
   }
 
   .accountBtnInner-1DCgBm[aria-label="eBay"],
   .accountButtonInner-33vCDY[aria-label="eBay"],
   .accountButtonInner-33vCDY[aria-label="eBay"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="eBay"] {
+  .connectedAccountIcon-3FdW8x[aria-label="eBay"] {
     background-color: #c500003b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="PlayStation Network"],
   .accountButtonInner-33vCDY[aria-label="PlayStation Network"],
   .accountButtonInner-33vCDY[aria-label="PlayStation Network"]:hover,
-  .connectedAccountIcon-2szOw-[aria-label="PlayStation Network"] {
+  .connectedAccountIcon-3FdW8x[aria-label="PlayStation Network"] {
     background-color: #0051ae53;
   }
 }
