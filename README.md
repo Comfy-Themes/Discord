@@ -47,16 +47,12 @@
 </div>
 
 <div align="left">
-    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
-    <b><p align="left">Replugged</b>
-    <br/>Navigate to <code>betterdiscord/comfy.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
+    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
+    <b><p align="left">Vencord & Replugged</b>
+    <br/>Watch this epic tutorial</p>
 </div>
 
-<div align="left">
-    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
-    <b><p align="left">Vencord</b>
-    <br/>Navigate to <code>betterdiscord/comfy.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
-</div><br/>
+https://user-images.githubusercontent.com/65369563/231574735-89da88ef-2cf1-4aa5-a157-3a66ce8d274b.mp4
 
 ## 🫰 Credits
 
