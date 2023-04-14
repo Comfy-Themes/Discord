@@ -1,0 +1,44 @@
+{
+  "name": "Comfy",
+  "description": "Stay comfy while talking to your friends",
+  "authors": [
+    {
+      "name": "Nyria",
+      "id": "265924886461939712"
+    }
+  ],
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#23283D"],
+    "BACKGROUND_SECONDARY": ["#1E2233"],
+    "BACKGROUND_SECONDARY_ALT": ["#191f2E"],
+    "BACKGROUND_TERTIARY": ["#101320"],
+    "BACKGROUND_ACCENT": ["#6E85D3"],
+    "BACKGROUND_FLOATING": ["#1E2233"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#23283D"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#1E2233"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#1A1E2D"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#6E85D33D"],
+    "BACKGROUND_MODIFIER_ACCENT": ["1E2233"],
+    "BACKGROUND_MENTIONED": ["#C662621F"],
+    "BACKGROUND_MENTIONED_HOVER": ["#C6626226"],
+
+    "SCROLLBAR_THIN_THUMB": ["#1E2233"],
+    "SCROLLBAR_THIN_TRACK": ["transparent"],
+    "SCROLLBAR_AUTO_THUMB": ["#1E2233"],
+    "SCROLLBAR_AUTO_TRACK": ["#1E2233"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#23283D"],
+    "CHAT_BACKGROUND": ["#23283D"]
+  },
+  "rawColors": {
+    "PRIMARY_600": "#23283D",
+    "PRIMARY_630": "#1E2233",
+    "PRIMARY_660": "#101320",
+    "PRIMARY_700": "#23283D",
+    "PRIMARY_800": "#101320",
+    "BRAND_260": "#6E85D3",
+    "BRAND_360": "#6E85D3",
+    "BRAND_500": "#6E85D3",
+    "BRAND_560": "#5365a0"
+  },
+  "spec": 2
+}
