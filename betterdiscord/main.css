@@ -1955,9 +1955,6 @@
 :root .contentWrapper-3oy4Xo {
   background: var(--background-secondary);
 }
-:root .root-1CAIjD:not(.modal-3Crloo) {
-  background: var(--background-secondary);
-}
 :root .wordmark-2u86JB svg {
   display: var(--discord-logo);
 }

@@ -3,7 +3,7 @@
 * @author Nyria#3863
 * @description Stay comfy while talking to your friends
 * @invite rtBQX5D3bD
-* @version 2.3
+* @version 2.4
 * @donate https://ko-fi.com/nyria
 */
 
@@ -133,10 +133,12 @@
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
   --background-tertiary: #101320;
+  --background-accent: #7289da;
+
+  --modal-background: #23283d;
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
   --channeltextarea-background: #191f2e;
-  --background-accent: #7289da;
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
   --background-modifier-active: #0000001a;
