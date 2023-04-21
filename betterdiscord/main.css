@@ -830,6 +830,16 @@
 :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject {
   mask: none;
 }
+:root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarDecorationHint-3n-p6O {
+  border-radius: 5px !important;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+:root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarDecorationHint-3n-p6O foreignObject {
+  mask: none;
+}
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz {
   position: static;
   overflow: visible;
