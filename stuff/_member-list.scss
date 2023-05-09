@@ -95,6 +95,17 @@
             white-space: unset;
           }
         }
+
+        & > .copiableNameTag-3tf-II {
+          .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            & > span{
+              display: inline-block;
+            }
+          }
+        }
       }
     }
     .profileBadges-2pItdR:empty

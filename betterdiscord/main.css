@@ -861,6 +861,13 @@
   word-break: unset;
   white-space: unset;
 }
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II .userText-1_v2Cq > .userTagNoNickname-h9Bh88 > span {
+  display: inline-block;
+}
 :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR:empty + .userPopoutOverlayBackground-3A0Pcz .nickname-3P1RuO {
   top: 20px;
 }
