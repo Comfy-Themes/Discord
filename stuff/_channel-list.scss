@@ -372,21 +372,7 @@
   }
 
   // Boost
-  .perksModal-CLcR1c {
-    background: var(--background-primary);
-
-    .tierMarkerBackground-G8FoN4,
-    .tierHeaderLocked-3ItHYn,
-    .barBackground-unEPDT,
-    .icon-2TbMdT {
-      background: var(--background-secondary-alt);
-    }
-
-    .option-2KkUJO.selected-rZcOL-,
-    .tierBody-3ju-rc,
-    .perk-19D_HN,
-    .tierMarkerInProgress-2Tdxjz {
-      background: var(--background-secondary) !important;
-    }
+  .innerWrapper-MqFL7z {
+    border-radius: 5px;
   }
 }

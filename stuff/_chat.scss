@@ -18,6 +18,10 @@
       width: 40px !important;
       height: 40px !important;
 
+      & > svg {
+        contain: unset;
+      }
+
       foreignObject {
         width: 100% !important;
         height: 100% !important;
@@ -26,6 +30,7 @@
       .pointerEvents-2KjWnj {
         x: 31px;
         y: 31px;
+        ry: var(--status-radius);
       }
 
       &:hover {
@@ -43,7 +48,8 @@
   .gatedContent-31-gID,
   .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F,
   .content-1jQy2l > .container-3wLKDe,
-  .container-2IKOsH {
+  .container-2IKOsH,
+  .background-12kWdX {
     z-index: 2;
   }
 
@@ -111,7 +117,7 @@
 
   // New messages
   .newMessagesBar-1hF-9G {
-    background-color: var(--brand-experiment);
+    background-color: var(--background-accent);
     border-radius: 50px;
     margin-top: 5px;
   }

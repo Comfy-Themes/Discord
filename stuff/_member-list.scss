@@ -78,10 +78,9 @@
 
       .usernameSection-3FppkT {
         & > .copiableNameTag-3tf-II,
-        & > div > .userText-1_v2Cq > .nickname-3P1RuO,
-        & > div > .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+        & > div > .userText-1_v2Cq {
           position: absolute;
-          top: 30px;
+          top: 25px;
           left: 115px;
           z-index: 1;
           max-width: 200px;
@@ -106,7 +105,7 @@
     // Badges
     .profileBadges-2pItdR {
       position: absolute;
-      top: 60px;
+      top: 70px;
       left: 110px;
       z-index: 1;
       background-color: transparent;
@@ -121,11 +120,6 @@
       .section-28YDOf {
         padding-top: 0;
         padding-bottom: 12px;
-      }
-
-      // Nickname
-      .userTagWithNickname-13lfvd {
-        padding-top: 12px;
       }
 
       // Dividers
@@ -265,12 +259,17 @@
         border: none;
         z-index: 1;
 
+        &:not(.addButton-1_dZYu) {
+          pointer-events: none;
+        }
+
         .roleRemoveButton-17oXnT {
           position: static;
 
           .roleCircle-3TFUOr {
             width: var(--role-circle) !important;
             height: var(--role-circle) !important;
+            pointer-events: auto;
 
             &::before {
               position: absolute;
@@ -282,15 +281,17 @@
               background: inherit;
               opacity: 0.3;
               z-index: -1;
+              pointer-events: none;
+              transition: background 200ms;
+            }
+
+            &:hover {
+              background: #fd5959 !important;
             }
           }
-          .roleRemoveIcon-387wKV {
-            position: absolute;
-            top: calc(50% + var(--role-circle) / 2);
-            left: 13px;
 
-            width: var(--role-circle) !important;
-            height: var(--role-circle) !important;
+          .roleRemoveIcon-387wKV {
+            display: none;
           }
         }
       }
@@ -378,11 +379,11 @@
 
       .headerTop-1PNKck {
         flex-direction: column;
-        top: -100px;
-        left: 155px;
+        top: -95px;
+        left: 165px;
 
         .badgeList-2aoHPw {
-          padding: 0 0 10px 0;
+          padding: 0 0 15px 0;
           background-color: transparent;
         }
       }
@@ -391,10 +392,10 @@
     .userProfileModalOverlayBackground-2dAaBg {
       overflow: visible;
 
-      .nameTag-35jqbZ {
+      .container-3g15px > div:first-child {
         position: absolute;
-        top: -150px;
-        left: 140px;
+        top: -160px;
+        left: 150px;
         z-index: 1;
         font-size: 23px;
         font-weight: 600;
