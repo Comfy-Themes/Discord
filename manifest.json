@@ -9,8 +9,8 @@
   },
   "version": "2.3.0",
   "updater": {
-    "type": "github",
-    "id": "Comfy-Themes/Discord"
+    "type": "store",
+    "id": "nyria.comfy"
   },
   "license": "WTFPL",
   "type": "replugged-theme",
