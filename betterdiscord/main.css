@@ -26,6 +26,8 @@
   x: 31px;
   y: 31px;
   ry: var(--status-radius);
+  width: 12px;
+  height: 12px;
 }
 :root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD:hover {
   opacity: 1;
@@ -66,6 +68,11 @@
 :root .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 :root .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
   background-color: var(--brand-experiment);
+}
+:root .container-22-IpK {
+  margin-left: 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
 }
 :root .spamBanner-1auiob {
   position: relative;
@@ -1106,7 +1113,7 @@
 }
 :root .userProfileModalOuter-2wdWjU .mask-1y0tyc .cursorDefault-2M8ZNp rect,
 :root .userProfileModalOuter-2wdWjU .mask-1y0tyc .pointerEvents-2KjWnj {
-  rx: calc(1px + var(--status-radius)) !important;
+  rx: calc(1px + var(--status-radius));
   ry: calc(1px + var(--status-radius));
 }
 :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee {
@@ -1341,7 +1348,7 @@
   y: 66px;
   width: 20px;
   height: 20px;
-  rx: calc(var(--status-radius) + 1px) !important;
+  rx: calc(var(--status-radius) + 1px);
   stroke: var(--background-secondary);
   stroke-width: 4px;
 }

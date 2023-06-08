@@ -408,7 +408,7 @@
     }
     .mask-1y0tyc .cursorDefault-2M8ZNp rect,
     .mask-1y0tyc .pointerEvents-2KjWnj {
-      rx: calc(1px + var(--status-radius)) !important;
+      rx: calc(1px + var(--status-radius));
       ry: calc(1px + var(--status-radius));
     }
 

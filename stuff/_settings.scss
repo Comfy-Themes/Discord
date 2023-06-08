@@ -58,7 +58,7 @@
           y: 66px;
           width: 20px;
           height: 20px;
-          rx: calc(var(--status-radius) + 1px) !important;
+          rx: calc(var(--status-radius) + 1px);
           stroke: var(--background-secondary);
           stroke-width: 4px;
         }
