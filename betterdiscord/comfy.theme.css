@@ -22,8 +22,11 @@
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
 @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the scrollbar back */
+/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
 @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+
+/* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
