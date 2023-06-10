@@ -818,7 +818,7 @@
   transform: translateY(-15px);
 }
 :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
-  top: 20px;
+  top: 20px !important;
   left: 16px;
 }
 :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra circle {
