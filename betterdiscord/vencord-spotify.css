@@ -1,27 +1,46 @@
-/* ═══════『 🎵 ・ Vencord spotify plugin 』*/
 :root #vc-spotify-player {
   position: relative;
   border-bottom: none;
   padding: 0;
 }
 
+/* Album image & infos */
 :root #vc-spotify-info-wrapper {
   padding: 0.375rem 0.5rem;
   position: relative;
   z-index: 1;
 }
 
-:root #vc-spotify-progress-bar {
+:root #vc-spotify-info-wrapper #vc-spotify-album-image {
+  height: 100%;
+}
+
+:root #vc-spotify-album-expanded-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 0.375rem 0.5rem;
+}
+
+:root #vc-spotify-album-expanded-wrapper > img {
+  border-radius: 8px;
+}
+
+/* Progress bar */
+:root #vc-spotify-info-wrapper + #vc-spotify-progress-bar {
   position: static;
   margin: 0;
 }
 
-:root #vc-spotify-progress-bar .slider-cXPmnn {
+:root #vc-spotify-info-wrapper + #vc-spotify-progress-bar .slider-cXPmnn {
   position: static;
   height: 100%;
 }
 
-:root #vc-spotify-progress-bar .slider-cXPmnn .bar-2H7Q9u {
+:root
+  #vc-spotify-info-wrapper
+  + #vc-spotify-progress-bar
+  .slider-cXPmnn
+  .bar-2H7Q9u {
   position: absolute;
   top: 0;
   height: 61px !important;
@@ -30,7 +49,12 @@
   transition: height 200ms;
 }
 
-:root #vc-spotify-player:hover .slider-cXPmnn .bar-2H7Q9u {
+:root
+  #vc-spotify-player:hover
+  #vc-spotify-info-wrapper
+  + #vc-spotify-progress-bar
+  .slider-cXPmnn
+  .bar-2H7Q9u {
   height: 95px !important;
 }
 
@@ -41,7 +65,10 @@
   border-radius: 0;
 }
 
-.vc-spotify-progress-time {
+:root
+  #vc-spotify-info-wrapper
+  + #vc-spotify-progress-bar
+  .vc-spotify-progress-time {
   display: none;
 }
 
@@ -55,9 +82,33 @@
   height: 100% !important;
   border-radius: 0;
   opacity: 0;
-  z-index: 255;
+  z-index: 1;
 }
 
-:root #vc-spotify-album-image {
-  height: 100%;
+:root #vc-spotify-album-expanded-wrapper + #vc-spotify-progress-bar {
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+:root
+  #vc-spotify-album-expanded-wrapper
+  + #vc-spotify-progress-bar
+  .slider-cXPmnn
+  .bar-2H7Q9u {
+  top: 3px;
+  height: 20px !important;
+}
+
+:root
+  #vc-spotify-album-expanded-wrapper
+  + #vc-spotify-progress-bar
+  .vc-spotify-time-left {
+  left: 0.5rem;
+}
+
+:root
+  #vc-spotify-album-expanded-wrapper
+  + #vc-spotify-progress-bar
+  .vc-spotify-time-right {
+  right: 0.5rem;
 }
