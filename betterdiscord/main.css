@@ -632,12 +632,14 @@
   will-change: transform;
 }
 :root .unread-36eUEm {
-  top: 54%;
+  top: 50%;
   left: 5px;
   width: 6px;
   height: 6px;
+  margin-top: 0px;
   z-index: 1;
   background-color: var(--unread-color);
+  transform: translate(0%, -50%);
   border-radius: 10px;
 }
 :root .unread-36eUEm::before {
