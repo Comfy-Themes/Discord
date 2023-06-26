@@ -120,6 +120,10 @@
   }
 
   // User buttons
+  .panels-3wFtMD {
+    z-index: 2;
+  }
+
   .panels-3wFtMD > .container-YkUktl {
     height: 0;
 
@@ -127,7 +131,6 @@
       position: fixed;
       bottom: 0;
       left: 0;
-      z-index: 1;
       width: 72px;
       padding: 20px 0 10px 0;
       flex-direction: column;

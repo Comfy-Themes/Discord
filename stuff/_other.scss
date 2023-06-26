@@ -119,22 +119,26 @@
   }
 
   // Loading screen
-  .ready-3BZNWT {
-    display: none;
+  .container-2RRFHK > .content-3AIQZv {
+    position: relative;
 
-    & + .text-2bYgPB {
-      top: 82px;
+    .ready-3BZNWT {
+      display: none;
 
-      &::before {
-        content: "";
-        position: absolute;
-        bottom: 100px;
-        left: 50px;
-        width: 200px;
-        height: 200px;
-        background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
-          center/80% no-repeat;
+      & + .text-2bYgPB {
+        top: 82px;
       }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: calc(50% - 100px);
+      width: 200px;
+      height: 200px;
+      background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
+        center/80% no-repeat;
     }
   }
 

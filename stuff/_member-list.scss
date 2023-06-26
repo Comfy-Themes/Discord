@@ -77,7 +77,7 @@
       max-height: calc(100vh - 200px);
 
       .usernameSection-3FppkT {
-        & > .copiableNameTag-3tf-II,
+        & > .copiableNameTag-3tf-II > .clickTarget-2uXro4,
         & > div > .userText-1_v2Cq {
           position: absolute;
           top: 25px;
@@ -100,6 +100,11 @@
       + .userPopoutOverlayBackground-3A0Pcz
       .nickname-3P1RuO {
       top: 20px;
+    }
+
+    // Pronouns
+    .pronouns-17_QV6 {
+      padding-top: 12px;
     }
 
     // Badges

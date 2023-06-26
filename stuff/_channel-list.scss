@@ -260,13 +260,15 @@
 
   // Unread pill
   .unread-36eUEm {
-    top: 54%;
+    top: 50%;
     left: 5px;
     width: 6px;
     height: 6px;
     z-index: 1;
     background-color: var(--unread-color);
     border-radius: 10px;
+    margin-top: 0;
+    transform: translate(0%, -50%);
 
     &::before {
       content: "";

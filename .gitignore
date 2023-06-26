@@ -3,3 +3,6 @@ prepros.config
 sass.txt
 .prettierignore
 CHECKUP.txt
+node_modules
+dist
+.parcel-cache

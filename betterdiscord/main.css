@@ -400,6 +400,9 @@
 :root .theme-light .createGuild-2m1V10 {
   padding: 10px !important;
 }
+:root .panels-3wFtMD {
+  z-index: 2;
+}
 :root .panels-3wFtMD > .container-YkUktl {
   height: 0;
 }
@@ -407,7 +410,6 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1;
   width: 72px;
   padding: 20px 0 10px 0;
   flex-direction: column;
@@ -636,11 +638,11 @@
   left: 5px;
   width: 6px;
   height: 6px;
-  margin-top: 0px;
   z-index: 1;
   background-color: var(--unread-color);
-  transform: translate(0%, -50%);
   border-radius: 10px;
+  margin-top: 0;
+  transform: translate(0%, -50%);
 }
 :root .unread-36eUEm::before {
   content: "";
@@ -848,7 +850,7 @@
   margin: 16px;
   max-height: calc(100vh - 200px);
 }
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq {
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II > .clickTarget-2uXro4, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq {
   position: absolute;
   top: 25px;
   left: 115px;
@@ -859,12 +861,15 @@
   overflow: hidden;
   display: block;
 }
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II > span, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > span {
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II > .clickTarget-2uXro4 > span, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > span {
   word-break: unset;
   white-space: unset;
 }
 :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR:empty + .userPopoutOverlayBackground-3A0Pcz .nickname-3P1RuO {
   top: 20px;
+}
+:root .userPopoutOuter-1OHwPL .pronouns-17_QV6 {
+  padding-top: 12px;
 }
 :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
   position: absolute;
@@ -1939,17 +1944,20 @@
 :root .item-5ApiZt.colorDanger-3umuSx:hover, :root .item-5ApiZt.colorDanger-3umuSx.focused-3LIdPu, :root .item-5ApiZt.colorDanger-3umuSx:active:not(.hideInteraction-2jPGL_) {
   background-color: rgba(240, 71, 71, 0.1019607843);
 }
-:root .ready-3BZNWT {
+:root .container-2RRFHK > .content-3AIQZv {
+  position: relative;
+}
+:root .container-2RRFHK > .content-3AIQZv .ready-3BZNWT {
   display: none;
 }
-:root .ready-3BZNWT + .text-2bYgPB {
+:root .container-2RRFHK > .content-3AIQZv .ready-3BZNWT + .text-2bYgPB {
   top: 82px;
 }
-:root .ready-3BZNWT + .text-2bYgPB::before {
+:root .container-2RRFHK > .content-3AIQZv::before {
   content: "";
   position: absolute;
-  bottom: 100px;
-  left: 50px;
+  bottom: 20px;
+  left: calc(50% - 100px);
   width: 200px;
   height: 200px;
   background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
