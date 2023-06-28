@@ -7,12 +7,14 @@
     "discordID": "265924886461939712",
     "github": "NYRI4"
   },
-  "version": "2.4.1",
+  "version": "2.4.2",
   "updater": {
     "type": "store",
     "id": "nyria.comfy"
   },
   "license": "WTFPL",
+  "image": "https://i.imgur.com/NVEvM5z.png",
+  "source": "https://github.com/Comfy-Themes/Discord",
   "type": "replugged-theme",
   "main": "betterdiscord/comfy.theme.css"
 }
