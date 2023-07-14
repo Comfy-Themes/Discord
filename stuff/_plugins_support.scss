@@ -1,51 +1,90 @@
 :root {
-
-// GameActivity support
-#GameActivityToggleBtn .st0 {
-  fill: var(--user-buttons-color);
-}
-
-// Game Activity Toggle
-#status-picker [aria-label="Hide Game Activity"]::after,
-#status-picker [aria-label="Show Game Activity"]::after {
-  content: "Not supported in this area";
-}
-
-// CustomStatusPresets
-#status-picker .submenuContainer-3EVTeH { grid-column: 1/5;}
-
-// PermisssionViewer, thx _david_
-#permissions-modal-wrapper {
-
-  #permissions-modal {
-    box-shadow: none !important;
-    border: none !important;
+  // GameActivity support
+  #GameActivityToggleBtn .st0 {
+    fill: var(--user-buttons-color);
   }
 
-  .header {
-    background: var(--background-tertiary) !important;
-    text-align: center !important;
+  // Game Activity Toggle
+  #status-picker [aria-label="Hide Game Activity"]::after,
+  #status-picker [aria-label="Show Game Activity"]::after {
+    content: "Not supported in this area";
   }
 
-  .role-side, .perm-side { background: var(--background-secondary) !important;}
-}
+  // CustomStatusPresets
+  #status-picker .submenuContainer-3EVTeH {
+    grid-column: 1/5;
+  }
 
-// Member Count
-#MemberCount { background-color: var(--background-secondary) !important;}
+  // PermisssionViewer, thx _david_
+  #permissions-modal-wrapper {
+    #permissions-modal {
+      box-shadow: none !important;
+      border: none !important;
+    }
 
-// Server folder
-.guilds-2JjMmN.content-Pph8t6 + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW { transition: margin-left 300ms linear;}
-.guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW { margin-left: 72px;}
+    .header {
+      background: var(--background-tertiary) !important;
+      text-align: center !important;
+    }
 
-// Hide Channels
-.sidebar-1tnWFu .avatarWrapper-1B9FTW { transition: margin-left 400ms ease;}
-.sidebar-1tnWFu.hideChannelElement .avatarWrapper-1B9FTW { margin-left: -240px;}
+    .role-side,
+    .perm-side {
+      background: var(--background-secondary) !important;
+    }
+  }
 
-// UserBackground 
-.root-8LYsGj .UserBackgrounds-banner-container { 
-  position: static;
+  // Member Count
+  #MemberCount {
+    background-color: var(--background-secondary) !important;
+  }
 
-  .UserBackgrounds-banner-badge { top: 13px; right: 50px;}
-}
+  // BetterDiscord Server folder
+  .guilds-2JjMmN.content-Pph8t6
+    + .base-2jDfDU
+    .panels-3wFtMD
+    > .container-YkUktl
+    > .avatarWrapper-1B9FTW {
+    transition: margin-left 300ms linear;
+  }
+  .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-)
+    + .base-2jDfDU
+    .panels-3wFtMD
+    > .container-YkUktl
+    > .avatarWrapper-1B9FTW {
+    margin-left: 72px;
+  }
 
+  // vencord Sever folder
+  .vc-bf-folder-sidebar
+    + .base-2jDfDU
+    .panels-3wFtMD
+    > .container-YkUktl
+    > .avatarWrapper-1B9FTW {
+    transition: margin-left 300ms linear;
+  }
+  .vc-bf-folder-sidebar
+    + .base-2jDfDU
+    .panels-3wFtMD
+    > .container-YkUktl
+    > .avatarWrapper-1B9FTW {
+    margin-left: 72px;
+  }
+
+  // Hide Channels
+  .sidebar-1tnWFu .avatarWrapper-1B9FTW {
+    transition: margin-left 400ms ease;
+  }
+  .sidebar-1tnWFu.hideChannelElement .avatarWrapper-1B9FTW {
+    margin-left: -240px;
+  }
+
+  // UserBackground
+  .root-8LYsGj .UserBackgrounds-banner-container {
+    position: static;
+
+    .UserBackgrounds-banner-badge {
+      top: 13px;
+      right: 50px;
+    }
+  }
 }
