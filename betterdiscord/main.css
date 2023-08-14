@@ -41,7 +41,8 @@
 :root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F,
 :root .content-1jQy2l > .container-3wLKDe,
 :root .container-2IKOsH,
-:root .background-12kWdX {
+:root .background-12kWdX,
+:root .page-2dwf_i {
   z-index: 2;
 }
 :root .chat-2ZfjoI .form-3gdLxP {
@@ -2266,7 +2267,8 @@
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
 :root .container-1um7CU,
-:root .background-12kWdX {
+:root .background-12kWdX,
+:root .container-2qjEOK {
   background-color: var(--background-primary);
 }
 :root .homeContent-1M6ovF .row--LCpto {
