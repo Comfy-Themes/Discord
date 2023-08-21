@@ -34,7 +34,7 @@
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Vencord</b>
-    <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Themes tab </p>
+    <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Online Themes tab </p>
 </div><br/>
 
 ## 🖌️ Customization
