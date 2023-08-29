@@ -1841,6 +1841,10 @@
   box-shadow: none;
 }
 
+.titleBar-1it3bQ {
+  z-index: 1001;
+}
+
 .winButton-3UMjdg:not(:last-child) > svg {
   display: none;
 }
