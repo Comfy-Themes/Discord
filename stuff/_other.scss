@@ -1,9 +1,9 @@
 // -- 🚥 WINDOWS BUTTONS PART --
-.titleBar-1it3bQ {
+.titleBar-3AIemB {
   z-index: 1001;
 }
 
-.winButton-3UMjdg {
+.winButton-3SigSb {
   &:not(:last-child) {
     & > svg {
       display: none;
@@ -71,7 +71,7 @@
   }
 
   // Profile
-  .accountProfilePopoutWrapper-3GskID .submenuPaddingContainer-QgnL1r {
+  .accountProfilePopoutWrapper-Ag_Fip .submenuPaddingContainer-QgnL1r {
     margin-left: -5px;
   }
 
@@ -122,13 +122,13 @@
   }
 
   // Loading screen
-  .container-2RRFHK > .content-3AIQZv {
+  .container-2RRFHK > .content-3m6Dij {
     position: relative;
 
-    .ready-3BZNWT {
+    .ready-3GlCTH {
       display: none;
 
-      & + .text-2bYgPB {
+      & + .text-2oT_0D {
         top: 82px;
       }
     }
@@ -170,7 +170,7 @@
   }
 
   // Deleting Discord watermark
-  .wordmark-2u86JB svg {
+  .wordmark-3wYFg6 svg {
     display: var(--discord-logo);
   }
 
@@ -246,7 +246,7 @@
   .mask-1y0tyc > svg {
     overflow: visible;
   }
-  div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
+  div:not(.avatarWrapper-12uuu4) .mask-1y0tyc > svg > mask > rect:first-child {
     y: 8;
     rx: var(--status-radius);
   }
@@ -255,7 +255,7 @@
     width: 14px;
     height: 11px;
   }
-  .avatarWrapper-1B9FTW .wrapper-3Un6-K > .mask-1y0tyc > svg > rect {
+  .avatarWrapper-12uuu4 .wrapper-3Un6-K > .mask-1y0tyc > svg > rect {
     mask: none;
     x: 17;
     y: 15;
@@ -279,8 +279,8 @@
 
   // All masks in DM, user and member part
   .channel-1Shao0 .pointerEvents-2KjWnj,
-  .members-3WRCEx .pointerEvents-2KjWnj,
-  .avatarWrapper-1B9FTW .pointerEvents-2KjWnj,
+  .members-2y1nVj .pointerEvents-2KjWnj,
+  .avatarWrapper-12uuu4 .pointerEvents-2KjWnj,
   .peopleListItem-u6dGxF .pointerEvents-2KjWnj,
   .nowPlayingColumn-1eCBCN .pointerEvents-2KjWnj {
     height: 12px;
@@ -293,11 +293,11 @@
     .pointerEvents-2KjWnj[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ),
-  .members-3WRCEx
+  .members-2y1nVj
     .pointerEvents-2KjWnj[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ),
-  .avatarWrapper-1B9FTW .pointerEvents-2KjWnj,
+  .avatarWrapper-12uuu4 .pointerEvents-2KjWnj,
   .peopleListItem-u6dGxF
     .pointerEvents-2KjWnj[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
@@ -313,7 +313,7 @@
   // All mobile masks in DM and member part
   .channel-1Shao0
     .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
-  .members-3WRCEx
+  .members-2y1nVj
     .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
   .peopleListItem-u6dGxF
     .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
@@ -357,12 +357,12 @@
     stroke: var(--background-tertiary);
   }
   .channel-1Shao0 .pointerEvents-2KjWnj,
-  .members-3WRCEx .pointerEvents-2KjWnj,
+  .members-2y1nVj .pointerEvents-2KjWnj,
   .listAvatar-1NlAhb .pointerEvents-2KjWnj,
   .nowPlayingColumn-1eCBCN .pointerEvents-2KjWnj {
     stroke: var(--background-secondary-alt);
   }
-  .avatarWrapper-1B9FTW[aria-expanded] .pointerEvents-2KjWnj,
+  .avatarWrapper-12uuu4[aria-expanded] .pointerEvents-2KjWnj,
   .peopleListItem-u6dGxF .pointerEvents-2KjWnj {
     stroke: var(--background-primary);
   }
