@@ -16,10 +16,10 @@
   "author": "Nyria",
   "license": "WTFPL",
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.7",
-    "replugged": "^4.2.3"
+    "@parcel/config-default": "^2.10.0",
+    "@parcel/core": "^2.10.0",
+    "@types/node": "^20.8.7",
+    "prettier": "^3.0.3",
+    "replugged": "^4.6.5"
   }
 }
