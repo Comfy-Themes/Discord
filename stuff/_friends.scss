@@ -1,62 +1,62 @@
 :root {
   // Friend column
-  .peopleColumn-1wMU14 {
+  .peopleColumn__51df3 {
     background: var(--background-primary);
   }
 
   // Friend activities
-  .nowPlayingColumn-1eCBCN {
+  .nowPlayingColumn_f5023f {
     background: var(--background-secondary-alt);
 
-    .scroller-hE2gWq {
+    .scroller__00e7e {
       border: none;
     }
 
-    .itemCard-3Etziu {
+    .itemCard__1f162 {
       border: none;
 
-      &.active-1W_Gl9,
-      &.interactive-2zD88a:hover {
+      &.active__76f42,
+      &.interactive__01cfa:hover {
         background: var(--background-secondary);
       }
 
-      .section-3G9aLW:last-child {
+      .section_efc22d:last-child {
         margin-top: 10px;
       }
-      .inset-SbsSFp {
+      .inset__0bfb3 {
         background: transparent;
       }
-      .applicationStreamingPreviewWrapper-7j27t8 {
+      .applicationStreamingPreviewWrapper__97a95 {
         background-color: var(--background-secondary);
       }
-      .separator-2OaeRP {
+      .separator_c2ecc6 {
         display: none;
       }
     }
   }
 
   // Friend call buttons
-  .bottomControls-31YuPK {
-    .centerButton-1IShs7 {
+  .bottomControls__8bd89 {
+    .centerButton__3205b {
       border-radius: 7px;
     }
-    .colorable-3rVGna.primaryDark-2UJt1G {
+    .colorable_c84c4c.primaryDark__6b700 {
       background: var(--background-secondary-alt);
     }
     foreignObject {
       mask: none;
     }
   }
-  .participantsButton-1WBdFP {
+  .participantsButton__56586 {
     background: var(--background-secondary-alt);
   }
 
   // Regionnal selector friend call
-  .quickSelect-384d3G {
+  .quickSelect_ae48d2 {
     margin-top: 10px;
   }
 
-  .quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {
+  .quickSelectPopout_c0cf80.regionSelectPopout__0127b {
     background: var(--background-secondary-alt);
     box-shadow: none;
   }

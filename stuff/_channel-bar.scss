@@ -1,8 +1,8 @@
 :root {
-  .container-ZMc96U.themed-Hp1KC_ {
+  .container__11d72.themed_b152d4 {
     background: var(--background-secondary);
 
-    .children-3xh0VB::after {
+    .children__32014::after {
       background: linear-gradient(
         90deg,
         rgba(54, 57, 63, 0) 0,
@@ -11,54 +11,54 @@
     }
 
     // Search bar
-    .search-39IXmY {
+    .search__07df0 {
       order: 1;
       margin-left: 4px;
 
-      .search-2Mwzzq:not(.open-1F8u2c) {
-        .searchBar-jGtisZ {
+      .search_ac353c:not(.open_d3ab4e) {
+        .searchBar_e0c60b {
           width: 27px;
           transition: 250ms;
           background-color: transparent;
 
-          .iconContainer-1RqWJj {
+          .iconContainer__8fa9c {
             transform: scale(1.3);
             transition: 250ms;
 
-            .icon-18rqoe {
+            .icon_f50f05 {
               color: var(--interactive-normal);
             }
           }
         }
 
-        &:hover .searchBar-jGtisZ {
+        &:hover .searchBar_e0c60b {
           width: 220px;
           background-color: var(--background-tertiary);
 
-          .iconContainer-1RqWJj {
+          .iconContainer__8fa9c {
             transform: scale(1);
 
-            .icon-18rqoe {
+            .icon_f50f05 {
               color: var(--text-muted);
             }
           }
         }
       }
-      .searchAnswer-23w-CH,
-      .searchFilter-2UfsDk {
+      .searchAnswer_b452e7,
+      .searchFilter__118cb {
         background-color: var(--background-primary);
       }
     }
   }
 
   // I'm a pro
-  .toolbar-3_r2xA > a[href="https://support.discord.com"],
-  .searchLearnMore-1gNL3A {
+  .toolbar__88c63 > a[href="https://support.discord.com"],
+  .searchLearnMore_bf7b8e {
     display: none;
   }
 
   // -- Search bar and modal --
-  .container-2McqkF {
+  .container_d6dad3 {
     background-color: var(--background-secondary-alt);
     box-shadow: none;
 
@@ -66,11 +66,11 @@
       text-align: center;
     }
 
-    .queryContainer-ZunrLZ {
+    .queryContainer_c359fe {
       background-color: var(--background-tertiary);
     }
 
-    .option-ayUoaq {
+    .option_b5597b {
       margin: 0;
       border-radius: 0;
 
@@ -91,7 +91,7 @@
     }
 
     // Calendar
-    .calendarPicker-sDhzdi .react-datepicker {
+    .calendarPicker__5c474 .react-datepicker {
       background-color: var(--background-secondary-alt);
 
       &__day,

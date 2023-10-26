@@ -39,42 +39,42 @@
   }
 
   // BetterDiscord Server folder
-  .guilds-2JjMmN.content-Pph8t6
-    + .base-2jDfDU
-    .panels-3wFtMD
-    > .container-YkUktl
-    > .avatarWrapper-1B9FTW {
+  .guilds__2b93a.content-Pph8t6
+    + .base__3e6af
+    .panels__58331
+    > .container_ca50b9
+    > .avatarWrapper_ba5175 {
     transition: margin-left 300ms linear;
   }
-  .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-)
-    + .base-2jDfDU
-    .panels-3wFtMD
-    > .container-YkUktl
-    > .avatarWrapper-1B9FTW {
+  .guilds__2b93a.content-Pph8t6:not(.closed-j55_T-)
+    + .base__3e6af
+    .panels__58331
+    > .container_ca50b9
+    > .avatarWrapper_ba5175 {
     margin-left: 72px;
   }
 
   // Vencord Sever folder
   .vc-bf-folder-sidebar
-    + .base-2jDfDU
-    .panels-3wFtMD
-    > .container-YkUktl
-    > .avatarWrapper-1B9FTW {
+    + .base__3e6af
+    .panels__58331
+    > .container_ca50b9
+    > .avatarWrapper_ba5175 {
     transition: margin-left 300ms linear;
   }
   .vc-bf-folder-sidebar
-    + .base-2jDfDU
-    .panels-3wFtMD
-    > .container-YkUktl
-    > .avatarWrapper-1B9FTW {
+    + .base__3e6af
+    .panels__58331
+    > .container_ca50b9
+    > .avatarWrapper_ba5175 {
     margin-left: 72px;
   }
 
   // Hide Channels
-  .sidebar-1tnWFu .avatarWrapper-1B9FTW {
+  .sidebar_ded4b5 .avatarWrapper_ba5175 {
     transition: margin-left 400ms ease;
   }
-  .sidebar-1tnWFu.hideChannelElement .avatarWrapper-1B9FTW {
+  .sidebar_ded4b5.hideChannelElement .avatarWrapper_ba5175 {
     margin-left: -240px;
   }
 

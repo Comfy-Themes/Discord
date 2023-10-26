@@ -1,29 +1,29 @@
 :root {
   // Server list
-  .guilds-2JjMmN .scroller-3X7KbA {
+  .guilds__2b93a .scroller__3d071 {
     contain: none !important;
     padding-bottom: 170px;
   }
 
   // Folder
-  .expandedFolderBackground-1kSAf6 {
+  .expandedFolderBackground__1bec6 {
     border-radius: var(--server-radius);
   }
-  .folder-241Joy {
+  .folder__17546 {
     background-color: transparent;
   }
 
   // Discover
-  .discoverHeader-1vsvZ0 ~ .categoryItem-Kc_HK_ {
+  .discoverHeader_fae7fd ~ .categoryItem_b1be5c {
     margin-left: 0;
 
-    .itemInner-3e_4G4 {
+    .itemInner__9e755 {
       padding: 8px;
       border-radius: 0;
     }
   }
 
-  .pageWrapper-2PwDoS {
+  .pageWrapper_fef757 {
     background-color: var(--background-primary);
 
     .scroller-3j5xK2 {
@@ -37,24 +37,24 @@
       -webkit-mask: linear-gradient(black, transparent);
     }
 
-    .guildListSection-3UxZHY {
+    .guildListSection__5b7bf {
       padding: 0 32px 32px;
       box-sizing: border-box;
     }
   }
 
-  .scroller-RfJjkV {
+  .scroller_e9501c {
     padding: 0 !important;
 
-    .headerImage-1c8Lrb {
+    .headerImage_d4505b {
       position: relative;
       top: -8px;
       border-radius: 0;
       -webkit-mask: linear-gradient(black, transparent);
     }
 
-    .guildListSection-27K5In,
-    .footerDescription-3D1fe9 {
+    .guildListSection__7daf6,
+    .footerDescription__7d0c6 {
       padding: 0 32px 32px;
       box-sizing: border-box;
     }
@@ -71,16 +71,16 @@
   }
 
   // Student Hubs
-  .itemInner-3k3Sn6 {
+  .itemInner_f3a769 {
     padding: 8px;
     margin-left: 0;
   }
 
-  .header-224ffR {
+  .header__7b78f {
     margin: -32px -32px 0 -32px;
     border-radius: 0;
 
-    .headerImage-Xy5R7m {
+    .headerImage__0cf36 {
       border-radius: 0;
       -webkit-mask: linear-gradient(black, transparent);
     }
@@ -88,14 +88,14 @@
 
   // Create a server modal
   .theme-light {
-    .root-1CAIjD,
-    .footer-IubaaS {
+    .root_a28985,
+    .footer__89240 {
       box-shadow: none;
     }
-    .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+    .lookFilled__19298.colorPrimary__6ed40 {
       background-color: var(--brand-experiment);
     }
-    .contents-3NembX {
+    .contents_fb6220 {
       color: #fff;
     }
 
@@ -120,14 +120,14 @@
   }
 
   // User buttons
-  .panels-3wFtMD {
+  .panels__58331 {
     z-index: 2;
   }
 
-  .panels-3wFtMD > .container-YkUktl {
+  .panels__58331 > .container_ca50b9 {
     height: 0;
 
-    & > .flex-2S1XBF {
+    & > .flex_f5fbb7 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -136,7 +136,7 @@
       flex-direction: column;
       background: linear-gradient(transparent, var(--background-tertiary) 15%);
 
-      & > .button-12Fmur {
+      & > .button__4f306 {
         color: var(--user-buttons-color);
         margin: var(--user-buttons-spacing) auto 0 auto;
       }
@@ -144,25 +144,25 @@
   }
 
   // Notifications settings
-  .inner-1ilYF7 > .modal-2RrUKJ > .header-1ffhsl,
-  .modal-2RrUKJ,
-  .inner-1ilYF7 > .modal-2RrUKJ > .scrollerBase-1Pkza4 {
+  .inner-1ilYF7 > .modal__060da > .header__6d5ea,
+  .modal__060da,
+  .inner-1ilYF7 > .modal__060da > .scrollerBase_dc3aa9 {
     background: var(--background-secondary);
   }
 
   // Mention gradient
-  .unreadMentionsBar-ZXXoOH .text-2GsXbW {
+  .unreadMentionsBar__0d02a .text__467e0 {
     display: none;
   }
 
   // Top
-  .unreadMentionsIndicatorTop-2bTgUU {
+  .unreadMentionsIndicatorTop_ada847 {
     width: 100%;
     height: 50px;
     top: -7px;
     padding: 0;
 
-    .unreadMentionsBar-ZXXoOH {
+    .unreadMentionsBar__0d02a {
       border-radius: 0;
       background: linear-gradient(var(--mention-color), #0000);
       transition: 100ms;
@@ -174,12 +174,12 @@
   }
 
   // Bottom
-  .unreadMentionsIndicatorBottom-3RJMnQ {
+  .unreadMentionsIndicatorBottom_fdb943 {
     width: 100%;
     height: 15px;
     padding: 0;
 
-    .unreadMentionsBar-ZXXoOH {
+    .unreadMentionsBar__0d02a {
       border-radius: 0;
       background: linear-gradient(#0000, var(--mention-color));
 
@@ -190,11 +190,11 @@
   }
 
   // Mention pill
-  .lowerBadge-3j0ZAg {
+  .lowerBadge__669e7 {
     top: 0;
     left: 0;
 
-    .numberBadge-37OJ3S {
+    .numberBadge__50328 {
       background-color: var(--mention-color) !important;
 
       &::before {

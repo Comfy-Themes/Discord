@@ -1,20 +1,20 @@
 @use "sass:string";
 
 :root {
-  .bannerSVGWrapper-2CLfzN mask {
+  .bannerSVGWrapper__3e7b0 mask {
     display: none;
   }
 
   // -- Member popout --
-  .userPopoutOuter-1OHwPL {
+  .userPopoutOuter_d739b2 {
     max-height: unset !important;
 
-    .userPopoutInner-nv9Y92 {
+    .userPopoutInner_f545a3 {
       max-height: unset !important;
     }
 
     // Banner
-    .bannerSVGWrapper-2CLfzN {
+    .bannerSVGWrapper__3e7b0 {
       overflow: visible;
       min-height: 120px !important;
 
@@ -22,12 +22,12 @@
         mask: unset;
       }
 
-      .banner-1YaD3N {
+      .banner__6d414 {
         -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
         height: 120px;
       }
 
-      .pencilContainer-18TrEJ {
+      .pencilContainer_d4ce8d {
         display: none;
       }
 
@@ -40,7 +40,7 @@
     }
 
     // Avatar
-    .avatarWrapper-eenWra {
+    .avatarWrapper_f77579 {
       top: 20px !important;
       left: 16px;
 
@@ -48,7 +48,7 @@
         display: none;
       }
 
-      .avatarHint-k7pYop {
+      .avatarHint__8e5b9 {
         border-radius: 5px;
 
         foreignObject {
@@ -56,7 +56,7 @@
         }
       }
 
-      .avatarDecorationHint-3n-p6O {
+      .avatarDecorationHint__03e0b {
         border-radius: 5px !important;
         top: 0;
         left: 0;
@@ -70,15 +70,15 @@
     }
 
     // Username
-    .userPopoutOverlayBackground-3A0Pcz {
+    .userPopoutOverlayBackground_d8afa4 {
       position: static;
       overflow: visible;
       margin: 16px;
       max-height: calc(100vh - 200px);
 
-      .usernameSection-3FppkT {
-        & > .copiableNameTag-3tf-II > .clickTarget-2uXro4,
-        & > div > .userText-1_v2Cq {
+      .usernameSection__53868 {
+        & > .copiableNameTag__6b220 > .clickTarget__440f0,
+        & > div > .userText__3e8b7 {
           position: absolute;
           top: 25px;
           left: 115px;
@@ -96,19 +96,19 @@
         }
       }
     }
-    .profileBadges-2pItdR:empty
-      + .userPopoutOverlayBackground-3A0Pcz
-      .nickname-3P1RuO {
+    .profileBadges__7a7cb:empty
+      + .userPopoutOverlayBackground_d8afa4
+      .nickname__3d1d7 {
       top: 20px;
     }
 
     // Pronouns
-    .pronouns-17_QV6 {
+    .pronouns__8bcdb {
       padding-top: 12px;
     }
 
     // Badges
-    .profileBadges-2pItdR {
+    .profileBadges__7a7cb {
       position: absolute;
       top: 70px;
       left: 110px;
@@ -117,35 +117,35 @@
     }
 
     // Body
-    .userPopoutOverlayBackground-3A0Pcz {
-      .scroller-15bIdk {
+    .userPopoutOverlayBackground_d8afa4 {
+      .scroller__83262 {
         padding-right: 12px !important;
       }
 
-      .section-28YDOf {
+      .section__6f61e {
         padding-top: 0;
         padding-bottom: 12px;
       }
 
       // Dividers
-      .divider-2dDziJ {
+      .divider_ed0c1d {
         display: none;
       }
 
       // -- Activities --
-      .activity-3uaYny {
+      .activity__20c1e {
         padding: 16px;
         margin-top: 25px;
         z-index: 1;
 
-        .text-31kWmP,
-        .textRow-1sENuL,
-        .anchor-1X4H4q,
-        .activityName-3YXl6e {
+        .text__13126,
+        .textRow__4750e,
+        .anchor_c8ddc0,
+        .activityName__47e51 {
           color: white;
         }
 
-        .buttonColor-_0gSD_ {
+        .buttonColor__01bf8 {
           border: none;
           background-color: var(--listening-test);
           box-shadow: 0 4px 15px #00000021;
@@ -153,7 +153,7 @@
         }
 
         // Waves are back :D
-        .headerTextNormal-Z8we9g::before {
+        .headerTextNormal_d9fce2::before {
           content: "";
           position: absolute;
           height: 25px;
@@ -209,7 +209,7 @@
         }
 
         // Spotify
-        .timeBarUserPopoutV2-32DL06 {
+        .timeBarUserPopoutV2_c5b927 {
           &::before {
             content: "";
             position: absolute;
@@ -247,31 +247,31 @@
             }
           }
 
-          .barInner-3dHef4 {
+          .barInner_d1abc6 {
             background-color: white;
           }
         }
 
-        .platformIcon-k3yytQ {
+        .platformIcon__05c5e {
           display: none;
         }
       }
 
       // Roles
-      .role-2TIOKu {
+      .role__631a3 {
         position: relative;
         overflow: hidden;
         border: none;
         z-index: 1;
 
-        &:not(.addButton-1_dZYu) {
+        &:not(.addButton_c648bf) {
           pointer-events: none;
         }
 
-        .roleRemoveButton-17oXnT {
+        .roleRemoveButton__737f2 {
           position: static;
 
-          .roleCircle-3TFUOr {
+          .roleCircle_bae511 {
             width: var(--role-circle) !important;
             height: var(--role-circle) !important;
             pointer-events: auto;
@@ -295,7 +295,7 @@
             }
           }
 
-          .roleRemoveIcon-387wKV {
+          .roleRemoveIcon__7f63d {
             display: none;
           }
         }
@@ -304,28 +304,28 @@
   }
 
   // Roles selector
-  .container-2kTWmC {
+  .container_d27846 {
     position: relative;
     z-index: 1005;
     border: none;
     padding: 0;
     background-color: #191f2e;
 
-    .container-2oNtJn {
+    .container__7712a {
       border-radius: 5px 5px 0 0;
     }
 
-    .list-1B0XtU {
+    .list__9970c {
       margin: 0;
       padding: 0;
 
-      .item-1Mjtru {
+      .item__287de {
         margin: 5px;
         position: relative;
         overflow: hidden;
         border-radius: 0;
 
-        .popoutRoleCircle-3TfOkj {
+        .popoutRoleCircle_b2bee2 {
           width: 0;
           border: none;
           margin: 0;
@@ -348,10 +348,10 @@
   }
 
   // -- User modal --
-  .userProfileModalOuter-2wdWjU {
+  .userProfileModalOuter__3fe6b {
     width: 700px;
 
-    .userProfileModalInner-3dx9L9 {
+    .userProfileModalInner__7c87d {
       overflow: hidden;
 
       &::before {
@@ -362,7 +362,7 @@
     .topSection-13QKHs {
       margin-bottom: 0;
 
-      .bannerSVGWrapper-2CLfzN {
+      .bannerSVGWrapper__3e7b0 {
         min-height: 160px !important;
 
         &[viewBox="0 0 600 106"] {
@@ -371,7 +371,7 @@
           }
         }
 
-        .banner-1YaD3N {
+        .banner__6d414 {
           -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
           height: 160px;
           border-radius: 0;
@@ -394,7 +394,7 @@
       }
     }
 
-    .userProfileModalOverlayBackground-2dAaBg {
+    .userProfileModalOverlayBackground__52d65 {
       overflow: visible;
 
       .container-3g15px > div:first-child {
@@ -407,35 +407,35 @@
       }
     }
 
-    .mask-1y0tyc rect[fill="black"],
-    .mask-1y0tyc circle[fill="black"] {
+    .mask__1979f rect[fill="black"],
+    .mask__1979f circle[fill="black"] {
       display: none;
     }
-    .mask-1y0tyc .cursorDefault-2M8ZNp rect,
-    .mask-1y0tyc .pointerEvents-2KjWnj {
+    .mask__1979f .cursorDefault_e4f616 rect,
+    .mask__1979f .pointerEvents__33f6a {
       rx: calc(1px + var(--status-radius));
       ry: calc(1px + var(--status-radius));
     }
 
     // -- Activities --
-    .activityProfileV2-1N7pee {
+    .activityProfileV2__4de28 {
       padding: 16px;
       margin: 12px;
       border-radius: 5px;
       overflow: hidden;
       z-index: 1;
 
-      .headerText-3g1XK9,
-      .activityName-3YXl6e,
-      .content-tXPNDw,
-      .details-2-ciHo,
-      .name-1-Q7l2,
-      .nameNormal-2fPMD2,
-      .nameWrap-3TyM52 {
+      .headerText__7d203,
+      .activityName__47e51,
+      .content_d7cb7f,
+      .details__445eb,
+      .name_b6124d,
+      .nameNormal__1d540,
+      .nameWrap__7263f {
         color: white;
       }
 
-      .button-TGAkj4 {
+      .button__9491f {
         border: none;
         background-color: #ffffff21;
         box-shadow: 0 4px 15px #00000021;
@@ -443,8 +443,8 @@
       }
 
       // Playing
-      .contentImagesProfileV2-2Z-K9I::after,
-      .contentGameImageProfile-24ty00::after {
+      .contentImagesProfileV2_aa86c4::after,
+      .contentGameImageProfile__1490f::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -456,7 +456,7 @@
       }
 
       // Spotify
-      .timeBarProfileV2-14KewZ::after {
+      .timeBarProfileV2__184c9::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -466,13 +466,13 @@
         top: 0;
         background: #1db954;
       }
-      .platformIcon-k3yytQ {
+      .platformIcon__05c5e {
         display: none !important;
       }
     }
 
     // Connections
-    .connectedAccountContainer-3aLMHJ {
+    .connectedAccountContainer__23f00 {
       border: solid #000000;
       border-width: 1.2px 1.2px 3px 1.2px;
       border-radius: 4px;
@@ -484,152 +484,152 @@
         transform: translateY(1px);
       }
 
-      .connectedAccountIcon-3FdW8x {
+      .connectedAccountIcon__6bc30 {
         padding: 5px;
         border-radius: 4px;
       }
-      .connectedAccountNameContainer-3e9mvO {
+      .connectedAccountNameContainer__48b99 {
         margin-left: 13px;
       }
-      .connectedAccountChildren-29Qmfl {
+      .connectedAccountChildren__21b60 {
         margin-left: 56px;
       }
     }
 
     // Mutuals
-    .listRow-2nO1T6 {
+    .listRow__60937 {
       margin: 0;
       padding: 8px 12px;
     }
 
-    .pencilContainer-18TrEJ {
+    .pencilContainer_d4ce8d {
       display: none;
     }
   }
 
   .accountBtnInner-1DCgBm[aria-label="Battle.net"],
-  .accountButtonInner-33vCDY[aria-label="Battle.net"],
-  .accountButtonInner-33vCDY[aria-label="Battle.net"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Battle.net"] {
+  .accountButtonInner__80e3a[aria-label="Battle.net"],
+  .accountButtonInner__80e3a[aria-label="Battle.net"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Battle.net"] {
     background-color: #1da0f248;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Twitch"],
-  .accountButtonInner-33vCDY[aria-label="Twitch"],
-  .accountButtonInner-33vCDY[aria-label="Twitch"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Twitch"] {
+  .accountButtonInner__80e3a[aria-label="Twitch"],
+  .accountButtonInner__80e3a[aria-label="Twitch"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Twitch"] {
     background-color: #601bd852;
   }
 
   .accountBtnInner-1DCgBm[aria-label="YouTube"],
-  .accountButtonInner-33vCDY[aria-label="YouTube"],
-  .accountButtonInner-33vCDY[aria-label="YouTube"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="YouTube"] {
+  .accountButtonInner__80e3a[aria-label="YouTube"],
+  .accountButtonInner__80e3a[aria-label="YouTube"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="YouTube"] {
     background-color: #d9252b49;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Twitter"],
-  .accountButtonInner-33vCDY[aria-label="Twitter"],
-  .accountButtonInner-33vCDY[aria-label="Twitter"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Twitter"] {
+  .accountButtonInner__80e3a[aria-label="Twitter"],
+  .accountButtonInner__80e3a[aria-label="Twitter"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Twitter"] {
     background-color: #0098e43f;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Steam"],
-  .accountButtonInner-33vCDY[aria-label="Steam"],
-  .accountButtonInner-33vCDY[aria-label="Steam"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Steam"] {
+  .accountButtonInner__80e3a[aria-label="Steam"],
+  .accountButtonInner__80e3a[aria-label="Steam"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Steam"] {
     background-color: #00000034;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Reddit"],
-  .accountButtonInner-33vCDY[aria-label="Reddit"],
-  .accountButtonInner-33vCDY[aria-label="Reddit"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Reddit"] {
+  .accountButtonInner__80e3a[aria-label="Reddit"],
+  .accountButtonInner__80e3a[aria-label="Reddit"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Reddit"] {
     background-color: #fe44013d;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Facebook"],
-  .accountButtonInner-33vCDY[aria-label="Facebook"],
-  .accountButtonInner-33vCDY[aria-label="Facebook"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Facebook"] {
+  .accountButtonInner__80e3a[aria-label="Facebook"],
+  .accountButtonInner__80e3a[aria-label="Facebook"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Facebook"] {
     background-color: #2e328485;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Spotify"],
-  .accountButtonInner-33vCDY[aria-label="Spotify"],
-  .accountButtonInner-33vCDY[aria-label="Spotify"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Spotify"] {
+  .accountButtonInner__80e3a[aria-label="Spotify"],
+  .accountButtonInner__80e3a[aria-label="Spotify"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Spotify"] {
     background-color: #1ed75f34;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Xbox"],
-  .accountButtonInner-33vCDY[aria-label="Xbox"],
-  .accountButtonInner-33vCDY[aria-label="Xbox"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Xbox"] {
+  .accountButtonInner__80e3a[aria-label="Xbox"],
+  .accountButtonInner__80e3a[aria-label="Xbox"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Xbox"] {
     background-color: #5dc21e36;
   }
 
   .accountBtnInner-1DCgBm[aria-label="League of Legends"],
-  .accountButtonInner-33vCDY[aria-label="League of Legends"],
-  .accountButtonInner-33vCDY[aria-label="League of Legends"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="League of Legends"] {
+  .accountButtonInner__80e3a[aria-label="League of Legends"],
+  .accountButtonInner__80e3a[aria-label="League of Legends"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="League of Legends"] {
     background-color: #cea14638;
   }
 
   .accountBtnInner-1DCgBm[aria-label="GitHub"],
-  .accountButtonInner-33vCDY[aria-label="GitHub"],
-  .accountButtonInner-33vCDY[aria-label="GitHub"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="GitHub"] {
+  .accountButtonInner__80e3a[aria-label="GitHub"],
+  .accountButtonInner__80e3a[aria-label="GitHub"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="GitHub"] {
     background-color: #24292e62;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Skype"],
-  .accountButtonInner-33vCDY[aria-label="Skype"],
-  .accountButtonInner-33vCDY[aria-label="Skype"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Skype"] {
+  .accountButtonInner__80e3a[aria-label="Skype"],
+  .accountButtonInner__80e3a[aria-label="Skype"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Skype"] {
     background-color: #0076d74b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Epic Games"],
-  .accountButtonInner-33vCDY[aria-label="Epic Games"],
-  .accountButtonInner-33vCDY[aria-label="Epic Games"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Epic Games"] {
+  .accountButtonInner__80e3a[aria-label="Epic Games"],
+  .accountButtonInner__80e3a[aria-label="Epic Games"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Epic Games"] {
     background-color: #2f2f2f59;
   }
 
   .accountBtnInner-1DCgBm[aria-label="Riot Games"],
-  .accountButtonInner-33vCDY[aria-label="Riot Games"],
-  .accountButtonInner-33vCDY[aria-label="Riot Games"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="Riot Games"] {
+  .accountButtonInner__80e3a[aria-label="Riot Games"],
+  .accountButtonInner__80e3a[aria-label="Riot Games"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="Riot Games"] {
     background-color: #eb1c2d38;
   }
 
   .accountBtnInner-1DCgBm[aria-label="PayPal"],
-  .accountButtonInner-33vCDY[aria-label="PayPal"],
-  .accountButtonInner-33vCDY[aria-label="PayPal"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="PayPal"] {
+  .accountButtonInner__80e3a[aria-label="PayPal"],
+  .accountButtonInner__80e3a[aria-label="PayPal"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="PayPal"] {
     background-color: #009fe33b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="TikTok"],
-  .accountButtonInner-33vCDY[aria-label="TikTok"],
-  .accountButtonInner-33vCDY[aria-label="TikTok"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="TikTok"] {
+  .accountButtonInner__80e3a[aria-label="TikTok"],
+  .accountButtonInner__80e3a[aria-label="TikTok"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="TikTok"] {
     background-color: #64bfc546;
   }
 
   .accountBtnInner-1DCgBm[aria-label="eBay"],
-  .accountButtonInner-33vCDY[aria-label="eBay"],
-  .accountButtonInner-33vCDY[aria-label="eBay"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="eBay"] {
+  .accountButtonInner__80e3a[aria-label="eBay"],
+  .accountButtonInner__80e3a[aria-label="eBay"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="eBay"] {
     background-color: #c500003b;
   }
 
   .accountBtnInner-1DCgBm[aria-label="PlayStation Network"],
-  .accountButtonInner-33vCDY[aria-label="PlayStation Network"],
-  .accountButtonInner-33vCDY[aria-label="PlayStation Network"]:hover,
-  .connectedAccountIcon-3FdW8x[aria-label="PlayStation Network"] {
+  .accountButtonInner__80e3a[aria-label="PlayStation Network"],
+  .accountButtonInner__80e3a[aria-label="PlayStation Network"]:hover,
+  .connectedAccountIcon__6bc30[aria-label="PlayStation Network"] {
     background-color: #0051ae53;
   }
 }
