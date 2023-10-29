@@ -39,7 +39,7 @@
 :root .callContainer_e8faeb,
 :root .gatedContent_ba8306,
 :root .chat__52833 > .content__1a4fe > .pageContainer__1e84a,
-:root .content__1a4fe > .container-3wLKDe,
+:root .content__1a4fe > .container__93316,
 :root .container__10dc7,
 :root .background_cb0a80,
 :root .page__0b66e {
@@ -130,15 +130,15 @@
   background-color: var(--brand-experiment);
   border-radius: inherit;
 }
-:root .reaction-2A2y9y {
+:root .reaction_fef95b {
   border: none;
   border-radius: 5px;
   background-color: var(--background-modifier-active);
 }
-:root .reaction-2A2y9y.reactionMe-3I9gFK {
+:root .reaction_fef95b.reactionMe__98f57 {
   position: relative;
 }
-:root .reaction-2A2y9y.reactionMe-3I9gFK::after {
+:root .reaction_fef95b.reactionMe__98f57::after {
   content: "";
   opacity: 0.4;
   top: 0;
@@ -383,22 +383,22 @@
 :root .theme-light .contents_fb6220 {
   color: #fff;
 }
-:root .theme-light .templatesList-uohY49,
-:root .theme-light .optionsList-dmHy1l {
+:root .theme-light .templatesList__38838,
+:root .theme-light .optionsList__047e8 {
   padding: 0 !important;
   border-radius: 0;
 }
-:root .theme-light .templatesList-uohY49 .container-x8Y1ix,
-:root .theme-light .optionsList-dmHy1l .container-x8Y1ix {
+:root .theme-light .templatesList__38838 .container__73245,
+:root .theme-light .optionsList__047e8 .container__73245 {
   border: none;
   border-radius: 0;
 }
-:root .theme-light .templatesList-uohY49 .optionHeader-27AHfD,
-:root .theme-light .optionsList-dmHy1l .optionHeader-27AHfD {
+:root .theme-light .templatesList__38838 .optionHeader_b6da7f,
+:root .theme-light .optionsList__047e8 .optionHeader_b6da7f {
   text-align: center;
   margin: 12px 0;
 }
-:root .theme-light .createGuild-2m1V10 {
+:root .theme-light .createGuild_eb084b {
   padding: 10px !important;
 }
 :root .panels__58331 {
@@ -493,7 +493,7 @@
   width: 100%;
   height: 100%;
 }
-:root #guild-header-popout-premium-subscribe:hover, :root #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-premium-subscribe.focused__27621 {
+:root #guild-header-popout-premium-subscribe:hover, :root #guild-header-popout-premium-subscribe:active:not(.hideInteraction__2790e), :root #guild-header-popout-premium-subscribe.focused__27621 {
   background-color: rgba(255, 115, 250, 0.1098039216);
 }
 :root #guild-header-popout-premium-subscribe .icon_f09dde {
@@ -502,37 +502,37 @@
 :root #guild-header-popout-invite-people {
   color: #677bc4;
 }
-:root #guild-header-popout-invite-people:hover, :root #guild-header-popout-invite-people:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-invite-people.focused__27621 {
+:root #guild-header-popout-invite-people:hover, :root #guild-header-popout-invite-people:active:not(.hideInteraction__2790e), :root #guild-header-popout-invite-people.focused__27621 {
   background-color: rgba(103, 123, 196, 0.1176470588);
 }
 :root #guild-header-popout-invite-people .icon_f09dde {
   color: #677bc4;
 }
-:root #guild-header-popout-settings:hover, :root #guild-header-popout-settings:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-settings.focused__27621 {
+:root #guild-header-popout-settings:hover, :root #guild-header-popout-settings:active:not(.hideInteraction__2790e), :root #guild-header-popout-settings.focused__27621 {
   background-color: rgba(84, 110, 122, 0.1176470588);
 }
 :root #guild-header-popout-settings .icon_f09dde {
   color: #546e7a;
 }
-:root #guild-header-popout-insights:hover, :root #guild-header-popout-insights:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-insights.focused__27621 {
+:root #guild-header-popout-insights:hover, :root #guild-header-popout-insights:active:not(.hideInteraction__2790e), :root #guild-header-popout-insights.focused__27621 {
   background-color: rgba(26, 188, 156, 0.137254902);
 }
 :root #guild-header-popout-insights .icon_f09dde {
   color: #1abc9c;
 }
-:root #guild-header-popout-create-channel:hover, :root #guild-header-popout-create-channel:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-create-channel.focused__27621 {
+:root #guild-header-popout-create-channel:hover, :root #guild-header-popout-create-channel:active:not(.hideInteraction__2790e), :root #guild-header-popout-create-channel.focused__27621 {
   background-color: rgba(233, 30, 98, 0.1294117647);
 }
 :root #guild-header-popout-create-channel .icon_f09dde {
   color: #e91e63;
 }
-:root #guild-header-popout-create-category:hover, :root #guild-header-popout-create-category:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-create-category.focused__27621 {
+:root #guild-header-popout-create-category:hover, :root #guild-header-popout-create-category:active:not(.hideInteraction__2790e), :root #guild-header-popout-create-category.focused__27621 {
   background-color: rgba(234, 161, 78, 0.0745098039);
 }
 :root #guild-header-popout-create-category .icon_f09dde {
   color: #eaa14e;
 }
-:root #guild-header-popout-create-event:hover, :root #guild-header-popout-create-event:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-create-event.focused__27621 {
+:root #guild-header-popout-create-event:hover, :root #guild-header-popout-create-event:active:not(.hideInteraction__2790e), :root #guild-header-popout-create-event.focused__27621 {
   background-color: rgba(237, 233, 230, 0.0666666667);
 }
 :root #guild-header-popout-create-event .icon_f09dde > path:first-child {
@@ -541,37 +541,37 @@
 :root #guild-header-popout-create-event .icon_f09dde > path:last-child {
   fill: #ede9e6;
 }
-:root #guild-header-popout-active-threads:hover, :root #guild-header-popout-active-threads:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-active-threads.focused__27621 {
+:root #guild-header-popout-active-threads:hover, :root #guild-header-popout-active-threads:active:not(.hideInteraction__2790e), :root #guild-header-popout-active-threads.focused__27621 {
   background-color: rgba(84, 136, 247, 0.1921568627);
 }
 :root #guild-header-popout-active-threads .icon_f09dde {
   color: #5488f7;
 }
-:root #guild-header-popout-application-directory:hover, :root #guild-header-popout-application-directory:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-application-directory.focused__27621 {
+:root #guild-header-popout-application-directory:hover, :root #guild-header-popout-application-directory:active:not(.hideInteraction__2790e), :root #guild-header-popout-application-directory.focused__27621 {
   background-color: rgba(48, 73, 87, 0.0745098039);
 }
 :root #guild-header-popout-application-directory .icon_f09dde {
   color: #304957;
 }
-:root #guild-header-popout-notifications:hover, :root #guild-header-popout-notifications:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-notifications.focused__27621 {
+:root #guild-header-popout-notifications:hover, :root #guild-header-popout-notifications:active:not(.hideInteraction__2790e), :root #guild-header-popout-notifications.focused__27621 {
   background-color: rgba(233, 187, 72, 0.0823529412);
 }
 :root #guild-header-popout-notifications .icon_f09dde {
   color: #fcd462;
 }
-:root #guild-header-popout-privacy:hover, :root #guild-header-popout-privacy:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-privacy.focused__27621 {
+:root #guild-header-popout-privacy:hover, :root #guild-header-popout-privacy:active:not(.hideInteraction__2790e), :root #guild-header-popout-privacy.focused__27621 {
   background-color: rgba(74, 131, 212, 0.0941176471);
 }
 :root #guild-header-popout-privacy .icon_f09dde {
   color: #4a84d4;
 }
-:root #guild-header-popout-change-nickname:hover, :root #guild-header-popout-change-nickname:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-change-nickname.focused__27621 {
+:root #guild-header-popout-change-nickname:hover, :root #guild-header-popout-change-nickname:active:not(.hideInteraction__2790e), :root #guild-header-popout-change-nickname.focused__27621 {
   background-color: rgba(67, 181, 130, 0.0941176471);
 }
 :root #guild-header-popout-change-nickname .icon_f09dde {
   color: #43b581;
 }
-:root #guild-header-popout-hide-muted-channels:hover, :root #guild-header-popout-hide-muted-channels:active:not(.hideInteraction-2jPGL_), :root #guild-header-popout-hide-muted-channels.focused__27621 {
+:root #guild-header-popout-hide-muted-channels:hover, :root #guild-header-popout-hide-muted-channels:active:not(.hideInteraction__2790e), :root #guild-header-popout-hide-muted-channels.focused__27621 {
   background-color: rgba(92, 110, 177, 0.0901960784);
 }
 :root #guild-header-popout-hide-muted-channels:hover svg > path:first-child {
@@ -699,11 +699,11 @@
   color: #43b581;
   background-color: rgba(67, 181, 130, 0.231372549);
 }
-:root .inviteRow-3vmB7i {
+:root .inviteRow_a25947 {
   border-radius: 0;
   padding-left: 15px;
 }
-:root .inviteRow-3vmB7i:hover {
+:root .inviteRow_a25947:hover {
   background-color: var(--background-modifier-hover);
 }
 :root .autocompleteShadow-1aXK3x {
@@ -886,7 +886,7 @@
   padding-top: 0;
   padding-bottom: 12px;
 }
-:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .divider_ed0c1d {
+:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .divider__2bbbc {
   display: none;
 }
 :root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .activity__20c1e {
@@ -2251,10 +2251,10 @@
 :root .guildPopout-G6M0fK .iconMask-1lJhcS {
   background-color: transparent;
 }
-:root .container-3wLKDe {
+:root .container_b181b6 {
   background-color: var(--background-primary);
 }
-:root .container-3wLKDe .mainCard-3KBsBI {
+:root .container_b181b6 .mainCard__8a660 {
   background-color: var(--background-secondary);
 }
 :root .bd-sidebar-header {
