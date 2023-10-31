@@ -39,7 +39,7 @@
 :root .callContainer_e8faeb,
 :root .gatedContent_ba8306,
 :root .chat__52833 > .content__1a4fe > .pageContainer__1e84a,
-:root .content__1a4fe > .container__93316,
+:root .forumOrHome__75784 + .content__1a4fe > .container__93316,
 :root .container__10dc7,
 :root .background_cb0a80,
 :root .page__0b66e {
@@ -1839,6 +1839,200 @@
 :root .quickSelectPopout_c0cf80.regionSelectPopout__0127b {
   background: var(--background-secondary-alt);
   box-shadow: none;
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0 {
+  overflow: visible;
+  min-height: 120px !important;
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0 foreignObject {
+  mask: unset;
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0 .banner__6d414 {
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6549019608), rgba(0, 0, 0, 0.6549019608));
+  height: 120px;
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0 .pencilContainer_d4ce8d {
+  display: none;
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0[viewBox="0 0 340 60"] foreignObject {
+  transform: translateY(-30px);
+}
+:root .userPanelOuter__880e5 .bannerSVGWrapper__3e7b0[viewBox="0 0 340 90"] foreignObject {
+  transform: translateY(-15px);
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 {
+  top: 20px !important;
+  left: 16px;
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 circle {
+  display: none;
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 .avatarHint__8e5b9 {
+  border-radius: 5px;
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 .avatarHint__8e5b9 foreignObject {
+  mask: none;
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 .avatarDecorationHint__03e0b {
+  border-radius: 5px !important;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+:root .userPanelOuter__880e5 .avatarWrapper_f77579 .avatarDecorationHint__03e0b foreignObject {
+  mask: none;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(2) {
+  position: static;
+  overflow: visible;
+  margin: 16px;
+  max-height: calc(100vh - 200px);
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(2) .section__6f61e > .copiableNameTag__6b220 > .clickTarget__440f0, :root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(2) .section__6f61e > div > .userText__3e8b7 {
+  position: absolute;
+  top: 25px;
+  left: 115px;
+  z-index: 1;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(2) .section__6f61e > .copiableNameTag__6b220 > .clickTarget__440f0 > span, :root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(2) .section__6f61e > div > .userText__3e8b7 > span {
+  word-break: unset;
+  white-space: unset;
+}
+:root .userPanelOuter__880e5 .pronouns__8bcdb {
+  padding-top: 12px;
+}
+:root .userPanelOuter__880e5 .badgelistGroup__53eaa {
+  min-height: 0px;
+}
+:root .userPanelOuter__880e5 .badgeList_ef4131 {
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  height: unset;
+  z-index: 1;
+  background-color: transparent;
+}
+:root .userPanelOuter__880e5 .divider__2bbbc {
+  display: none;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) {
+  padding: 12px;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .scroller__83262 {
+  padding-right: 12px !important;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e {
+  padding: 16px;
+  margin-top: 25px;
+  z-index: 1;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .text__13126,
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .textRow__4750e,
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .anchor_c8ddc0,
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .activityName__47e51 {
+  color: white;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .buttonColor__01bf8 {
+  border: none;
+  background-color: var(--listening-test);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
+  color: #fff;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .headerTextNormal_d9fce2::before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  z-index: 1;
+  width: 284px;
+  top: -25px;
+  left: 0;
+  background: var(--background-secondary);
+  background: var(--profile-gradient-primary-color);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+  animation: animate2 8s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+@keyframes animate2 {
+  0% {
+    -webkit-mask-position-x: 284px;
+  }
+  100% {
+    -webkit-mask-position-x: 0;
+  }
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  background: #7289da;
+  background: var(--playing);
+  border-radius: 0 0 10px 10px;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  z-index: 2;
+  width: 284px;
+  top: -24px;
+  left: 0;
+  background: #7289da;
+  background: var(--playing);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .timeBarUserPopoutV2_c5b927::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: #1db954;
+  background: var(--listening);
+  border-radius: 0 0 10px 10px;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .timeBarUserPopoutV2_c5b927::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 284px;
+  top: -24px;
+  left: 0;
+  z-index: 3;
+  background: #1db653;
+  background: var(--listening);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
+}
+@keyframes animate {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 284px;
+  }
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .timeBarUserPopoutV2_c5b927 .barInner_d1abc6 {
+  background-color: white;
+}
+:root .userPanelOuter__880e5 .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) .activity__20c1e .platformIcon__05c5e {
+  display: none;
 }
 
 .titleBar__01af6 {

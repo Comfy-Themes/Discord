@@ -60,4 +60,250 @@
     background: var(--background-secondary-alt);
     box-shadow: none;
   }
+
+  // User profile
+  .userPanelOuter__880e5 {
+
+    // Banner
+    .bannerSVGWrapper__3e7b0 {
+      overflow: visible;
+      min-height: 120px !important;
+
+      foreignObject {
+        mask: unset;
+      }
+
+      .banner__6d414 {
+        -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
+        height: 120px;
+      }
+
+      .pencilContainer_d4ce8d {
+        display: none;
+      }
+
+      &[viewBox="0 0 340 60"] foreignObject {
+        transform: translateY(-30px);
+      }
+      &[viewBox="0 0 340 90"] foreignObject {
+        transform: translateY(-15px);
+      }
+    }
+
+    // Avatar
+    .avatarWrapper_f77579 {
+      top: 20px !important;
+      left: 16px;
+
+      circle {
+        display: none;
+      }
+
+      .avatarHint__8e5b9 {
+        border-radius: 5px;
+
+        foreignObject {
+          mask: none;
+        }
+      }
+
+      .avatarDecorationHint__03e0b {
+        border-radius: 5px !important;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+
+        foreignObject {
+          mask: none;
+        }
+      }
+    }
+
+    // Username
+    .userPanelOverlayBackground__34fc8:nth-child(2) {
+      position: static;
+      overflow: visible;
+      margin: 16px;
+      max-height: calc(100vh - 200px);
+
+      .section__6f61e {
+        & > .copiableNameTag__6b220 > .clickTarget__440f0,
+        & > div > .userText__3e8b7 {
+          position: absolute;
+          top: 25px;
+          left: 115px;
+          z-index: 1;
+          max-width: 200px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          display: block;
+
+          & > span {
+            word-break: unset;
+            white-space: unset;
+          }
+        }
+      }
+    }
+
+    // Pronouns
+    .pronouns__8bcdb {
+      padding-top: 12px;
+    }
+
+    // Badges
+    .badgelistGroup__53eaa {
+      min-height: 0px;
+    }
+
+    .badgeList_ef4131 {
+      position: absolute;
+      top: 70px;
+      left: 110px;
+      height: unset;
+      z-index: 1;
+      background-color: transparent;
+    }
+
+    // Dividers
+    .divider__2bbbc {
+      display: none;
+    }
+
+    // Body
+    .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) {
+      padding: 12px;
+
+      .scroller__83262 {
+        padding-right: 12px !important;
+      }
+
+      // -- Activities --
+      .activity__20c1e {
+        padding: 16px;
+        margin-top: 25px;
+        z-index: 1;
+
+        .text__13126,
+        .textRow__4750e,
+        .anchor_c8ddc0,
+        .activityName__47e51 {
+          color: white;
+        }
+
+        .buttonColor__01bf8 {
+          border: none;
+          background-color: var(--listening-test);
+          box-shadow: 0 4px 15px #00000021;
+          color: #fff;
+        }
+
+        // Waves are back :D
+        .headerTextNormal_d9fce2::before {
+          content: "";
+          position: absolute;
+          height: 25px;
+          z-index: 1;
+          width: 284px;
+          top: -25px;
+          left: 0;
+          background: var(--background-secondary);
+          background: var(--profile-gradient-primary-color);
+          -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+          animation: animate2 8s linear infinite;
+          animation-delay: 0s;
+          opacity: 1;
+
+          @keyframes animate2 {
+            0% {
+              -webkit-mask-position-x: 284px;
+            }
+            100% {
+              -webkit-mask-position-x: 0;
+            }
+          }
+        }
+
+        // Playing
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: -2;
+          left: 0;
+          top: 0;
+          background: #7289da;
+          background: var(--playing);
+          border-radius: 0 0 10px 10px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          height: 25px;
+          z-index: 2;
+          width: 284px;
+          top: -24px;
+          left: 0;
+          background: #7289da;
+          background: var(--playing);
+          -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+          animation: animate 6s linear infinite;
+          animation-delay: 0s;
+          opacity: 1;
+        }
+
+        // Spotify
+        .timeBarUserPopoutV2_c5b927 {
+          &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            left: 0;
+            top: 0;
+            background: #1db954;
+            background: var(--listening);
+            border-radius: 0 0 10px 10px;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            height: 25px;
+            width: 284px;
+            top: -24px;
+            left: 0;
+            z-index: 3;
+            background: #1db653;
+            background: var(--listening);
+            -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+            animation: animate 6s linear infinite;
+            animation-delay: 0s;
+
+            @keyframes animate {
+              0% {
+                -webkit-mask-position-x: 0;
+              }
+              100% {
+                -webkit-mask-position-x: 284px;
+              }
+            }
+          }
+
+          .barInner_d1abc6 {
+            background-color: white;
+          }
+        }
+
+        .platformIcon__05c5e {
+          display: none;
+        }
+      }
+    }
+  }
 }
