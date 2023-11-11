@@ -121,6 +121,11 @@
     }
   }
 
+  // Fix for user menu tooltip (thx Metro420yt)
+  [class*="disabledPointerEvents"][style*="left: -"] {
+    left: 0 !important;
+  }
+
   // Loading screen
   .container__4bde3 > .content__0e954 {
     position: relative;

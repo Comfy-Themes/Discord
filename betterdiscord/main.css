@@ -2128,6 +2128,9 @@
 :root .item__183e8.colorDanger_eec36d:hover, :root .item__183e8.colorDanger_eec36d.focused__27621, :root .item__183e8.colorDanger_eec36d:active:not(.hideInteraction-2jPGL_) {
   background-color: rgba(240, 71, 71, 0.1019607843);
 }
+:root [class*=disabledPointerEvents][style*="left: -"] {
+  left: 0 !important;
+}
 :root .container__4bde3 > .content__0e954 {
   position: relative;
 }
@@ -2525,7 +2528,4 @@
 :root .root-8LYsGj .UserBackgrounds-banner-container .UserBackgrounds-banner-badge {
   top: 13px;
   right: 50px;
-}
-:root [class*="disabledPointerEvents"][style*="left: -"] {
-  left: 0 !important;
 }
