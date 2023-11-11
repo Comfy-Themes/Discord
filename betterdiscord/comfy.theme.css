@@ -1,0 +1,172 @@
+/**
+* @name Comfy
+* @author Nyria#3863
+* @description Stay comfy while talking to your friends
+* @invite rtBQX5D3bD
+* @version 2.4
+* @donate https://ko-fi.com/nyria
+*/
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+
+/* ═══════『 ⚠️・Important tips 』═══════
+*
+*   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
+*      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
+*
+*   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledge of CSS.
+*
+*   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
+*/
+
+/* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+
+/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+
+/* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
+
+:root {
+  /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
+  --disable-animations: 2s channel-unread infinite;
+
+  /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
+*
+*   ➥ A higher value means more space between the icons and a lower ...
+*
+*    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
+*
+*/
+
+  /* Spacing - Default value : 8px */
+  --user-buttons-spacing: 8px;
+
+  /* Color - Default value : #096DC0 */
+  --user-buttons-color: #096dc0;
+
+  /* ═══════『 ⭕ Roundness settings 』═══════
+*
+*    ➥ A higher value means more rounded corners and a lower ...
+*       0 ➜ Square
+*       25 ➜ Circle
+*/
+
+  /* Avatars - Default value : 5px */
+  --avatar-radius: 5px;
+
+  /* Status - Default value : 3px */
+  --status-radius: 3px;
+
+  /* Servers - Default value : 8px */
+  --server-radius: 8px;
+
+  /* ═══════『 😃 Colored emoji picker 』═══════
+*   Change the value to "100%" if you want the default one */
+
+  --colored-emoji: grayscale(0%);
+
+  /* ═══════『 📜 Server/channel list 』═══════ */
+
+  /* Mention - Default value : #F04747 */
+  --mention-color: #f04747;
+
+  /* Unread - Default value : #7289DA */
+  --unread-color: #7289da;
+
+  /*  『 🔴 Mention colors in chat 』 */
+
+  /* Bar on the right - Default value : #C66262 */
+  --mention-color-bar: #c66262;
+
+  /* Background - Default value : #C662621F */
+  --mention-color-background: #c662621f;
+
+  /* On hover - Default value : #C6626226 */
+  --mention-color-hover: #c6626226;
+
+  /* ═══════『 💬 Chat buttons 』═══════ */
+
+  /* Default value : #7289DA */
+  --chat-buttons: #7289da;
+
+  /* ═══════『 💬 SpotifyControls seek bar 』═══════
+*   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
+
+  /* Default value : #1EDC62 */
+  --spotify-color: #1edc62;
+
+  /* ═══════『 🟢 Status 』═══════ */
+
+  /* Online - Default value : #43B581 */
+  --online: #43b581;
+
+  /* Idle - Default value : #FAA61A */
+  --iddle: #faa61a;
+
+  /* Do Not Disturb - Default value : #F04747 */
+  --dnd: #f04747;
+
+  /* Offline - Default value : #747F8D */
+  --offline: #747f8d;
+
+  /* Streaming - Default value : #593695 */
+  --streaming: #593695;
+
+  /* ═══════『 🔰 User popout 』═══════ */
+
+  /* Playing wave color */
+  --playing: #7289da;
+
+  /* Listening wave color */
+  --listening: #1db653;
+
+  /* Role circle - Default value : 5px */
+  --role-circle: 5px;
+
+  /* ═══════『 🗑️ Discord logo 』═══════
+*   Set it to "block" if you still want it */
+
+  --discord-logo: none;
+}
+
+.theme-dark {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+}
+
+.theme-light {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
+  --modal-background: var(--background-primary);
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+}
