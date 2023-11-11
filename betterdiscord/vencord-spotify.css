@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-:root #vc-spotify-info-wrapper + #vc-spotify-progress-bar .slider-cXPmnn {
+:root #vc-spotify-info-wrapper + #vc-spotify-progress-bar .slider__22e99 {
   position: static;
   height: 100%;
 }
@@ -39,8 +39,8 @@
 :root
   #vc-spotify-info-wrapper
   + #vc-spotify-progress-bar
-  .slider-cXPmnn
-  .bar-2H7Q9u {
+  .slider__22e99
+  .bar_e58961 {
   position: absolute;
   top: 0;
   height: 61px !important;
@@ -53,12 +53,12 @@
   #vc-spotify-player:hover
   #vc-spotify-info-wrapper
   + #vc-spotify-progress-bar
-  .slider-cXPmnn
-  .bar-2H7Q9u {
+  .slider__22e99
+  .bar_e58961 {
   height: 95px !important;
 }
 
-:root #vc-spotify-progress-bar .slider-cXPmnn .barFill-3RgCsY {
+:root #vc-spotify-progress-bar .slider__22e99 .barFill__30e17 {
   background-color: var(--spotify-color);
   -webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
   mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
@@ -77,7 +77,7 @@
   z-index: 1;
 }
 
-:root #vc-spotify-progress-bar .sliderContainer-3vLXjN .grabber-3R-Rx9 {
+:root #vc-spotify-progress-bar .sliderContainer__109be .grabber_d2868c {
   top: 0;
   height: 100% !important;
   border-radius: 0;
@@ -93,8 +93,8 @@
 :root
   #vc-spotify-album-expanded-wrapper
   + #vc-spotify-progress-bar
-  .slider-cXPmnn
-  .bar-2H7Q9u {
+  .slider__22e99
+  .bar_e58961 {
   top: 3px;
   height: 20px !important;
 }
