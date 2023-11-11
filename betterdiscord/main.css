@@ -2526,3 +2526,6 @@
   top: 13px;
   right: 50px;
 }
+:root [class*="disabledPointerEvents"][style*="left: -"] {
+  left: 0 !important;
+}
