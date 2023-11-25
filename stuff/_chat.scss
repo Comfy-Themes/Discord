@@ -167,30 +167,6 @@
     }
   }
 
-  // Reaction
-  .reaction_fef95b {
-    border: none;
-    border-radius: 5px;
-    background-color: var(--background-modifier-active);
-
-    &.reactionMe__98f57 {
-      position: relative;
-
-      &::after {
-        content: "";
-        opacity: 0.4;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: var(--brand-experiment);
-        border-radius: inherit;
-      }
-    }
-  }
-
   // Going back to new messages
   .jumpToPresentBar__0ff7f,
   .jumpToPresentBar__0ff7f:active {
