@@ -12,7 +12,7 @@
     z-index: 2;
     margin: 0;
     padding: 0;
-    min-width: unset;
+    min-width: unset !important;
 
     & > .avatar_f8541f {
       width: 40px !important;
