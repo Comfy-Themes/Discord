@@ -2484,10 +2484,10 @@
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
-:root .guilds__2b93a.content-Pph8t6 + .base__3e6af .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {
-  transition: margin-left 300ms linear;
+:root .base__3e6af .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {
+  transition: margin-left 250ms ease;
 }
-:root .guilds__2b93a.content-Pph8t6:not(.closed-j55_T-) + .base__3e6af .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {
+:root .folderContentIsOpen_zz6FgW .base__3e6af .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {
   margin-left: 72px;
 }
 :root .vc-bf-folder-sidebar + .base__3e6af .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {
