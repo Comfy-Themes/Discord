@@ -63,7 +63,6 @@
 
   // User profile
   .userPanelOuter__880e5 {
-
     // Banner
     .bannerSVGWrapper__3e7b0 {
       overflow: visible;
@@ -173,7 +172,9 @@
     }
 
     // Body
-    .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) {
+    .userPanelOverlayBackground__34fc8:nth-child(3):not(
+        .profilePanelConnections__3c232
+      ) {
       padding: 12px;
 
       .scroller__83262 {

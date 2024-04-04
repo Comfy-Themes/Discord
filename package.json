@@ -10,16 +10,14 @@
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
-    "lint": "prettier ./src --check",
-    "lint:fix": "prettier ./src --write"
+    "lint": "prettier ./ --check",
+    "lint:fix": "prettier ./ --write",
+    "release": "replugged release"
   },
   "author": "Nyria",
   "license": "WTFPL",
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.7",
-    "replugged": "^4.2.3"
+    "prettier": "^2.8.8",
+    "replugged": "^4.7.9"
   }
 }
