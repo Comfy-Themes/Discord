@@ -253,7 +253,9 @@
       background-color: inherit;
       border-radius: 100%;
       z-index: -1;
-      animation: var(--disable-animations), 2s pulse infinite;
+      animation:
+        var(--disable-animations),
+        2s pulse infinite;
       will-change: transform;
     }
   }
@@ -278,7 +280,9 @@
       background-color: inherit;
       border-radius: 100%;
       z-index: 1;
-      animation: var(--disable-animations), pulse 2s infinite;
+      animation:
+        var(--disable-animations),
+        pulse 2s infinite;
       will-change: transform;
     }
   }

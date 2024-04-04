@@ -205,7 +205,9 @@
         background-color: inherit;
         border-radius: 100%;
         z-index: -1;
-        animation: var(--disable-animations), 2s pulse infinite;
+        animation:
+          var(--disable-animations),
+          2s pulse infinite;
         will-change: transform;
       }
     }
