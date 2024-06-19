@@ -1,16 +1,16 @@
 :root {
   // -- Guild header popout --
   #guild-header-popout {
-    .item__183e8 {
+    .item_d90b3d {
       flex-direction: row-reverse;
 
-      .iconContainer__829e7 {
+      .iconContainer_d90b3d {
         margin: 0 8px 0 0;
       }
     }
 
     // Server profile icon fix
-    .icon__37f95 {
+    .icon_ad5fac {
       width: 100%;
       height: 100%;
     }
@@ -18,11 +18,11 @@
     // Boost
     &-premium-subscribe {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #ff73fa1c;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #ff73fa;
       }
     }
@@ -32,11 +32,11 @@
       color: #677bc4;
 
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #677bc41e;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #677bc4;
       }
     }
@@ -44,11 +44,11 @@
     // Settings
     &-settings {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #546e7a1e;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #546e7a;
       }
     }
@@ -56,11 +56,11 @@
     // Insights
     &-insights {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #1abc9c23;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #1abc9c;
       }
     }
@@ -68,11 +68,11 @@
     // Create channel
     &-create-channel {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #e91e6221;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #e91e63;
       }
     }
@@ -80,11 +80,11 @@
     // Create category
     &-create-category {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #eaa14e13;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #eaa14e;
       }
     }
@@ -92,11 +92,11 @@
     // Create event
     &-create-event {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #ede9e611;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         & > path:first-child {
           fill: #677bc4;
         }
@@ -109,11 +109,11 @@
     // Active threads
     &-active-threads {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #5488f731;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #5488f7;
       }
     }
@@ -121,11 +121,11 @@
     // Application directory
     &-application-directory {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #30495713;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #304957;
       }
     }
@@ -133,11 +133,11 @@
     // Notifications
     &-notifications {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #e9bb4815;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #fcd462;
       }
     }
@@ -145,11 +145,11 @@
     // Privacy
     &-privacy {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #4a83d418;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #4a84d4;
       }
     }
@@ -157,11 +157,11 @@
     // Nickname
     &-change-nickname {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #43b58218;
       }
-      .icon_f09dde {
+      .icon_d90b3d {
         color: #43b581;
       }
     }
@@ -169,8 +169,8 @@
     // Hide muted channels
     &-hide-muted-channels {
       &:hover,
-      &:active:not(.hideInteraction__2790e),
-      &.focused__27621 {
+      &:active:not(.hideInteraction_d90b3d),
+      &.focused_d90b3d {
         background-color: #5c6eb117;
       }
       &:hover svg > path {
@@ -185,17 +185,17 @@
   }
 
   // Categories arrows
-  .mainContent_a0b319 .arrow_cb03b8 {
+  .mainContent_a08117 .arrow_d64d50 {
     display: none;
   }
 
   // Thread channels
-  .spine__88e6d {
+  .spine_e1e976 {
     z-index: 1;
   }
 
   // -- Notification --
-  .container__7c79d {
+  .container_fd6364 {
     background: var(--background-secondary);
     z-index: 3;
   }
@@ -206,13 +206,13 @@
     width: 100%;
     padding: 0;
 
-    .unreadBar__6ecda {
-      &.mention__1afd3 {
+    .unreadBar_c43953 {
+      &.mention_c10249 {
         border-radius: 0;
         background: linear-gradient(var(--mention-color), #0000);
       }
 
-      &.unread__75c9f {
+      &.unread_c10249 {
         border-radius: 0;
         background: linear-gradient(var(--unread-color), #0000);
       }
@@ -224,25 +224,25 @@
     height: 15px;
     padding: 0;
 
-    .unreadBar__6ecda {
-      &.mention__1afd3 {
+    .unreadBar_c43953 {
+      &.mention_c10249 {
         border-radius: 0;
         background: linear-gradient(#0000, var(--mention-color));
       }
 
-      &.unread__75c9f {
+      &.unread_c10249 {
         border-radius: 0;
         background: linear-gradient(#0000, var(--unread-color));
       }
     }
   }
 
-  .unreadBar__6ecda > .text__467e0 {
+  .unreadBar_c43953 > .text_c10249 {
     display: none;
   }
 
   // Mention pill
-  .mentionsBadge_c2f85b .numberBadge__50328 {
+  .mentionsBadge_e2a798 .numberBadge__40d6f {
     background-color: var(--mention-color) !important;
 
     &::before {
@@ -259,7 +259,7 @@
   }
 
   // Unread pill
-  .unread__48cf4 {
+  .unread_d8bfb3 {
     top: 50%;
     left: 5px;
     width: 6px;
@@ -284,30 +284,30 @@
   }
 
   // Game activity / call area
-  .activityPanel__22355,
-  .container_d667ff {
+  .activityPanel_a4d4d9,
+  .container_adcaac {
     border-bottom: none;
   }
 
   // Channel call
-  .voiceUserSummary_cc4382 svg:not(.icon__62403) {
+  .voiceUserSummary_c43953 svg:not(.icon_c47562) {
     padding-right: 10px;
   }
   [mask="url(#svg-mask-voice-user-summary-item)"] {
     mask: none;
   }
 
-  .tile_a411a4 {
+  .tile_dc5fc4 {
     background-color: var(--background-secondary-alt);
 
-    .button__13ec4,
-    .buttonColor_fa1bb3 {
+    .button_e5cc00,
+    .buttonColor_d4af21 {
       background-color: var(--brand-experiment);
     }
   }
 
   // SCTR connection
-  .container__0810b {
+  .container__13b2a {
     .header-2C89wJ {
       background-color: var(--background-tertiary);
     }
@@ -317,25 +317,25 @@
   }
 
   // Channel settings
-  .group__6ae8b {
+  .group_e3c4bb {
     width: 110px;
     border: none;
     gap: 5px;
 
-    .item_f48d11 {
+    .item_e3c4bb {
       border-radius: 8px;
 
       &:hover,
-      &.selected__47401 {
-        &.deny__71546 {
+      &.selected_e3c4bb {
+        &.deny_e3c4bb {
           color: #ed4245;
           background-color: #ed42452f;
         }
-        &.passthrough__7cd54 {
+        &.passthrough_e3c4bb {
           color: #dcddde;
           background-color: #6464643a;
         }
-        &.allow_bbc621 {
+        &.allow_e3c4bb {
           color: #43b581;
           background-color: #43b5823b;
         }
@@ -344,7 +344,7 @@
   }
 
   // Invite popout
-  .inviteRow_a25947 {
+  .inviteRow_cedfaf {
     border-radius: 0;
     padding-left: 15px;
 
@@ -374,7 +374,7 @@
   }
 
   // Boost
-  .innerWrapper__8cde3 {
+  .innerWrapper_aecbd6 {
     border-radius: 5px;
   }
 }

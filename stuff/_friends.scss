@@ -1,71 +1,71 @@
 :root {
   // Friend column
-  .peopleColumn__51df3 {
+  .peopleColumn_c2739c {
     background: var(--background-primary);
   }
 
   // Friend activities
-  .nowPlayingColumn_f5023f {
+  .nowPlayingColumn_c2739c {
     background: var(--background-secondary-alt);
 
-    .scroller__00e7e {
+    .scroller_bf550a {
       border: none;
     }
 
-    .itemCard__1f162 {
+    .itemCard_f02fcf {
       border: none;
 
-      &.active__76f42,
-      &.interactive__01cfa:hover {
+      &.active_c0f6a6,
+      &.interactive_c0f6a6:hover {
         background: var(--background-secondary);
       }
 
-      .section_efc22d:last-child {
+      .section_cd82a7:last-child {
         margin-top: 10px;
       }
-      .inset__0bfb3 {
+      .inset_c0f6a6 {
         background: transparent;
       }
-      .applicationStreamingPreviewWrapper__97a95 {
+      .applicationStreamingPreviewWrapper_cd82a7 {
         background-color: var(--background-secondary);
       }
-      .separator_c2ecc6 {
+      .separator_cd82a7 {
         display: none;
       }
     }
   }
 
   // Friend call buttons
-  .bottomControls__8bd89 {
-    .centerButton__3205b {
+  .bottomControls_dd069c {
+    .centerButton_ef18ee {
       border-radius: 7px;
     }
-    .colorable_c84c4c.primaryDark__6b700 {
+    .colorable_ef18ee.primaryDark_ef18ee {
       background: var(--background-secondary-alt);
     }
     foreignObject {
       mask: none;
     }
   }
-  .participantsButton__56586 {
+  .participantsButton_b83b18 {
     background: var(--background-secondary-alt);
   }
 
   // Regionnal selector friend call
-  .quickSelect_ae48d2 {
+  .quickSelect__540d0 {
     margin-top: 10px;
   }
 
-  .quickSelectPopout_c0cf80.regionSelectPopout__0127b {
+  .quickSelectPopout__56a98.regionSelectPopout_ccb5ca {
     background: var(--background-secondary-alt);
     box-shadow: none;
   }
 
   // User profile
-  .userPanelOuter__880e5 {
+  .userPanelOuter_c69a7b {
 
     // Banner
-    .bannerSVGWrapper__3e7b0 {
+    .bannerSVGWrapper_b32cc2 {
       overflow: visible;
       min-height: 120px !important;
 
@@ -73,12 +73,12 @@
         mask: unset;
       }
 
-      .banner__6d414 {
+      .banner_c3e427 {
         -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
         height: 120px;
       }
 
-      .pencilContainer_d4ce8d {
+      .pencilContainer_c3e427 {
         display: none;
       }
 
@@ -91,7 +91,7 @@
     }
 
     // Avatar
-    .avatarWrapper_f77579 {
+    .avatarWrapper_f89da9 {
       top: 20px !important;
       left: 16px;
 
@@ -99,7 +99,7 @@
         display: none;
       }
 
-      .avatarHint__8e5b9 {
+      .avatarHint_f89da9 {
         border-radius: 5px;
 
         foreignObject {
@@ -107,7 +107,7 @@
         }
       }
 
-      .avatarDecorationHint__03e0b {
+      .avatarDecorationHint_f89da9 {
         border-radius: 5px !important;
         top: 0;
         left: 0;
@@ -121,15 +121,15 @@
     }
 
     // Username
-    .userPanelOverlayBackground__34fc8:nth-child(2) {
+    .userPanelOverlayBackground_a2b6ae:nth-child(2) {
       position: static;
       overflow: visible;
       margin: 16px;
       max-height: calc(100vh - 200px);
 
-      .section__6f61e {
-        & > .copiableNameTag__6b220 > .clickTarget__440f0,
-        & > div > .userText__3e8b7 {
+      .section_d7a21f {
+        & > .copiableNameTag_c9ccf6 > .clickTarget__440f0,
+        & > div > .userText_c9ccf6 {
           position: absolute;
           top: 25px;
           left: 115px;
@@ -149,16 +149,16 @@
     }
 
     // Pronouns
-    .pronouns__8bcdb {
+    .pronouns_c9ccf6 {
       padding-top: 12px;
     }
 
     // Badges
-    .badgelistGroup__53eaa {
+    .badgelistGroup_ab525a {
       min-height: 0px;
     }
 
-    .badgeList_ef4131 {
+    .badgeList_ab525a {
       position: absolute;
       top: 70px;
       left: 110px;
@@ -168,15 +168,15 @@
     }
 
     // Dividers
-    .divider__2bbbc {
+    .divider_ae36e5 {
       display: none;
     }
 
     // Body
-    .userPanelOverlayBackground__34fc8:nth-child(3):not(.profilePanelConnections__3c232) {
+    .userPanelOverlayBackground_a2b6ae:nth-child(3):not(.profilePanelConnections_b433b4) {
       padding: 12px;
 
-      .scroller__83262 {
+      .scroller_d2b491 {
         padding-right: 12px !important;
       }
 
@@ -186,14 +186,14 @@
         margin-top: 25px;
         z-index: 1;
 
-        .text__13126,
-        .textRow__4750e,
-        .anchor_c8ddc0,
-        .activityName__47e51 {
+        .text_aa267a,
+        .textRow_d5089b,
+        .anchor_af404b,
+        .activityName_d5089b {
           color: white;
         }
 
-        .buttonColor__01bf8 {
+        .buttonColor_e36233 {
           border: none;
           background-color: var(--listening-test);
           box-shadow: 0 4px 15px #00000021;
@@ -201,7 +201,7 @@
         }
 
         // Waves are back :D
-        .headerTextNormal_d9fce2::before {
+        .headerTextNormal_d5089b::before {
           content: "";
           position: absolute;
           height: 25px;
@@ -257,7 +257,7 @@
         }
 
         // Spotify
-        .timeBarUserPopoutV2_c5b927 {
+        .timeBarUserPopoutV2_d5089b {
           &::before {
             content: "";
             position: absolute;
@@ -295,12 +295,12 @@
             }
           }
 
-          .barInner_d1abc6 {
+          .barInner_aa267a {
             background-color: white;
           }
         }
 
-        .platformIcon__05c5e {
+        .platformIcon_d5089b {
           display: none;
         }
       }

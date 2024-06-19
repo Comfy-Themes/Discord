@@ -1,29 +1,29 @@
 :root {
   // Server list
-  .guilds__2b93a .scroller__3d071 {
+  .guilds_a4d4d9 .scroller_fea3ef {
     contain: none !important;
     padding-bottom: 170px;
   }
 
   // Folder
-  .expandedFolderBackground__1bec6 {
+  .expandedFolderBackground_bc7085 {
     border-radius: var(--server-radius);
   }
-  .folder__17546 {
+  .folder_bc7085 {
     background-color: transparent;
   }
 
   // Discover
-  .discoverHeader_fae7fd ~ .categoryItem_b1be5c {
+  .discoverHeader_b992d4 ~ .categoryItem_c72b37 {
     margin-left: 0;
 
-    .itemInner__9e755 {
+    .itemInner_c72b37 {
       padding: 8px;
       border-radius: 0;
     }
   }
 
-  .pageWrapper_fef757 {
+  .pageWrapper_a3a4ce {
     background-color: var(--background-primary);
 
     .scroller-3j5xK2 {
@@ -37,24 +37,24 @@
       -webkit-mask: linear-gradient(black, transparent);
     }
 
-    .guildListSection__5b7bf {
+    .guildListSection_c8c448 {
       padding: 0 32px 32px;
       box-sizing: border-box;
     }
   }
 
-  .scroller_e9501c {
+  .scroller_a39aa3 {
     padding: 0 !important;
 
-    .headerImage_d4505b {
+    .headerImage_a39aa3 {
       position: relative;
       top: -8px;
       border-radius: 0;
       -webkit-mask: linear-gradient(black, transparent);
     }
 
-    .guildListSection__7daf6,
-    .footerDescription__7d0c6 {
+    .guildListSection_ac51fa,
+    .footerDescription_a39aa3 {
       padding: 0 32px 32px;
       box-sizing: border-box;
     }
@@ -71,16 +71,16 @@
   }
 
   // Student Hubs
-  .itemInner_f3a769 {
+  .itemInner__2abad {
     padding: 8px;
     margin-left: 0;
   }
 
-  .header__7b78f {
+  .header_d33b18 {
     margin: -32px -32px 0 -32px;
     border-radius: 0;
 
-    .headerImage__0cf36 {
+    .headerImage_d33b18 {
       border-radius: 0;
       -webkit-mask: linear-gradient(black, transparent);
     }
@@ -88,46 +88,46 @@
 
   // Create a server modal
   .theme-light {
-    .root_a28985,
-    .footer__89240 {
+    .root_f9a4c9,
+    .footer_f9a4c9 {
       box-shadow: none;
     }
-    .lookFilled__19298.colorPrimary__6ed40 {
+    .lookFilled_dd4f85.colorPrimary_dd4f85 {
       background-color: var(--brand-experiment);
     }
-    .contents_fb6220 {
+    .contents_dd4f85 {
       color: #fff;
     }
 
-    .templatesList__38838,
-    .optionsList__047e8 {
+    .templatesList_fc9dae,
+    .optionsList_f5507e {
       padding: 0 !important;
       border-radius: 0;
 
-      .container__73245 {
+      .container_a47d49 {
         border: none;
         border-radius: 0;
       }
 
-      .optionHeader_b6da7f {
+      .optionHeader_fc9dae {
         text-align: center;
         margin: 12px 0;
       }
     }
-    .createGuild_eb084b {
+    .createGuild_c1ee6b {
       padding: 10px !important;
     }
   }
 
   // User buttons
-  .panels__58331 {
+  .panels_a4d4d9 {
     z-index: 2;
   }
 
-  .panels__58331 > .container_ca50b9 {
+  .panels_a4d4d9 > .container_b2ca13 {
     height: 0;
 
-    & > .flex_f5fbb7 {
+    & > .flex_bba380 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -136,7 +136,7 @@
       flex-direction: column;
       background: linear-gradient(transparent, var(--background-tertiary) 15%);
 
-      & > .button__4f306 {
+      & > .button_f67531 {
         color: var(--user-buttons-color);
         margin: var(--user-buttons-spacing) auto 0 auto;
       }
@@ -144,25 +144,25 @@
   }
 
   // Notifications settings
-  .inner-1ilYF7 > .modal__060da > .header__6d5ea,
-  .modal__060da,
-  .inner-1ilYF7 > .modal__060da > .scrollerBase_dc3aa9 {
+  .inner-1ilYF7 > .modal_ec75c1 > .header_f9a4c9,
+  .modal_ec75c1,
+  .inner-1ilYF7 > .modal_ec75c1 > .scrollerBase_eed6a8 {
     background: var(--background-secondary);
   }
 
   // Mention gradient
-  .unreadMentionsBar__0d02a .text__467e0 {
+  .unreadMentionsBar_fea3ef .text_c10249 {
     display: none;
   }
 
   // Top
-  .unreadMentionsIndicatorTop_ada847 {
+  .unreadMentionsIndicatorTop_fea3ef {
     width: 100%;
     height: 50px;
     top: -7px;
     padding: 0;
 
-    .unreadMentionsBar__0d02a {
+    .unreadMentionsBar_fea3ef {
       border-radius: 0;
       background: linear-gradient(var(--mention-color), #0000);
       transition: 100ms;
@@ -174,12 +174,12 @@
   }
 
   // Bottom
-  .unreadMentionsIndicatorBottom_fdb943 {
+  .unreadMentionsIndicatorBottom_fea3ef {
     width: 100%;
     height: 15px;
     padding: 0;
 
-    .unreadMentionsBar__0d02a {
+    .unreadMentionsBar_fea3ef {
       border-radius: 0;
       background: linear-gradient(#0000, var(--mention-color));
 
@@ -190,11 +190,11 @@
   }
 
   // Mention pill
-  .lowerBadge__669e7 {
+  .lowerBadge_c5f96a {
     top: 0;
     left: 0;
 
-    .numberBadge__50328 {
+    .numberBadge__40d6f {
       background-color: var(--mention-color) !important;
 
       &::before {
