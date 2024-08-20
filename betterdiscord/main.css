@@ -1053,9 +1053,6 @@
   opacity: 0.2;
   z-index: -1;
 }
-:root .userProfileModalOuter_c69a7b {
-  width: 700px;
-}
 :root .userProfileModalOuter_c69a7b .userProfileModalInner_c69a7b {
   overflow: hidden;
 }
