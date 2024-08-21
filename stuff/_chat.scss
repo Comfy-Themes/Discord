@@ -105,12 +105,9 @@
   // Spam bar
   .spamBanner_c1da2c {
     position: relative;
-    flex-direction: column;
-    left: 56px;
+    margin-left: 64px;
     bottom: 8px;
-    width: 330px;
-    height: fit-content;
-    row-gap: 30px;
+    padding: 8px;
 
     .bannerTextContainer_c1da2c {
       min-width: 0;
