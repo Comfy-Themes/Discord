@@ -26,12 +26,6 @@
 </div>
 
 <div align="left">
-    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
-    <b><p align="left">Replugged</b>
-    <br/>Click <a href="https://replugged.dev/install?identifier=nyria.comfy">here</a> and confirm the install in the client</p>
-</div>
-
-<div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Vencord</b>
     <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Online Themes tab
