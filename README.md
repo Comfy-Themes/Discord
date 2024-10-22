@@ -49,11 +49,9 @@
 
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
-    <b><p align="left">Vencord & Replugged</b>
-    <br/>Watch this epic tutorial</p>
+    <b><p align="left">Vencord</b>
+    <br/>You need to have the theme in local, not online, then same steps as BetterDiscord</p>
 </div>
-
-https://user-images.githubusercontent.com/65369563/231574735-89da88ef-2cf1-4aa5-a157-3a66ce8d274b.mp4
 
 ## 🫰 Credits
 

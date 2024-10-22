@@ -47,7 +47,7 @@
   // Hiding avatar
   .content_a4d4d9 > :nth-child(2):not(.chat_a7d72e),
   .callContainer_ed4410,
-  .gatedContent_b9693a,
+  .gatedContent_def860,
   .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^='forum-channel-list'],
   .chat_a7d72e > .content_a7d72e > .pageContainer_a9a262,
   .forumOrHome_ff5f90 + .content_a7d72e > .container__93316,
@@ -181,10 +181,10 @@
   }
 
   // # @ / autocomplete menu
-  .autocompleteRow_f23da8 {
+  .autocompleteRow_bcc24e {
     padding: 0;
 
-    .base_f23da8 {
+    .base_bcc24e {
       border-radius: 0;
     }
 
@@ -193,11 +193,11 @@
       background-color: var(--background-tertiary);
     }
   }
-  .autocomplete_f23da8 {
+  .autocomplete_bcc24e {
     background: var(--background-secondary-alt);
   }
   .categoryHeader_fe2299,
-  .autocomplete_f23da8 {
+  .autocomplete_bcc24e {
     background: var(--background-secondary);
   }
   .selected-3H3-RC {
@@ -205,8 +205,11 @@
   }
 
   // -- Emote picker --
-  .sprite_af14ca {
-    filter: var(--colored-emoji) !important;
+  .sprite_d91a75.spriteColored_d91a75 {
+    opacity: 1 !important;
+  }
+  .sprite_d91a75.spriteGreyscale_d91a75 {
+    opacity: 0 !important;
   }
 
   #emoji-picker-tab .contents_dd4f85,
@@ -272,9 +275,17 @@
   .attachButton_d0696b:hover .attachButtonPlus_f298d4 {
     fill: var(--chat-buttons);
   }
-  .buttonWrapper_cecf00,
-  .icon_cecf00 {
+  .buttonWrapper_f9af59,
+  .icon_f9af59 {
     color: var(--chat-buttons);
+  }
+
+  // Apps
+  .contentWrapper_f7506e {
+    background-color: var(--background-primary);
+  }
+  .container_e5da8b, .clickable_b78bb6 {
+    background-color: var(--background-secondary);
   }
 
   // @everyone popout
@@ -299,18 +310,18 @@
   }
 
   // Spotify session
-  .invite_cdcad9 {
+  .invite_f61cb8 {
     background-color: var(--background-secondary);
     border-color: transparent;
   }
 
   // Attachement
-  .attachment_a4623d {
+  .attachment_b52bef {
     border: none;
   }
 
   // Spotify embed
-  .embedSpotify_ad0b71 {
+  .embedSpotify_b0068a {
     border-radius: 5px;
   }
 
@@ -349,7 +360,7 @@
   }
 
   // Code
-  .markup_d6076c code {
+  .markup_f8f345 code {
     background: var(--deprecated-card-bg);
   }
 

@@ -1,12 +1,12 @@
 :root {
-  .container_e44302.themed_e44302 {
+  .container_fc4f04.themed_fc4f04 {
     background: var(--background-secondary);
 
-    .children_e44302::after {
+    .children_fc4f04::after {
       background: linear-gradient(
-        90deg,
-        rgba(54, 57, 63, 0) 0,
-        var(--background-secondary)
+                      90deg,
+                      rgba(54, 57, 63, 0) 0,
+                      var(--background-secondary)
       );
     }
 
@@ -52,7 +52,7 @@
   }
 
   // I'm a pro
-  .toolbar_e44302 > a[href="https://support.discord.com"],
+  .toolbar_fc4f04 > a[href="https://support.discord.com"],
   .searchLearnMore_b0286e {
     display: none;
   }
@@ -76,22 +76,22 @@
 
       &::after {
         background: linear-gradient(
-          90deg,
-          rgba(54, 57, 63, 0),
-          var(--background-secondary-alt) 80%
+                        90deg,
+                        rgba(54, 57, 63, 0),
+                        var(--background-secondary-alt) 80%
         );
       }
       &.selected-rZcOL- {
         background: linear-gradient(
-          90deg,
-          rgba(54, 57, 63, 0),
-          var(--background-secondary) 80%
+                        90deg,
+                        rgba(54, 57, 63, 0),
+                        var(--background-secondary) 80%
         );
       }
     }
 
     // Calendar
-    .calendarPicker__47c85 .react-datepicker {
+    .calendarPicker_be05cd .react-datepicker {
       background-color: var(--background-secondary-alt);
 
       &__day,

@@ -127,7 +127,7 @@
   .panels_a4d4d9 > .container_b2ca13 {
     height: 0;
 
-    & > .flex_bba380 {
+    & > .flex_dc333f {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -136,7 +136,7 @@
       flex-direction: column;
       background: linear-gradient(transparent, var(--background-tertiary) 15%);
 
-      & > .button_f67531 {
+      & > .button_adca65 {
         color: var(--user-buttons-color);
         margin: var(--user-buttons-spacing) auto 0 auto;
       }
@@ -144,14 +144,14 @@
   }
 
   // Notifications settings
-  .inner-1ilYF7 > .modal_ec75c1 > .header_f9a4c9,
-  .modal_ec75c1,
-  .inner-1ilYF7 > .modal_ec75c1 > .scrollerBase_eed6a8 {
+  .inner-1ilYF7 > .modal_c97cbd > .header_f9a4c9,
+  .modal_c97cbd,
+  .inner-1ilYF7 > .modal_c97cbd > .scrollerBase_eed6a8 {
     background: var(--background-secondary);
   }
 
   // Mention gradient
-  .unreadMentionsBar_fea3ef .text_c10249 {
+  .unreadMentionsBar_fea3ef .text_edf32f {
     display: none;
   }
 

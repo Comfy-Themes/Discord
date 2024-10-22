@@ -7,7 +7,7 @@
   }
   .contentColumn_c25c6d,
   .customColumn_c25c6d,
-  .sidebarScrollable_e9196a + .content_e9196a,
+  .sidebarScrollable_ff90b2 + .content_ff90b2,
   .customScroller_c25c6d > div {
     max-width: 95%;
   }
@@ -15,6 +15,11 @@
   .sidebar_c25c6d {
     padding: 60px 0 35px 65px;
     width: 285px;
+  }
+
+  // Search bar
+  .searchBar_e7c031 {
+    border-radius: 5px 0 0 5px;
   }
 
   .sidebar_c25c6d > div > .item_a0,
@@ -33,6 +38,10 @@
   // My account
   .accountProfileCard_b69b77 {
     background-color: var(--background-secondary);
+
+    .mask_d5fdb1 > mask {
+      display: none;
+    }
 
     .userInfo_b69b77 {
       position: relative;
@@ -73,9 +82,12 @@
   // User Profile
   .preview_bad983 {
     // Banner
-    .bannerSVGWrapper_b32cc2 {
+    .mask_d5fdb1 {
       overflow: visible;
-      min-height: 120px !important;
+
+      mask {
+        display: none;
+      }
 
       foreignObject {
         mask: unset;
@@ -180,6 +192,11 @@
     }
   }
 
+  // Family center
+  #activity-tab .max-width_d00e26, #activity-tab .max-width_a2e886, #requests-tab .container_f70f48 {
+    max-width: unset;
+  }
+
   // Authorized apps
   .cardPrimaryOutline-1ofwVz {
     background-color: var(--background-secondary);
@@ -191,7 +208,7 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
 
-    .textBadge_f05120.baseShapeRound_c1de89 {
+    .textBadge_f05120.baseShapeRound_df8943 {
       margin-right: 7px;
     }
   }
@@ -200,6 +217,9 @@
   .connectionIcon_e2a436 {
     border-radius: 5px;
     padding: 4px;
+  }
+  .accountButtonInner_e2a436 {
+    border: none;
   }
 
   // Nitro
@@ -222,14 +242,22 @@
     text-align: center;
   }
 
+  // Subscriptions
+  .banner_b12c98 {
+    max-width: unset;
+  }
+
   // Boost
   .gemIndicatorContainer_b03ca0 {
     background-color: var(--background-tertiary);
   }
+  .boostContainer_dba803, .card_d1fdce {
+    background-color: var(--background-secondary);
+  }
 
   // Billing
   .paymentRow_f66684,
-  .pageActions_cb56ee,
+  .pageActions_d6a4eb,
   .codeRedemptionRedirect_cb70f4 {
     background: var(--background-secondary-alt);
   }
@@ -271,11 +299,11 @@
   }
 
   // Voice & Video
-  .progress_e5cdf3 {
+  .progress_a1107d {
     background: var(--background-primary);
   }
 
-  .notches_e5cdf3 {
+  .notches_a1107d {
     color: var(--background-secondary) !important;
   }
 
@@ -285,7 +313,7 @@
   .bannerUpsellContainer-31E9J5 {
     background-color: var(--background-secondary);
   }
-  .flexChild_bba380[style="flex: 1 1 50%;"] {
+  .flexChild_dc333f[style="flex: 1 1 50%;"] {
     flex: 1 !important;
   }
 
@@ -538,7 +566,7 @@
   }
 
   // Widget
-  .copyInput_f549fd {
+  .copyInput_d7e343 {
     border: none;
   }
 
@@ -586,10 +614,10 @@
     background: var(--background-secondary);
   }
   .tierHeaderContent_da77bd,
-  .tierInProgress_a4fd01 {
+  .tierInProgress_bfac79 {
     background: var(--background-secondary-alt);
   }
-  .background_a4fd01 {
+  .background_bfac79 {
     color: var(--background-secondary-alt);
   }
   .subscribers_da77bd .subscriberMask_da77bd {

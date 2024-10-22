@@ -146,7 +146,7 @@
       width: 200px;
       height: 200px;
       background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
-        center/80% no-repeat;
+      center/80% no-repeat;
     }
   }
 
@@ -201,7 +201,7 @@
   // Popups
   .root_f9a4c9,
   .footer_f9a4c9,
-  .modal_ec75c1 {
+  .modal_c97cbd {
     box-shadow: none;
   }
 
@@ -219,7 +219,7 @@
   .cardPrimaryOutline-1ofwVz,
   .codeRedemptionRedirect_cb70f4,
   .previewOverlay-2reuWf,
-  .markup_d6076c code {
+  .markup_f8f345 code {
     border: none;
   }
 
@@ -295,20 +295,20 @@
 
   // All masks except mobile and typing masks in DM, user and member part
   .channel_c91bad
-    .pointerEvents_c51b4e[width="10"]:not(
+  .pointerEvents_c51b4e[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ),
   .members_cbd271
-    .pointerEvents_c51b4e[width="10"]:not(
+  .pointerEvents_c51b4e[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ),
   .avatarWrapper_b2ca13 .pointerEvents_c51b4e,
   .peopleListItem_d51464
-    .pointerEvents_c51b4e[width="10"]:not(
+  .pointerEvents_c51b4e[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ),
   .nowPlayingColumn_c2739c
-    .pointerEvents_c51b4e[width="10"]:not(
+  .pointerEvents_c51b4e[width="10"]:not(
       [mask="url(#svg-mask-status-online-mobile)"]
     ) {
     width: 12px;
@@ -317,15 +317,15 @@
 
   // All mobile masks in DM and member part
   .channel_c91bad
-    .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
+  .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
   .members_cbd271
-    .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
+  .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
   .peopleListItem_d51464
-    .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
+  .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
   .nowPlayingColumn_c2739c
-    .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
+  .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
   .menu_d90b3d
-    .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"] {
+  .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"] {
     width: 12px;
     height: 16px;
     x: 24;
@@ -351,7 +351,7 @@
 
   // Status in menu
   .menu_d90b3d
-    .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]) {
     width: 10px;
     height: 10px;
     stroke-width: 2.5px;
@@ -383,8 +383,8 @@
 
   // Avatars radius
   .wrapper_c51b4e foreignObject,
-  .callAvatarMask_a5cd29 foreignObject,
-  .avatarContainer_c47562 foreignObject,
+  .callAvatarMask_db83a2 foreignObject,
+  .avatarContainer_d03bba foreignObject,
   .avatarMasked__0b3c8 {
     mask: none;
     -webkit-mask: none;
@@ -393,21 +393,21 @@
   .wrapper_c51b4e,
   .avatar_c51b4e,
   .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
-  .voiceAvatar_a5cd29,
-  .avatar_ec86aa,
-  .border_a5cd29,
-  .avatar_cdc675,
-  .clickableAvatar_c47562,
-  .emptyUser_c47562,
-  .avatar_c47562,
-  .wrapper_a5cd29.ringingIncoming_a5cd29::after,
-  .wrapper_a5cd29.ringingOutgoing_a5cd29::after,
-  .replyAvatar_ec86aa,
+  .voiceAvatar_db83a2,
+  .avatar_f9f2ca,
+  .border_db83a2,
+  .avatar_d80634,
+  .clickableAvatar_d03bba,
+  .emptyUser_d03bba,
+  .avatar_d03bba,
+  .wrapper_db83a2.ringingIncoming_db83a2::after,
+  .wrapper_db83a2.ringingOutgoing_db83a2::after,
+  .replyAvatar_f9f2ca,
   .avatarSpeaking_c51b4e,
   .avatar-2EVtgZ,
-  .avatarContainerMasked_c47562,
+  .avatarContainerMasked_d03bba,
   .appAvatar-2_lufo,
-  .embedAuthorIcon_ad0b71 {
+  .embedAuthorIcon_b0068a {
     border-radius: var(--avatar-radius);
   }
 
@@ -424,11 +424,11 @@
   .wrapper_c5f96a foreignObject,
   .folderIconWrapper_bc7085,
   .expandedFolderBackground_bc7085,
-  .flexChild_bba380 .avatarUploaderInner_f0a9ff {
+  .flexChild_dc333f .avatarUploaderInner_f0a9ff {
     border-radius: var(--server-radius);
   }
 
-  .iconInactive_f11207 {
+  .iconInactive_a64689 {
     border-radius: calc(var(--server-radius) - 4px);
   }
 
@@ -544,7 +544,7 @@
     }
   }
 
-  .gameVerifiedIcon-3t4jtr .flowerStar_ff7d90 > path {
+  .gameVerifiedIcon-3t4jtr .flowerStar_c91f7d > path {
     fill: var(--brand-experiment);
   }
 
@@ -554,7 +554,7 @@
 
   .homeIcon__560eb > path {
     d: path(
-      "M 20.6644 20 C 20.6644 20 19.8014 18.9762 19.0822 18.0714 C 22.2226 17.1905 23.4212 15.2381 23.4212 15.2381 C 22.4384 15.881 21.5034 16.3334 20.6644 16.6429 C 19.4658 17.1429 18.3151 17.4762 17.1884 17.6667 C 14.887 18.0953 12.7774 17.9762 10.9795 17.6429 C 9.61301 17.381 8.43836 17 7.45548 16.6191 C 6.90411 16.4048 6.30479 16.1429 5.70548 15.8096 C 5.63356 15.7619 5.56164 15.7381 5.48973 15.6905 C 5.44178 15.6667 5.41781 15.6429 5.39384 15.6191 C 4.96233 15.381 4.7226 15.2143 4.7226 15.2143 C 4.7226 15.2143 5.87329 17.1191 8.91781 18.0238 C 8.19863 18.9286 7.31164 20 7.31164 20 C 2.0137 19.8333 0 16.381 0 16.381 C 0 8.7144 3.45205 2.50017 3.45205 2.50017 C 6.90411 -0.07123 10.1884 0.000197861 10.1884 0.000197861 L 10.4281 0.285909 C 6.11301 1.52399 4.12329 3.40493 4.12329 3.40493 C 4.12329 3.40493 4.65068 3.11921 5.53767 2.71446 C 8.10274 1.59542 10.1404 1.2859 10.9795 1.21447 C 11.1233 1.19066 11.2432 1.16685 11.387 1.16685 C 12.8493 0.976379 14.5034 0.92876 16.2295 1.11923 C 18.5068 1.38114 20.9521 2.0478 23.4452 3.40493 C 23.4452 3.40493 21.5514 1.61923 17.476 0.381146 L 17.8116 0.000197861 C 17.8116 0.000197861 21.0959 -0.07123 24.5479 2.50017 C 24.5479 2.50017 28 8.7144 28 16.381 C 28 16.381 25.9623 19.8333 20.6644 20 Z M 9.51712 8.88106 C 8.15068 8.88106 7.07192 10.0715 7.07192 11.5239 C 7.07192 12.9763 8.17466 14.1667 9.51712 14.1667 C 10.8836 14.1667 11.9623 12.9763 11.9623 11.5239 C 11.9863 10.0715 10.8836 8.88106 9.51712 8.88106 Z M 18.2671 8.88106 C 16.9007 8.88106 15.8219 10.0715 15.8219 11.5239 C 15.8219 12.9763 16.9247 14.1667 18.2671 14.1667 C 19.6336 14.1667 20.7123 12.9763 20.7123 11.5239 C 20.7123 10.0715 19.6336 8.88106 18.2671 8.88106 Z"
+                    "M 20.6644 20 C 20.6644 20 19.8014 18.9762 19.0822 18.0714 C 22.2226 17.1905 23.4212 15.2381 23.4212 15.2381 C 22.4384 15.881 21.5034 16.3334 20.6644 16.6429 C 19.4658 17.1429 18.3151 17.4762 17.1884 17.6667 C 14.887 18.0953 12.7774 17.9762 10.9795 17.6429 C 9.61301 17.381 8.43836 17 7.45548 16.6191 C 6.90411 16.4048 6.30479 16.1429 5.70548 15.8096 C 5.63356 15.7619 5.56164 15.7381 5.48973 15.6905 C 5.44178 15.6667 5.41781 15.6429 5.39384 15.6191 C 4.96233 15.381 4.7226 15.2143 4.7226 15.2143 C 4.7226 15.2143 5.87329 17.1191 8.91781 18.0238 C 8.19863 18.9286 7.31164 20 7.31164 20 C 2.0137 19.8333 0 16.381 0 16.381 C 0 8.7144 3.45205 2.50017 3.45205 2.50017 C 6.90411 -0.07123 10.1884 0.000197861 10.1884 0.000197861 L 10.4281 0.285909 C 6.11301 1.52399 4.12329 3.40493 4.12329 3.40493 C 4.12329 3.40493 4.65068 3.11921 5.53767 2.71446 C 8.10274 1.59542 10.1404 1.2859 10.9795 1.21447 C 11.1233 1.19066 11.2432 1.16685 11.387 1.16685 C 12.8493 0.976379 14.5034 0.92876 16.2295 1.11923 C 18.5068 1.38114 20.9521 2.0478 23.4452 3.40493 C 23.4452 3.40493 21.5514 1.61923 17.476 0.381146 L 17.8116 0.000197861 C 17.8116 0.000197861 21.0959 -0.07123 24.5479 2.50017 C 24.5479 2.50017 28 8.7144 28 16.381 C 28 16.381 25.9623 19.8333 20.6644 20 Z M 9.51712 8.88106 C 8.15068 8.88106 7.07192 10.0715 7.07192 11.5239 C 7.07192 12.9763 8.17466 14.1667 9.51712 14.1667 C 10.8836 14.1667 11.9623 12.9763 11.9623 11.5239 C 11.9863 10.0715 10.8836 8.88106 9.51712 8.88106 Z M 18.2671 8.88106 C 16.9007 8.88106 15.8219 10.0715 15.8219 11.5239 C 15.8219 12.9763 16.9247 14.1667 18.2671 14.1667 C 19.6336 14.1667 20.7123 12.9763 20.7123 11.5239 C 20.7123 10.0715 19.6336 8.88106 18.2671 8.88106 Z"
     );
   }
 
@@ -596,17 +596,23 @@
   .scrollerContainer_c6b11b,
   .container_c2efea,
   .background_e85cee,
-  .container_d20375 {
-    background-color: var(--background-primary);
+  .container_d20375,
+  .pageBody_c2efea,
+  .page_d20375 {
+    background-color: var(--background-primary) !important;
   }
 
-  .homeContent_e85cee .row_b53f4f {
+  .homeContent_e85cee .row_b53f4f, .channelRow_f04d06 {
     background-color: var(--background-secondary);
   }
 
   .headerArtPlaceholder_d32e26 {
     background-color: var(--background-tertiary);
   }
+}
+
+.soundButtonRefresh_f40049 {
+  background-color: var(--background-primary);
 }
 
 .theme-dark {
